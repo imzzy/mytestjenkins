@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="zh-cn" Codepage="936"  xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Language">2052</String>
+  <String Id="Codepage">936</String>
+  <String Id="AppName">精益自动化平台(LAP)</String>
+  <String Id="NETFrameWorkMessage">.NetFramework 4.5没有安装。 请先安装.NetFramework 4.5，再安装本软件。</String>
+  <String Id="CompanyName">LeanPro Inc.</String>
+  <String Id="FeatureDescription_LAPCore">Lean Automation Platform</String>
+  <String Id="FeatureDescription_LAPDocuments">文档</String>
+  <String Id="FeatureDescription_VSIntegation">Visual Studio集成</String>
+  <String Id="FeatureDescription_VSIntegation2012">Visual Studio 2012</String>
+  <String Id="FeatureDescription_VSIntegation2013">Visual Studio 2013</String>
+  <String Id="FeatureDescription_VSIntegation2015">Visual Studio 2015</String>
+  <String Id="FeatureDescription_LAPSamples">样例</String>
+  <String Id="ExitDialog_Launch_Checkbox_Description">启动Lean Automation Platform</String>
+  <String Id="ExitDialog_Dialog_Description">谢谢你安装了Lean Automation Platform</String>
+  <String Id="Shortcut_Description">精益自动化平台</String>
+  <String Id="Uninstall_App_Description">卸载Lean Automation Platform</String>
+</WixLocalization>

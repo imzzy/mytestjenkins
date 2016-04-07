@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension"
+     xmlns:VSExtension="http://schemas.microsoft.com/wix/VSExtension">
+  <Fragment>
+		<!-- TODO: Put your code here. -->
+    <PropertyRef  Id ="VS2012DEVENV"/>
+    <PropertyRef  Id ="VS2013DEVENV"/>
+    <PropertyRef  Id ="VS2015DEVENV"/>
+    <ComponentGroup Id="LAPVSExtensionComponents" Directory="LAPINSTALLDIR">
+      <Component Id="LAPVSExtensionComponent" Guid="{1A23A658-5B5E-4E7B-9900-CFEEBC5770E1}">
+         <Condition><![CDATA[Installed OR VS2012DEVENV OR VS2013DEVENV OR VS2015DEVENV]]></Condition>
+        <RegistryKey Root="HKLM" Key="SOFTWARE\Microsoft\.NETFramework\v4.5\AssemblyFoldersEx\LAP Inc." 
+                     Action="createAndRemoveOnUninstall"  ForceCreateOnInstall="yes" ForceDeleteOnUninstall="yes">
+          <RegistryValue Type="string" Value="[LAPINSTALLSDKDIR]"/>
+        </RegistryKey>
+        <VSExtension:VsixPackage File="LAPPackageVsix" PackageId="LAPVisualStudioExtension.LAPInc.e908744c-7db0-4a89-8dbe-5140be45c9e7" Vital="yes" Permanent="no" />
+        <File Id="LAPPackageVsix" Name="LAP.PackageVsix.vsix" Source="..\bin\$(var.Configuration)\LAP.PackageVsix.vsix" />
+      </Component>
+      <!--  <Component Id="LAPVSExt2012Component" Guid="{4C47BAA2-24D3-4CB3-9F3E-90DA21121370}" >
+       
+        <Condition><![CDATA[Installed OR VS2012DEVENV]]></Condition>
+      </Component>
+      <Component Id="LAPVSExt2013Component" Guid="{9A3A652D-1815-4B86-B725-17FE9E34ABC8}" >
+        <VSExtension:VsixPackage File="LAPPackageVsix2013" PackageId="LAP.PackageVsix2013.LAPInc.234f7aac-a670-4c81-a6d8-e50a2fe99a46" Target="professional" TargetVersion="12.0" Vital="yes" Permanent="no" />
+        <File Id="LAPPackageVsix2013" Name="LAP.PackageVsix2013.vsix" Source="..\bin\$(var.Configuration)\LAP.PackageVsix2013.vsix" />
+        <Condition>VS2013DEVENV</Condition>
+      </Component>
+      
+      <Component Id="LAPVSExt2015Component" Guid="{0A5F228B-F4B2-46CF-9A9B-AC7C65DDAFE0}">
+        <VSExtension:VsixPackage File="LAPPackageVsix2015" PackageId="LAP.PackageVsix2015.97D23B81-8485-44FD-8422-1AB98352F040" Target="professional" TargetVersion="14.0" Vital="yes" Permanent="no" />
+        <File Id="LAPPackageVsix2015" Name="LAP.PackageVsix2015.vsix" Source="..\bin\$(var.Configuration)\LAP.PackageVsix2015.vsix" />
+        <Condition><![CDATA[Installed OR (VS2015DEVENV)]]></Condition>
+      </Component>-->
+    </ComponentGroup>
+  </Fragment>
+</Wix>

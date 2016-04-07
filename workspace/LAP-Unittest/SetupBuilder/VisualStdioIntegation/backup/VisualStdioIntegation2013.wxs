@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension"
+     xmlns:VSExtension="http://schemas.microsoft.com/wix/VSExtension">
+  <Fragment>
+		<!-- TODO: Put your code here. -->
+    <PropertyRef  Id ="VS2013DEVENV"/>
+    <ComponentGroup Id="LAPVS2013Components" Directory="LAPINSTALLDIR">
+      <Component Id="LAPVS2013Component" Guid="{B2EB834E-198A-415D-B1A8-69213BCDD9F6}">
+         <Condition><![CDATA[Installed OR VS2013DEVENV]]></Condition>
+        <RegistryKey Root="HKLM" Key="SOFTWARE\Microsoft\.NETFramework\v4.5\AssemblyFoldersEx\LAP Inc." 
+                     Action="createAndRemoveOnUninstall"  ForceCreateOnInstall="yes" ForceDeleteOnUninstall="yes">
+          <RegistryValue Type="string" Value="[LAPINSTALLSDKDIR]"/>
+        </RegistryKey>
+        <VSExtension:VsixPackage File="LAPPackageVsix2013" PackageId="LAPVisualStdioExtension.LAPInc.e908744c-7db0-4a89-8dbe-5140be45c9e7" Target="professional" TargetVersion="12.0" Vital="yes" Permanent="no" />
+        <File Id="LAPPackageVsix2013" Name="LAP.PackageVsix.vsix" Source="..\bin\$(var.Configuration)\LAP.PackageVsix.vsix" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

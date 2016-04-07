@@ -1,0 +1,8 @@
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPLogger.config.xml
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\chromedriver.exe
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\CalcAppModel.json
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\UnitTest\SeleniumModel1.json
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPWebObjects.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPWebObjects.pdb
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\obj\Debug\LPWebObjects.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\obj\Debug\LPWebObjects.pdb

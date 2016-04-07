@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object AntsType="AntsWindow" Name="FirstAntsWindow">
+    <IndentifyProperties>
+      <Index>0</Index>
+      <Text>Blank Page - Windows Internet Explorer</Text>
+    </IndentifyProperties>
+    <VisualRelation />
+    <ChildObjects>
+      <Object AntsType="AntsButton" Name="MyFirstAntsButton">
+        <IndentifyProperties>
+          <Index>0</Index>
+        </IndentifyProperties>
+        <VisualRelation>
+          <Left>Button_1</Left>
+        </VisualRelation>
+      </Object>
+      <Object AntsType="AntsButton" Name="MyFirstAntsButton1">
+        <IndentifyProperties>
+          <Index>0</Index>
+        </IndentifyProperties>
+        <VisualRelation>
+          <Left>Button_1</Left>
+          <Right>Button_2</Right>
+        </VisualRelation>
+      </Object>
+      <Object AntsType="AntsButton" Name="Button_1">
+        <IndentifyProperties>
+          <Index>0</Index>
+          <Text>athp - Home</Text>
+        </IndentifyProperties>
+        <VisualRelation />
+      </Object>
+      <Object AntsType="AntsButton" Name="Button_2">
+        <IndentifyProperties>
+          <Index>0</Index>
+          <Name>Web Slice Gallery</Name>
+        </IndentifyProperties>
+        <VisualRelation />
+      </Object>
+    </ChildObjects>
+  </Object>
+  <Object AntsType="AntsWindow" Name="AntsAutomation (Running) - Microsoft Visual Studio">
+    <IndentifyProperties>
+      <Title>AntsAutomation (Running) - Microsoft Visual Studio</Title>
+      <Index>0</Index>
+    </IndentifyProperties>
+    <VisualRelation />
+    <ChildObjects>
+      <Object AntsType="AntsPane" Name="Find Symbol Results - 4 matches found">
+        <IndentifyProperties>
+          <Index>0</Index>
+          <Name>Find Symbol Results - 4 matches found</Name>
+        </IndentifyProperties>
+        <VisualRelation />
+        <ChildObjects>
+          <Object AntsType="AntsObject" Name="Find Symbol Results - 4 matches found">
+            <IndentifyProperties>
+              <Index>0</Index>
+              <Name>Find Symbol Results - 4 matches found</Name>
+            </IndentifyProperties>
+            <VisualRelation />
+            <ChildObjects>
+              <Object AntsType="AntsPane" Name="Find Symbol Results - 4 matches found">
+                <IndentifyProperties>
+                  <Index>0</Index>
+                  <Name>Find Symbol Results - 4 matches found</Name>
+                </IndentifyProperties>
+                <VisualRelation />
+                <ChildObjects>
+                  <Object AntsType="AntsPane" Name="Find Symbol Results - 4 matches found">
+                    <IndentifyProperties>
+                      <Index>0</Index>
+                      <Name>Find Symbol Results - 4 matches found</Name>
+                    </IndentifyProperties>
+                    <VisualRelation />
+                    <ChildObjects>
+                      <Object AntsType="AntsTree" Name="Find Symbol Results - 4 matches found">
+                        <IndentifyProperties>
+                          <Index>0</Index>
+                          <Name>Find Symbol Results - 4 matches found</Name>
+                        </IndentifyProperties>
+                        <VisualRelation />
+                        <ChildObjects>
+                          <Object AntsType="AntsObject" Name="D:\vsonline\MyFirst\source\AntsAutomation\RepositoryManager\RepositoryManager\Repository.cs - (761, 17) : loaddata(AntsEnvironment.AntsEnter.tempxmlpath);">
+                            <IndentifyProperties>
+                              <Index>0</Index>
+                              <Text>0</Text>
+                              <Name>D:\vsonline\MyFirst\source\AntsAutomation\RepositoryManager\RepositoryManager\Repository.cs - (761, 17) : loaddata(AntsEnvironment.AntsEnter.tempxmlpath);</Name>
+                            </IndentifyProperties>
+                            <VisualRelation />
+                          </Object>
+                        </ChildObjects>
+                      </Object>
+                    </ChildObjects>
+                  </Object>
+                </ChildObjects>
+              </Object>
+            </ChildObjects>
+          </Object>
+        </ChildObjects>
+      </Object>
+    </ChildObjects>
+  </Object>
+  <Object AntsType="AntsWindow" Name="AntsWindow">
+    <IndentifyProperties>
+      <Title>Resources</Title>
+      <Index>0</Index>
+    </IndentifyProperties>
+    <VisualRelation />
+    <ChildObjects>
+      <Object AntsType="AntsPane" Name="Resources">
+        <IndentifyProperties>
+          <Index>0</Index>
+          <Name>Resources</Name>
+        </IndentifyProperties>
+        <VisualRelation />
+        <ChildObjects>
+          <Object AntsType="AntsPane" Name="Shell Folder View">
+            <IndentifyProperties>
+              <Index>0</Index>
+              <Name>Shell Folder View</Name>
+            </IndentifyProperties>
+            <VisualRelation />
+            <ChildObjects>
+              <Object AntsType="AntsList" Name="Items View">
+                <IndentifyProperties>
+                  <Index>0</Index>
+                  <Name>Items View</Name>
+                </IndentifyProperties>
+                <VisualRelation />
+                <ChildObjects>
+                  <Object AntsType="AntsObject" Name="magnifier.png">
+                    <IndentifyProperties>
+                      <Index>0</Index>
+                      <Text>magnifier.png</Text>
+                      <Name>magnifier.png</Name>
+                    </IndentifyProperties>
+                    <VisualRelation />
+                    <ChildObjects>
+                      <Object AntsType="AntsEdit" Name="Name">
+                        <IndentifyProperties>
+                          <Index>0</Index>
+                          <Text>magnifier.png</Text>
+                          <Name>Name</Name>
+                        </IndentifyProperties>
+                        <VisualRelation />
+                      </Object>
+                    </ChildObjects>
+                  </Object>
+                </ChildObjects>
+              </Object>
+            </ChildObjects>
+          </Object>
+        </ChildObjects>
+      </Object>
+    </ChildObjects>
+  </Object>
+</Objects>

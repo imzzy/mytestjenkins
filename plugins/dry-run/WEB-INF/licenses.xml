@@ -1,0 +1,10 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Jenkins Dry Run Plug-in' groupId='org.jenkins-ci.plugins' artifactId='dry-run' version='0.9' url='https://wiki.jenkins-ci.org/display/JENKINS/DryRun+Plugin'>
+    <l:description />
+    <l:license name='MIT license' />
+  </l:dependency>
+  <l:dependency name='Jenkins Dry Run Library' groupId='org.jenkins-ci.lib' artifactId='dry-run-lib' version='0.1' url='https://wiki.jenkins-ci.org/display/JENKINS/DryRun+Plugin'>
+    <l:description />
+    <l:license name='MIT license' />
+  </l:dependency>
+</l:dependencies>

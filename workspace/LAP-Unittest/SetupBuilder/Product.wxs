@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?include $(var.ProjectDir)Variables.wxi?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension"
+     xmlns:VSExtension="http://schemas.microsoft.com/wix/VSExtension">
+	<Product Id="AAC430B4-3464-4941-A9B4-19AEE4A2F55D" Name="!(loc.AppName)" Language="!(loc.Language)"  Version="1.0.0.0" Manufacturer="!(loc.CompanyName)" UpgradeCode="3ef58b23-df0b-48f8-9f46-1cfa99fb622c">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" Languages="!(loc.Language)" SummaryCodepage="!(loc.Codepage)"/>
+		<MajorUpgrade DowngradeErrorMessage="A newer version of Lean Automation Platform is already installed." />
+		<MediaTemplate />
+
+    <PropertyRef Id="VS2012_IDE_VCSHARP_PROJECTSYSTEM_INSTALLED"/>
+    <PropertyRef Id="NETFRAMEWORK45"/>
+    <Condition Message="!(loc.NETFrameWorkMessage)">
+      <![CDATA[Installed OR (NETFRAMEWORK45)]]>
+    </Condition>
+    
+    <!-- for launching the application -->
+    <Property Id="WIXUI_EXITDIALOGOPTIONALTEXT" Value="!(loc.ExitDialog_Dialog_Description)"/>
+    <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOXTEXT" Value="!(loc.ExitDialog_Launch_Checkbox_Description)" />
+    <Property Id="Language" Value="!(loc.Language)"/>
+    <CustomAction Id="SetCustomActionDataValue" Return="check" Property="CustomActionData" Value="TARGETDIR=[TARGETDIR];Codepage=[Codepage];" />
+
+    <CustomAction Id="LaunchApplication" Directory="LAPINSTALLBINDIR" ExeCommand="[LAPINSTALLBINDIR]\LPSpy.exe" Execute="immediate" Impersonate="yes" Return="asyncNoWait" />
+    <UI> 
+      <UIRef Id="LAP_WixUI_Mondo" />
+      <Publish Dialog="LAP_ExitDialog"
+      Control="Finish"
+      Event="DoAction" Value="LaunchApplication">WIXUI_EXITDIALOGOPTIONALCHECKBOX = 1 and NOT Installed</Publish>
+    </UI>
+    <!-- license dialog -->
+    <WixVariable Id="WixUILicenseRtf" Value="license.rtf" />
+    <!-- path of where to install -->
+    <Property Id="WIXUI_INSTALLDIR" Value="LAPINSTALLDIR" />
+    <FeatureRef Id ="LAPCoreFeature"/>
+    <FeatureRef Id ="LAPDocumentFeature"/>
+    <FeatureRef Id ="LAPSampleFeature"/>
+    <CustomActionRef Id="CADefferedProperties"/>
+    <CustomActionRef Id="run_before_finish"/>
+  </Product>
+
+	<Fragment>
+
+		<Directory Id="TARGETDIR" Name="SourceDir">
+      
+      <Directory Id="DesktopFolder" Name="Desktop" />
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="Lean Automation Platform"/>
+      </Directory>
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="LAPINSTALLDIR" Name="Lean Automation Platform">
+          <Directory Id="LAPINSTALLBINDIR" Name="bin">
+            <Directory Id="LAPINSTALLBINZHCNDIR" Name="zh-CN"/>
+          </Directory>
+            
+          <Directory Id="LAPINSTALLSDKDIR" Name="SDK"/>
+          <Directory Id="LAPINSTALLSDKDOC" Name="help"/>
+          <Directory Id="LAPINSTALLSDKSAMPLE" Name="samples"/>
+        </Directory>
+			</Directory>
+		</Directory>
+	</Fragment>
+
+  <Fragment>
+    <!--Adding CA Dll to Binary Table-->
+    <Binary Id="ProductCA_CA" SourceFile="$(var.ProductCAPath)" />
+
+    <CustomAction Id="CADefferedProperties" BinaryKey="ProductCA_CA" DllEntry="CADefferedProperties" Execute="immediate" />
+    
+    <CustomAction Id="run_before_modify" BinaryKey="ProductCA_CA" DllEntry="run_before_modify" Execute="deferred"/>
+    <CustomAction Id="run_before_finish" BinaryKey="ProductCA_CA" DllEntry="run_before_finish" Impersonate="no" Execute="deferred" />
+    <CustomAction Id="run_before_uninstall" BinaryKey="ProductCA_CA" DllEntry="run_before_uninstall" Execute="immediate"/>
+
+    <InstallExecuteSequence>
+      <Custom Action="CADefferedProperties" After="CostFinalize" Overridable="yes">NOT REMOVE="ALL"</Custom>
+      <Custom Action="run_before_uninstall" After="InstallInitialize" Overridable="yes">REMOVE="ALL"</Custom>
+      <Custom Action="run_before_modify" After="InstallInitialize" Overridable="yes">Installed AND NOT REMOVE="ALL" AND ((NOT OLDERVERSIONBEINGUPGRADED) AND (NOT UPGRADINGPRODUCTCODE) OR (WixUI_InstallMode = "Change"))</Custom>
+      <Custom Action="run_before_finish" Before="InstallFinalize" Overridable="yes">Not REMOVE="ALL"</Custom>
+    </InstallExecuteSequence>
+
+  </Fragment>
+</Wix>

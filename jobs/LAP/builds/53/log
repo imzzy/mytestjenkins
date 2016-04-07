@@ -1,0 +1,364 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\LAP
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config remote.origin.url https://99robo.visualstudio.com/DefaultCollection/_git/WallE # timeout=10
+Fetching upstream changes from https://99robo.visualstudio.com/DefaultCollection/_git/WallE
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe --version # timeout=10
+using .gitcredentials to set credentials
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local credential.username zack # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local credential.helper store --file=\"C:\Users\zack\AppData\Local\Temp\git2554626074931475782.credentials\" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe -c core.askpass=true fetch --tags --progress https://99robo.visualstudio.com/DefaultCollection/_git/WallE +refs/heads/*:refs/remotes/origin/*
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local --remove-section credential # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 6e5a04d23eb883674818ac25af40007fb09f5e61 (refs/remotes/origin/master)
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe read-tree -mu HEAD # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe checkout -f 6e5a04d23eb883674818ac25af40007fb09f5e61
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-list d5757e455d1de911116272749ca49c9f159fec9f # timeout=10
+No emails were triggered.
+Path To MSBuild.exe: C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe
+Executing the command cmd.exe /C " "C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe" /t:clean /t:build /p:Configuration=Debug "/p:Platform=Any CPU" LAP/src/LAP.sln " && exit %%ERRORLEVEL%% from C:\Users\zack\.jenkins\workspace\LAP
+[LAP] $ cmd.exe /C " "C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe" /t:clean /t:build /p:Configuration=Debug "/p:Platform=Any CPU" LAP/src/LAP.sln " && exit %%ERRORLEVEL%%
+Microsoft(R) Éú³ÉÒıÇæ°æ±¾ 12.0.31101.0
+[Microsoft .NET Framework °æ±¾ 4.0.30319.34209]
+°æÈ¨ËùÓĞ (C) Microsoft Corporation¡£±£ÁôËùÓĞÈ¨Àû¡£
+
+ÔÚ´Ë½â¾ö·½°¸ÖĞÒ»´ÎÉú³ÉÒ»¸öÏîÄ¿¡£ÈôÒªÆôÓÃ²¢ĞĞÉú³É£¬ÇëÌí¼Ó¡°/m¡±¿ª¹Ø¡£
+Éú³ÉÆô¶¯Ê±¼äÎª 2016/3/24 19:03:56¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±ÔÚ½Úµã 1 ÉÏ(clean;build ¸öÄ¿±ê)¡£
+ValidateSolutionConfiguration:
+  ÕıÔÚÉú³É½â¾ö·½°¸ÅäÖÃ¡°Debug|Any CPU¡±¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\Template\LAPTemplate\LAPTemplate.csproj¡±(2) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚ´´½¨Ä¿Â¼¡°obj\Debug\¡±¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\Template\LAPTemplate\LAPTemplate.csproj¡±(2)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\LPReplayCore.csproj¡±(3) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPLogger.config.xml¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\CalcAppModel.json¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPReplayCore.dll.config¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPReplayCore.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPReplayCore.pdb¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\chromedriver.exe¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\obj\Debug\LPReplayCore.csprojResolveAssemblyReference.cache¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\obj\Debug\LPReplayCore.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\obj\Debug\LPReplayCore.pdb¡±¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\LPReplayCore.csproj¡±(3)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\LPCommon.csproj¡±(4) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPCommon.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPCommon.pdb¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\obj\Debug\LPCommon.csprojResolveAssemblyReference.cache¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\obj\Debug\LPCommon.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\obj\Debug\LPCommon.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\LPCommon.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\LPReplayCore.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\Template\LAPTemplate\LAPTemplate.csproj¡±(2)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\LPUIAObjects.csproj¡±(5) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPUIAObjects.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPUIAObjects.pdb¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\obj\Debug\LPUIAObjects.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\obj\Debug\LPUIAObjects.pdb¡±¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\LPUIAObjects.csproj¡±(5)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\LPWebObjects.csproj¡±(6) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\UnitTest\SeleniumModel1.json¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPWebObjects.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPWebObjects.pdb¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\obj\Debug\LPWebObjects.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\obj\Debug\LPWebObjects.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\LPWebObjects.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\LPUIAObjects.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\Template\LAPTemplate\LAPTemplate.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\LAPResources.csproj¡±(7) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResources.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResources.pdb¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\zh-CN\LAPResources.resources.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPControlPanel.Form1.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.BreadcrumbControl.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.ModelTreeViewControl.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.NodeViewControl.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.AboutWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.AddObjectsWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.AddPropertiesWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.BreadCrumbWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.ConditionSelectorWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.OptionWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.SpyMainWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.ToMethodsViewer.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.UIASpyWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.ImageResources.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.StringResources.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPControlPanel.Form1.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.BreadcrumbControl.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.ModelTreeViewControl.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.NodeViewControl.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.AboutWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.AddObjectsWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.AddPropertiesWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.BreadCrumbWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.ConditionSelectorWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.OptionWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.SpyMainWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.ToMethodsViewer.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.LPSpy.UIASpyWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.StringResources.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.csproj.GenerateResource.Cache¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\zh-CN\LAPResources.resources.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\obj\Debug\LAPResources.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\LAPResources.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResourceManager\LAPResourceManager.csproj¡±(8) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResourceManager.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResourceManager.pdb¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResourceManager\obj\Debug\LAPResourceManager.csprojResolveAssemblyReference.cache¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResourceManager\obj\Debug\LAPResourceManager.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResourceManager\obj\Debug\LAPResourceManager.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResourceManager\LAPResourceManager.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\LPSpy.csproj¡±(9) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\AppConfig.json¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\UnitTestVirtualControl.json¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\Resources\Test Object Icons\Window.png¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\UnitTestObjectModel1.json¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\ObjectModel2.json¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPSpy.exe¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPSpy.pdb¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\zh-CN\LPSpy.resources.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.csprojResolveAssemblyReference.cache¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.BreadcrumbControl.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.Controls.ModelTreeViewControl.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.NodeViewControl.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.AboutWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.AddObjectsWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.AddPropertiesWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.BatchAddWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.ConditionSelectorWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.OptionWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.SpyMainWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.ToMethodsViewer.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.UIASpyWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.VirtualControlEditWindow.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.Properties.Resources.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.TestObjectPropertyGrid.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.BreadcrumbControl.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.Controls.ModelTreeViewControl.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.NodeViewControl.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.AboutWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.AddObjectsWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.AddPropertiesWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.BatchAddWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.ConditionSelectorWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.OptionWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.SpyMainWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.ToMethodsViewer.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.UIASpyWindow.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.csproj.GenerateResource.Cache¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\zh-CN\LPSpy.resources.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.exe¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\obj\Debug\LPSpy.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\LPSpy.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\LPControlPanel.csproj¡±(10) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPControlPanel.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPControlPanel.pdb¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\zh-CN\LPControlPanel.resources.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.csprojResolveAssemblyReference.cache¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.Form1.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.Form1.zh-CN.resources¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.csproj.GenerateResource.Cache¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\zh-CN\LPControlPanel.resources.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\LPControlPanel.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\UIACalcTest\UIACalcTest.csproj¡±(11) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\UIACalcTest.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\UIACalcTest.pdb¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\UIACalcTest\obj\Debug\UIACalcTest.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\UIACalcTest\obj\Debug\UIACalcTest.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\UIACalcTest\UIACalcTest.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\LPReplayEngine.csproj¡±(12) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\ReplayEngine.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\ReplayEngine.pdb¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\obj\Debug\LPReplayEngine.csprojResolveAssemblyReference.cache¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\obj\Debug\ReplayEngine.dll¡±¡£
+  ÕıÔÚÉ¾³ıÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\obj\Debug\ReplayEngine.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\LPReplayEngine.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\LPReplayCore.csproj¡±(3:8) (Ä¬ÈÏÄ¿±ê)¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\LPReplayCore.csproj¡±(3:8)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\LPCommon.csproj¡±(4:5) (Ä¬ÈÏÄ¿±ê)¡£
+GenerateTargetFrameworkMonikerAttribute:
+ÕıÔÚÌø¹ıÄ¿±ê¡°GenerateTargetFrameworkMonikerAttribute¡±£¬ÒòÎªËùÓĞÊä³öÎÄ¼şÏà¶ÔÓÚÊäÈëÎÄ¼ş¶øÑÔ¶¼ÊÇ×îĞÂµÄ¡£
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:AnyCPU /errorreport:prompt /warn:4 /define:TRACE;DEBUG;TEST /highentropyva+ /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\log4net.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\PresentationCore.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll" /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\UIAComWrapper.dll /debug+ /debug:full /filealign:512 /keyfile:..\key.snk /optimize- /out:obj\Debug\LPCommon.dll /subsystemversion:6.00 /target:library /utf8output CachedHandler.cs Data\DataRowExtension.cs DPAPIEncryption.cs Logging\BaseLogger.cs Logging\ILogger.cs Logging\LogArgs.cs Logging\LogFactory.cs UnitTest\DataRowExtensionTest.cs Utility\KeyInput.cs Utility\Snapshot.cs UnitTest\CachedFileHandlerTest.cs UnitTest\SnapshotTest.cs UnitTest\LPLoggerTest.cs Properties\AssemblyInfo.cs Utility\Win32APIs.cs "C:\Users\zack\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+_CopyOutOfDateSourceItemsToOutputDirectory:
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\LPLogger.config.xml¡±¸´ÖÆµ½¡°..\bin\Debug\LPLogger.config.xml¡±¡£
+CopyFilesToOutputDirectory:
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LPCommon.dll¡±¸´ÖÆµ½¡°..\bin\Debug\LPCommon.dll¡±¡£
+  LPCommon -> C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPCommon.dll
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LPCommon.pdb¡±¸´ÖÆµ½¡°..\bin\Debug\LPCommon.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\LPCommon.csproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷¡£
+GenerateTargetFrameworkMonikerAttribute:
+ÕıÔÚÌø¹ıÄ¿±ê¡°GenerateTargetFrameworkMonikerAttribute¡±£¬ÒòÎªËùÓĞÊä³öÎÄ¼şÏà¶ÔÓÚÊäÈëÎÄ¼ş¶øÑÔ¶¼ÊÇ×îĞÂµÄ¡£
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:AnyCPU /errorreport:prompt /warn:2 /define:TRACE;DEBUG;TEST /highentropyva+ /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPCommon.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Newtonsoft.Json.dll /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\net40\Selenium.WebDriverBackedSelenium.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\net40\ThoughtWorks.Selenium.Core.dll /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\UIAComWrapper.dll /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\net40\WebDriver.dll /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\net40\WebDriver.Support.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\LPReplayCore.dll /subsystemversion:6.00 /target:library /utf8output ClickOnPointTool.cs Common\BaseContext.cs Common\Config\JsonConfigPersister.cs Common\Config\LPConfig.cs Common\ControlTypeConverter.cs Common\JsonUtil.cs Common\ReplayCoreSettings.cs Interfaces\IElementProperties.cs Interfaces\IPropertyItem.cs Interfaces\ITestObject.cs Interfaces\ITextSearch.cs Model\AppDescriptor.cs Model\AppModelFile.cs Model\ControlKeysManager.cs Model\PropertyGroup.cs Model\TestObjectFactory.cs Model\VisualRelationPropertyItem.cs Selenium\SETestObject.cs Selenium\WebDriverHost.cs Selenium\WebElementProperties.cs Selenium\WebKit.cs Selenium\WebUtility.cs TestObjects\TestObjectBase.cs TestObjects\TestObjectNurse.cs TestObjects\UIATestObject.cs UIA\UIAFinder.cs UIA\UIAHighlight.cs Interfaces\IRunDetails.cs Interfaces\IRunContext.cs RunLogic\FeatureBase.cs RunLogic\ScenariodBase.cs RunLogic\StepBase.cs Common\Utility.cs Interfaces\IStep.cs Model\AppModel.cs Model\AppModelManager.cs UIA\HighlightRectangle.cs Model\ObjectDescriptor.cs Model\DescriptorSerializer.cs Properties\AssemblyInfo.cs UIA\UIAUtility.cs UnitTest\AppModelTest.cs UnitTest\ControlKeysManagerTest.cs UnitTest\ObjectDescriptorTest.cs UnitTest\JsonSerializerTest.cs UnitTest\TestObjectNurseTest.cs UnitTest\TestUtility.cs UnitTest\UIAUtilityTest.cs UnitTest\LPConfigTest.cs UnitTest\ControlTypeConverterTest.cs UnitTest\TempUnitTests.cs UnitTest\UIAFinderTest.cs UnitTest\UIATestObjectTest.cs UnitTest\ReplayCoreSettingsTest.cs UnitTest\UnitTest1.cs UnitTest\TestObjectFactoryTest.cs UnitTest\AppDescriptorTest.cs UnitTest\UIAHighlightTest.cs UnitTest\AppModelFileTest.cs UnitTest\UtilityTest.cs UnitTest\VirtualTestObjectTest.cs Utility\ScreenCapture.cs TestObjects\VirtualTestObject.cs "C:\Users\zack\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+_CopyOutOfDateSourceItemsToOutputDirectory:
+ÕıÔÚ²¿·ÖÉú³ÉÄ¿±ê¡°_CopyOutOfDateSourceItemsToOutputDirectory¡±£¬ÒòÎªÄ³Ğ©Êä³öÎÄ¼şÏà¶ÔÓÚÆäÊäÈëÎÄ¼ş¶øÑÔÒÑ¾­¹ıÆÚ¡£
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\chromedriver.exe¡±¸´ÖÆµ½¡°..\bin\Debug\chromedriver.exe¡±¡£
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\CalcAppModel.json¡±¸´ÖÆµ½¡°..\bin\Debug\CalcAppModel.json¡±¡£
+_CopyAppConfigFile:
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°App.config¡±¸´ÖÆµ½¡°..\bin\Debug\LPReplayCore.dll.config¡±¡£
+CopyFilesToOutputDirectory:
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LPReplayCore.dll¡±¸´ÖÆµ½¡°..\bin\Debug\LPReplayCore.dll¡±¡£
+  LPReplayCore -> C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPReplayCore.dll
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LPReplayCore.pdb¡±¸´ÖÆµ½¡°..\bin\Debug\LPReplayCore.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\LPReplayCore.csproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\LPReplayEngine.csproj¡±(12:2) (Ä¬ÈÏÄ¿±ê)¡£
+C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1697,5): warning MSB3270: ËùÉú³ÉÏîÄ¿µÄ´¦ÀíÆ÷¼Ü¹¹¡°MSIL¡±ÓëÒıÓÃ¡°Microsoft.Expression.Encoder.Api2, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86¡±µÄ´¦ÀíÆ÷¼Ü¹¹¡°x86¡±²»Æ¥Åä¡£ÕâÖÖ²»Æ¥Åä¿ÉÄÜ»áµ¼ÖÂÔËĞĞÊ±Ê§°Ü¡£Çë¿¼ÂÇÍ¨¹ıÅäÖÃ¹ÜÀíÆ÷¸ü¸ÄÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹£¬ÒÔÊ¹ÄúµÄÏîÄ¿ÓëÒıÓÃ¼äµÄ´¦ÀíÆ÷¼Ü¹¹±£³ÖÒ»ÖÂ£¬»òÕßÎªÒıÓÃ¹ØÁªÒ»¸öÓëÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹Ïà·ûµÄ´¦ÀíÆ÷¼Ü¹¹¡£ [C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\LPReplayEngine.csproj]
+C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1697,5): warning MSB3270: ËùÉú³ÉÏîÄ¿µÄ´¦ÀíÆ÷¼Ü¹¹¡°MSIL¡±ÓëÒıÓÃ¡°Microsoft.Expression.Encoder, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86¡±µÄ´¦ÀíÆ÷¼Ü¹¹¡°x86¡±²»Æ¥Åä¡£ÕâÖÖ²»Æ¥Åä¿ÉÄÜ»áµ¼ÖÂÔËĞĞÊ±Ê§°Ü¡£Çë¿¼ÂÇÍ¨¹ıÅäÖÃ¹ÜÀíÆ÷¸ü¸ÄÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹£¬ÒÔÊ¹ÄúµÄÏîÄ¿ÓëÒıÓÃ¼äµÄ´¦ÀíÆ÷¼Ü¹¹±£³ÖÒ»ÖÂ£¬»òÕßÎªÒıÓÃ¹ØÁªÒ»¸öÓëÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹Ïà·ûµÄ´¦ÀíÆ÷¼Ü¹¹¡£ [C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\LPReplayEngine.csproj]
+C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1697,5): warning MSB3270: ËùÉú³ÉÏîÄ¿µÄ´¦ÀíÆ÷¼Ü¹¹¡°MSIL¡±ÓëÒıÓÃ¡°Microsoft.Expression.Encoder.Utilities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86¡±µÄ´¦ÀíÆ÷¼Ü¹¹¡°x86¡±²»Æ¥Åä¡£ÕâÖÖ²»Æ¥Åä¿ÉÄÜ»áµ¼ÖÂÔËĞĞÊ±Ê§°Ü¡£Çë¿¼ÂÇÍ¨¹ıÅäÖÃ¹ÜÀíÆ÷¸ü¸ÄÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹£¬ÒÔÊ¹ÄúµÄÏîÄ¿ÓëÒıÓÃ¼äµÄ´¦ÀíÆ÷¼Ü¹¹±£³ÖÒ»ÖÂ£¬»òÕßÎªÒıÓÃ¹ØÁªÒ»¸öÓëÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹Ïà·ûµÄ´¦ÀíÆ÷¼Ü¹¹¡£ [C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\LPReplayEngine.csproj]
+GenerateTargetFrameworkMonikerAttribute:
+ÕıÔÚÌø¹ıÄ¿±ê¡°GenerateTargetFrameworkMonikerAttribute¡±£¬ÒòÎªËùÓĞÊä³öÎÄ¼şÏà¶ÔÓÚÊäÈëÎÄ¼ş¶øÑÔ¶¼ÊÇ×îĞÂµÄ¡£
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;DEBUG;TEST /highentropyva+ /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPReplayCore.dll /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Microsoft.Expression.Encoder.Api2.dll /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Microsoft.Expression.Encoder.dll /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Microsoft.Expression.Encoder.Utilities.dll /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\ReplayEngine.dll /subsystemversion:6.00 /target:library /utf8output RunLogic\FeatureRunner.cs Screen\VideoHelper.cs Test\VideoHelperTest.cs Properties\AssemblyInfo.cs "C:\Users\zack\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+_CopyOutOfDateSourceItemsToOutputDirectory:
+ÕıÔÚÌø¹ıÄ¿±ê¡°_CopyOutOfDateSourceItemsToOutputDirectory¡±£¬ÒòÎªËùÓĞÊä³öÎÄ¼şÏà¶ÔÓÚÊäÈëÎÄ¼ş¶øÑÔ¶¼ÊÇ×îĞÂµÄ¡£
+CopyFilesToOutputDirectory:
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\ReplayEngine.dll¡±¸´ÖÆµ½¡°..\bin\Debug\ReplayEngine.dll¡±¡£
+  LPReplayEngine -> C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\ReplayEngine.dll
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\ReplayEngine.pdb¡±¸´ÖÆµ½¡°..\bin\Debug\ReplayEngine.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\LPReplayEngine.csproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\UIACalcTest\UIACalcTest.csproj¡±(11:2) (Ä¬ÈÏÄ¿±ê)¡£
+GenerateTargetFrameworkMonikerAttribute:
+ÕıÔÚÌø¹ıÄ¿±ê¡°GenerateTargetFrameworkMonikerAttribute¡±£¬ÒòÎªËùÓĞÊä³öÎÄ¼şÏà¶ÔÓÚÊäÈëÎÄ¼ş¶øÑÔ¶¼ÊÇ×îĞÂµÄ¡£
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPReplayCore.dll /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\UIAComWrapper.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\UIACalcTest.dll /subsystemversion:6.00 /target:library /utf8output CalcTest.cs Calculator.cs Properties\AssemblyInfo.cs "C:\Users\zack\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+_CopyOutOfDateSourceItemsToOutputDirectory:
+ÕıÔÚÌø¹ıÄ¿±ê¡°_CopyOutOfDateSourceItemsToOutputDirectory¡±£¬ÒòÎªËùÓĞÊä³öÎÄ¼şÏà¶ÔÓÚÊäÈëÎÄ¼ş¶øÑÔ¶¼ÊÇ×îĞÂµÄ¡£
+CopyFilesToOutputDirectory:
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\UIACalcTest.dll¡±¸´ÖÆµ½¡°..\bin\Debug\UIACalcTest.dll¡±¡£
+  UIACalcTest -> C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\UIACalcTest.dll
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\UIACalcTest.pdb¡±¸´ÖÆµ½¡°..\bin\Debug\UIACalcTest.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\UIACalcTest\UIACalcTest.csproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\LPControlPanel.csproj¡±(10:2) (Ä¬ÈÏÄ¿±ê)¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\LPControlPanel.csproj¡±(10:2)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResourceManager\LAPResourceManager.csproj¡±(8:3) (Ä¬ÈÏÄ¿±ê)¡£
+GenerateTargetFrameworkMonikerAttribute:
+ÕıÔÚÌø¹ıÄ¿±ê¡°GenerateTargetFrameworkMonikerAttribute¡±£¬ÒòÎªËùÓĞÊä³öÎÄ¼şÏà¶ÔÓÚÊäÈëÎÄ¼ş¶øÑÔ¶¼ÊÇ×îĞÂµÄ¡£
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Design.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\LAPResourceManager.dll /subsystemversion:6.00 /target:library /utf8output MLUComponentResourceManager.cs MLUResManagerSerializer.cs Properties\AssemblyInfo.cs ResourceControl.cs ResourceControl.Designer.cs ResourceManagerProvider.cs "C:\Users\zack\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+CopyFilesToOutputDirectory:
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LAPResourceManager.dll¡±¸´ÖÆµ½¡°..\..\bin\Debug\LAPResourceManager.dll¡±¡£
+  LAPResourceManager -> C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResourceManager.dll
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LAPResourceManager.pdb¡±¸´ÖÆµ½¡°..\..\bin\Debug\LAPResourceManager.pdb¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResourceManager\LAPResourceManager.csproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\LPControlPanel.csproj¡±(10:2)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\LAPResources.csproj¡±(7:4) (Ä¬ÈÏÄ¿±ê)¡£
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll" /compile ..\..\LPControlPanel\Form1.resx,obj\Debug\LAPResources.LPControlPanel.Form1.resources ..\..\LPSpy\Controls\BreadcrumbControl.resx,obj\Debug\LAPResources.LPSpy.BreadcrumbControl.resources ..\..\LPSpy\Controls\ModelTreeViewControl.resx,obj\Debug\LAPResources.LPSpy.ModelTreeViewControl.resources ..\..\LPSpy\Controls\NodeViewControl.resx,obj\Debug\LAPResources.LPSpy.NodeViewControl.resources ..\..\LPSpy\Forms\AboutWindow.resx,obj\Debug\LAPResources.LPSpy.AboutWindow.resources ..\..\LPSpy\Forms\AddObjectsWindow.resx,obj\Debug\LAPResources.LPSpy.AddObjectsWindow.resources ..\..\LPSpy\Forms\AddPropertiesWindow.resx,obj\Debug\LAPResources.LPSpy.AddPropertiesWindow.resources ..\..\LPSpy\Forms\BreadCrumbWindow.resx,obj\Debug\LAPResources.LPSpy.BreadCrumbWindow.resources ..\..\LPSpy\Forms\ConditionSelectorWindow.resx,obj\Debug\LAPResources.LPSpy.ConditionSelectorWindow.resources ..\..\LPSpy\Forms\OptionWindow.resx,obj\Debug\LAPResources.LPSpy.OptionWindow.resources ..\..\LPSpy\Forms\SpyMainWindow.resx,obj\Debug\LAPResources.LPSpy.SpyMainWindow.resources ..\..\LPSpy\Forms\ToMethodsViewer.resx,obj\Debug\LAPResources.LPSpy.ToMethodsViewer.resources ..\..\LPSpy\Forms\UIASpyWindow.resx,obj\Debug\LAPResources.LPSpy.UIASpyWindow.resources ImageResources.resx,obj\Debug\LAPResources.ImageResources.resources StringResources.resx,obj\Debug\LAPResources.StringResources.resources ..\..\LPControlPanel\Form1.zh-CN.resx,obj\Debug\LAPResources.LPControlPanel.Form1.zh-CN.resources ..\..\LPSpy\Controls\BreadcrumbControl.zh-CN.resx,obj\Debug\LAPResources.LPSpy.BreadcrumbControl.zh-CN.resources ..\..\LPSpy\Controls\ModelTreeViewControl.zh-CN.resx,obj\Debug\LAPResources.LPSpy.ModelTreeViewControl.zh-CN.resources ..\..\LPSpy\Controls\NodeViewControl.zh-CN.resx,obj\Debug\LAPResources.LPSpy.NodeViewControl.zh-CN.resources ..\..\LPSpy\Forms\AboutWindow.zh-CN.resx,obj\Debug\LAPResources.LPSpy.AboutWindow.zh-CN.resources ..\..\LPSpy\Forms\AddObjectsWindow.zh-CN.resx,obj\Debug\LAPResources.LPSpy.AddObjectsWindow.zh-CN.resources ..\..\LPSpy\Forms\AddPropertiesWindow.zh-CN.resx,obj\Debug\LAPResources.LPSpy.AddPropertiesWindow.zh-CN.resources ..\..\LPSpy\Forms\BreadCrumbWindow.zh-CN.resx,obj\Debug\LAPResources.LPSpy.BreadCrumbWindow.zh-CN.resources ..\..\LPSpy\Forms\ConditionSelectorWindow.zh-CN.resx,obj\Debug\LAPResources.LPSpy.ConditionSelectorWindow.zh-CN.resources ..\..\LPSpy\Forms\OptionWindow.zh-CN.resx,obj\Debug\LAPResources.LPSpy.OptionWindow.zh-CN.resources ..\..\LPSpy\Forms\SpyMainWindow.zh-CN.resx,obj\Debug\LAPResources.LPSpy.SpyMainWindow.zh-CN.resources ..\..\LPSpy\Forms\ToMethodsViewer.zh-CN.resx,obj\Debug\LAPResources.LPSpy.ToMethodsViewer.zh-CN.resources ..\..\LPSpy\Forms\UIASpyWindow.zh-CN.resx,obj\Debug\LAPResources.LPSpy.UIASpyWindow.zh-CN.resources StringResources.zh-CN.resx,obj\Debug\LAPResources.StringResources.zh-CN.resources
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPControlPanel\Form1.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPControlPanel.Form1.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Controls\BreadcrumbControl.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.BreadcrumbControl.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Controls\ModelTreeViewControl.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.ModelTreeViewControl.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Controls\NodeViewControl.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.NodeViewControl.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\AboutWindow.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.AboutWindow.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\AddObjectsWindow.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.AddObjectsWindow.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\AddPropertiesWindow.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.AddPropertiesWindow.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\BreadCrumbWindow.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.BreadCrumbWindow.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\ConditionSelectorWindow.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.ConditionSelectorWindow.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\OptionWindow.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.OptionWindow.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\SpyMainWindow.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.SpyMainWindow.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\ToMethodsViewer.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.ToMethodsViewer.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\UIASpyWindow.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.UIASpyWindow.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°ImageResources.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.ImageResources.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°StringResources.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.StringResources.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPControlPanel\Form1.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPControlPanel.Form1.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Controls\BreadcrumbControl.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.BreadcrumbControl.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Controls\ModelTreeViewControl.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.ModelTreeViewControl.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Controls\NodeViewControl.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.NodeViewControl.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\AboutWindow.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.AboutWindow.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\AddObjectsWindow.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.AddObjectsWindow.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\AddPropertiesWindow.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.AddPropertiesWindow.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\BreadCrumbWindow.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.BreadCrumbWindow.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\ConditionSelectorWindow.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.ConditionSelectorWindow.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\OptionWindow.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.OptionWindow.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\SpyMainWindow.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.SpyMainWindow.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\ToMethodsViewer.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.ToMethodsViewer.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°..\..\LPSpy\Forms\UIASpyWindow.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.LPSpy.UIASpyWindow.zh-CN.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°StringResources.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LAPResources.StringResources.zh-CN.resources¡±ÖĞ¡£
+GenerateTargetFrameworkMonikerAttribute:
+ÕıÔÚÌø¹ıÄ¿±ê¡°GenerateTargetFrameworkMonikerAttribute¡±£¬ÒòÎªËùÓĞÊä³öÎÄ¼şÏà¶ÔÓÚÊäÈëÎÄ¼ş¶øÑÔ¶¼ÊÇ×îĞÂµÄ¡£
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /keyfile:..\..\key.snk /optimize- /out:obj\Debug\LAPResources.dll /subsystemversion:6.00 /resource:obj\Debug\LAPResources.LPControlPanel.Form1.resources /resource:obj\Debug\LAPResources.LPSpy.BreadcrumbControl.resources /resource:obj\Debug\LAPResources.LPSpy.ModelTreeViewControl.resources /resource:obj\Debug\LAPResources.LPSpy.NodeViewControl.resources /resource:obj\Debug\LAPResources.LPSpy.AboutWindow.resources /resource:obj\Debug\LAPResources.LPSpy.AddObjectsWindow.resources /resource:obj\Debug\LAPResources.LPSpy.AddPropertiesWindow.resources /resource:obj\Debug\LAPResources.LPSpy.BreadCrumbWindow.resources /resource:obj\Debug\LAPResources.LPSpy.ConditionSelectorWindow.resources /resource:obj\Debug\LAPResources.LPSpy.OptionWindow.resources /resource:obj\Debug\LAPResources.LPSpy.SpyMainWindow.resources /resource:obj\Debug\LAPResources.LPSpy.ToMethodsViewer.resources /resource:obj\Debug\LAPResources.LPSpy.UIASpyWindow.resources /resource:obj\Debug\LAPResources.ImageResources.resources /resource:obj\Debug\LAPResources.StringResources.resources /target:library /utf8output ImageResources.Designer.cs Properties\AssemblyInfo.cs StringResources.Designer.cs StringResources.zh-CN.Designer.cs "C:\Users\zack\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+GenerateSatelliteAssemblies:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\AL.exe /culture:zh-CN /keyfile:..\..\key.snk /out:obj\Debug\zh-CN\LAPResources.resources.dll /template:obj\Debug\LAPResources.dll /embed:obj\Debug\LAPResources.LPControlPanel.Form1.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.BreadcrumbControl.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.ModelTreeViewControl.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.NodeViewControl.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.AboutWindow.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.AddObjectsWindow.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.AddPropertiesWindow.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.BreadCrumbWindow.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.ConditionSelectorWindow.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.OptionWindow.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.SpyMainWindow.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.ToMethodsViewer.zh-CN.resources /embed:obj\Debug\LAPResources.LPSpy.UIASpyWindow.zh-CN.resources /embed:obj\Debug\LAPResources.StringResources.zh-CN.resources
+CopyFilesToOutputDirectory:
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LAPResources.dll¡±¸´ÖÆµ½¡°..\..\bin\Debug\LAPResources.dll¡±¡£
+  LAPResources -> C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResources.dll
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LAPResources.pdb¡±¸´ÖÆµ½¡°..\..\bin\Debug\LAPResources.pdb¡±¡£
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\zh-CN\LAPResources.resources.dll¡±¸´ÖÆµ½¡°..\..\bin\Debug\zh-CN\LAPResources.resources.dll¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResources\LAPResources.csproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷¡£
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\resgen.exe" /useSourcePath /r:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResourceManager.dll /r:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResources.dll /r:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /compile Form1.resx,obj\Debug\LPControlPanel.Form1.resources Form1.zh-CN.resx,obj\Debug\LPControlPanel.Form1.zh-CN.resources
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°Form1.resx¡±´¦Àíµ½¡°obj\Debug\LPControlPanel.Form1.resources¡±ÖĞ¡£
+  ÕıÔÚ½«×ÊÔ´ÎÄ¼ş¡°Form1.zh-CN.resx¡±´¦Àíµ½¡°obj\Debug\LPControlPanel.Form1.zh-CN.resources¡±ÖĞ¡£
+GenerateTargetFrameworkMonikerAttribute:
+ÕıÔÚÌø¹ıÄ¿±ê¡°GenerateTargetFrameworkMonikerAttribute¡±£¬ÒòÎªËùÓĞÊä³öÎÄ¼şÏà¶ÔÓÚÊäÈëÎÄ¼ş¶øÑÔ¶¼ÊÇ×îĞÂµÄ¡£
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResourceManager.dll /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResources.dll /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\LPControlPanel.dll /subsystemversion:6.00 /resource:obj\Debug\LPControlPanel.Form1.resources /target:library /utf8output Form1.cs Form1.Designer.cs UnitTest1.cs Properties\AssemblyInfo.cs "C:\Users\zack\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+GenerateSatelliteAssemblies:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\AL.exe /culture:zh-CN /out:obj\Debug\zh-CN\LPControlPanel.resources.dll /template:obj\Debug\LPControlPanel.dll /embed:obj\Debug\LPControlPanel.Form1.zh-CN.resources
+CopyFilesToOutputDirectory:
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LPControlPanel.dll¡±¸´ÖÆµ½¡°..\bin\Debug\LPControlPanel.dll¡±¡£
+  LPControlPanel -> C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPControlPanel.dll
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LPControlPanel.pdb¡±¸´ÖÆµ½¡°..\bin\Debug\LPControlPanel.pdb¡±¡£
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\zh-CN\LPControlPanel.resources.dll¡±¸´ÖÆµ½¡°..\bin\Debug\zh-CN\LPControlPanel.resources.dll¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\LPControlPanel.csproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\LPSpy.csproj¡±(9:2) (Ä¬ÈÏÄ¿±ê)¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\LPSpy.csproj¡±(9:2)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\LPUIAObjects.csproj¡±(5:4) (Ä¬ÈÏÄ¿±ê)¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\LPUIAObjects.csproj¡±(5:4)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\LPWebObjects.csproj¡±(6:4) (Ä¬ÈÏÄ¿±ê)¡£
+GenerateTargetFrameworkMonikerAttribute:
+ÕıÔÚÌø¹ıÄ¿±ê¡°GenerateTargetFrameworkMonikerAttribute¡±£¬ÒòÎªËùÓĞÊä³öÎÄ¼şÏà¶ÔÓÚÊäÈëÎÄ¼ş¶øÑÔ¶¼ÊÇ×îĞÂµÄ¡£
+CoreCompile:
+  C:\Program Files (x86)\MSBuild\12.0\bin\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPReplayCore.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\net40\Selenium.WebDriverBackedSelenium.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll" /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\net40\ThoughtWorks.Selenium.Core.dll /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\net40\WebDriver.dll /reference:C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\net40\WebDriver.Support.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\LPWebObjects.dll /subsystemversion:6.00 /target:library /utf8output ActionsHelper.cs BrowserHoster.cs ControlCollections.cs Controls\IWebContainer.cs Controls\IWebControl.cs Controls\WebArea.cs Controls\WebButton.cs Controls\WebCheckBox.cs Controls\WebContainerBase.cs Controls\WebEdit.cs Controls\WebObject.cs Controls\WebFile.cs Controls\WebForm.cs Controls\WebFrame.cs Controls\WebImage.cs Controls\WebImageLink.cs Controls\WebLink.cs Controls\WebList.cs Controls\WebPage.cs Controls\WebPlugin.cs Controls\WebRadioGroup.cs Controls\WebTable.cs Controls\WebVideo.cs Properties\AssemblyInfo.cs Controls\WebControlBase.cs ReplayHelper.cs UnitTest\SeleniumTest.cs UnitTest\WebControlTest.cs "C:\Users\zack\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+_CopyOutOfDateSourceItemsToOutputDirectory:
+ÕıÔÚÌø¹ıÄ¿±ê¡°_CopyOutOfDateSourceItemsToOutputDirectory¡±£¬ÒòÎªËùÓĞÊä³öÎÄ¼şÏà¶ÔÓÚÊäÈëÎÄ¼ş¶øÑÔ¶¼ÊÇ×îĞÂµÄ¡£
+_CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\UnitTest\SeleniumModel1.json¡±¸´ÖÆµ½¡°..\bin\Debug\UnitTest\SeleniumModel1.json¡±¡£
+CopyFilesToOutputDirectory:
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LPWebObjects.dll¡±¸´ÖÆµ½¡°..\bin\Debug\LPWebObjects.dll¡±¡£
+  LPWebObjects -> C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPWebObjects.dll
+  ÕıÔÚ½«ÎÄ¼ş´Ó¡°obj\Debug\LPWebObjects.pdb¡±¸´ÖÆµ½¡°..\bin\Debug\LPWebObjects.pdb¡±¡£
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\LPWebObjects.csproj(125,3): error MSB3216: ÎŞ·¨×¢²á³ÌĞò¼¯¡°..\bin\Debug\LPWebObjects.dll¡±- ¾Ü¾ø·ÃÎÊ¡£ÇëÈ·±£ÄúÕıÔÚÒÔ¹ÜÀíÔ±Éí·İÔËĞĞÓ¦ÓÃ³ÌĞò¡£¶Ô×¢²á±íÏî¡°HKEY_CLASSES_ROOT\LeanPro.IWebArea¡±µÄ·ÃÎÊ±»¾Ü¾ø¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\LPWebObjects.csproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷ - Ê§°Ü¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\LPUIAObjects.csproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷ - Ê§°Ü¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\LPSpy.csproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷ - Ê§°Ü¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(clean;build ¸öÄ¿±ê)µÄ²Ù×÷ - Ê§°Ü¡£
+
+Éú³ÉÊ§°Ü¡£
+
+¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(clean;build Ä¿±ê) (1) ->
+¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\LPReplayEngine.csproj¡±(Ä¬ÈÏÄ¿±ê) (12:2) ->
+(ResolveAssemblyReferences Ä¿±ê) -> 
+  C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1697,5): warning MSB3270: ËùÉú³ÉÏîÄ¿µÄ´¦ÀíÆ÷¼Ü¹¹¡°MSIL¡±ÓëÒıÓÃ¡°Microsoft.Expression.Encoder.Api2, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86¡±µÄ´¦ÀíÆ÷¼Ü¹¹¡°x86¡±²»Æ¥Åä¡£ÕâÖÖ²»Æ¥Åä¿ÉÄÜ»áµ¼ÖÂÔËĞĞÊ±Ê§°Ü¡£Çë¿¼ÂÇÍ¨¹ıÅäÖÃ¹ÜÀíÆ÷¸ü¸ÄÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹£¬ÒÔÊ¹ÄúµÄÏîÄ¿ÓëÒıÓÃ¼äµÄ´¦ÀíÆ÷¼Ü¹¹±£³ÖÒ»ÖÂ£¬»òÕßÎªÒıÓÃ¹ØÁªÒ»¸öÓëÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹Ïà·ûµÄ´¦ÀíÆ÷¼Ü¹¹¡£ [C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\LPReplayEngine.csproj]
+  C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1697,5): warning MSB3270: ËùÉú³ÉÏîÄ¿µÄ´¦ÀíÆ÷¼Ü¹¹¡°MSIL¡±ÓëÒıÓÃ¡°Microsoft.Expression.Encoder, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86¡±µÄ´¦ÀíÆ÷¼Ü¹¹¡°x86¡±²»Æ¥Åä¡£ÕâÖÖ²»Æ¥Åä¿ÉÄÜ»áµ¼ÖÂÔËĞĞÊ±Ê§°Ü¡£Çë¿¼ÂÇÍ¨¹ıÅäÖÃ¹ÜÀíÆ÷¸ü¸ÄÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹£¬ÒÔÊ¹ÄúµÄÏîÄ¿ÓëÒıÓÃ¼äµÄ´¦ÀíÆ÷¼Ü¹¹±£³ÖÒ»ÖÂ£¬»òÕßÎªÒıÓÃ¹ØÁªÒ»¸öÓëÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹Ïà·ûµÄ´¦ÀíÆ÷¼Ü¹¹¡£ [C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\LPReplayEngine.csproj]
+  C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1697,5): warning MSB3270: ËùÉú³ÉÏîÄ¿µÄ´¦ÀíÆ÷¼Ü¹¹¡°MSIL¡±ÓëÒıÓÃ¡°Microsoft.Expression.Encoder.Utilities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86¡±µÄ´¦ÀíÆ÷¼Ü¹¹¡°x86¡±²»Æ¥Åä¡£ÕâÖÖ²»Æ¥Åä¿ÉÄÜ»áµ¼ÖÂÔËĞĞÊ±Ê§°Ü¡£Çë¿¼ÂÇÍ¨¹ıÅäÖÃ¹ÜÀíÆ÷¸ü¸ÄÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹£¬ÒÔÊ¹ÄúµÄÏîÄ¿ÓëÒıÓÃ¼äµÄ´¦ÀíÆ÷¼Ü¹¹±£³ÖÒ»ÖÂ£¬»òÕßÎªÒıÓÃ¹ØÁªÒ»¸öÓëÄúµÄÏîÄ¿µÄÄ¿±ê´¦ÀíÆ÷¼Ü¹¹Ïà·ûµÄ´¦ÀíÆ÷¼Ü¹¹¡£ [C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayEngine\LPReplayEngine.csproj]
+
+
+¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAP.sln¡±(clean;build Ä¿±ê) (1) ->
+¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPSpy\LPSpy.csproj¡±(Ä¬ÈÏÄ¿±ê) (9:2) ->
+¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\LPUIAObjects.csproj¡±(Ä¬ÈÏÄ¿±ê) (5:4) ->
+¡°C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\LPWebObjects.csproj¡±(Ä¬ÈÏÄ¿±ê) (6:4) ->
+(AfterBuild Ä¿±ê) -> 
+  C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\LPWebObjects.csproj(125,3): error MSB3216: ÎŞ·¨×¢²á³ÌĞò¼¯¡°..\bin\Debug\LPWebObjects.dll¡±- ¾Ü¾ø·ÃÎÊ¡£ÇëÈ·±£ÄúÕıÔÚÒÔ¹ÜÀíÔ±Éí·İÔËĞĞÓ¦ÓÃ³ÌĞò¡£¶Ô×¢²á±íÏî¡°HKEY_CLASSES_ROOT\LeanPro.IWebArea¡±µÄ·ÃÎÊ±»¾Ü¾ø¡£
+
+    3 ¸ö¾¯¸æ
+    1 ¸ö´íÎó
+
+ÒÑÓÃÊ±¼ä 00:00:39.95
+Build step 'Build a Visual Studio project or solution using MSBuild' marked build as failure
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: 390021310@qq.com
+Warning: you have no plugins providing access control for builds, so falling back to legacy behavior of permitting any downstream builds to be triggered
+Triggering a new build of [8mha:AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+j6OAbqheZklJanFJfoABByW0scAAAA=[0mLAP-Unittest
+Finished: FAILURE

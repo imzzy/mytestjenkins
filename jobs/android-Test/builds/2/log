@@ -1,0 +1,13 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\android-Test
+[android-Test] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson8463818023716621492.bat
+
+C:\Users\zack\.jenkins\workspace\android-Test>d:
+
+D:\dev>cd D:\xampp\mysql\bin 
+
+D:\xampp\mysql\bin>mysqldump.exe -u r66ug84v1xx148oz -pW3lcome1 -h rdsk2qktqkge38ft5wg9k.mysql.rds.aliyuncs.com r66ug84v1xx148oz  1>C:\Users\zack\.jenkins\mysqlTest.sql 
+Warning: Using a password on the command line interface can be insecure.
+
+D:\xampp\mysql\bin>exit 0 
+Finished: SUCCESS

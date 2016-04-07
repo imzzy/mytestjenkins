@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='screenshot/Success/TestBBS.testbbsLogin.2016-01-26-08-36-47.png'><img width='200px' height='160px'  src=screenshot/Success/TestBBS.testbbsLogin.2016-01-26-08-36-47.png></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='screenshot/Success/TestBBS.testbbsLogin.2016-01-26-08-36-52.png'><img width='200px' height='160px'  src=screenshot/Success/TestBBS.testbbsLogin.2016-01-26-08-36-52.png></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='screenshot/Success/TestBBS.testchooseSection.2016-01-26-08-36-59.png'><img width='200px' height='160px'  src=screenshot/Success/TestBBS.testchooseSection.2016-01-26-08-36-59.png></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="50530" started-at="2016-01-26T12:36:09Z" finished-at="2016-01-26T12:36:59Z">
+    <groups>
+    </groups>
+    <test name="testbbs01" duration-ms="50530" started-at="2016-01-26T12:36:09Z" finished-at="2016-01-26T12:36:59Z">
+      <class name="cn.leanpro.pageobjects.Test.TestBBS">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@357185c8]" name="createDriver" is-config="true" duration-ms="11" started-at="2016-01-26T20:36:09Z" finished-at="2016-01-26T20:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="initBrower()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@357185c8]" name="initBrower" is-config="true" duration-ms="16434" started-at="2016-01-26T20:36:09Z" finished-at="2016-01-26T20:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrower -->
+        <test-method status="PASS" signature="testbbsLogin(cn.leanpro.model.Users)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@357185c8]" name="testbbsLogin" duration-ms="19605" started-at="2016-01-26T20:36:26Z" data-provider="datawithuser" finished-at="2016-01-26T20:36:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.Users@78a3a50a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='screenshot/Success/TestBBS.testbbsLogin.2016-01-26-08-36-47.png'><img width='200px' height='160px'  src=screenshot/Success/TestBBS.testbbsLogin.2016-01-26-08-36-47.png></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testbbsLogin -->
+        <test-method status="PASS" signature="testbbsLogin(cn.leanpro.model.Users)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@357185c8]" name="testbbsLogin" duration-ms="5098" started-at="2016-01-26T20:36:47Z" data-provider="datawithuser" finished-at="2016-01-26T20:36:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.Users@3fa87166]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='screenshot/Success/TestBBS.testbbsLogin.2016-01-26-08-36-52.png'><img width='200px' height='160px'  src=screenshot/Success/TestBBS.testbbsLogin.2016-01-26-08-36-52.png></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testbbsLogin -->
+        <test-method status="PASS" signature="testchooseSection()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@357185c8]" name="testchooseSection" duration-ms="6758" started-at="2016-01-26T20:36:52Z" finished-at="2016-01-26T20:36:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='screenshot/Success/TestBBS.testchooseSection.2016-01-26-08-36-59.png'><img width='200px' height='160px'  src=screenshot/Success/TestBBS.testchooseSection.2016-01-26-08-36-59.png></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testchooseSection -->
+        <test-method status="PASS" signature="teardownDriver()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@357185c8]" name="teardownDriver" is-config="true" duration-ms="21" started-at="2016-01-26T20:36:59Z" finished-at="2016-01-26T20:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+      </class> <!-- cn.leanpro.pageobjects.Test.TestBBS -->
+    </test> <!-- testbbs01 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

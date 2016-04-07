@@ -1,0 +1,10 @@
+﻿{
+	"separator0": "below are settings for ReplayCore",
+	"highlightColor": "Red",
+
+	"separator1": "below are settings for LPSpy",
+	"SupportTools": ["UIA", "Selenium"],
+	"AppName": "LAP",
+	"AppLanguage": "English",
+	"CaptureSnapshots": true
+}

@@ -1,0 +1,28 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\LAP
+Cloning the remote Git repository
+Cloning repository https://99robo.visualstudio.com/DefaultCollection/_git/WallE
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe init C:\Users\zack\.jenkins\workspace\LAP # timeout=10
+Fetching upstream changes from https://99robo.visualstudio.com/DefaultCollection/_git/WallE
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe --version # timeout=10
+using .gitcredentials to set credentials
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local credential.username zack # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local credential.helper store --file=\"C:\Users\zack\AppData\Local\Temp\git1452985141954335688.credentials\" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe -c core.askpass=true fetch --tags --progress https://99robo.visualstudio.com/DefaultCollection/_git/WallE +refs/heads/*:refs/remotes/origin/*
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local --remove-section credential # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config remote.origin.url https://99robo.visualstudio.com/DefaultCollection/_git/WallE # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config remote.origin.url https://99robo.visualstudio.com/DefaultCollection/_git/WallE # timeout=10
+Fetching upstream changes from https://99robo.visualstudio.com/DefaultCollection/_git/WallE
+using .gitcredentials to set credentials
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local credential.username zack # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local credential.helper store --file=\"C:\Users\zack\AppData\Local\Temp\git7113550412370040944.credentials\" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe -c core.askpass=true fetch --tags --progress https://99robo.visualstudio.com/DefaultCollection/_git/WallE +refs/heads/*:refs/remotes/origin/*
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local --remove-section credential # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 62e91afcce6b1801794955f94b32aee2e82067e8 (refs/remotes/origin/master)
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe checkout -f 62e91afcce6b1801794955f94b32aee2e82067e8
+First time build. Skipping changelog.
+Finished: SUCCESS

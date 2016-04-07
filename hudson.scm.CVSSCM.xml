@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.scm.CVSSCM_-DescriptorImpl plugin="cvs@2.11">
+  <generation>1</generation>
+  <compressionLevel>3</compressionLevel>
+  <privateKeyLocation>C:\Users\zack/.ssh/id_rsa</privateKeyLocation>
+  <privateKeyPassword>hDk/ZYMY1OagBb5F0k8uBg==</privateKeyPassword>
+  <knownHostsLocation>C:\Users\zack/.ssh/known_hosts</knownHostsLocation>
+  <authTokens/>
+  <changelogEncoding>UTF-8</changelogEncoding>
+</hudson.scm.CVSSCM_-DescriptorImpl>

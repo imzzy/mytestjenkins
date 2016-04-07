@@ -1,0 +1,338 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\testng-plugin-Test
+[testng-plugin-Test] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson6830407739800902850.bat
+
+C:\Users\zack\.jenkins\workspace\testng-plugin-Test>xcopy /E /Y  C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven  C:\Users\zack\.jenkins\workspace\testng-plugin-Test 
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\.classpath
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\.gitignore
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\.project
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\pom.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\.settings\org.eclipse.core.resources.prefs
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\.settings\org.eclipse.core.runtime.prefs
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\.settings\org.eclipse.jdt.core.prefs
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\.settings\org.eclipse.m2e.core.prefs
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\screenshot\Failures\TestBBSPage.testCreateANewPost.2016-01-12-04-22-44.png
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\screenshot\Failures\TestBBSPage.testEditAPost.2016-01-12-04-22-55.png
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\screenshot\Failures\TestBBSPage.testResponseAPost.2016-01-12-04-23-07.png
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\annotation\Column.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\annotation\ExcelSign.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\converter\BooleanTypeConverter.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\converter\DateTypeConverter.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\converter\DoubleTypeConverter.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\converter\IntegerTypeConverter.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\converter\StringTypeConverter.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\converter\TypeConverter.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\converter\TypeConverters.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\model\BBSPostModle.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\model\PostContent.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\model\Users.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\AddNewPostPage.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\AdminLoginPage.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\AllPostsPage.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\BBSAddNewPostPage.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\BBSAllPagePost.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\BBSEditeAPost.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\BBSNewPost.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\BBSResponsePost.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\DeletePostPage.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\EditPostPage.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\SearchPostPage.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\pageobjects\UserLoginBBS.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\TestSuiteBase\BaseTest.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\TestSuiteBase\SuiteBases.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\util\CollectionUtils.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\util\EachFieldCallback.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\util\ExOM.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\util\ReflectionUtils.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\util\ReportUtil.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\java\cn\leanpro\util\ScreenShotUtils.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\resources\Param.properties
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\resources\testdata.xlsx
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\main\resources\testng.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\test\java\cn\leanpro\pageobjects\Test\TestABC.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\test\java\cn\leanpro\pageobjects\Test\TestBBS.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\test\java\cn\leanpro\pageobjects\Test\TestBBSPage.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\test\java\cn\leanpro\pageobjects\Test\TestLeanproPage.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\test\java\cn\leanpro\pageobjects\Test\TestLogin.java
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\Param.properties
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\testdata.xlsx
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\testng.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\annotation\Column.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\annotation\ExcelSign.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\converter\BooleanTypeConverter.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\converter\DateTypeConverter.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\converter\DoubleTypeConverter.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\converter\IntegerTypeConverter.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\converter\StringTypeConverter.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\converter\TypeConverter.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\converter\TypeConverters.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\model\BBSPostModle.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\model\PostContent.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\model\Users.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\AddNewPostPage.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\AdminLoginPage.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\AllPostsPage.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\BBSAddNewPostPage.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\BBSAllPagePost.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\BBSEditeAPost.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\BBSNewPost.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\BBSResponsePost.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\DeletePostPage.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\EditPostPage.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\SearchPostPage.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\pageobjects\UserLoginBBS.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\TestSuiteBase\BaseTest.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\TestSuiteBase\SuiteBases.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\util\CollectionUtils.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\util\EachFieldCallback.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\util\ExOM$1.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\util\ExOM$2.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\util\ExOM.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\util\ReflectionUtils.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\util\ReportUtil.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\cn\leanpro\util\ScreenShotUtils.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\META-INF\MANIFEST.MF
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.properties
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\bullet_point.png
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\collapseall.gif
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\emailable-report.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\failed.png
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\index.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\jquery-1.7.1.min.js
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\navigator-bullet.png
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\passed.png
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\report.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\skipped.png
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\TEST-TestSuite.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\testng-failed.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\testng-reports.css
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\testng-reports.js
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\testng-results.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\testng.css
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\TestSuite.txt
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\junitreports\TEST-cn.leanpro.pageobjects.Test.TestBBSPage.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\index.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\Suite1\classes.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\Suite1\groups.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\Suite1\index.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\Suite1\main.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\Suite1\methods-alphabetical.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\Suite1\methods-not-run.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\Suite1\methods.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\Suite1\Nopackage.properties
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\Suite1\reporter-output.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\Suite1\testng.xml.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\old\Suite1\toc.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\Suite1\Nopackage.html
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\Suite1\Nopackage.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\Suite1\testng-failed.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\test-classes\cn\leanpro\pageobjects\Test\TestABC.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\test-classes\cn\leanpro\pageobjects\Test\TestBBS.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\test-classes\cn\leanpro\pageobjects\Test\TestBBSPage.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\test-classes\cn\leanpro\pageobjects\Test\TestLeanproPage.class
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\test-classes\cn\leanpro\pageobjects\Test\TestLogin.class
+∏¥÷∆¡À 133 ∏ˆŒƒº˛
+
+C:\Users\zack\.jenkins\workspace\testng-plugin-Test>exit 0 
+[testng-plugin-Test] $ cmd.exe /C '"D:\dev\tools\apache-maven\bin\mvn.cmd test && exit %%ERRORLEVEL%%"'
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building testSelenium 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ testSelenium ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 32 source files to C:\Users\zack\.jenkins\workspace\testng-plugin-Test\target\classes
+[INFO] /C:/Users/zack/.jenkins/workspace/testng-plugin-Test/src/main/java/cn/leanpro/util/ExOM.java: ƒ≥–© ‰»ÎŒƒº˛ π”√¡ÀŒ¥æ≠ºÏ≤ÈªÚ≤ª∞≤»´µƒ≤Ÿ◊˜°£
+[INFO] /C:/Users/zack/.jenkins/workspace/testng-plugin-Test/src/main/java/cn/leanpro/util/ExOM.java: ”–πÿœÍœ∏–≈œ¢, «Î π”√ -Xlint:unchecked ÷ÿ–¬±‡“Î°£
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\zack\.jenkins\workspace\testng-plugin-Test\src\test\resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ testSelenium ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to C:\Users\zack\.jenkins\workspace\testng-plugin-Test\target\test-classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ testSelenium ---
+[INFO] Surefire report directory: C:\Users\zack\.jenkins\workspace\testng-plugin-Test\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+ø™ º≤‚ ‘
+ hi  creating driver....
+this is getting driver....
+
+this is getting driver....
+screenshot/Failures/TestBBSPage.testCreateANewPost.2016-01-20-10-24-49.png
+this is getting driver....
+screenshot/Failures/TestBBSPage.testEditAPost.2016-01-20-10-25-00.png
+this is getting driver....
+screenshot/Failures/TestBBSPage.testResponseAPost.2016-01-20-10-25-12.png
+Ω· ¯≤‚ ‘
+“ª‘¬ 20, 2016 10:25:12 …œŒÁ com.relevantcodes.extentreports.Configuration <init>
+–≈œ¢: Configurating report from file:/C:/Users/zack/.m2/repository/com/relevantcodes/extentreports/2.40/extentreports-2.40.jar!/com/relevantcodes/extentreports/resources/extent-config.xml
+C:\Users\zack\.jenkins\workspace\testng-plugin-Test\target\surefire-reports\report.html
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 56.586 sec <<< FAILURE! - in TestSuite
+testCreateANewPost(cn.leanpro.pageobjects.Test.TestBBSPage)  Time elapsed: 11.795 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"e_iframe"}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'zack-pc', ip: '192.168.204.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+*** Element info: {Using=id, value=e_iframe}
+Session ID: e1192cf3-7319-486f-8f41-e22803f5d508
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.4.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:961)
+	at cn.leanpro.pageobjects.BBSNewPost.createANewPost(BBSNewPost.java:34)
+	at cn.leanpro.pageobjects.BBSAllPagePost.createAPost(BBSAllPagePost.java:39)
+	at cn.leanpro.pageobjects.Test.TestBBSPage.testCreateANewPost(TestBBSPage.java:47)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"e_iframe"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'zack-pc', ip: '192.168.204.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/zack/AppData/Local/Temp/anonymous6772999178011192222webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/zack/AppData/Local/Temp/anonymous6772999178011192222webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+
+testEditAPost(cn.leanpro.pageobjects.Test.TestBBSPage)  Time elapsed: 11.172 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"test01"}
+Command duration or timeout: 10.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'zack-pc', ip: '192.168.204.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+*** Element info: {Using=link text, value=test01}
+Session ID: e1192cf3-7319-486f-8f41-e22803f5d508
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.4.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:197)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByLinkText(RemoteWebElement.java:246)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at cn.leanpro.pageobjects.BBSAllPagePost.clickPost(BBSAllPagePost.java:99)
+	at cn.leanpro.pageobjects.BBSAllPagePost.editAPost(BBSAllPagePost.java:53)
+	at cn.leanpro.pageobjects.Test.TestBBSPage.testEditAPost(TestBBSPage.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"test01"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'zack-pc', ip: '192.168.204.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/zack/AppData/Local/Temp/anonymous6772999178011192222webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/zack/AppData/Local/Temp/anonymous6772999178011192222webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+
+testResponseAPost(cn.leanpro.pageobjects.Test.TestBBSPage)  Time elapsed: 11.199 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"newtest01"}
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'zack-pc', ip: '192.168.204.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+*** Element info: {Using=link text, value=newtest01}
+Session ID: e1192cf3-7319-486f-8f41-e22803f5d508
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.4.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:197)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByLinkText(RemoteWebElement.java:246)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at cn.leanpro.pageobjects.BBSAllPagePost.clickPost(BBSAllPagePost.java:99)
+	at cn.leanpro.pageobjects.BBSAllPagePost.responseAPost(BBSAllPagePost.java:45)
+	at cn.leanpro.pageobjects.Test.TestBBSPage.testResponseAPost(TestBBSPage.java:64)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"newtest01"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'zack-pc', ip: '192.168.204.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/zack/AppData/Local/Temp/anonymous6772999178011192222webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/zack/AppData/Local/Temp/anonymous6772999178011192222webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+
+
+Results :
+
+Failed tests: 
+  TestBBSPage.testCreateANewPost:47 ? NoSuchElement Unable to locate element: {"...
+  TestBBSPage.testEditAPost:56 ? NoSuchElement Unable to locate element: {"metho...
+  TestBBSPage.testResponseAPost:64 ? NoSuchElement Unable to locate element: {"m...
+
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:02 min
+[INFO] Finished at: 2016-01-20T10:25:14+08:00
+[INFO] Final Memory: 25M/219M
+[INFO] ------------------------------------------------------------------------
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test) on project testSelenium: There are test failures.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Please refer to C:\Users\zack\.jenkins\workspace\testng-plugin-Test\target\surefire-reports for the individual test results.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+Saving reports...
+Processing 'C:\Users\zack\.jenkins\jobs\testng-plugin-Test\builds\4\testng\testng-results.xml'
+Failed Tests/Configs found. Marking build as UNSTABLE.
+TestNG Reports Processing: FINISH
+Finished: FAILURE

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="LAPVisualStudioExtension.LAPInc.e908744c-7db0-4a89-8dbe-5140be45c9e7" Version="1.0" Language="en-US" Publisher="LAP Inc." />
+    <DisplayName>Lean Automation Platform Extension</DisplayName>
+    <Description xml:space="preserve">create a Lean Automation Platform MsTest</Description>
+    <GettingStartedGuide>http://LeanAutomationPlatform.LAP.com/GSG.html</GettingStartedGuide>
+    <Icon>LAPVsix.ico</Icon>
+    <PreviewImage>LAPVsixPreview.png</PreviewImage>
+  </Metadata>
+  <Installation AllUsers="true">
+    <InstallationTarget Version="[11.0,14.0]" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="LAP.MsTestTestProjectTemplate" d:TargetPath="|LAP.MsTestTestProjectTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="LAP.MsTestTestItemTemplate" d:TargetPath="|LAP.MsTestTestItemTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="LAPVisualStudioPackage" Path="|LAPVisualStudioPackage;PkgdefProjectOutputGroup|" />
+  </Assets>
+</PackageManifest>

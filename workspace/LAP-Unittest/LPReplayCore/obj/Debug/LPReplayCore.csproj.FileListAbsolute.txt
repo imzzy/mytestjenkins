@@ -1,0 +1,9 @@
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPLogger.config.xml
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\CalcAppModel.json
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPReplayCore.dll.config
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPReplayCore.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPReplayCore.pdb
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\obj\Debug\LPReplayCore.csprojResolveAssemblyReference.cache
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\obj\Debug\LPReplayCore.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\obj\Debug\LPReplayCore.pdb
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\chromedriver.exe

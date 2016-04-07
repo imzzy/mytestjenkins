@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension"
+     xmlns:VSExtension="http://schemas.microsoft.com/wix/VSExtension">
+  <Fragment>
+
+    <ComponentGroup Id="LAPSDKComponents" Directory="LAPINSTALLSDKDIR">
+      <Component Id="LAPSDKComponent" Guid="{6C9FDB78-74FE-470B-8DB1-AA4DC16AF5E7}" >
+        <File Id="LPUIAObjectsSDK"	 Source="..\bin\$(var.Configuration)\LPUIAObjects.dll"/>
+        <File Id="LPReplayCoreSDK"	 Source="..\bin\$(var.Configuration)\LPReplayCore.dll"/>
+        <File Id="UIAComWrapperSDK"	 Source="..\bin\$(var.Configuration)\UIAComWrapper.dll"/>
+        <File Id="Newtonsoft_JsonSDK"	 Source="..\bin\$(var.Configuration)\Newtonsoft.Json.dll"/>
+      </Component>
+      <!--<ComponentRef Id="VS2012Component" />-->
+      <!--<ComponentRef Id="RegistryEntriesVS2012" />-->
+      <!--<ComponentRef Id="LAPVSExt2012Component" />
+      <ComponentRef Id="LAPVSExt2013Component" />-->
+      
+    </ComponentGroup>
+
+    <ComponentGroup Id="LAPCoreComponents">
+      <ComponentRef Id="RegistryEntriesCore"/>
+      <!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+      <!-- <Component Id="ProductComponent"> -->
+      <!-- TODO: Insert files, registry keys, and other resources here. -->
+      <!-- </Component> -->
+     
+        <Component Id="LAPCoreComponent" Guid="{CA744371-38FE-4AC3-B9A4-DE8A9E2833FA}"  Directory="LAPINSTALLBINDIR">
+          <File Id="Interop_UIAutomationClient"	 Source="..\bin\$(var.Configuration)\Interop.UIAutomationClient.dll"/>
+          <File Id="log4net"	 Source="..\bin\$(var.Configuration)\log4net.dll"/>
+          <File Id="LPCommon"	 Source="..\bin\$(var.Configuration)\LPCommon.dll"/>
+          <File Id="LPControlPanel"	 Source="..\bin\$(var.Configuration)\LPControlPanel.dll"/>
+          <File Id="LPReplayCore"	 Source="..\bin\$(var.Configuration)\LPReplayCore.dll"/>
+          <File Id="LPUIAObjects"	 Source="..\bin\$(var.Configuration)\LPUIAObjects.dll"/>
+          <File Id="Microsoft_Expression_Encoder_Api2"	 Source="..\bin\$(var.Configuration)\Microsoft.Expression.Encoder.Api2.dll"/>
+          <File Id="Microsoft_Expression_Encoder"	 Source="..\bin\$(var.Configuration)\Microsoft.Expression.Encoder.dll"/>
+          <File Id="Microsoft_Expression_Encoder_Types"	 Source="..\bin\$(var.Configuration)\Microsoft.Expression.Encoder.Types.dll"/>
+          <File Id="Microsoft_Expression_Encoder_Utilities"	 Source="..\bin\$(var.Configuration)\Microsoft.Expression.Encoder.Utilities.dll"/>
+          <File Id="Newtonsoft_Json"	 Source="..\bin\$(var.Configuration)\Newtonsoft.Json.dll"/>
+          <File Id="ReplayEngine"	 Source="..\bin\$(var.Configuration)\ReplayEngine.dll"/>
+          <File Id="UIACalcTest"	 Source="..\bin\$(var.Configuration)\UIACalcTest.dll"/>
+          <File Id="UIAComWrapper"	 Source="..\bin\$(var.Configuration)\UIAComWrapper.dll"/>
+          <File Id="LPSpy_exe"	 Source="..\bin\$(var.Configuration)\LPSpy.exe"/>
+          <File Id="LAPResourceManager"	 Source="..\bin\$(var.Configuration)\LAPResourceManager.dll"/>
+          <File Id="WindowsAPICodePack"	 Source="..\bin\Microsoft.WindowsAPICodePack.dll"/>
+          <File Id="WindowsAPICodePack_Shell"	 Source="..\bin\Microsoft.WindowsAPICodePack.Shell.dll"/>
+          <File Id="LAPResources"	 Source="..\bin\$(var.Configuration)\LAPResources.dll"/>
+          <File Id="AppConfig_json"	 Source="..\bin\$(var.Configuration)\AppConfig.json"/>
+          <File Id="LPLogger_config_xml"	 Source="..\bin\$(var.Configuration)\LPLogger.config.xml"/>
+        </Component>
+
+      <Component Id="LAPLangCNComponents" Guid="{082FB7E2-8D62-4055-B6CD-02D24816C2C9}"  Directory="LAPINSTALLBINZHCNDIR">
+        <File Id="LAPResources_zhcn"	 Source="..\bin\$(var.Configuration)\zh-CN\LAPResources.resources.dll"/>
+        <File Id="SpyResources_zhcn"	 Source="..\bin\$(var.Configuration)\zh-CN\LPSpy.resources.dll"/>
+      </Component>
+     
+        <Component Id="LAPCoreComponentPDB" Guid="{1490FD68-1AF0-49C5-B438-429CE3173297}"  Directory="LAPINSTALLBINDIR">
+          <File Id="LPCommonPDB"	 Source="..\bin\$(var.Configuration)\LPCommon.pdb"/>
+          <File Id="LPControlPanelPDB"	 Source="..\bin\$(var.Configuration)\LPControlPanel.pdb"/>
+          <File Id="LPReplayCorePDB"	 Source="..\bin\$(var.Configuration)\LPReplayCore.pdb"/>
+          <File Id="LPUIAObjectsPDB"	 Source="..\bin\$(var.Configuration)\LPUIAObjects.pdb"/>
+          <File Id="ReplayEnginePDB"	 Source="..\bin\$(var.Configuration)\ReplayEngine.pdb"/>
+          <File Id="UIACalcTestPDB"	 Source="..\bin\$(var.Configuration)\UIACalcTest.pdb"/>
+          <File Id="UIAComWrapperPDB"	 Source="..\bin\$(var.Configuration)\UIAComWrapper.pdb"/>
+          <File Id="LPSpy_exePDB"	 Source="..\bin\$(var.Configuration)\LPSpy.pdb"/>
+          <Condition>$(var.Configuration) = "Debug"</Condition>
+        </Component>
+        <ComponentRef Id="ApplicationShortcut" />
+      <ComponentRef Id="DesktopFolderShortcut" />
+
+    </ComponentGroup>
+
+    <ComponentGroup Id="LAPDocumentsComponents">
+      <Component Id="LAPHelpComponent" Guid="{288AF2E6-EE53-4E59-8633-612336415D38}"  Directory="LAPINSTALLSDKDOC">
+        <File Id="LAPUserGuide_zhcn"	 Source="..\..\help\LAP User Guide.pdf"/>
+      </Component>
+    </ComponentGroup>
+
+    <ComponentGroup Id="LAPSampleComponents">
+      <Component Id="LAPSampleComponent" Guid="{F44A79D4-A117-455A-8DCC-F0661B4594AA}"  Directory="LAPINSTALLSDKSAMPLE">
+        <File Id="LAPSample_SimpleStyles"	 Source="..\..\samples\bin\$(var.Configuration)\SimpleStyles.exe"/>
+      </Component>
+    </ComponentGroup>
+
+  </Fragment>
+ 
+</Wix>

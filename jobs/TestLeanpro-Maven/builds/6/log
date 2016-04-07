@@ -1,0 +1,413 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven
+[TestLeanpro-Maven] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson5625082408155999230.bat
+
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven>xcopy /E /Y  D:\mytestcode\testSelenium  C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven 
+D:\mytestcode\testSelenium\.classpath
+D:\mytestcode\testSelenium\.gitignore
+D:\mytestcode\testSelenium\.project
+D:\mytestcode\testSelenium\pom.xml
+D:\mytestcode\testSelenium\.settings\org.eclipse.core.resources.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.core.runtime.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.jdt.core.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.m2e.core.prefs
+D:\mytestcode\testSelenium\screenshot\Failures\class java.lang.String.testResponseAPost.2015-12-17-01-05-24.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testAdminlogin.2015-12-17-11-27-04.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-01-05-32.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-01-05-36.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-01-11-23.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-01-11-27.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-02-01-56.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-02-02-02.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-02-05-43.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-02-05-48.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-11-16-56.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-11-17-00.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-11-24-25.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-17-11-24-29.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testchooseSection.2015-12-17-01-05-37.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testchooseSection.2015-12-17-01-11-28.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testchooseSection.2015-12-17-02-02-07.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testchooseSection.2015-12-17-02-05-53.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testchooseSection.2015-12-17-11-17-02.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testchooseSection.2015-12-17-11-24-30.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-16-09-34-08.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-16-09-43-22.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-17-01-05-09.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-17-01-10-56.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-17-02-01-14.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-17-02-05-03.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-17-11-01-59.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-17-11-06-52.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-17-11-12-21.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-17-11-13-48.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-17-11-16-29.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-17-11-24-02.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-16-09-34-24.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-16-09-43-37.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-17-01-05-17.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-17-01-11-04.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-17-02-01-28.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-17-02-05-16.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-17-11-02-07.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-17-11-07-00.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-17-11-12-29.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-17-11-13-56.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-17-11-16-37.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testEditAPost.2015-12-17-11-24-11.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-16-09-34-42.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-16-09-43-54.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-17-01-11-15.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-17-02-01-42.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-17-02-05-30.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-17-11-02-18.png
+D:\mytestcode\testSelenium\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-17-11-16-48.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-04-32-50.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-04-32-54.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-04-38-49.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-04-38-53.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-04-43-41.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-04-43-46.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-04-47-21.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-04-47-25.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-04-53-29.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-04-53-34.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-05-00-24.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-17-05-00-29.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-03-35-32.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-03-35-37.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-03-42-07.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-03-42-12.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-03-44-21.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-03-44-33.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-03-54-45.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-03-54-51.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-03-59-05.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-03-59-10.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-04-00-59.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-04-01-04.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-10-26-53.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-10-27-05.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-10-40-58.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-10-41-03.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-11-13-56.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-21-11-14-01.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-22-06-32-15.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testbbsLogin.2015-12-22-06-32-20.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-17-04-33-00.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-17-04-38-58.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-17-04-43-50.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-17-04-47-30.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-17-04-53-38.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-17-05-00-34.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-21-03-35-41.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-21-03-42-17.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-21-03-44-43.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-21-03-55-01.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-21-03-59-18.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-21-04-01-10.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-21-10-27-18.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-21-10-41-08.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-21-11-14-05.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBS.testchooseSection.2015-12-22-06-32-26.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testCreateANewPost.2015-12-17-04-32-09.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testCreateANewPost.2015-12-17-04-38-10.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testCreateANewPost.2015-12-17-04-43-02.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testCreateANewPost.2015-12-17-04-46-42.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testCreateANewPost.2015-12-17-04-52-49.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testCreateANewPost.2015-12-17-04-59-45.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testCreateANewPost.2015-12-21-10-25-56.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testCreateANewPost.2015-12-21-10-40-13.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testEditAPost.2015-12-17-04-32-23.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testEditAPost.2015-12-17-04-38-23.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testEditAPost.2015-12-17-04-43-15.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testEditAPost.2015-12-17-04-46-54.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testEditAPost.2015-12-17-04-53-02.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testEditAPost.2015-12-17-04-59-56.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testEditAPost.2015-12-21-10-26-23.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testEditAPost.2015-12-21-10-40-30.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testResponseAPost.2015-12-17-04-32-36.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testResponseAPost.2015-12-17-04-38-36.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testResponseAPost.2015-12-17-04-43-28.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testResponseAPost.2015-12-17-04-47-07.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testResponseAPost.2015-12-17-04-53-15.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testResponseAPost.2015-12-17-05-00-10.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testResponseAPost.2015-12-21-10-26-36.png
+D:\mytestcode\testSelenium\screenshot\Success\TestBBSPage.testResponseAPost.2015-12-21-10-40-44.png
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\annotation\Column.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\annotation\ExcelSign.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\BooleanTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\DateTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\DoubleTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\IntegerTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\StringTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\TypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\TypeConverters.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\BBSPostModle.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\PostContent.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\Users.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AddNewPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AdminLoginPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AllPostsPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSAddNewPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSAllPagePost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSEditeAPost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSNewPost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSResponsePost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\DeletePostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\EditPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\SearchPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\UserLoginBBS.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\BaseTest.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\SuiteBases.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\CollectionUtils.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\EachFieldCallback.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ExOM.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ReflectionUtils.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ReportUtil.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ScreenShotUtils.java
+D:\mytestcode\testSelenium\src\main\resources\Param.properties
+D:\mytestcode\testSelenium\src\main\resources\testdata.xlsx
+D:\mytestcode\testSelenium\src\main\resources\testng.xml
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestABC.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestBBS.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestBBSPage.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestLeanproPage.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestLogin.java
+D:\mytestcode\testSelenium\target\classes\Param.properties
+D:\mytestcode\testSelenium\target\classes\testdata.xlsx
+D:\mytestcode\testSelenium\target\classes\testng.xml
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\annotation\Column.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\annotation\ExcelSign.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\BooleanTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\DateTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\DoubleTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\IntegerTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\StringTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\TypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\TypeConverters.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\BBSPostModle.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\PostContent.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\Users.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AddNewPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AdminLoginPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AllPostsPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSAddNewPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSAllPagePost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSEditeAPost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSNewPost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSResponsePost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\DeletePostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\EditPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\SearchPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\UserLoginBBS.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\BaseTest.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\SuiteBases.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\CollectionUtils.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\EachFieldCallback.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM$1.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM$2.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ReflectionUtils.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ReportUtil.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ScreenShotUtils.class
+D:\mytestcode\testSelenium\target\classes\META-INF\MANIFEST.MF
+D:\mytestcode\testSelenium\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.properties
+D:\mytestcode\testSelenium\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.xml
+D:\mytestcode\testSelenium\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+D:\mytestcode\testSelenium\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+D:\mytestcode\testSelenium\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst
+D:\mytestcode\testSelenium\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst
+D:\mytestcode\testSelenium\target\surefire-reports\bullet_point.png
+D:\mytestcode\testSelenium\target\surefire-reports\cn.leanpro.pageobjects.test.TestBBS.txt
+D:\mytestcode\testSelenium\target\surefire-reports\collapseall.gif
+D:\mytestcode\testSelenium\target\surefire-reports\emailable-report.html
+D:\mytestcode\testSelenium\target\surefire-reports\failed.png
+D:\mytestcode\testSelenium\target\surefire-reports\index.html
+D:\mytestcode\testSelenium\target\surefire-reports\jquery-1.7.1.min.js
+D:\mytestcode\testSelenium\target\surefire-reports\navigator-bullet.png
+D:\mytestcode\testSelenium\target\surefire-reports\passed.png
+D:\mytestcode\testSelenium\target\surefire-reports\report.html
+D:\mytestcode\testSelenium\target\surefire-reports\skipped.png
+D:\mytestcode\testSelenium\target\surefire-reports\TEST-cn.leanpro.pageobjects.test.TestBBS.xml
+D:\mytestcode\testSelenium\target\surefire-reports\TEST-TestSuite.xml
+D:\mytestcode\testSelenium\target\surefire-reports\testng-failed.xml
+D:\mytestcode\testSelenium\target\surefire-reports\testng-reports.css
+D:\mytestcode\testSelenium\target\surefire-reports\testng-reports.js
+D:\mytestcode\testSelenium\target\surefire-reports\testng-results.xml
+D:\mytestcode\testSelenium\target\surefire-reports\testng.css
+D:\mytestcode\testSelenium\target\surefire-reports\TestSuite.txt
+D:\mytestcode\testSelenium\target\surefire-reports\cn.leanpro.pageobjects.test.TestBBS\Command line test.html
+D:\mytestcode\testSelenium\target\surefire-reports\cn.leanpro.pageobjects.test.TestBBS\Command line test.xml
+D:\mytestcode\testSelenium\target\surefire-reports\Command line suite\Command line test.html
+D:\mytestcode\testSelenium\target\surefire-reports\Command line suite\Command line test.xml
+D:\mytestcode\testSelenium\target\surefire-reports\Command line suite\testng-failed.xml
+D:\mytestcode\testSelenium\target\surefire-reports\junitreports\TEST-cn.leanpro.pageobjects.Test.TestBBS.xml
+D:\mytestcode\testSelenium\target\surefire-reports\junitreports\TEST-cn.leanpro.pageobjects.Test.TestBBSPage.xml
+D:\mytestcode\testSelenium\target\surefire-reports\junitreports\TEST-cn.leanpro.pageobjects.test.TestLeanproPage.xml
+D:\mytestcode\testSelenium\target\surefire-reports\junitreports\TEST-cn.leanpro.pageobjects.test.TestLogin.xml
+D:\mytestcode\testSelenium\target\surefire-reports\old\index.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\cn.leanpro.pageobjects.test.TestBBS\classes.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\cn.leanpro.pageobjects.test.TestBBS\Command line test.properties
+D:\mytestcode\testSelenium\target\surefire-reports\old\cn.leanpro.pageobjects.test.TestBBS\groups.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\cn.leanpro.pageobjects.test.TestBBS\index.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\cn.leanpro.pageobjects.test.TestBBS\main.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\cn.leanpro.pageobjects.test.TestBBS\methods-alphabetical.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\cn.leanpro.pageobjects.test.TestBBS\methods-not-run.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\cn.leanpro.pageobjects.test.TestBBS\methods.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\cn.leanpro.pageobjects.test.TestBBS\reporter-output.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\cn.leanpro.pageobjects.test.TestBBS\testng.xml.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\cn.leanpro.pageobjects.test.TestBBS\toc.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Command line suite\classes.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Command line suite\Command line test.properties
+D:\mytestcode\testSelenium\target\surefire-reports\old\Command line suite\groups.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Command line suite\index.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Command line suite\main.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Command line suite\methods-alphabetical.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Command line suite\methods-not-run.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Command line suite\methods.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Command line suite\reporter-output.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Command line suite\testng.xml.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Command line suite\toc.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Suite1\classes.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Suite1\groups.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Suite1\index.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Suite1\main.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Suite1\methods-alphabetical.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Suite1\methods-not-run.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Suite1\methods.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Suite1\Nopackage.properties
+D:\mytestcode\testSelenium\target\surefire-reports\old\Suite1\reporter-output.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Suite1\testng.xml.html
+D:\mytestcode\testSelenium\target\surefire-reports\old\Suite1\toc.html
+D:\mytestcode\testSelenium\target\surefire-reports\Suite1\Nopackage.html
+D:\mytestcode\testSelenium\target\surefire-reports\Suite1\Nopackage.xml
+D:\mytestcode\testSelenium\target\surefire-reports\Suite1\testng-failed.xml
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestABC.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestBBS.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestBBSPage.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestLeanproPage.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestLogin.class
+D:\mytestcode\testSelenium\test-output\bullet_point.png
+D:\mytestcode\testSelenium\test-output\collapseall.gif
+D:\mytestcode\testSelenium\test-output\emailable-report.html
+D:\mytestcode\testSelenium\test-output\failed.png
+D:\mytestcode\testSelenium\test-output\index.html
+D:\mytestcode\testSelenium\test-output\jquery-1.7.1.min.js
+D:\mytestcode\testSelenium\test-output\navigator-bullet.png
+D:\mytestcode\testSelenium\test-output\passed.png
+D:\mytestcode\testSelenium\test-output\skipped.png
+D:\mytestcode\testSelenium\test-output\testng-failed.xml
+D:\mytestcode\testSelenium\test-output\testng-reports.css
+D:\mytestcode\testSelenium\test-output\testng-reports.js
+D:\mytestcode\testSelenium\test-output\testng-results.xml
+D:\mytestcode\testSelenium\test-output\testng.css
+D:\mytestcode\testSelenium\test-output\Default suite\Default test.html
+D:\mytestcode\testSelenium\test-output\Default suite\Default test.xml
+D:\mytestcode\testSelenium\test-output\Default suite\testng-failed.xml
+D:\mytestcode\testSelenium\test-output\junitreports\TEST-cn.leanpro.pageobjects.Test.TestABC.xml
+D:\mytestcode\testSelenium\test-output\junitreports\TEST-cn.leanpro.pageobjects.Test.TestBBS.xml
+D:\mytestcode\testSelenium\test-output\junitreports\TEST-cn.leanpro.pageobjects.Test.TestBBSPage.xml
+D:\mytestcode\testSelenium\test-output\junitreports\TEST-cn.leanpro.pageobjects.Test.TestLeanproPage.xml
+D:\mytestcode\testSelenium\test-output\junitreports\TEST-cn.leanpro.pageobjects.Test.TestLogin.xml
+D:\mytestcode\testSelenium\test-output\old\index.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\classes.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\Default test.properties
+D:\mytestcode\testSelenium\test-output\old\Default suite\groups.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\index.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\main.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\methods-alphabetical.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\methods-not-run.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\methods.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\reporter-output.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\testng.xml.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\toc.html
+¸´ÖÆÁË 319 ¸öÎÄ¼þ
+
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven>exit 0 
+[TestLeanpro-Maven] $ cmd.exe /C '"D:\dev\tools\apache-maven\bin\mvn.cmd test && exit %%ERRORLEVEL%%"'
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building testSelenium 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ testSelenium ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 32 source files to C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes
+[INFO] /C:/Users/zack/.jenkins/workspace/TestLeanpro-Maven/src/main/java/cn/leanpro/util/ReflectionUtils.java: Ä³Ð©ÊäÈëÎÄ¼þÊ¹ÓÃÁËÎ´¾­¼ì²é»ò²»°²È«µÄ²Ù×÷¡£
+[INFO] /C:/Users/zack/.jenkins/workspace/TestLeanpro-Maven/src/main/java/cn/leanpro/util/ReflectionUtils.java: ÓÐ¹ØÏêÏ¸ÐÅÏ¢, ÇëÊ¹ÓÃ -Xlint:unchecked ÖØÐÂ±àÒë¡£
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\test\resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ testSelenium ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\test-classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ testSelenium ---
+[INFO] Surefire report directory: C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+¿ªÊ¼²âÊÔ
+ hi  creating driver....
+this is getting driver....
+
+yes
+this is getting driver....
+screenshot/Success/TestBBSPage.testCreateANewPost.2015-12-23-10-07-30.png
+yes
+this is getting driver....
+screenshot/Success/TestBBSPage.testEditAPost.2015-12-23-10-07-42.png
+yes
+this is getting driver....
+screenshot/Success/TestBBSPage.testResponseAPost.2015-12-23-10-07-56.png
+½áÊø²âÊÔ
+Ê®¶þÔÂ 23, 2015 10:07:56 ÉÏÎç com.relevantcodes.extentreports.Configuration <init>
+ÐÅÏ¢: Configurating report from file:/C:/Users/zack/.m2/repository/com/relevantcodes/extentreports/2.40/extentreports-2.40.jar!/com/relevantcodes/extentreports/resources/extent-config.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\report.html
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.999 sec - in TestSuite
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:01 min
+[INFO] Finished at: 2015-12-23T10:07:58+08:00
+[INFO] Final Memory: 26M/226M
+[INFO] ------------------------------------------------------------------------
+Preparing TestLink client API.
+Using TestLink URL: http://www.leanpro.cn/testlink1/lib/api/xmlrpc/v1/xmlrpc.php
+
+Found 0 automated test cases in TestLink.
+
+Sorting automated test cases by TestLink test plan execution order.
+
+Executing single Build Steps.
+
+Executing iterative Build Steps.
+
+Looking for the test results of TestLink test cases.
+
+Looking for test results in TestNG methods by its name.
+
+Found 0 test result(s).
+
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+testng-results.xml was last modified before this build started. Ignoring it.
+Saving reports...
+Processing 'C:\Users\zack\.jenkins\jobs\TestLeanpro-Maven\builds\6\testng\testng-results.xml'
+TestNG Reports Processing: FINISH
+Finished: SUCCESS

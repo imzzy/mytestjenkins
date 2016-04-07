@@ -1,0 +1,13 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9qsTkbADWEvs8vwAAAA==[0mzack
+Building in workspace C:\Users\zack\.jenkins\workspace\jmeter-test
+[jmeter-test] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson7182041624000731042.bat
+
+C:\Users\zack\.jenkins\workspace\jmeter-test>cd D:\dev\apache-jmeter-2.13\bin 
+
+C:\Users\zack\.jenkins\workspace\jmeter-test>jmeter -n -t C:\Users\zack\Desktop\lily\¶©µ¥.jmx -l test-reports\test_reports.jtl 
+'jmeter' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËÐÐµÄ³ÌÐò
+»òÅú´¦ÀíÎÄ¼þ¡£
+
+C:\Users\zack\.jenkins\workspace\jmeter-test>exit 9009 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

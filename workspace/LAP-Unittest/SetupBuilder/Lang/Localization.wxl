@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Language">1033</String>
+  <String Id="Codepage">1252</String>
+	<String Id="AppName">Lean Automation Platform</String>
+  <String Id="NETFrameWorkMessage">This application requires .NET Framework 4.5. Please install the .NET Framework then run this installer again</String>
+  <String Id="CompanyName">LeanPro Inc.</String>
+  <String Id="FeatureDescription_LAPCore">Lean Automation Platform</String>
+  <String Id="FeatureDescription_LAPDocuments">LAP Documents</String>
+  <String Id="FeatureDescription_VSIntegation">Visual Studio Integation</String>
+  <String Id="FeatureDescription_VSIntegation2012">Visual Studio 2012</String>
+  <String Id="FeatureDescription_VSIntegation2013">Visual Studio 2013</String>
+  <String Id="FeatureDescription_VSIntegation2015">Visual Studio 2015</String>
+  <String Id="FeatureDescription_LAPSamples">LAP Samples</String>
+  <String Id="ExitDialog_Launch_Checkbox_Description">Launch Lean Automation Platform</String>
+  <String Id="ExitDialog_Dialog_Description">Thank you for installing Lean Automation Platform</String>
+  <String Id="Shortcut_Description">Thank you for installing Lean Automation Platform</String>
+  <String Id="Uninstall_App_Description">Uninstalls Lean Automation Platform</String>
+</WixLocalization>

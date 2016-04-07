@@ -1,0 +1,5 @@
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResourceManager.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LAPResourceManager.pdb
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResourceManager\obj\Debug\LAPResourceManager.csprojResolveAssemblyReference.cache
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResourceManager\obj\Debug\LAPResourceManager.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LAPResources\LAPResourceManager\obj\Debug\LAPResourceManager.pdb

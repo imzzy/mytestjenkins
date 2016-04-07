@@ -1,0 +1,40 @@
+﻿{
+  "ntype": "app",
+  "process": null,
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": null,
+      "description": null,
+      "identifyProperties": {
+        "type": "Window"
+      },
+      "children": [
+        {
+          "ntype": "virtual",
+          "nname": "all",
+          "description": null,
+          "identifyProperties": {
+			"boundingRectangle": "1003,364,167,28"
+          }
+        },
+		{
+          "ntype": "virtual",
+          "nname": "salary",
+          "description": null,
+          "identifyProperties": {
+			"boundingRectangle": "11, 102, 199, 74"
+          }
+        },
+		{
+          "ntype": "virtual",
+          "nname": "commission",
+          "description": null,
+          "identifyProperties": {
+			"boundingRectangle": "12, 185, 201, 80"
+          }
+        }
+      ]
+    }
+  ]
+}

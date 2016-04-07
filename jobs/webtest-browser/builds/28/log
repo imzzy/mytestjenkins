@@ -1,0 +1,57 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\webtest-browser
+Cloning the remote Git repository
+Using no checkout clone with sparse checkout.
+Cloning repository https://99robo.visualstudio.com/DefaultCollection/_git/R2D2
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe init C:\Users\zack\.jenkins\workspace\webtest-browser # timeout=10
+Fetching upstream changes from https://99robo.visualstudio.com/DefaultCollection/_git/R2D2
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe --version # timeout=10
+using .gitcredentials to set credentials
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe config --local credential.username zack # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe config --local credential.helper store --file=\"C:\Users\zack\AppData\Local\Temp\git2791153651831273525.credentials\" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe -c core.askpass=true fetch --tags --progress https://99robo.visualstudio.com/DefaultCollection/_git/R2D2 +refs/heads/*:refs/remotes/origin/*
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe config --local --remove-section credential # timeout=10
+ERROR: Error cloning remote repo 'origin'
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mhudson.plugins.git.GitException: Command "C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe -c core.askpass=true fetch --tags --progress https://99robo.visualstudio.com/DefaultCollection/_git/R2D2 +refs/heads/*:refs/remotes/origin/*" returned status code 128:
+stdout: 
+stderr: remote: 
+remote:                    vSTs           
+remote:                  vSTSVSTSv        
+remote:                vSTSVSTSVST        
+remote: VSTS         vSTSVSTSVSTSV        
+remote: VSTSVS     vSTSVSTSV STSVS        
+remote: VSTSVSTSvsTSVSTSVS   TSVST        
+remote: VS  tSVSTSVSTSv      STSVS        
+remote: VS   tSVSTSVST       SVSTS        
+remote: VS tSVSTSVSTSVSts    VSTSV        
+remote: VSTSVST    SVSTSVSTs VSTSV        
+remote: VSTSv        STSVSTSVSTSVS        
+remote:                VSTSVSTSVST        
+remote:                  VSTSVSTs        
+remote:                    VSTs    (TM)        
+remote: 
+remote:  Microsoft (R) Visual Studio (R) Team Services        
+remote: 
+Receiving objects:   0% (1/13796)   Receiving objects:   0% (7/13796), 643.79 KiB | 569.00 KiB/s   Receiving objects:   0% (7/13796), 2.07 MiB | 933.00 KiB/s   Receiving objects:   0% (7/13796), 2.13 MiB | 690.00 KiB/s   Receiving objects:   0% (7/13796), 2.57 MiB | 600.00 KiB/s   Receiving objects:   0% (7/13796), 3.07 MiB | 558.00 KiB/s   Receiving objects:   0% (7/13796), 3.38 MiB | 568.00 KiB/s   Receiving objects:   0% (7/13796), 4.00 MiB | 450.00 KiB/s   Receiving objects:   0% (7/13796), 4.81 MiB | 519.00 KiB/s   Receiving objects:   0% (7/13796), 5.69 MiB | 618.00 KiB/s   Receiving objects:   0% (7/13796), 5.75 MiB | 467.00 KiB/s   Receiving objects:   0% (7/13796), 6.00 MiB | 457.00 KiB/s   Receiving objects:   0% (7/13796), 6.38 MiB | 412.00 KiB/s   Receiving objects:   0% (7/13796), 6.56 MiB | 375.00 KiB/s   Receiving objects:   0% (7/13796), 6.69 MiB | 326.00 KiB/s   Receiving objects:   0% (7/13796), 6.94 MiB | 226.00 KiB/s   Receiving objects:   0% (7/13796), 7.00 MiB | 102.00 KiB/s   Receiving objects:   0% (7/13796), 7.06 MiB | 112.00 KiB/s   Receiving objects:   0% (7/13796), 7.13 MiB | 95.00 KiB/s   Receiving objects:   0% (7/13796), 7.25 MiB | 74.00 KiB/s   Receiving objects:   0% (7/13796), 7.38 MiB | 69.00 KiB/s   Receiving objects:   0% (7/13796), 7.50 MiB | 69.00 KiB/s   Receiving objects:   0% (8/13796), 7.63 MiB | 70.00 KiB/s   Receiving objects:   0% (39/13796), 8.00 MiB | 158.00 KiB/s   Receiving objects:   0% (39/13796), 8.13 MiB | 175.00 KiB/s   Receiving objects:   0% (39/13796), 8.25 MiB | 176.00 KiB/s   Receiving objects:   0% (39/13796), 8.50 MiB | 185.00 KiB/s   Receiving objects:   0% (39/13796), 8.63 MiB | 190.00 KiB/s   Receiving objects:   0% (39/13796), 8.88 MiB | 197.00 KiB/s   Receiving objects:   0% (39/13796), 9.25 MiB | 210.00 KiB/s   Receiving objects:   0% (39/13796), 9.44 MiB | 220.00 KiB/s   Receiving objects:   0% (39/13796), 9.81 MiB | 267.00 KiB/s   Receiving objects:   0% (39/13796), 10.31 MiB | 322.00 KiB/s   Receiving objects:   0% (39/13796), 10.56 MiB | 343.00 KiB/s   Receiving objects:   0% (39/13796), 11.00 MiB | 377.00 KiB/s   Receiving objects:   0% (39/13796), 11.38 MiB | 377.00 KiB/s   Receiving objects:   0% (39/13796), 11.63 MiB | 378.00 KiB/s   Receiving objects:   0% (39/13796), 12.06 MiB | 376.00 KiB/s   Receiving objects:   0% (39/13796), 12.56 MiB | 379.00 KiB/s   Receiving objects:   0% (39/13796), 12.87 MiB | 394.00 KiB/s   Receiving objects:   0% (39/13796), 13.56 MiB | 448.00 KiB/s   Receiving objects:   0% (39/13796), 14.44 MiB | 531.00 KiB/s   Receiving objects:   0% (39/13796), 14.75 MiB | 559.00 KiB/s   Receiving objects:   0% (39/13796), 15.37 MiB | 551.00 KiB/s   Receiving objects:   0% (39/13796), 15.56 MiB | 528.00 KiB/s   Receiving objects:   0% (39/13796), 15.75 MiB | 416.00 KiB/s   Receiving objects:   0% (39/13796), 15.81 MiB | 365.00 KiB/s   Receiving objects:   0% (39/13796), 15.87 MiB | 196.00 KiB/s   Receiving objects:   0% (39/13796), 15.94 MiB | 83.00 KiB/s   Receiving objects:   0% (39/13796), 16.00 MiB | 68.00 KiB/s   Receiving objects:   0% (39/13796), 16.06 MiB | 54.00 KiB/s   Receiving objects:   0% (39/13796), 16.12 MiB | 41.00 KiB/s   Receiving objects:   0% (39/13796), 16.31 MiB | 38.00 KiB/s   Receiving objects:   0% (39/13796), 16.44 MiB | 38.00 KiB/s   fatal: early EOF
+fatal: The remote end hung up unexpectedly
+fatal: index-pack failed
+error: RPC failed; result=56, HTTP code = 200
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:1693)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1441)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$300(CliGitAPIImpl.java:62)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:313)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$2.execute(CliGitAPIImpl.java:505)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1013)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1053)
+	at hudson.scm.SCM.checkout(SCM.java:485)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1276)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:607)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:86)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:529)
+	at hudson.model.Run.execute(Run.java:1738)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:410)
+ERROR: null
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFinished: FAILURE

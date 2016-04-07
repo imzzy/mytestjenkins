@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.BatchFile>
+      <command>d:&#xd;
+cd D:\xampp\mysql\bin&#xd;
+&#xd;
+mysqldump.exe -u r66ug84v1xx148oz -pW3lcome1 -h rdsk2qktqkge38ft5wg9k.mysql.rds.aliyuncs.com r66ug84v1xx148oz &gt; %JENKINS_HOME%\jobs\%JOB_NAME%\builds\%BUILD_NUMBER%\mysqlTest.sql</command>
+    </hudson.tasks.BatchFile>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

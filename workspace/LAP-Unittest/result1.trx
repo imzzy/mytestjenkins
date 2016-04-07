@@ -1,0 +1,1174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="eea513bd-ab67-4726-b94c-cc53aec7fd60" name="zack@ZACK-PC 2016-03-28 15:23:28" runUser="ZACK-PC\zack" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="LAP" id="056dc058-e536-445f-b96f-0671d7ea1b83">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\zack\.jenkins\workspace\LAP-Unittest" useDefaultDeploymentRoot="false" runDeploymentRoot="zack_ZACK-PC 2016-03-28 15_23_28">
+      <DeploymentItem filename="bin\Debug\CalcAppModel.json" />
+      <DeploymentItem filename="..\samples\bin\QtCore4.dll" />
+      <DeploymentItem filename="bin\Debug\UnitTest\" outputDirectory="UnitTest" />
+      <DeploymentItem filename="bin\Debug\WebDriver.dll" />
+      <DeploymentItem filename="bin\Debug\chromedriver.exe" />
+      <DeploymentItem filename="..\samples\bin\calculator.exe" />
+      <DeploymentItem filename="bin\Debug\LPLogger.config.xml" />
+      <DeploymentItem filename="bin\Debug\ThoughtWorks.Selenium.Core.dll" />
+      <DeploymentItem filename="..\samples\bin\QtGui4.dll" />
+      <DeploymentItem filename="bin\Debug\WebDriver.Support.dll" />
+      <DeploymentItem filename="bin\Debug\Interop.UIAutomationClient.dll" />
+      <DeploymentItem filename="bin\Debug\ObjectModel2.json" />
+      <DeploymentItem filename="bin\Debug\UnitTestObjectModel1.json" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 9.0" MaxConnections="6">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2016-03-28T15:23:28.0370961+08:00" queuing="2016-03-28T15:23:28.5813456+08:00" start="2016-03-28T15:23:28.6694675+08:00" finish="2016-03-28T15:24:41.4834796+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="112" executed="112" passed="96" error="2" failed="14" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdErr>log4net:ERROR XmlHierarchyConfigurator: No appender named [BufferingForwardingAppender] could be found.
+log4net:ERROR Appender named [BufferingForwardingAppender] not found.
+log4net:ERROR XmlHierarchyConfigurator: No appender named [DebugAppender] could be found.
+log4net:ERROR Appender named [DebugAppender] not found.
+</StdErr>
+      <DebugTrace>log4net:ERROR XmlHierarchyConfigurator: No appender named [BufferingForwardingAppender] could be found.
+log4net:ERROR Appender named [BufferingForwardingAppender] not found.
+log4net:ERROR XmlHierarchyConfigurator: No appender named [DebugAppender] could be found.
+log4net:ERROR Appender named [DebugAppender] not found.
+1
+</DebugTrace>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="ZACK-PC" outcome="Warning" timestamp="2016-03-28T15:23:28.4094820+08:00">
+        <Text>警告:  测试运行部署问题:  未能获得 部署项“..\samples\bin\QtCore4.dll”由测试设置指定 的文件:  System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\zack\.jenkins\workspace\samples\bin\QtCore4.dll”的一部分。</Text>
+        <Exception>System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\zack\.jenkins\workspace\samples\bin\QtCore4.dll”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.GetAttributes(String path)
+   在 Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   在 Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   在 Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ZACK-PC" outcome="Warning" timestamp="2016-03-28T15:23:28.4563643+08:00">
+        <Text>警告:  测试运行部署问题:  未能获得 部署项“..\samples\bin\calculator.exe”由测试设置指定 的文件:  System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\zack\.jenkins\workspace\samples\bin\calculator.exe”的一部分。</Text>
+        <Exception>System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\zack\.jenkins\workspace\samples\bin\calculator.exe”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.GetAttributes(String path)
+   在 Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   在 Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   在 Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ZACK-PC" outcome="Warning" timestamp="2016-03-28T15:23:28.4875968+08:00">
+        <Text>警告:  测试运行部署问题:  未能获得 部署项“..\samples\bin\QtGui4.dll”由测试设置指定 的文件:  System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\zack\.jenkins\workspace\samples\bin\QtGui4.dll”的一部分。</Text>
+        <Exception>System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\zack\.jenkins\workspace\samples\bin\QtGui4.dll”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.GetAttributes(String path)
+   在 Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   在 Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   在 Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ZACK-PC" outcome="Warning" timestamp="2016-03-28T15:23:28.5188647+08:00">
+        <Text>警告:  测试运行部署问题:  未能获得 部署项“bin\Debug\Interop.UIAutomationClient.dll”由测试设置指定 的文件:  System.IO.FileNotFoundException: 未能找到文件“C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\Interop.UIAutomationClient.dll”。</Text>
+        <Exception>System.IO.FileNotFoundException: 未能找到文件“C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\Interop.UIAutomationClient.dll”。
+文件名:“C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\Interop.UIAutomationClient.dll”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.GetAttributes(String path)
+   在 Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   在 Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   在 Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ZACK-PC" outcome="Error" timestamp="2016-03-28T15:24:41.4504524+08:00">
+        <Text>类清理方法 UIAConditionMatcherTest.Cleanup 失败。错误消息:  System.InvalidOperationException: 没有与此对象关联的进程。。堆栈跟踪:     在 System.Diagnostics.Process.EnsureState(State state)
+   在 System.Diagnostics.Process.get_HasExited()
+   在 LPReplayCore.UnitTest.TestUtility.ExitWindowCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 79
+   在 LPUIAObjects.UnitTest.UIAConditionMatcherTest.Cleanup() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\UnitTest\UIAConditionMatcherTest.cs:行号 56
+</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FileChangeNotifier" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="e2ef9746-31f5-307c-e931-0882f93762f5">
+      <Execution timeOut="1800000" id="53fdabbb-1529-4b7d-af30-c06ca27fa306" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TempUnitTests, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FileChangeNotifier" />
+    </UnitTest>
+    <UnitTest name="AppModelManager_LoadReplayOnly" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="bbd2ffca-76df-3561-d6dc-4cc92ff94e87">
+      <Execution timeOut="1800000" id="aff5423d-01e7-440c-a040-9caf95d574a8" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.JsonSerializerTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModelManager_LoadReplayOnly" />
+    </UnitTest>
+    <UnitTest name="ArrayHandlerTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="f466872a-07a5-ce14-8766-689a8dd15f37">
+      <Execution timeOut="1800000" id="6896a097-f63e-4089-9caf-76af8fe12bff" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TempUnitTests, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ArrayHandlerTest" />
+    </UnitTest>
+    <UnitTest name="Snapshot_CaptureInflatedRectangle" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpcommon.dll" id="8aeca674-961d-2d01-1352-30335790a539">
+      <Execution timeOut="1800000" id="27e76755-5108-4922-8be6-9aef832b4270" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPCommon.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPCommon.SnapshotTest, LPCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad29f7f394a2ead" name="Snapshot_CaptureInflatedRectangle" />
+    </UnitTest>
+    <UnitTest name="UIATestObject_NoCachedProperties" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="73b0abb0-79b4-6104-975b-b9e38791d952">
+      <Execution timeOut="1800000" id="5f555bd9-4e94-4312-ae49-b586690776f3" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIATestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIATestObject_NoCachedProperties" />
+    </UnitTest>
+    <UnitTest name="LPConfig_GetUserConfigPath" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="bc9af31f-7be1-59bf-4051-3bb7da03e6c5">
+      <Execution timeOut="1800000" id="96589872-ae69-4d9b-9aec-73fa65f9364a" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.LPConfigLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LPConfig_GetUserConfigPath" />
+    </UnitTest>
+    <UnitTest name="TestDragAndDrop3" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpwebobjects.dll" id="fee81fe5-1f17-9495-cdfd-47a9b68650c0">
+      <Execution timeOut="1800000" id="43397624-1ba4-4479-b455-ca363990af26" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPWebObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPWebObjects.UnitTest.SeleniumTest, LPWebObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDragAndDrop3" />
+    </UnitTest>
+    <UnitTest name="ControlSearcher_GetCondition" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="22bbfd8d-1aad-bbee-4ddd-69f2c2998265">
+      <Execution timeOut="1800000" id="bc172cac-a8ab-490a-bbb8-0d502bbc64f5" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.ControlSearcherTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ControlSearcher_GetCondition" />
+    </UnitTest>
+    <UnitTest name="LPLogger_WriteWarning" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpcommon.dll" id="116add86-0ebf-aafb-0bf9-bf61b8d1ff1d">
+      <Execution timeOut="1800000" id="994e12fb-bbea-47e8-823e-e44c1031644b" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPCommon.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPCommon.LPLoggerTest, LPCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad29f7f394a2ead" name="LPLogger_WriteWarning" />
+    </UnitTest>
+    <UnitTest name="LPLogger_WriteError" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpcommon.dll" id="e5af192a-e386-f718-6e52-0c3a78019793">
+      <Execution timeOut="1800000" id="06d02a0a-9a59-4d09-9dc6-1ddbb9626029" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPCommon.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPCommon.LPLoggerTest, LPCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad29f7f394a2ead" name="LPLogger_WriteError" />
+    </UnitTest>
+    <UnitTest name="ObjectDescriptor_GetObjectData" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="855d748b-2d4c-6137-e5c0-6b48d1fa07df">
+      <Execution timeOut="1800000" id="1af011af-fcbf-45a5-8cf3-89de2eb59b84" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ObjectDescriptorTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObjectDescriptor_GetObjectData" />
+    </UnitTest>
+    <UnitTest name="AppModelManager_LoadFileMissing" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="4476eac1-b497-b853-e3f2-f39078c511ad">
+      <Execution timeOut="1800000" id="e2a5d99c-33ec-4f05-88b3-56fea355adab" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.JsonSerializerTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModelManager_LoadFileMissing" />
+    </UnitTest>
+    <UnitTest name="TestDragAndDrop6" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpwebobjects.dll" id="e3aec1bf-9e06-4914-8bbc-6e499581254b">
+      <Execution timeOut="1800000" id="dfaad799-a587-4357-8516-4c07b0967453" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPWebObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPWebObjects.UnitTest.SeleniumTest, LPWebObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDragAndDrop6" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_RemoveChild" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="20765945-874a-7443-a72e-bab9977f0289">
+      <Execution timeOut="1800000" id="1fa7cb3c-f226-4682-ad57-67ff86812287" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_RemoveChild" />
+    </UnitTest>
+    <UnitTest name="TestDragAndDrop2" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpwebobjects.dll" id="cef86e1f-ac14-f1f1-3473-9f1c6fa2dea3">
+      <Execution timeOut="1800000" id="748b50b8-59a8-4f5b-aee8-4d155f1d8690" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPWebObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPWebObjects.UnitTest.SeleniumTest, LPWebObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDragAndDrop2" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_ctor" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="a89b58ac-90c3-879c-a74f-bc9a6cf6be8e">
+      <Execution timeOut="1800000" id="07328fc3-82ca-486b-9275-81908b8d5f49" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_ctor" />
+    </UnitTest>
+    <UnitTest name="AppModelManager_LoadFull" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="e9b20887-1981-f22c-2538-a089cd98e84f">
+      <Execution timeOut="1800000" id="e7319106-7bf0-4a0a-85f7-d046d21afbbd" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.UnitTest.UIAConditionTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModelManager_LoadFull" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_AddTree" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="f03aa02d-b7c1-231a-83a9-6c794fd39a54">
+      <Execution timeOut="1800000" id="223000b3-9d23-481d-9793-33a3e8de2d10" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_AddTree" />
+    </UnitTest>
+    <UnitTest name="ObjectDescriptor_SerializeVirtualTestObject" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="7f6b092a-a0cd-e0e5-075b-e1565fc73957">
+      <Execution timeOut="1800000" id="c4899f5a-bdf0-4bce-83a2-cee5ffd5a784" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ObjectDescriptorTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObjectDescriptor_SerializeVirtualTestObject" />
+    </UnitTest>
+    <UnitTest name="ObjectDescriptor_EqualsPositive" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="0bc6b3e0-2497-0ceb-3f69-d14825cbab2e">
+      <Execution timeOut="1800000" id="c8b6d6fe-fddb-4f2e-a7b2-e40ae2d09a34" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ObjectDescriptorTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObjectDescriptor_EqualsPositive" />
+    </UnitTest>
+    <UnitTest name="ObjectDescriptor_Serialization" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="55d14987-2e11-1614-e351-a422f0bfe140">
+      <Execution timeOut="1800000" id="086c0ab0-7b94-430b-93a5-9f5406da2d96" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ObjectDescriptorTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObjectDescriptor_Serialization" />
+    </UnitTest>
+    <UnitTest name="DataRowExtension_ToEntity" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpcommon.dll" id="1cc439d1-960c-fbfe-28e7-1fc5037db04e">
+      <Execution timeOut="1800000" id="7289adbc-425f-4f75-b77c-8169b67c2e4c" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPCommon.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPCommon.DataRowExtensionTest, LPCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad29f7f394a2ead" name="DataRowExtension_ToEntity" />
+    </UnitTest>
+    <UnitTest name="ControlSearcher_GetTOTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="41241e95-695d-4548-089e-82b57a4e66f8">
+      <Execution timeOut="1800000" id="34f96cc5-fade-45a6-9209-67c3e758af83" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.ControlSearcherTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ControlSearcher_GetTOTest" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_NodeName" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="92a55033-1839-5bd6-a11d-d61877d9abea">
+      <Execution timeOut="1800000" id="efdec9e9-3ec4-477a-8fd1-d4c77cc30d29" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_NodeName" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_AddChild_NurseObject" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="8544c72b-57a6-fb09-80c4-df6996dc2937">
+      <Execution timeOut="1800000" id="8d5269ca-629b-4af8-8cfb-10443d7ef40a" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_AddChild_NurseObject" />
+    </UnitTest>
+    <UnitTest name="AppModel_ObjectCountTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="a7c1308f-bd5c-f0a4-fd91-02c121fdd341">
+      <Execution timeOut="1800000" id="8d649b1b-68f0-41d4-9ca0-c0276743022d" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.AppModelLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModel_ObjectCountTest" />
+    </UnitTest>
+    <UnitTest name="TestDragAndDrop4" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpwebobjects.dll" id="a902c186-16b8-27c4-8912-224d9d164eb6">
+      <Execution timeOut="1800000" id="2b806fc2-f2ca-4997-bb78-22b236cde58c" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPWebObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPWebObjects.UnitTest.SeleniumTest, LPWebObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDragAndDrop4" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_Children" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="10d7a038-89e9-d535-b980-3964dda57ad5">
+      <Execution timeOut="1800000" id="fb4d7330-104d-4278-96e2-dea6e1d940d8" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_Children" />
+    </UnitTest>
+    <UnitTest name="LPConfig_KeyNotExists" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="19e9a714-732e-8fdb-e4a1-c4128f51e77f">
+      <Execution timeOut="1800000" id="e7ed70b0-d307-4e6e-af57-43d4fc677ec0" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.LPConfigLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LPConfig_KeyNotExists" />
+    </UnitTest>
+    <UnitTest name="LPLogger_Test" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpcommon.dll" id="38ca1db4-ffa3-77ef-1f74-abd49bc0cb8a">
+      <Execution timeOut="1800000" id="7d8b8877-78f8-4b43-a10f-079df582239c" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPCommon.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPCommon.LPLoggerTest, LPCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad29f7f394a2ead" name="LPLogger_Test" />
+    </UnitTest>
+    <UnitTest name="UIATestObject_CachedProperties" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="4245cd78-e7a3-2f83-faed-51e12e8903ea">
+      <Execution timeOut="1800000" id="ffa6dd37-49f1-4477-8e63-d04ec9ecfc73" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIATestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIATestObject_CachedProperties" />
+    </UnitTest>
+    <UnitTest name="UIAHighlight_HighlightRectangle" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="12026806-b265-0731-b747-64f897a451da">
+      <Execution timeOut="1800000" id="368778f7-5ee3-4fbc-b60d-9cd095b23114" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIAHighlightTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIAHighlight_HighlightRectangle" />
+    </UnitTest>
+    <UnitTest name="UIAHighlight_SearchandHighlight_Virtual" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="0207a86a-27b3-381d-dba5-b6c7970ab1d2">
+      <Execution timeOut="1800000" id="d3c3cf3b-b8e5-4db3-ba61-46a7880be61a" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIAHighlightTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIAHighlight_SearchandHighlight_Virtual" />
+    </UnitTest>
+    <UnitTest name="ControlTypeConverter_CountTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="32563bdb-bb52-1e8a-2436-02b648b94780">
+      <Execution timeOut="1800000" id="90b30ecd-0618-419c-b47e-cca6c1e554d6" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ControlTypeConverterTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ControlTypeConverter_CountTest" />
+    </UnitTest>
+    <UnitTest name="AppModel_AllNames" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="497ebb4e-2d91-0038-b23a-1d21a5d6fc7e">
+      <Execution timeOut="1800000" id="8a738dc0-4dee-4903-900f-d277cc5a4f10" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.AppModelLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModel_AllNames" />
+    </UnitTest>
+    <UnitTest name="AppModel_GetTestObject" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="703ef91d-e335-b8b8-d9a0-ee751e55668f">
+      <Execution timeOut="1800000" id="799c1e53-f859-4fba-89c8-dfbd20ae0c96" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.AppModelLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModel_GetTestObject" />
+    </UnitTest>
+    <UnitTest name="LPConfig_GetValueExists" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="c316a3f4-4c23-db19-462c-b2fa33796566">
+      <Execution timeOut="1800000" id="83275a7c-4fa5-459a-8805-c1d267946617" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.LPConfigLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LPConfig_GetValueExists" />
+    </UnitTest>
+    <UnitTest name="UIAConditionMatcher_Match_Positive" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="7e008783-696f-7a74-d393-2256901543c2">
+      <Execution timeOut="1800000" id="f9c02cf8-357f-43d2-a6fd-479d0f166aa7" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.UnitTest.UIAConditionMatcherTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIAConditionMatcher_Match_Positive" />
+    </UnitTest>
+    <UnitTest name="JsonTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="7bc325ab-f149-03f6-bfc5-719ce740916f">
+      <Execution timeOut="1800000" id="de377e44-d620-42cf-935f-99fbda60476a" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIAFinderTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="JsonTest" />
+    </UnitTest>
+    <UnitTest name="WebControl_DragDrop" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpwebobjects.dll" id="93ed0d6c-3993-57c6-f48d-6ab1ec65e749">
+      <Execution timeOut="1800000" id="943b4a2e-9380-4e88-a4e4-77f60773f989" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPWebObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPWebObjects.UnitTest.WebControlTest, LPWebObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WebControl_DragDrop" />
+    </UnitTest>
+    <UnitTest name="AppModel_CheckHierarchy" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="21811864-7593-1a9d-ba4a-271f9c3c8de6">
+      <Execution timeOut="1800000" id="624a1835-b2fd-4bec-a21f-860fb58589d5" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.AppModelLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModel_CheckHierarchy" />
+    </UnitTest>
+    <UnitTest name="TestObjectFactory_CreateObject" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="cfde5249-75bf-5e37-4db3-b3e567188488">
+      <Execution timeOut="1800000" id="77dfe149-9e93-4214-a7a0-cf52dfbadabe" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectFactoryTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectFactory_CreateObject" />
+    </UnitTest>
+    <UnitTest name="JsonSerializeModelTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="413f80b4-4654-c797-c90a-d69a842f1a41">
+      <Execution timeOut="1800000" id="80fa8b41-406c-48b4-8b39-17cf5d2fad58" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.JsonSerializerTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="JsonSerializeModelTest" />
+    </UnitTest>
+    <UnitTest name="ObjectDescriptor_GetVirtualTestObject" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="21eeb0d1-5604-248d-a074-6a9a0f64a993">
+      <Execution timeOut="1800000" id="bde4d774-c46b-4d91-8918-4f4ebe63e4b5" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ObjectDescriptorTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObjectDescriptor_GetVirtualTestObject" />
+    </UnitTest>
+    <UnitTest name="AppModelManager_HierarchySave" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="f611c44d-06f8-81f7-e8f6-94286161a7dd">
+      <Execution timeOut="1800000" id="3455a6c7-e00f-45b6-b173-0ba4d945f703" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.JsonSerializerTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModelManager_HierarchySave" />
+    </UnitTest>
+    <UnitTest name="UIATestObject_ControlTypeInit" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="1133ba44-cb15-372f-e1e0-a3ef4ba7e538">
+      <Execution timeOut="1800000" id="3d818a6d-e584-4c47-b95d-82196e56825e" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIATestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIATestObject_ControlTypeInit" />
+    </UnitTest>
+    <UnitTest name="UIATestObject_FindRecursive" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="7462445f-e6f2-1eaf-eb9a-027b3e3816e9">
+      <Execution timeOut="1800000" id="a8e1940c-2da5-4bb4-977c-b5c1a84e54bc" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIATestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIATestObject_FindRecursive" />
+    </UnitTest>
+    <UnitTest name="UIATestObject_SetContext" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="ded679bf-0bc0-0df6-a237-9efe66a98668">
+      <Execution timeOut="1800000" id="d9713d7b-b36a-4f17-9862-51807ec2adc4" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIATestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIATestObject_SetContext" />
+    </UnitTest>
+    <UnitTest name="LPConfig_GetValueNotExists" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="9e32c0ba-8544-e989-9734-d67e8580b510">
+      <Execution timeOut="1800000" id="3957428d-860b-4550-a6f8-01314c14471a" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.LPConfigLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LPConfig_GetValueNotExists" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_ContainsKeyword" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="86c5036c-20bc-593f-bd4c-537bd745a5a6">
+      <Execution timeOut="1800000" id="bde41ba3-a6db-4f54-bfe2-66763707b720" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_ContainsKeyword" />
+    </UnitTest>
+    <UnitTest name="CachedFile_Save" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpcommon.dll" id="6074bd46-f3ba-5268-c0d7-5c15520e9c8a">
+      <Execution timeOut="1800000" id="89271651-0c85-4868-8d2d-b6dceb909554" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPCommon.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPCommon.CachedFileHandlerTest, LPCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad29f7f394a2ead" name="CachedFile_Save" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_AddChild_TestObject" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="c3f22580-c126-7767-bec1-fc154232f87e">
+      <Execution timeOut="1800000" id="bc0e2aa7-299e-4722-ae2b-699e484d217a" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_AddChild_TestObject" />
+    </UnitTest>
+    <UnitTest name="UIATestObject_ControlTypeAssign" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="e07a50f7-bf06-a4cf-6c63-c92a68994d49">
+      <Execution timeOut="1800000" id="c31ed26a-0eee-461b-8766-2f6afeccbdc5" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIATestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIATestObject_ControlTypeAssign" />
+    </UnitTest>
+    <UnitTest name="ObjectDescriptor_PropertyGroup" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="cb136bbd-eea3-12a0-e567-a992952a5ca3">
+      <Execution timeOut="1800000" id="befde906-0149-4859-ae46-c6d448b952a9" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ObjectDescriptorTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObjectDescriptor_PropertyGroup" />
+    </UnitTest>
+    <UnitTest name="ReadOnlyCollectionTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="c99fa5e6-d382-8cb2-a191-31d76ec90be4">
+      <Execution timeOut="1800000" id="2e4d34ef-dacc-4a48-96d9-b196e4fb5754" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TempUnitTests, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadOnlyCollectionTest" />
+    </UnitTest>
+    <UnitTest name="AppModelFile_Test" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="ab1eec52-7001-e28a-91a4-dae62babd5dc">
+      <Execution timeOut="1800000" id="d7a2d757-e181-4b71-a630-4845912b9bbc" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.AppModelFileTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModelFile_Test" />
+    </UnitTest>
+    <UnitTest name="VirtualTestObject_AreEqual" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="64545cbe-8169-21ee-dd06-8043e3ab9f18">
+      <Execution timeOut="1800000" id="f30ff4ea-65fc-4b61-bf37-34454c7af945" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.VirtualTestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VirtualTestObject_AreEqual" />
+    </UnitTest>
+    <UnitTest name="ObjectDescriptor_EqualsNegative" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="c20086a7-d694-7559-1465-471fc42bb9c0">
+      <Execution timeOut="1800000" id="6f2f50b3-060e-48d4-be7d-e4e0edbd724a" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ObjectDescriptorTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObjectDescriptor_EqualsNegative" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_Clear" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="2a2c47f9-fff7-bcb6-cadc-6219944d55b6">
+      <Execution timeOut="1800000" id="d6c9ab3c-ba31-4d98-a6fa-0ff2ed54c1d0" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_Clear" />
+    </UnitTest>
+    <UnitTest name="UIAHighlight_SearchandHighlight_UIA" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="e162633a-d896-c4a3-4192-c5343187fe37">
+      <Execution timeOut="1800000" id="e2b1cd23-80ca-42a3-9a67-c755964270cb" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIAHighlightTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIAHighlight_SearchandHighlight_UIA" />
+    </UnitTest>
+    <UnitTest name="LPLogger_WriteInfo" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpcommon.dll" id="78a64da2-a405-e634-93ef-4f0e6cd22124">
+      <Execution timeOut="1800000" id="e1e145f8-3568-4056-9c00-8e6fd2f25e50" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPCommon.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPCommon.LPLoggerTest, LPCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad29f7f394a2ead" name="LPLogger_WriteInfo" />
+    </UnitTest>
+    <UnitTest name="UIAEdit_Text" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="b8196642-95eb-6100-6d89-ea33e8152baa">
+      <Execution timeOut="1800000" id="c0ce0399-bd97-469b-9d2a-55174993f8d7" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.UnitTest.UIAEditTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIAEdit_Text" />
+    </UnitTest>
+    <UnitTest name="ControlKeysManager_GetDisplayString" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="c069ba5d-b761-3b72-b1b0-51bab54513c2">
+      <Execution timeOut="1800000" id="55482ee5-a857-4f71-bda9-e31a570170d8" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ControlKeysManagerTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ControlKeysManager_GetDisplayString" />
+    </UnitTest>
+    <UnitTest name="RCSettings_HighlightColor" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="786089b5-e68c-b536-852c-6239e563aeb1">
+      <Execution timeOut="1800000" id="053ca916-12cc-428b-8a78-f9a2ecaa5050" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ReplayCoreSettingsTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RCSettings_HighlightColor" />
+    </UnitTest>
+    <UnitTest name="AppModel_Load" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="5a815ce3-7e17-fe3d-318a-ead41a3a6dd8">
+      <Execution timeOut="1800000" id="69ff0522-827d-49ca-8483-515f908f07a6" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.AppModelLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModel_Load" />
+    </UnitTest>
+    <UnitTest name="RCSettings_HighlightColor_Set" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="646e9a74-b7a1-634a-85f7-6026750359ce">
+      <Execution timeOut="1800000" id="0650bb8a-e633-4514-b2a2-44419b8b219b" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ReplayCoreSettingsTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RCSettings_HighlightColor_Set" />
+    </UnitTest>
+    <UnitTest name="TestDragAndDrop5" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpwebobjects.dll" id="745c7873-f671-a4be-e896-27310952f934">
+      <Execution timeOut="1800000" id="593dd111-87a3-4978-949a-20c9803a6cca" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPWebObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPWebObjects.UnitTest.SeleniumTest, LPWebObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDragAndDrop5" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpwebobjects.dll" id="2d031042-14c7-6c2e-fca6-b2a4f8b1fea1">
+      <Execution timeOut="1800000" id="f601a2ef-5d05-4ad2-8d79-df0568b84730" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPWebObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPWebObjects.UnitTest.WebControlTest, LPWebObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_AddDecendants" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="eddde9c4-c253-2f13-e291-42bda109ee75">
+      <Execution timeOut="1800000" id="316ee2d5-2ab9-4e22-b7c4-4303a69c5ad3" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_AddDecendants" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_ConvertSubtree" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="5e96ab7f-e9da-dfac-24ab-97766a6e8cad">
+      <Execution timeOut="1800000" id="6886e7e1-f29a-49d8-8f0d-f415dbe2ba9b" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_ConvertSubtree" />
+    </UnitTest>
+    <UnitTest name="ObjectDescriptor_EqualsEmpty" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="0b33b199-ea93-c70a-4669-af2265e19961">
+      <Execution timeOut="1800000" id="4c6c9770-c536-431b-a42c-46a8c12189fc" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ObjectDescriptorTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObjectDescriptor_EqualsEmpty" />
+    </UnitTest>
+    <UnitTest name="JsonDeserializeModelTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="346e1da8-e79d-c6b7-96f3-c8112cde5174">
+      <Execution timeOut="1800000" id="1d2d055c-f1ec-44a5-ac5d-df88a2f5c8f6" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.JsonSerializerTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="JsonDeserializeModelTest" />
+    </UnitTest>
+    <UnitTest name="VirtualTestObject_CreateTestObject" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="b27c0857-e915-29d8-bc21-8727c065d282">
+      <Execution timeOut="1800000" id="8bfe4629-dc1e-49dd-8939-e906476c8c4a" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.VirtualTestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VirtualTestObject_CreateTestObject" />
+    </UnitTest>
+    <UnitTest name="WebControl_FlightTour_Book" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpwebobjects.dll" id="9293972c-2abb-43c7-4315-15c5f6165ee3">
+      <Execution timeOut="1800000" id="fa596128-6a99-41ef-b67f-74165394ad31" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPWebObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPWebObjects.UnitTest.WebControlTest, LPWebObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WebControl_FlightTour_Book" />
+    </UnitTest>
+    <UnitTest name="UIATestObject_GetContext" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="4c0403ce-8329-fe2d-6b9d-a323d4461880">
+      <Execution timeOut="1800000" id="77931da3-be45-453e-9fbe-450e068b8cfc" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIATestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIATestObject_GetContext" />
+    </UnitTest>
+    <UnitTest name="VirtualTestObject_ctor" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="e161035b-692d-0a1b-c6cb-eadb8a1b4c3f">
+      <Execution timeOut="1800000" id="36f6f92e-2ff1-4df4-9374-32aa41f26b96" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.VirtualTestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VirtualTestObject_ctor" />
+    </UnitTest>
+    <UnitTest name="ScreenCapture_Capture" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="fefd1bb9-6e36-bd83-1929-d270297d4571">
+      <Execution timeOut="1800000" id="c5c3d049-8b2a-41e6-9362-c73cfa7d229f" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ScreenCaptureTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ScreenCapture_Capture" />
+    </UnitTest>
+    <UnitTest name="VirtualTestObject_GetDescriptor" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="7beb1823-c3d8-7431-998c-94e14c4d1e29">
+      <Execution timeOut="1800000" id="098d5e0a-ff80-47c6-8e08-4ad9a274dc05" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.VirtualTestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VirtualTestObject_GetDescriptor" />
+    </UnitTest>
+    <UnitTest name="LPLogger_WriteDebug" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpcommon.dll" id="3e71da62-724c-0faa-f4ae-3038a1dd5225">
+      <Execution timeOut="1800000" id="783fe24a-9436-48a9-a2b3-fbb01feee3f2" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPCommon.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPCommon.LPLoggerTest, LPCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad29f7f394a2ead" name="LPLogger_WriteDebug" />
+    </UnitTest>
+    <UnitTest name="VirtualTestObject_StringRectToRect" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="339df328-80bf-8d02-d286-bb96bb7dd8b1">
+      <Execution timeOut="1800000" id="78be3be3-c4d0-4afb-aa64-cd0000b8b5c9" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.VirtualTestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VirtualTestObject_StringRectToRect" />
+    </UnitTest>
+    <UnitTest name="ObjectDescriptor_GetTestObject" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="8c608502-bd16-0d01-abe1-b217dfadeaab">
+      <Execution timeOut="1800000" id="208ea6b1-cd97-4fa8-9b67-2ba6dc320de0" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ObjectDescriptorTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObjectDescriptor_GetTestObject" />
+    </UnitTest>
+    <UnitTest name="AppModel_AllItems" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="c98b771f-da5d-0ece-2431-5fbfc78ec008">
+      <Execution timeOut="1800000" id="187081c4-0279-40f2-afac-5cc48de412f8" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.AppModelLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModel_AllItems" />
+    </UnitTest>
+    <UnitTest name="AppModel_FindClearButtonTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="aeed1a93-c959-eb20-d32e-5207c019cf94">
+      <Execution timeOut="1800000" id="e5bded8a-9994-4e5c-aa27-3c8d880a9a40" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.AppModelLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModel_FindClearButtonTest" />
+    </UnitTest>
+    <UnitTest name="LPLogger_WriteMessage" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpcommon.dll" id="c2eae682-2a84-d19e-247f-c138deeec8f6">
+      <Execution timeOut="1800000" id="8e862a88-7a16-473d-9974-f0e16130cb17" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPCommon.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPCommon.LPLoggerTest, LPCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad29f7f394a2ead" name="LPLogger_WriteMessage" />
+    </UnitTest>
+    <UnitTest name="UIAUtility_GetElementLine" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="80bf6e8f-a0d5-2309-3904-5d5ee695851d">
+      <Execution timeOut="1800000" id="47b54c2b-a367-4241-8453-1836814b912d" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIAUtilityTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIAUtility_GetElementLine" />
+    </UnitTest>
+    <UnitTest name="UIACondition_CachedProperties" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="27f64c6d-065a-5bd9-4af6-27cfcbf5e1ef">
+      <Execution timeOut="1800000" id="63c2352a-fa85-4871-ba4b-a26c0e002f92" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.UnitTest.UIAConditionTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIACondition_CachedProperties" />
+    </UnitTest>
+    <UnitTest name="Utility_GetBinDirectory" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="7c4bf3f0-afb5-543b-69d0-b079ed916be7">
+      <Execution timeOut="1800000" id="5ddcb1dc-bdc5-4452-b469-304663feefe3" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UtilityTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Utility_GetBinDirectory" />
+    </UnitTest>
+    <UnitTest name="UIAFinder_Identify1" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="34d477c7-031c-d0b2-2fb5-6b313ebdc550">
+      <Execution timeOut="1800000" id="8b0e6462-f89f-4b4b-9afc-7d556c3b7228" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIAFinderTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIAFinder_Identify1" />
+    </UnitTest>
+    <UnitTest name="ElementProperties_ToNurseObject" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="dffb5d99-a41d-4b1a-7119-1b2bcb397fbc">
+      <Execution timeOut="1800000" id="26c292d4-e692-402b-89ee-201d38a33724" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.UnitTest.ElementPropertiesTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ElementProperties_ToNurseObject" />
+    </UnitTest>
+    <UnitTest name="ControlKeysManager_GetKeyString" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="a84be249-029f-ea47-0692-be121a517901">
+      <Execution timeOut="1800000" id="2589098a-6ea8-4385-b902-e19156710d1c" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ControlKeysManagerTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ControlKeysManager_GetKeyString" />
+    </UnitTest>
+    <UnitTest name="VirtualTestObject_Properties" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="49a46931-7d32-319e-e17f-ddd50f87c089">
+      <Execution timeOut="1800000" id="5f17ccb0-f22c-4a30-9bed-f854dca01f2d" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.VirtualTestObjectTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VirtualTestObject_Properties" />
+    </UnitTest>
+    <UnitTest name="TestDragAndDrop" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpwebobjects.dll" id="95e7b9a9-2d5c-239d-2d4f-f0e1e7fbeeec">
+      <Execution timeOut="1800000" id="5bcf89a3-7a40-4c38-8f71-1e2e9bd9a4e0" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPWebObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPWebObjects.UnitTest.SeleniumTest, LPWebObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDragAndDrop" />
+    </UnitTest>
+    <UnitTest name="AppDescriptor_GetObject" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="398fbdad-e683-006a-398a-3cfc5a8e0855">
+      <Execution timeOut="1800000" id="ef612bc3-e9a2-4dbe-aba5-586a022ff9b5" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.AppDescriptorTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppDescriptor_GetObject" />
+    </UnitTest>
+    <UnitTest name="TestObjectNurse_FromTreeNode" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="9dec78f8-753a-e4c1-2193-2b216f7bdb79">
+      <Execution timeOut="1800000" id="1f75a75d-89ab-4d45-a48a-88060eb00759" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TestObjectNurseTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObjectNurse_FromTreeNode" />
+    </UnitTest>
+    <UnitTest name="ElementProperties_DeriveName1" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="49c93ea0-ca1c-698b-98f4-9da5f5459b61">
+      <Execution timeOut="1800000" id="ba1297b6-7574-48ad-bb9c-d43aa460d0b2" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.UnitTest.ElementPropertiesTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ElementProperties_DeriveName1" />
+    </UnitTest>
+    <UnitTest name="ElementProperties_DeriveName" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="be2e9024-0a3e-e4e6-858a-49a5c04b16c8">
+      <Execution timeOut="1800000" id="264d981f-5364-4f58-8f3a-d3ccb7e88cd1" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.UnitTest.ElementPropertiesTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ElementProperties_DeriveName" />
+    </UnitTest>
+    <UnitTest name="LPConfig_KeyExists" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="bbefff3b-0de8-2a62-64be-8f95639da468">
+      <Execution timeOut="1800000" id="0d2564c6-bdd9-441c-a84f-ed5f2e9913b4" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.LPConfigLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LPConfig_KeyExists" />
+    </UnitTest>
+    <UnitTest name="AppModel_FindAddTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="ba4cdbed-1f7c-ac5c-bc4c-a087998bc4cf">
+      <Execution timeOut="1800000" id="83f7746e-67f9-40a2-bd54-bfba6a5dc6d0" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.AppModelLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModel_FindAddTest" />
+    </UnitTest>
+    <UnitTest name="ControlTypeConverter_EqualTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="71f63b56-132f-2ae5-fe82-7fa38042bbae">
+      <Execution timeOut="1800000" id="86230ff0-527c-4744-a815-f0becd8baf10" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.ControlTypeConverterTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ControlTypeConverter_EqualTest" />
+    </UnitTest>
+    <UnitTest name="UIAHighlight_HighlightVirtualControl" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="6ad09422-386b-118c-e8c4-11fa2adec5b6">
+      <Execution timeOut="1800000" id="6f4bf266-bb5d-4ff8-aa3c-e5e2140e9e69" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIAHighlightTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIAHighlight_HighlightVirtualControl" />
+    </UnitTest>
+    <UnitTest name="CodeGenerator_GetFullPathName" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="bd27e7bc-b3d9-ba13-5163-f038dc399402">
+      <Execution timeOut="1800000" id="2938044e-f2fc-40be-ba96-3140452f26d4" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.UnitTest.CodeGeneratorTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodeGenerator_GetFullPathName" />
+    </UnitTest>
+    <UnitTest name="WebControl_FlightTour_Login" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpwebobjects.dll" id="96765513-b409-77a6-3bae-c21f04e40ac9">
+      <Execution timeOut="1800000" id="f1691a33-2c16-41e3-ab3b-d01c056cd437" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPWebObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPWebObjects.UnitTest.WebControlTest, LPWebObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WebControl_FlightTour_Login" />
+    </UnitTest>
+    <UnitTest name="AppDescriptor_ctor_AppModel" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="2dfc7802-6e59-1371-48f6-ff3298c5622c">
+      <Execution timeOut="1800000" id="21e73ffb-e178-4d23-aa76-119807b40fff" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.AppDescriptorTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppDescriptor_ctor_AppModel" />
+    </UnitTest>
+    <UnitTest name="UIACondition_NormalizeCachedProperties" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="3e50168e-3f2d-ece2-137d-dd69787f3922">
+      <Execution timeOut="1800000" id="5c35e33d-0741-4c89-9daa-af909a198a52" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.UnitTest.UIAConditionTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIACondition_NormalizeCachedProperties" />
+    </UnitTest>
+    <UnitTest name="LPConfig_SaveSettings" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="238cc902-66a6-74d7-d787-fb9d0da066e6">
+      <Execution timeOut="1800000" id="10a96cd9-e0e1-4af5-a639-58210b935e00" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.LPConfigLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LPConfig_SaveSettings" />
+    </UnitTest>
+    <UnitTest name="AppModelManager_Save" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="7d759975-a2e0-cea8-badf-e952f822a094">
+      <Execution timeOut="1800000" id="1e25436c-b105-4220-84bd-ad74b955304d" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.JsonSerializerTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModelManager_Save" />
+    </UnitTest>
+    <UnitTest name="AppModel_Add" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="272ac815-8b64-3d50-e285-e9ef84b0c83f">
+      <Execution timeOut="1800000" id="cdb54098-9e6c-4746-89f2-37019dd929b7" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.AppModelLoadTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AppModel_Add" />
+    </UnitTest>
+    <UnitTest name="PropertyItemTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="8c3ea0b6-8a04-355c-38c3-37832f6b0abe">
+      <Execution timeOut="1800000" id="7a975cca-abae-4021-9a33-76d3d6c0a95d" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TempUnitTests, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PropertyItemTest" />
+    </UnitTest>
+    <UnitTest name="ButtonToAutomationElementTest" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="b6ef410f-533e-0cbb-3af1-0eeda023335d">
+      <Execution timeOut="1800000" id="3c90e5e4-07ca-4a17-b824-440aaa3f84e6" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIAUtilityTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ButtonToAutomationElementTest" />
+    </UnitTest>
+    <UnitTest name="ReadOnlyCollectionTest2" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="bd6250af-b46d-828d-236e-44ad14a1deee">
+      <Execution timeOut="1800000" id="6de7d25a-4ab0-49b8-8619-7a7923af5516" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.TempUnitTests, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadOnlyCollectionTest2" />
+    </UnitTest>
+    <UnitTest name="ElementProperties_ToNurseObject2" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpuiaobjects.dll" id="ae14e43c-5b64-cfb9-cf0b-866dd1d6628d">
+      <Execution timeOut="1800000" id="6447c90b-57b9-4f62-9cab-d3382a99c1ee" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPUIAObjects.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPUIAObjects.UnitTest.ElementPropertiesTest, LPUIAObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ElementProperties_ToNurseObject2" />
+    </UnitTest>
+    <UnitTest name="UIAHighlight_SearchandHighlight_ProgramRestarted" storage="c:\users\zack\.jenkins\workspace\lap-unittest\bin\debug\lpreplaycore.dll" id="ea9ba063-0719-f528-b442-98f67837301d">
+      <Execution timeOut="1800000" id="ca5825b6-a640-4804-b3cd-1d7a8a4d98cf" />
+      <TestMethod codeBase="C:/Users/zack/.jenkins/workspace/LAP-Unittest/bin/Debug/LPReplayCore.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LPReplayCore.UnitTest.UIAHighlightTest, LPReplayCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UIAHighlight_SearchandHighlight_ProgramRestarted" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6074bd46-f3ba-5268-c0d7-5c15520e9c8a" executionId="89271651-0c85-4868-8d2d-b6dceb909554" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cc439d1-960c-fbfe-28e7-1fc5037db04e" executionId="7289adbc-425f-4f75-b77c-8169b67c2e4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38ca1db4-ffa3-77ef-1f74-abd49bc0cb8a" executionId="7d8b8877-78f8-4b43-a10f-079df582239c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e71da62-724c-0faa-f4ae-3038a1dd5225" executionId="783fe24a-9436-48a9-a2b3-fbb01feee3f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5af192a-e386-f718-6e52-0c3a78019793" executionId="06d02a0a-9a59-4d09-9dc6-1ddbb9626029" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78a64da2-a405-e634-93ef-4f0e6cd22124" executionId="e1e145f8-3568-4056-9c00-8e6fd2f25e50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2eae682-2a84-d19e-247f-c138deeec8f6" executionId="8e862a88-7a16-473d-9974-f0e16130cb17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="116add86-0ebf-aafb-0bf9-bf61b8d1ff1d" executionId="994e12fb-bbea-47e8-823e-e44c1031644b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8aeca674-961d-2d01-1352-30335790a539" executionId="27e76755-5108-4922-8be6-9aef832b4270" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="272ac815-8b64-3d50-e285-e9ef84b0c83f" executionId="cdb54098-9e6c-4746-89f2-37019dd929b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c98b771f-da5d-0ece-2431-5fbfc78ec008" executionId="187081c4-0279-40f2-afac-5cc48de412f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="497ebb4e-2d91-0038-b23a-1d21a5d6fc7e" executionId="8a738dc0-4dee-4903-900f-d277cc5a4f10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21811864-7593-1a9d-ba4a-271f9c3c8de6" executionId="624a1835-b2fd-4bec-a21f-860fb58589d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba4cdbed-1f7c-ac5c-bc4c-a087998bc4cf" executionId="83f7746e-67f9-40a2-bd54-bfba6a5dc6d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aeed1a93-c959-eb20-d32e-5207c019cf94" executionId="e5bded8a-9994-4e5c-aa27-3c8d880a9a40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="703ef91d-e335-b8b8-d9a0-ee751e55668f" executionId="799c1e53-f859-4fba-89c8-dfbd20ae0c96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a815ce3-7e17-fe3d-318a-ead41a3a6dd8" executionId="69ff0522-827d-49ca-8483-515f908f07a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7c1308f-bd5c-f0a4-fd91-02c121fdd341" executionId="8d649b1b-68f0-41d4-9ca0-c0276743022d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2dfc7802-6e59-1371-48f6-ff3298c5622c" executionId="21e73ffb-e178-4d23-aa76-119807b40fff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="398fbdad-e683-006a-398a-3cfc5a8e0855" executionId="ef612bc3-e9a2-4dbe-aba5-586a022ff9b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab1eec52-7001-e28a-91a4-dae62babd5dc" executionId="d7a2d757-e181-4b71-a630-4845912b9bbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c069ba5d-b761-3b72-b1b0-51bab54513c2" executionId="55482ee5-a857-4f71-bda9-e31a570170d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a84be249-029f-ea47-0692-be121a517901" executionId="2589098a-6ea8-4385-b902-e19156710d1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32563bdb-bb52-1e8a-2436-02b648b94780" executionId="90b30ecd-0618-419c-b47e-cca6c1e554d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71f63b56-132f-2ae5-fe82-7fa38042bbae" executionId="86230ff0-527c-4744-a815-f0becd8baf10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f611c44d-06f8-81f7-e8f6-94286161a7dd" executionId="3455a6c7-e00f-45b6-b173-0ba4d945f703" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4476eac1-b497-b853-e3f2-f39078c511ad" executionId="e2a5d99c-33ec-4f05-88b3-56fea355adab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbd2ffca-76df-3561-d6dc-4cc92ff94e87" executionId="aff5423d-01e7-440c-a040-9caf95d574a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d759975-a2e0-cea8-badf-e952f822a094" executionId="1e25436c-b105-4220-84bd-ad74b955304d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="346e1da8-e79d-c6b7-96f3-c8112cde5174" executionId="1d2d055c-f1ec-44a5-ac5d-df88a2f5c8f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="413f80b4-4654-c797-c90a-d69a842f1a41" executionId="80fa8b41-406c-48b4-8b39-17cf5d2fad58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc9af31f-7be1-59bf-4051-3bb7da03e6c5" executionId="96589872-ae69-4d9b-9aec-73fa65f9364a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c316a3f4-4c23-db19-462c-b2fa33796566" executionId="83275a7c-4fa5-459a-8805-c1d267946617" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e32c0ba-8544-e989-9734-d67e8580b510" executionId="3957428d-860b-4550-a6f8-01314c14471a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbefff3b-0de8-2a62-64be-8f95639da468" executionId="0d2564c6-bdd9-441c-a84f-ed5f2e9913b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19e9a714-732e-8fdb-e4a1-c4128f51e77f" executionId="e7ed70b0-d307-4e6e-af57-43d4fc677ec0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="238cc902-66a6-74d7-d787-fb9d0da066e6" executionId="10a96cd9-e0e1-4af5-a639-58210b935e00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b33b199-ea93-c70a-4669-af2265e19961" executionId="4c6c9770-c536-431b-a42c-46a8c12189fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c20086a7-d694-7559-1465-471fc42bb9c0" executionId="6f2f50b3-060e-48d4-be7d-e4e0edbd724a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0bc6b3e0-2497-0ceb-3f69-d14825cbab2e" executionId="c8b6d6fe-fddb-4f2e-a7b2-e40ae2d09a34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="855d748b-2d4c-6137-e5c0-6b48d1fa07df" executionId="1af011af-fcbf-45a5-8cf3-89de2eb59b84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c608502-bd16-0d01-abe1-b217dfadeaab" executionId="208ea6b1-cd97-4fa8-9b67-2ba6dc320de0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21eeb0d1-5604-248d-a074-6a9a0f64a993" executionId="bde4d774-c46b-4d91-8918-4f4ebe63e4b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb136bbd-eea3-12a0-e567-a992952a5ca3" executionId="befde906-0149-4859-ae46-c6d448b952a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55d14987-2e11-1614-e351-a422f0bfe140" executionId="086c0ab0-7b94-430b-93a5-9f5406da2d96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f6b092a-a0cd-e0e5-075b-e1565fc73957" executionId="c4899f5a-bdf0-4bce-83a2-cee5ffd5a784" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="786089b5-e68c-b536-852c-6239e563aeb1" executionId="053ca916-12cc-428b-8a78-f9a2ecaa5050" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="646e9a74-b7a1-634a-85f7-6026750359ce" executionId="0650bb8a-e633-4514-b2a2-44419b8b219b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fefd1bb9-6e36-bd83-1929-d270297d4571" executionId="c5c3d049-8b2a-41e6-9362-c73cfa7d229f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f466872a-07a5-ce14-8766-689a8dd15f37" executionId="6896a097-f63e-4089-9caf-76af8fe12bff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2ef9746-31f5-307c-e931-0882f93762f5" executionId="53fdabbb-1529-4b7d-af30-c06ca27fa306" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c3ea0b6-8a04-355c-38c3-37832f6b0abe" executionId="7a975cca-abae-4021-9a33-76d3d6c0a95d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c99fa5e6-d382-8cb2-a191-31d76ec90be4" executionId="2e4d34ef-dacc-4a48-96d9-b196e4fb5754" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd6250af-b46d-828d-236e-44ad14a1deee" executionId="6de7d25a-4ab0-49b8-8619-7a7923af5516" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfde5249-75bf-5e37-4db3-b3e567188488" executionId="77dfe149-9e93-4214-a7a0-cf52dfbadabe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8544c72b-57a6-fb09-80c4-df6996dc2937" executionId="8d5269ca-629b-4af8-8cfb-10443d7ef40a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3f22580-c126-7767-bec1-fc154232f87e" executionId="bc0e2aa7-299e-4722-ae2b-699e484d217a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eddde9c4-c253-2f13-e291-42bda109ee75" executionId="316ee2d5-2ab9-4e22-b7c4-4303a69c5ad3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f03aa02d-b7c1-231a-83a9-6c794fd39a54" executionId="223000b3-9d23-481d-9793-33a3e8de2d10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10d7a038-89e9-d535-b980-3964dda57ad5" executionId="fb4d7330-104d-4278-96e2-dea6e1d940d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a2c47f9-fff7-bcb6-cadc-6219944d55b6" executionId="d6c9ab3c-ba31-4d98-a6fa-0ff2ed54c1d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86c5036c-20bc-593f-bd4c-537bd745a5a6" executionId="bde41ba3-a6db-4f54-bfe2-66763707b720" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e96ab7f-e9da-dfac-24ab-97766a6e8cad" executionId="6886e7e1-f29a-49d8-8f0d-f415dbe2ba9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a89b58ac-90c3-879c-a74f-bc9a6cf6be8e" executionId="07328fc3-82ca-486b-9275-81908b8d5f49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9dec78f8-753a-e4c1-2193-2b216f7bdb79" executionId="1f75a75d-89ab-4d45-a48a-88060eb00759" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92a55033-1839-5bd6-a11d-d61877d9abea" executionId="efdec9e9-3ec4-477a-8fd1-d4c77cc30d29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20765945-874a-7443-a72e-bab9977f0289" executionId="1fa7cb3c-f226-4682-ad57-67ff86812287" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bc325ab-f149-03f6-bfc5-719ce740916f" executionId="de377e44-d620-42cf-935f-99fbda60476a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34d477c7-031c-d0b2-2fb5-6b313ebdc550" executionId="8b0e6462-f89f-4b4b-9afc-7d556c3b7228" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12026806-b265-0731-b747-64f897a451da" executionId="368778f7-5ee3-4fbc-b60d-9cd095b23114" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ad09422-386b-118c-e8c4-11fa2adec5b6" executionId="6f4bf266-bb5d-4ff8-aa3c-e5e2140e9e69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea9ba063-0719-f528-b442-98f67837301d" executionId="ca5825b6-a640-4804-b3cd-1d7a8a4d98cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e162633a-d896-c4a3-4192-c5343187fe37" executionId="e2b1cd23-80ca-42a3-9a67-c755964270cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0207a86a-27b3-381d-dba5-b6c7970ab1d2" executionId="d3c3cf3b-b8e5-4db3-ba61-46a7880be61a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4245cd78-e7a3-2f83-faed-51e12e8903ea" executionId="ffa6dd37-49f1-4477-8e63-d04ec9ecfc73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e07a50f7-bf06-a4cf-6c63-c92a68994d49" executionId="c31ed26a-0eee-461b-8766-2f6afeccbdc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1133ba44-cb15-372f-e1e0-a3ef4ba7e538" executionId="3d818a6d-e584-4c47-b95d-82196e56825e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7462445f-e6f2-1eaf-eb9a-027b3e3816e9" executionId="a8e1940c-2da5-4bb4-977c-b5c1a84e54bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c0403ce-8329-fe2d-6b9d-a323d4461880" executionId="77931da3-be45-453e-9fbe-450e068b8cfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73b0abb0-79b4-6104-975b-b9e38791d952" executionId="5f555bd9-4e94-4312-ae49-b586690776f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ded679bf-0bc0-0df6-a237-9efe66a98668" executionId="d9713d7b-b36a-4f17-9862-51807ec2adc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6ef410f-533e-0cbb-3af1-0eeda023335d" executionId="3c90e5e4-07ca-4a17-b824-440aaa3f84e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80bf6e8f-a0d5-2309-3904-5d5ee695851d" executionId="47b54c2b-a367-4241-8453-1836814b912d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c4bf3f0-afb5-543b-69d0-b079ed916be7" executionId="5ddcb1dc-bdc5-4452-b469-304663feefe3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64545cbe-8169-21ee-dd06-8043e3ab9f18" executionId="f30ff4ea-65fc-4b61-bf37-34454c7af945" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b27c0857-e915-29d8-bc21-8727c065d282" executionId="8bfe4629-dc1e-49dd-8939-e906476c8c4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e161035b-692d-0a1b-c6cb-eadb8a1b4c3f" executionId="36f6f92e-2ff1-4df4-9374-32aa41f26b96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7beb1823-c3d8-7431-998c-94e14c4d1e29" executionId="098d5e0a-ff80-47c6-8e08-4ad9a274dc05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49a46931-7d32-319e-e17f-ddd50f87c089" executionId="5f17ccb0-f22c-4a30-9bed-f854dca01f2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="339df328-80bf-8d02-d286-bb96bb7dd8b1" executionId="78be3be3-c4d0-4afb-aa64-cd0000b8b5c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22bbfd8d-1aad-bbee-4ddd-69f2c2998265" executionId="bc172cac-a8ab-490a-bbb8-0d502bbc64f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41241e95-695d-4548-089e-82b57a4e66f8" executionId="34f96cc5-fade-45a6-9209-67c3e758af83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd27e7bc-b3d9-ba13-5163-f038dc399402" executionId="2938044e-f2fc-40be-ba96-3140452f26d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be2e9024-0a3e-e4e6-858a-49a5c04b16c8" executionId="264d981f-5364-4f58-8f3a-d3ccb7e88cd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49c93ea0-ca1c-698b-98f4-9da5f5459b61" executionId="ba1297b6-7574-48ad-bb9c-d43aa460d0b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dffb5d99-a41d-4b1a-7119-1b2bcb397fbc" executionId="26c292d4-e692-402b-89ee-201d38a33724" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae14e43c-5b64-cfb9-cf0b-866dd1d6628d" executionId="6447c90b-57b9-4f62-9cab-d3382a99c1ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e008783-696f-7a74-d393-2256901543c2" executionId="f9c02cf8-357f-43d2-a6fd-479d0f166aa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9b20887-1981-f22c-2538-a089cd98e84f" executionId="e7319106-7bf0-4a0a-85f7-d046d21afbbd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27f64c6d-065a-5bd9-4af6-27cfcbf5e1ef" executionId="63c2352a-fa85-4871-ba4b-a26c0e002f92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e50168e-3f2d-ece2-137d-dd69787f3922" executionId="5c35e33d-0741-4c89-9daa-af909a198a52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8196642-95eb-6100-6d89-ea33e8152baa" executionId="c0ce0399-bd97-469b-9d2a-55174993f8d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95e7b9a9-2d5c-239d-2d4f-f0e1e7fbeeec" executionId="5bcf89a3-7a40-4c38-8f71-1e2e9bd9a4e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cef86e1f-ac14-f1f1-3473-9f1c6fa2dea3" executionId="748b50b8-59a8-4f5b-aee8-4d155f1d8690" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fee81fe5-1f17-9495-cdfd-47a9b68650c0" executionId="43397624-1ba4-4479-b455-ca363990af26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a902c186-16b8-27c4-8912-224d9d164eb6" executionId="2b806fc2-f2ca-4997-bb78-22b236cde58c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="745c7873-f671-a4be-e896-27310952f934" executionId="593dd111-87a3-4978-949a-20c9803a6cca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3aec1bf-9e06-4914-8bbc-6e499581254b" executionId="dfaad799-a587-4357-8516-4c07b0967453" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d031042-14c7-6c2e-fca6-b2a4f8b1fea1" executionId="f601a2ef-5d05-4ad2-8d79-df0568b84730" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93ed0d6c-3993-57c6-f48d-6ab1ec65e749" executionId="943b4a2e-9380-4e88-a4e4-77f60773f989" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9293972c-2abb-43c7-4315-15c5f6165ee3" executionId="fa596128-6a99-41ef-b67f-74165394ad31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96765513-b409-77a6-3bae-c21f04e40ac9" executionId="f1691a33-2c16-41e3-ab3b-d01c056cd437" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="89271651-0c85-4868-8d2d-b6dceb909554" testId="6074bd46-f3ba-5268-c0d7-5c15520e9c8a" testName="CachedFile_Save" computerName="ZACK-PC" duration="00:00:00.0131935" startTime="2016-03-28T15:23:28.6904820+08:00" endTime="2016-03-28T15:23:28.7480638+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89271651-0c85-4868-8d2d-b6dceb909554">
+    </UnitTestResult>
+    <UnitTestResult executionId="7289adbc-425f-4f75-b77c-8169b67c2e4c" testId="1cc439d1-960c-fbfe-28e7-1fc5037db04e" testName="DataRowExtension_ToEntity" computerName="ZACK-PC" duration="00:00:00.0016580" startTime="2016-03-28T15:23:28.7730779+08:00" endTime="2016-03-28T15:23:28.7750807+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7289adbc-425f-4f75-b77c-8169b67c2e4c">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d8b8877-78f8-4b43-a10f-079df582239c" testId="38ca1db4-ffa3-77ef-1f74-abd49bc0cb8a" testName="LPLogger_Test" computerName="ZACK-PC" duration="00:00:00.0250854" startTime="2016-03-28T15:23:28.7800829+08:00" endTime="2016-03-28T15:23:28.8620344+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d8b8877-78f8-4b43-a10f-079df582239c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;True&gt;，实际为: &lt;False&gt;。</Message>
+          <StackTrace>   在 LPCommon.LPLoggerTest.LPLogger_Test() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\UnitTest\LPLoggerTest.cs:行号 35
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="783fe24a-9436-48a9-a2b3-fbb01feee3f2" testId="3e71da62-724c-0faa-f4ae-3038a1dd5225" testName="LPLogger_WriteDebug" computerName="ZACK-PC" duration="00:00:00.0013842" startTime="2016-03-28T15:23:28.8620344+08:00" endTime="2016-03-28T15:23:28.8776558+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="783fe24a-9436-48a9-a2b3-fbb01feee3f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="06d02a0a-9a59-4d09-9dc6-1ddbb9626029" testId="e5af192a-e386-f718-6e52-0c3a78019793" testName="LPLogger_WriteError" computerName="ZACK-PC" duration="00:00:00.0038815" startTime="2016-03-28T15:23:28.8891227+08:00" endTime="2016-03-28T15:23:28.8951261+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06d02a0a-9a59-4d09-9dc6-1ddbb9626029">
+    </UnitTestResult>
+    <UnitTestResult executionId="e1e145f8-3568-4056-9c00-8e6fd2f25e50" testId="78a64da2-a405-e634-93ef-4f0e6cd22124" testName="LPLogger_WriteInfo" computerName="ZACK-PC" duration="00:00:00.0010464" startTime="2016-03-28T15:23:28.9011303+08:00" endTime="2016-03-28T15:23:28.9031318+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1e145f8-3568-4056-9c00-8e6fd2f25e50">
+    </UnitTestResult>
+    <UnitTestResult executionId="8e862a88-7a16-473d-9974-f0e16130cb17" testId="c2eae682-2a84-d19e-247f-c138deeec8f6" testName="LPLogger_WriteMessage" computerName="ZACK-PC" duration="00:00:00.0031313" startTime="2016-03-28T15:23:28.9071360+08:00" endTime="2016-03-28T15:23:28.9111370+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e862a88-7a16-473d-9974-f0e16130cb17">
+    </UnitTestResult>
+    <UnitTestResult executionId="994e12fb-bbea-47e8-823e-e44c1031644b" testId="116add86-0ebf-aafb-0bf9-bf61b8d1ff1d" testName="LPLogger_WriteWarning" computerName="ZACK-PC" duration="00:00:00.0013898" startTime="2016-03-28T15:23:28.9171422+08:00" endTime="2016-03-28T15:23:28.9191455+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="994e12fb-bbea-47e8-823e-e44c1031644b">
+    </UnitTestResult>
+    <UnitTestResult executionId="27e76755-5108-4922-8be6-9aef832b4270" testId="8aeca674-961d-2d01-1352-30335790a539" testName="Snapshot_CaptureInflatedRectangle" computerName="ZACK-PC" duration="00:00:00.0308727" startTime="2016-03-28T15:23:28.9231479+08:00" endTime="2016-03-28T15:23:28.9551679+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27e76755-5108-4922-8be6-9aef832b4270">
+    </UnitTestResult>
+    <UnitTestResult executionId="cdb54098-9e6c-4746-89f2-37019dd929b7" testId="272ac815-8b64-3d50-e285-e9ef84b0c83f" testName="AppModel_Add" computerName="ZACK-PC" duration="00:00:00.0002136" startTime="2016-03-28T15:23:28.9601738+08:00" endTime="2016-03-28T15:23:29.2703937+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdb54098-9e6c-4746-89f2-37019dd929b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="187081c4-0279-40f2-afac-5cc48de412f8" testId="c98b771f-da5d-0ece-2431-5fbfc78ec008" testName="AppModel_AllItems" computerName="ZACK-PC" duration="00:00:00.0020340" startTime="2016-03-28T15:23:29.2753977+08:00" endTime="2016-03-28T15:23:29.2783984+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="187081c4-0279-40f2-afac-5cc48de412f8">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a738dc0-4dee-4903-900f-d277cc5a4f10" testId="497ebb4e-2d91-0038-b23a-1d21a5d6fc7e" testName="AppModel_AllNames" computerName="ZACK-PC" duration="00:00:00.0005248" startTime="2016-03-28T15:23:29.2844027+08:00" endTime="2016-03-28T15:23:29.2854053+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a738dc0-4dee-4903-900f-d277cc5a4f10">
+    </UnitTestResult>
+    <UnitTestResult executionId="624a1835-b2fd-4bec-a21f-860fb58589d5" testId="21811864-7593-1a9d-ba4a-271f9c3c8de6" testName="AppModel_CheckHierarchy" computerName="ZACK-PC" duration="00:00:00.0025482" startTime="2016-03-28T15:23:29.3044174+08:00" endTime="2016-03-28T15:23:29.3084207+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="624a1835-b2fd-4bec-a21f-860fb58589d5">
+    </UnitTestResult>
+    <UnitTestResult executionId="83f7746e-67f9-40a2-bd54-bfba6a5dc6d0" testId="ba4cdbed-1f7c-ac5c-bc4c-a087998bc4cf" testName="AppModel_FindAddTest" computerName="ZACK-PC" duration="00:00:00.0011070" startTime="2016-03-28T15:23:29.3114234+08:00" endTime="2016-03-28T15:23:29.3134262+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83f7746e-67f9-40a2-bd54-bfba6a5dc6d0">
+    </UnitTestResult>
+    <UnitTestResult executionId="e5bded8a-9994-4e5c-aa27-3c8d880a9a40" testId="aeed1a93-c959-eb20-d32e-5207c019cf94" testName="AppModel_FindClearButtonTest" computerName="ZACK-PC" duration="00:00:00.0006545" startTime="2016-03-28T15:23:29.3184269+08:00" endTime="2016-03-28T15:23:29.3194286+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5bded8a-9994-4e5c-aa27-3c8d880a9a40">
+    </UnitTestResult>
+    <UnitTestResult executionId="799c1e53-f859-4fba-89c8-dfbd20ae0c96" testId="703ef91d-e335-b8b8-d9a0-ee751e55668f" testName="AppModel_GetTestObject" computerName="ZACK-PC" duration="00:00:00.0304981" startTime="2016-03-28T15:23:29.3234305+08:00" endTime="2016-03-28T15:23:29.3544526+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="799c1e53-f859-4fba-89c8-dfbd20ae0c96">
+      <Output>
+        <DebugTrace>1
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="69ff0522-827d-49ca-8483-515f908f07a6" testId="5a815ce3-7e17-fe3d-318a-ead41a3a6dd8" testName="AppModel_Load" computerName="ZACK-PC" duration="00:00:00.0014579" startTime="2016-03-28T15:23:29.3684635+08:00" endTime="2016-03-28T15:23:29.3704645+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69ff0522-827d-49ca-8483-515f908f07a6">
+      <Output>
+        <DebugTrace>1
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8d649b1b-68f0-41d4-9ca0-c0276743022d" testId="a7c1308f-bd5c-f0a4-fd91-02c121fdd341" testName="AppModel_ObjectCountTest" computerName="ZACK-PC" duration="00:00:00.0002850" startTime="2016-03-28T15:23:29.4775430+08:00" endTime="2016-03-28T15:23:29.4785423+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d649b1b-68f0-41d4-9ca0-c0276743022d">
+    </UnitTestResult>
+    <UnitTestResult executionId="21e73ffb-e178-4d23-aa76-119807b40fff" testId="2dfc7802-6e59-1371-48f6-ff3298c5622c" testName="AppDescriptor_ctor_AppModel" computerName="ZACK-PC" duration="00:00:00.0032713" startTime="2016-03-28T15:23:29.4835450+08:00" endTime="2016-03-28T15:23:29.4875487+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21e73ffb-e178-4d23-aa76-119807b40fff">
+    </UnitTestResult>
+    <UnitTestResult executionId="ef612bc3-e9a2-4dbe-aba5-586a022ff9b5" testId="398fbdad-e683-006a-398a-3cfc5a8e0855" testName="AppDescriptor_GetObject" computerName="ZACK-PC" duration="00:00:00.0005523" startTime="2016-03-28T15:23:29.4925518+08:00" endTime="2016-03-28T15:23:29.4945533+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef612bc3-e9a2-4dbe-aba5-586a022ff9b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="d7a2d757-e181-4b71-a630-4845912b9bbc" testId="ab1eec52-7001-e28a-91a4-dae62babd5dc" testName="AppModelFile_Test" computerName="ZACK-PC" duration="00:00:00.0014047" startTime="2016-03-28T15:23:29.4995568+08:00" endTime="2016-03-28T15:23:29.5015578+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7a2d757-e181-4b71-a630-4845912b9bbc">
+      <Output>
+        <DebugTrace>C:\Users\zack\.jenkins\workspace\LAP-Unittest\zack_ZACK-PC 2016-03-28 15_23_28\Out
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="55482ee5-a857-4f71-bda9-e31a570170d8" testId="c069ba5d-b761-3b72-b1b0-51bab54513c2" testName="ControlKeysManager_GetDisplayString" computerName="ZACK-PC" duration="00:00:00.0026004" startTime="2016-03-28T15:23:29.5155677+08:00" endTime="2016-03-28T15:23:29.5696062+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55482ee5-a857-4f71-bda9-e31a570170d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="2589098a-6ea8-4385-b902-e19156710d1c" testId="a84be249-029f-ea47-0692-be121a517901" testName="ControlKeysManager_GetKeyString" computerName="ZACK-PC" duration="00:00:00.0001544" startTime="2016-03-28T15:23:29.5766107+08:00" endTime="2016-03-28T15:23:29.5816148+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2589098a-6ea8-4385-b902-e19156710d1c">
+    </UnitTestResult>
+    <UnitTestResult executionId="90b30ecd-0618-419c-b47e-cca6c1e554d6" testId="32563bdb-bb52-1e8a-2436-02b648b94780" testName="ControlTypeConverter_CountTest" computerName="ZACK-PC" duration="00:00:00.0004166" startTime="2016-03-28T15:23:29.5866179+08:00" endTime="2016-03-28T15:23:29.5876200+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90b30ecd-0618-419c-b47e-cca6c1e554d6">
+    </UnitTestResult>
+    <UnitTestResult executionId="86230ff0-527c-4744-a815-f0becd8baf10" testId="71f63b56-132f-2ae5-fe82-7fa38042bbae" testName="ControlTypeConverter_EqualTest" computerName="ZACK-PC" duration="00:00:00.0004996" startTime="2016-03-28T15:23:29.5916224+08:00" endTime="2016-03-28T15:23:29.5926231+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86230ff0-527c-4744-a815-f0becd8baf10">
+    </UnitTestResult>
+    <UnitTestResult executionId="3455a6c7-e00f-45b6-b173-0ba4d945f703" testId="f611c44d-06f8-81f7-e8f6-94286161a7dd" testName="AppModelManager_HierarchySave" computerName="ZACK-PC" duration="00:00:00.1024976" startTime="2016-03-28T15:23:29.5976266+08:00" endTime="2016-03-28T15:23:29.7006991+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3455a6c7-e00f-45b6-b173-0ba4d945f703">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2a5d99c-33ec-4f05-88b3-56fea355adab" testId="4476eac1-b497-b853-e3f2-f39078c511ad" testName="AppModelManager_LoadFileMissing" computerName="ZACK-PC" duration="00:00:00.0004562" startTime="2016-03-28T15:23:29.7272294+08:00" endTime="2016-03-28T15:23:29.7282310+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2a5d99c-33ec-4f05-88b3-56fea355adab">
+    </UnitTestResult>
+    <UnitTestResult executionId="aff5423d-01e7-440c-a040-9caf95d574a8" testId="bbd2ffca-76df-3561-d6dc-4cc92ff94e87" testName="AppModelManager_LoadReplayOnly" computerName="ZACK-PC" duration="00:00:00.0019850" startTime="2016-03-28T15:23:29.7522477+08:00" endTime="2016-03-28T15:23:29.7552498+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aff5423d-01e7-440c-a040-9caf95d574a8">
+      <Output>
+        <DebugTrace>1
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1e25436c-b105-4220-84bd-ad74b955304d" testId="7d759975-a2e0-cea8-badf-e952f822a094" testName="AppModelManager_Save" computerName="ZACK-PC" duration="00:00:00.0549981" startTime="2016-03-28T15:23:29.7632555+08:00" endTime="2016-03-28T15:23:29.8139093+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e25436c-b105-4220-84bd-ad74b955304d">
+    </UnitTestResult>
+    <UnitTestResult executionId="1d2d055c-f1ec-44a5-ac5d-df88a2f5c8f6" testId="346e1da8-e79d-c6b7-96f3-c8112cde5174" testName="JsonDeserializeModelTest" computerName="ZACK-PC" duration="00:00:00.0007819" startTime="2016-03-28T15:23:29.8139093+08:00" endTime="2016-03-28T15:23:29.8139093+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d2d055c-f1ec-44a5-ac5d-df88a2f5c8f6">
+      <Output>
+        <DebugTrace>1
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="80fa8b41-406c-48b4-8b39-17cf5d2fad58" testId="413f80b4-4654-c797-c90a-d69a842f1a41" testName="JsonSerializeModelTest" computerName="ZACK-PC" duration="00:00:00.0135975" startTime="2016-03-28T15:23:29.8295362+08:00" endTime="2016-03-28T15:23:29.8451618+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80fa8b41-406c-48b4-8b39-17cf5d2fad58">
+    </UnitTestResult>
+    <UnitTestResult executionId="96589872-ae69-4d9b-9aec-73fa65f9364a" testId="bc9af31f-7be1-59bf-4051-3bb7da03e6c5" testName="LPConfig_GetUserConfigPath" computerName="ZACK-PC" duration="00:00:00.0004828" startTime="2016-03-28T15:23:29.8451618+08:00" endTime="2016-03-28T15:23:29.8451618+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96589872-ae69-4d9b-9aec-73fa65f9364a">
+    </UnitTestResult>
+    <UnitTestResult executionId="83275a7c-4fa5-459a-8805-c1d267946617" testId="c316a3f4-4c23-db19-462c-b2fa33796566" testName="LPConfig_GetValueExists" computerName="ZACK-PC" duration="00:00:00.0038334" startTime="2016-03-28T15:23:29.8451618+08:00" endTime="2016-03-28T15:23:29.8645766+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83275a7c-4fa5-459a-8805-c1d267946617">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_GetValueExists 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_GetValueExists() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\LPConfigTest.cs:行号 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3957428d-860b-4550-a6f8-01314c14471a" testId="9e32c0ba-8544-e989-9734-d67e8580b510" testName="LPConfig_GetValueNotExists" computerName="ZACK-PC" duration="00:00:00.0003195" startTime="2016-03-28T15:23:29.8926185+08:00" endTime="2016-03-28T15:23:29.8936206+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3957428d-860b-4550-a6f8-01314c14471a">
+    </UnitTestResult>
+    <UnitTestResult executionId="0d2564c6-bdd9-441c-a84f-ed5f2e9913b4" testId="bbefff3b-0de8-2a62-64be-8f95639da468" testName="LPConfig_KeyExists" computerName="ZACK-PC" duration="00:00:00.0009428" startTime="2016-03-28T15:23:29.8976234+08:00" endTime="2016-03-28T15:23:29.8996248+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d2564c6-bdd9-441c-a84f-ed5f2e9913b4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;LAP&gt;，实际为: &lt;(null)&gt;。</Message>
+          <StackTrace>   在 LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_KeyExists() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\LPConfigTest.cs:行号 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7ed70b0-d307-4e6e-af57-43d4fc677ec0" testId="19e9a714-732e-8fdb-e4a1-c4128f51e77f" testName="LPConfig_KeyNotExists" computerName="ZACK-PC" duration="00:00:00.0002090" startTime="2016-03-28T15:23:29.8999178+08:00" endTime="2016-03-28T15:23:29.8999178+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7ed70b0-d307-4e6e-af57-43d4fc677ec0">
+    </UnitTestResult>
+    <UnitTestResult executionId="10a96cd9-e0e1-4af5-a639-58210b935e00" testId="238cc902-66a6-74d7-d787-fb9d0da066e6" testName="LPConfig_SaveSettings" computerName="ZACK-PC" duration="00:00:00.0197576" startTime="2016-03-28T15:23:29.8999178+08:00" endTime="2016-03-28T15:23:29.9155453+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10a96cd9-e0e1-4af5-a639-58210b935e00">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c6c9770-c536-431b-a42c-46a8c12189fc" testId="0b33b199-ea93-c70a-4669-af2265e19961" testName="ObjectDescriptor_EqualsEmpty" computerName="ZACK-PC" duration="00:00:00.0005019" startTime="2016-03-28T15:23:29.9311694+08:00" endTime="2016-03-28T15:23:29.9324132+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c6c9770-c536-431b-a42c-46a8c12189fc">
+    </UnitTestResult>
+    <UnitTestResult executionId="6f2f50b3-060e-48d4-be7d-e4e0edbd724a" testId="c20086a7-d694-7559-1465-471fc42bb9c0" testName="ObjectDescriptor_EqualsNegative" computerName="ZACK-PC" duration="00:00:00.0017163" startTime="2016-03-28T15:23:29.9374182+08:00" endTime="2016-03-28T15:23:29.9404222+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f2f50b3-060e-48d4-be7d-e4e0edbd724a">
+    </UnitTestResult>
+    <UnitTestResult executionId="c8b6d6fe-fddb-4f2e-a7b2-e40ae2d09a34" testId="0bc6b3e0-2497-0ceb-3f69-d14825cbab2e" testName="ObjectDescriptor_EqualsPositive" computerName="ZACK-PC" duration="00:00:00.0002719" startTime="2016-03-28T15:23:29.9434224+08:00" endTime="2016-03-28T15:23:29.9444236+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8b6d6fe-fddb-4f2e-a7b2-e40ae2d09a34">
+    </UnitTestResult>
+    <UnitTestResult executionId="1af011af-fcbf-45a5-8cf3-89de2eb59b84" testId="855d748b-2d4c-6137-e5c0-6b48d1fa07df" testName="ObjectDescriptor_GetObjectData" computerName="ZACK-PC" duration="00:00:00.0016715" startTime="2016-03-28T15:23:29.9484269+08:00" endTime="2016-03-28T15:23:29.9514300+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1af011af-fcbf-45a5-8cf3-89de2eb59b84">
+    </UnitTestResult>
+    <UnitTestResult executionId="208ea6b1-cd97-4fa8-9b67-2ba6dc320de0" testId="8c608502-bd16-0d01-abe1-b217dfadeaab" testName="ObjectDescriptor_GetTestObject" computerName="ZACK-PC" duration="00:00:00.0008094" startTime="2016-03-28T15:23:29.9544298+08:00" endTime="2016-03-28T15:23:29.9554324+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="208ea6b1-cd97-4fa8-9b67-2ba6dc320de0">
+    </UnitTestResult>
+    <UnitTestResult executionId="bde4d774-c46b-4d91-8918-4f4ebe63e4b5" testId="21eeb0d1-5604-248d-a074-6a9a0f64a993" testName="ObjectDescriptor_GetVirtualTestObject" computerName="ZACK-PC" duration="00:00:00.0009876" startTime="2016-03-28T15:23:29.9604378+08:00" endTime="2016-03-28T15:23:29.9614362+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bde4d774-c46b-4d91-8918-4f4ebe63e4b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="befde906-0149-4859-ae46-c6d448b952a9" testId="cb136bbd-eea3-12a0-e567-a992952a5ca3" testName="ObjectDescriptor_PropertyGroup" computerName="ZACK-PC" duration="00:00:00.0009619" startTime="2016-03-28T15:23:29.9664384+08:00" endTime="2016-03-28T15:23:29.9674405+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="befde906-0149-4859-ae46-c6d448b952a9">
+      <Output>
+        <DebugTrace>property1
+{
+  "ntype": null,
+  "nname": null,
+  "description": null,
+  "property1": "value1",
+  "identifyProperties": {
+    "property3": "value3",
+    "property4": "value4"
+  },
+  "cachedProperties": {
+    "property5": "value5",
+    "property6": "value6",
+    "imageFile": "testImageFile.png"
+  }
+}
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="086c0ab0-7b94-430b-93a5-9f5406da2d96" testId="55d14987-2e11-1614-e351-a422f0bfe140" testName="ObjectDescriptor_Serialization" computerName="ZACK-PC" duration="00:00:00.0002892" startTime="2016-03-28T15:23:29.9704422+08:00" endTime="2016-03-28T15:23:29.9714424+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="086c0ab0-7b94-430b-93a5-9f5406da2d96">
+      <Output>
+        <DebugTrace>property1
+property2
+{
+  "ntype": null,
+  "nname": null,
+  "description": null,
+  "property1": "value1",
+  "property2": "value2"
+}
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c4899f5a-bdf0-4bce-83a2-cee5ffd5a784" testId="7f6b092a-a0cd-e0e5-075b-e1565fc73957" testName="ObjectDescriptor_SerializeVirtualTestObject" computerName="ZACK-PC" duration="00:00:00.0002841" startTime="2016-03-28T15:23:29.9744450+08:00" endTime="2016-03-28T15:23:29.9754452+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4899f5a-bdf0-4bce-83a2-cee5ffd5a784">
+      <Output>
+        <DebugTrace>boundingRectangle
+{
+  "ntype": null,
+  "nname": null,
+  "description": null,
+  "boundingRectangle": "1003,364,167,28"
+}
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="053ca916-12cc-428b-8a78-f9a2ecaa5050" testId="786089b5-e68c-b536-852c-6239e563aeb1" testName="RCSettings_HighlightColor" computerName="ZACK-PC" duration="00:00:00.0017042" startTime="2016-03-28T15:23:29.9784483+08:00" endTime="2016-03-28T15:23:29.9814500+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="053ca916-12cc-428b-8a78-f9a2ecaa5050">
+    </UnitTestResult>
+    <UnitTestResult executionId="0650bb8a-e633-4514-b2a2-44419b8b219b" testId="646e9a74-b7a1-634a-85f7-6026750359ce" testName="RCSettings_HighlightColor_Set" computerName="ZACK-PC" duration="00:00:00.0045421" startTime="2016-03-28T15:23:29.9844512+08:00" endTime="2016-03-28T15:23:29.9894543+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0650bb8a-e633-4514-b2a2-44419b8b219b">
+    </UnitTestResult>
+    <UnitTestResult executionId="c5c3d049-8b2a-41e6-9362-c73cfa7d229f" testId="fefd1bb9-6e36-bd83-1929-d270297d4571" testName="ScreenCapture_Capture" computerName="ZACK-PC" duration="00:00:00.0483817" startTime="2016-03-28T15:23:29.9924578+08:00" endTime="2016-03-28T15:23:30.0415268+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5c3d049-8b2a-41e6-9362-c73cfa7d229f">
+    </UnitTestResult>
+    <UnitTestResult executionId="6896a097-f63e-4089-9caf-76af8fe12bff" testId="f466872a-07a5-ce14-8766-689a8dd15f37" testName="ArrayHandlerTest" computerName="ZACK-PC" duration="00:00:00.0001614" startTime="2016-03-28T15:23:30.0455296+08:00" endTime="2016-03-28T15:23:30.0455296+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6896a097-f63e-4089-9caf-76af8fe12bff">
+    </UnitTestResult>
+    <UnitTestResult executionId="53fdabbb-1529-4b7d-af30-c06ca27fa306" testId="e2ef9746-31f5-307c-e931-0882f93762f5" testName="FileChangeNotifier" computerName="ZACK-PC" duration="00:00:10.0051943" startTime="2016-03-28T15:23:30.0525342+08:00" endTime="2016-03-28T15:23:40.0587764+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53fdabbb-1529-4b7d-af30-c06ca27fa306">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a975cca-abae-4021-9a33-76d3d6c0a95d" testId="8c3ea0b6-8a04-355c-38c3-37832f6b0abe" testName="PropertyItemTest" computerName="ZACK-PC" duration="00:00:00.0039678" startTime="2016-03-28T15:23:40.0747910+08:00" endTime="2016-03-28T15:23:40.0808205+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a975cca-abae-4021-9a33-76d3d6c0a95d">
+      <Output>
+        <DebugTrace>{
+  "ntype": null,
+  "nname": "Button",
+  "description": null,
+  "relation": {
+    "left": "aaa",
+    "right": "bbb"
+  }
+}
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e4d34ef-dacc-4a48-96d9-b196e4fb5754" testId="c99fa5e6-d382-8cb2-a191-31d76ec90be4" testName="ReadOnlyCollectionTest" computerName="ZACK-PC" duration="00:00:00.0003872" startTime="2016-03-28T15:23:40.0887987+08:00" endTime="2016-03-28T15:23:40.0897994+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e4d34ef-dacc-4a48-96d9-b196e4fb5754">
+    </UnitTestResult>
+    <UnitTestResult executionId="6de7d25a-4ab0-49b8-8619-7a7923af5516" testId="bd6250af-b46d-828d-236e-44ad14a1deee" testName="ReadOnlyCollectionTest2" computerName="ZACK-PC" duration="00:00:00.0004697" startTime="2016-03-28T15:23:40.0948025+08:00" endTime="2016-03-28T15:23:40.0958610+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6de7d25a-4ab0-49b8-8619-7a7923af5516">
+    </UnitTestResult>
+    <UnitTestResult executionId="77dfe149-9e93-4214-a7a0-cf52dfbadabe" testId="cfde5249-75bf-5e37-4db3-b3e567188488" testName="TestObjectFactory_CreateObject" computerName="ZACK-PC" duration="00:00:00.0002859" startTime="2016-03-28T15:23:40.0958610+08:00" endTime="2016-03-28T15:23:40.0958610+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77dfe149-9e93-4214-a7a0-cf52dfbadabe">
+    </UnitTestResult>
+    <UnitTestResult executionId="8d5269ca-629b-4af8-8cfb-10443d7ef40a" testId="8544c72b-57a6-fb09-80c4-df6996dc2937" testName="TestObjectNurse_AddChild_NurseObject" computerName="ZACK-PC" duration="00:00:00.0063285" startTime="2016-03-28T15:23:40.0958610+08:00" endTime="2016-03-28T15:23:40.1114889+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d5269ca-629b-4af8-8cfb-10443d7ef40a">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc0e2aa7-299e-4722-ae2b-699e484d217a" testId="c3f22580-c126-7767-bec1-fc154232f87e" testName="TestObjectNurse_AddChild_TestObject" computerName="ZACK-PC" duration="00:00:00.0011406" startTime="2016-03-28T15:23:40.1114889+08:00" endTime="2016-03-28T15:23:40.1114889+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc0e2aa7-299e-4722-ae2b-699e484d217a">
+    </UnitTestResult>
+    <UnitTestResult executionId="316ee2d5-2ab9-4e22-b7c4-4303a69c5ad3" testId="eddde9c4-c253-2f13-e291-42bda109ee75" testName="TestObjectNurse_AddDecendants" computerName="ZACK-PC" duration="00:00:00.0014387" startTime="2016-03-28T15:23:40.1271141+08:00" endTime="2016-03-28T15:23:40.1271141+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="316ee2d5-2ab9-4e22-b7c4-4303a69c5ad3">
+    </UnitTestResult>
+    <UnitTestResult executionId="223000b3-9d23-481d-9793-33a3e8de2d10" testId="f03aa02d-b7c1-231a-83a9-6c794fd39a54" testName="TestObjectNurse_AddTree" computerName="ZACK-PC" duration="00:00:00.0011294" startTime="2016-03-28T15:23:40.1271141+08:00" endTime="2016-03-28T15:23:40.1271141+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="223000b3-9d23-481d-9793-33a3e8de2d10">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb4d7330-104d-4278-96e2-dea6e1d940d8" testId="10d7a038-89e9-d535-b980-3964dda57ad5" testName="TestObjectNurse_Children" computerName="ZACK-PC" duration="00:00:00.0009927" startTime="2016-03-28T15:23:40.1271141+08:00" endTime="2016-03-28T15:23:40.1271141+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb4d7330-104d-4278-96e2-dea6e1d940d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="d6c9ab3c-ba31-4d98-a6fa-0ff2ed54c1d0" testId="2a2c47f9-fff7-bcb6-cadc-6219944d55b6" testName="TestObjectNurse_Clear" computerName="ZACK-PC" duration="00:00:00.0018521" startTime="2016-03-28T15:23:40.1427387+08:00" endTime="2016-03-28T15:23:40.1427387+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6c9ab3c-ba31-4d98-a6fa-0ff2ed54c1d0">
+    </UnitTestResult>
+    <UnitTestResult executionId="bde41ba3-a6db-4f54-bfe2-66763707b720" testId="86c5036c-20bc-593f-bd4c-537bd745a5a6" testName="TestObjectNurse_ContainsKeyword" computerName="ZACK-PC" duration="00:00:00.0010650" startTime="2016-03-28T15:23:40.1427387+08:00" endTime="2016-03-28T15:23:40.1427387+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bde41ba3-a6db-4f54-bfe2-66763707b720">
+    </UnitTestResult>
+    <UnitTestResult executionId="6886e7e1-f29a-49d8-8f0d-f415dbe2ba9b" testId="5e96ab7f-e9da-dfac-24ab-97766a6e8cad" testName="TestObjectNurse_ConvertSubtree" computerName="ZACK-PC" duration="00:00:00.0012568" startTime="2016-03-28T15:23:40.1427387+08:00" endTime="2016-03-28T15:23:40.1427387+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6886e7e1-f29a-49d8-8f0d-f415dbe2ba9b">
+    </UnitTestResult>
+    <UnitTestResult executionId="07328fc3-82ca-486b-9275-81908b8d5f49" testId="a89b58ac-90c3-879c-a74f-bc9a6cf6be8e" testName="TestObjectNurse_ctor" computerName="ZACK-PC" duration="00:00:00.0017355" startTime="2016-03-28T15:23:40.1585224+08:00" endTime="2016-03-28T15:23:40.1615255+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07328fc3-82ca-486b-9275-81908b8d5f49">
+    </UnitTestResult>
+    <UnitTestResult executionId="1f75a75d-89ab-4d45-a48a-88060eb00759" testId="9dec78f8-753a-e4c1-2193-2b216f7bdb79" testName="TestObjectNurse_FromTreeNode" computerName="ZACK-PC" duration="00:00:00.0013781" startTime="2016-03-28T15:23:40.1655279+08:00" endTime="2016-03-28T15:23:40.1675302+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f75a75d-89ab-4d45-a48a-88060eb00759">
+    </UnitTestResult>
+    <UnitTestResult executionId="efdec9e9-3ec4-477a-8fd1-d4c77cc30d29" testId="92a55033-1839-5bd6-a11d-d61877d9abea" testName="TestObjectNurse_NodeName" computerName="ZACK-PC" duration="00:00:00.0008043" startTime="2016-03-28T15:23:40.1715326+08:00" endTime="2016-03-28T15:23:40.1725361+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efdec9e9-3ec4-477a-8fd1-d4c77cc30d29">
+    </UnitTestResult>
+    <UnitTestResult executionId="1fa7cb3c-f226-4682-ad57-67ff86812287" testId="20765945-874a-7443-a72e-bab9977f0289" testName="TestObjectNurse_RemoveChild" computerName="ZACK-PC" duration="00:00:00.0014490" startTime="2016-03-28T15:23:40.1765362+08:00" endTime="2016-03-28T15:23:40.1785381+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fa7cb3c-f226-4682-ad57-67ff86812287">
+    </UnitTestResult>
+    <UnitTestResult executionId="de377e44-d620-42cf-935f-99fbda60476a" testId="7bc325ab-f149-03f6-bfc5-719ce740916f" testName="JsonTest" computerName="ZACK-PC" duration="00:00:00.0348336" startTime="2016-03-28T15:23:40.1815593+08:00" endTime="2016-03-28T15:23:40.2477561+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de377e44-d620-42cf-935f-99fbda60476a">
+      <Output>
+        <DebugTrace>{}
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b0e6462-f89f-4b4b-9afc-7d556c3b7228" testId="34d477c7-031c-d0b2-2fb5-6b313ebdc550" testName="UIAFinder_Identify1" computerName="ZACK-PC" duration="00:00:00.0930970" startTime="2016-03-28T15:23:40.2507382+08:00" endTime="2016-03-28T15:23:40.3448117+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b0e6462-f89f-4b4b-9afc-7d556c3b7228">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;1&gt;，实际为: &lt;0&gt;。only 1 parent element</Message>
+          <StackTrace>   在 LPReplayCore.UnitTest.UIAFinderTest.UIAFinder_Identify1() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAFinderTest.cs:行号 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="368778f7-5ee3-4fbc-b60d-9cd095b23114" testId="12026806-b265-0731-b747-64f897a451da" testName="UIAHighlight_HighlightRectangle" computerName="ZACK-PC" startTime="2016-03-28T15:23:40.3478274+08:00" endTime="2016-03-28T15:23:40.3518297+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="368778f7-5ee3-4fbc-b60d-9cd095b23114">
+      <Output>
+        <ErrorInfo>
+          <Message>类初始化方法 LPReplayCore.UnitTest.UIAHighlightTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</Message>
+          <StackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPReplayCore.UnitTest.UIAHighlightTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAHighlightTest.cs:行号 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f4bf266-bb5d-4ff8-aa3c-e5e2140e9e69" testId="6ad09422-386b-118c-e8c4-11fa2adec5b6" testName="UIAHighlight_HighlightVirtualControl" computerName="ZACK-PC" startTime="2016-03-28T15:23:40.3558135+08:00" endTime="2016-03-28T15:23:40.3568142+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f4bf266-bb5d-4ff8-aa3c-e5e2140e9e69">
+      <Output>
+        <ErrorInfo>
+          <Message>类初始化方法 LPReplayCore.UnitTest.UIAHighlightTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</Message>
+          <StackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPReplayCore.UnitTest.UIAHighlightTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAHighlightTest.cs:行号 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ca5825b6-a640-4804-b3cd-1d7a8a4d98cf" testId="ea9ba063-0719-f528-b442-98f67837301d" testName="UIAHighlight_SearchandHighlight_ProgramRestarted" computerName="ZACK-PC" startTime="2016-03-28T15:23:40.3598158+08:00" endTime="2016-03-28T15:23:40.3608175+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca5825b6-a640-4804-b3cd-1d7a8a4d98cf">
+      <Output>
+        <ErrorInfo>
+          <Message>类初始化方法 LPReplayCore.UnitTest.UIAHighlightTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</Message>
+          <StackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPReplayCore.UnitTest.UIAHighlightTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAHighlightTest.cs:行号 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e2b1cd23-80ca-42a3-9a67-c755964270cb" testId="e162633a-d896-c4a3-4192-c5343187fe37" testName="UIAHighlight_SearchandHighlight_UIA" computerName="ZACK-PC" startTime="2016-03-28T15:23:40.3658206+08:00" endTime="2016-03-28T15:23:40.3668236+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2b1cd23-80ca-42a3-9a67-c755964270cb">
+      <Output>
+        <ErrorInfo>
+          <Message>类初始化方法 LPReplayCore.UnitTest.UIAHighlightTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</Message>
+          <StackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPReplayCore.UnitTest.UIAHighlightTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAHighlightTest.cs:行号 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d3c3cf3b-b8e5-4db3-ba61-46a7880be61a" testId="0207a86a-27b3-381d-dba5-b6c7970ab1d2" testName="UIAHighlight_SearchandHighlight_Virtual" computerName="ZACK-PC" startTime="2016-03-28T15:23:40.3708251+08:00" endTime="2016-03-28T15:23:40.3708251+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3c3cf3b-b8e5-4db3-ba61-46a7880be61a">
+      <Output>
+        <ErrorInfo>
+          <Message>类初始化方法 LPReplayCore.UnitTest.UIAHighlightTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</Message>
+          <StackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPReplayCore.UnitTest.UIAHighlightTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAHighlightTest.cs:行号 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ffa6dd37-49f1-4477-8e63-d04ec9ecfc73" testId="4245cd78-e7a3-2f83-faed-51e12e8903ea" testName="UIATestObject_CachedProperties" computerName="ZACK-PC" duration="00:00:00.0016044" startTime="2016-03-28T15:23:40.3748270+08:00" endTime="2016-03-28T15:23:40.3768284+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffa6dd37-49f1-4477-8e63-d04ec9ecfc73">
+      <Output>
+        <DebugTrace>1
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c31ed26a-0eee-461b-8766-2f6afeccbdc5" testId="e07a50f7-bf06-a4cf-6c63-c92a68994d49" testName="UIATestObject_ControlTypeAssign" computerName="ZACK-PC" duration="00:00:00.0002673" startTime="2016-03-28T15:23:40.3808308+08:00" endTime="2016-03-28T15:23:40.3808308+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c31ed26a-0eee-461b-8766-2f6afeccbdc5">
+    </UnitTestResult>
+    <UnitTestResult executionId="3d818a6d-e584-4c47-b95d-82196e56825e" testId="1133ba44-cb15-372f-e1e0-a3ef4ba7e538" testName="UIATestObject_ControlTypeInit" computerName="ZACK-PC" duration="00:00:00.0002677" startTime="2016-03-28T15:23:40.3848346+08:00" endTime="2016-03-28T15:23:40.3858381+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d818a6d-e584-4c47-b95d-82196e56825e">
+    </UnitTestResult>
+    <UnitTestResult executionId="a8e1940c-2da5-4bb4-977c-b5c1a84e54bc" testId="7462445f-e6f2-1eaf-eb9a-027b3e3816e9" testName="UIATestObject_FindRecursive" computerName="ZACK-PC" duration="00:00:00.0014537" startTime="2016-03-28T15:23:40.3888384+08:00" endTime="2016-03-28T15:23:40.3908403+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8e1940c-2da5-4bb4-977c-b5c1a84e54bc">
+      <Output>
+        <DebugTrace>1
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="77931da3-be45-453e-9fbe-450e068b8cfc" testId="4c0403ce-8329-fe2d-6b9d-a323d4461880" testName="UIATestObject_GetContext" computerName="ZACK-PC" duration="00:00:00.0003708" startTime="2016-03-28T15:23:40.3948412+08:00" endTime="2016-03-28T15:23:40.3958452+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77931da3-be45-453e-9fbe-450e068b8cfc">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f555bd9-4e94-4312-ae49-b586690776f3" testId="73b0abb0-79b4-6104-975b-b9e38791d952" testName="UIATestObject_NoCachedProperties" computerName="ZACK-PC" duration="00:00:00.0011901" startTime="2016-03-28T15:23:40.3988632+08:00" endTime="2016-03-28T15:23:40.4008665+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f555bd9-4e94-4312-ae49-b586690776f3">
+      <Output>
+        <DebugTrace>1
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d9713d7b-b36a-4f17-9862-51807ec2adc4" testId="ded679bf-0bc0-0df6-a237-9efe66a98668" testName="UIATestObject_SetContext" computerName="ZACK-PC" duration="00:00:00.0005150" startTime="2016-03-28T15:23:40.4048488+08:00" endTime="2016-03-28T15:23:40.4058771+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9713d7b-b36a-4f17-9862-51807ec2adc4">
+    </UnitTestResult>
+    <UnitTestResult executionId="3c90e5e4-07ca-4a17-b824-440aaa3f84e6" testId="b6ef410f-533e-0cbb-3af1-0eeda023335d" testName="ButtonToAutomationElementTest" computerName="ZACK-PC" startTime="2016-03-28T15:23:40.4058771+08:00" endTime="2016-03-28T15:23:40.4058771+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c90e5e4-07ca-4a17-b824-440aaa3f84e6">
+      <Output>
+        <ErrorInfo>
+          <Message>方法 LPReplayCore.UnitTest.UIAUtilityTest.ClassInitialize 具有错误的签名。  该方法应标记为静态。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="47b54c2b-a367-4241-8453-1836814b912d" testId="80bf6e8f-a0d5-2309-3904-5d5ee695851d" testName="UIAUtility_GetElementLine" computerName="ZACK-PC" startTime="2016-03-28T15:23:40.4058771+08:00" endTime="2016-03-28T15:23:40.4058771+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47b54c2b-a367-4241-8453-1836814b912d">
+      <Output>
+        <ErrorInfo>
+          <Message>方法 LPReplayCore.UnitTest.UIAUtilityTest.ClassInitialize 具有错误的签名。  该方法应标记为静态。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5ddcb1dc-bdc5-4452-b469-304663feefe3" testId="7c4bf3f0-afb5-543b-69d0-b079ed916be7" testName="Utility_GetBinDirectory" computerName="ZACK-PC" duration="00:00:00.0003531" startTime="2016-03-28T15:23:40.4215059+08:00" endTime="2016-03-28T15:23:40.4215059+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ddcb1dc-bdc5-4452-b469-304663feefe3">
+      <Output>
+        <StdOut>C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f30ff4ea-65fc-4b61-bf37-34454c7af945" testId="64545cbe-8169-21ee-dd06-8043e3ab9f18" testName="VirtualTestObject_AreEqual" computerName="ZACK-PC" duration="00:00:00.0017588" startTime="2016-03-28T15:23:40.4215059+08:00" endTime="2016-03-28T15:23:40.4215059+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f30ff4ea-65fc-4b61-bf37-34454c7af945">
+    </UnitTestResult>
+    <UnitTestResult executionId="8bfe4629-dc1e-49dd-8939-e906476c8c4a" testId="b27c0857-e915-29d8-bc21-8727c065d282" testName="VirtualTestObject_CreateTestObject" computerName="ZACK-PC" duration="00:00:00.0013916" startTime="2016-03-28T15:23:40.4215059+08:00" endTime="2016-03-28T15:23:40.4384606+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bfe4629-dc1e-49dd-8939-e906476c8c4a">
+    </UnitTestResult>
+    <UnitTestResult executionId="36f6f92e-2ff1-4df4-9374-32aa41f26b96" testId="e161035b-692d-0a1b-c6cb-eadb8a1b4c3f" testName="VirtualTestObject_ctor" computerName="ZACK-PC" duration="00:00:00.0005561" startTime="2016-03-28T15:23:40.4424621+08:00" endTime="2016-03-28T15:23:40.4444640+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36f6f92e-2ff1-4df4-9374-32aa41f26b96">
+    </UnitTestResult>
+    <UnitTestResult executionId="098d5e0a-ff80-47c6-8e08-4ad9a274dc05" testId="7beb1823-c3d8-7431-998c-94e14c4d1e29" testName="VirtualTestObject_GetDescriptor" computerName="ZACK-PC" duration="00:00:00.0004786" startTime="2016-03-28T15:23:40.4514699+08:00" endTime="2016-03-28T15:23:40.4524701+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="098d5e0a-ff80-47c6-8e08-4ad9a274dc05">
+      <Output>
+        <DebugTrace>LPReplayCore.Model.ObjectDescriptor
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f17ccb0-f22c-4a30-9bed-f854dca01f2d" testId="49a46931-7d32-319e-e17f-ddd50f87c089" testName="VirtualTestObject_Properties" computerName="ZACK-PC" duration="00:00:00.0003275" startTime="2016-03-28T15:23:40.4574732+08:00" endTime="2016-03-28T15:23:40.4584744+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f17ccb0-f22c-4a30-9bed-f854dca01f2d">
+    </UnitTestResult>
+    <UnitTestResult executionId="78be3be3-c4d0-4afb-aa64-cd0000b8b5c9" testId="339df328-80bf-8d02-d286-bb96bb7dd8b1" testName="VirtualTestObject_StringRectToRect" computerName="ZACK-PC" duration="00:00:00.0016146" startTime="2016-03-28T15:23:40.4634785+08:00" endTime="2016-03-28T15:23:40.4664806+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78be3be3-c4d0-4afb-aa64-cd0000b8b5c9">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc172cac-a8ab-490a-bbb8-0d502bbc64f5" testId="22bbfd8d-1aad-bbee-4ddd-69f2c2998265" testName="ControlSearcher_GetCondition" computerName="ZACK-PC" duration="00:00:00.0035526" startTime="2016-03-28T15:23:40.4704825+08:00" endTime="2016-03-28T15:23:40.4854937+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc172cac-a8ab-490a-bbb8-0d502bbc64f5">
+      <Output>
+        <DebugTrace>1
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="34f96cc5-fade-45a6-9209-67c3e758af83" testId="41241e95-695d-4548-089e-82b57a4e66f8" testName="ControlSearcher_GetTOTest" computerName="ZACK-PC" duration="00:00:00.0004432" startTime="2016-03-28T15:23:40.4915012+08:00" endTime="2016-03-28T15:23:40.4924982+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34f96cc5-fade-45a6-9209-67c3e758af83">
+    </UnitTestResult>
+    <UnitTestResult executionId="2938044e-f2fc-40be-ba96-3140452f26d4" testId="bd27e7bc-b3d9-ba13-5163-f038dc399402" testName="CodeGenerator_GetFullPathName" computerName="ZACK-PC" duration="00:00:00.0001786" startTime="2016-03-28T15:23:40.4975041+08:00" endTime="2016-03-28T15:23:40.4985034+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2938044e-f2fc-40be-ba96-3140452f26d4">
+    </UnitTestResult>
+    <UnitTestResult executionId="264d981f-5364-4f58-8f3a-d3ccb7e88cd1" testId="be2e9024-0a3e-e4e6-858a-49a5c04b16c8" testName="ElementProperties_DeriveName" computerName="ZACK-PC" duration="00:00:00.0013912" startTime="2016-03-28T15:23:40.5015065+08:00" endTime="2016-03-28T15:23:40.5035079+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="264d981f-5364-4f58-8f3a-d3ccb7e88cd1">
+    </UnitTestResult>
+    <UnitTestResult executionId="ba1297b6-7574-48ad-bb9c-d43aa460d0b2" testId="49c93ea0-ca1c-698b-98f4-9da5f5459b61" testName="ElementProperties_DeriveName1" computerName="ZACK-PC" duration="00:00:00.0004805" startTime="2016-03-28T15:23:40.5075084+08:00" endTime="2016-03-28T15:23:40.5085105+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba1297b6-7574-48ad-bb9c-d43aa460d0b2">
+    </UnitTestResult>
+    <UnitTestResult executionId="26c292d4-e692-402b-89ee-201d38a33724" testId="dffb5d99-a41d-4b1a-7119-1b2bcb397fbc" testName="ElementProperties_ToNurseObject" computerName="ZACK-PC" duration="00:00:00.0031761" startTime="2016-03-28T15:23:40.5135131+08:00" endTime="2016-03-28T15:23:40.5165171+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26c292d4-e692-402b-89ee-201d38a33724">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;3&gt;，实际为: &lt;4&gt;。</Message>
+          <StackTrace>   在 LPUIAObjects.UnitTest.ElementPropertiesTest.ElementProperties_ToNurseObject() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\UnitTest\ElementPropertiesTest.cs:行号 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6447c90b-57b9-4f62-9cab-d3382a99c1ee" testId="ae14e43c-5b64-cfb9-cf0b-866dd1d6628d" testName="ElementProperties_ToNurseObject2" computerName="ZACK-PC" duration="00:00:00.0003844" startTime="2016-03-28T15:23:40.5205181+08:00" endTime="2016-03-28T15:23:40.5215202+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6447c90b-57b9-4f62-9cab-d3382a99c1ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="f9c02cf8-357f-43d2-a6fd-479d0f166aa7" testId="7e008783-696f-7a74-d393-2256901543c2" testName="UIAConditionMatcher_Match_Positive" computerName="ZACK-PC" duration="00:00:00.0818228" startTime="2016-03-28T15:23:40.5245214+08:00" endTime="2016-03-28T15:23:40.6363031+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9c02cf8-357f-43d2-a6fd-479d0f166aa7">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsNotNull 失败。Target element is not found, has Calculator.exe process launched?</Message>
+          <StackTrace>   在 LPUIAObjects.UnitTest.UIAConditionMatcherTest.UIAConditionMatcher_Match_Positive() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\UnitTest\UIAConditionMatcherTest.cs:行号 36
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7319106-7bf0-4a0a-85f7-d046d21afbbd" testId="e9b20887-1981-f22c-2538-a089cd98e84f" testName="AppModelManager_LoadFull" computerName="ZACK-PC" duration="00:00:00.0010081" startTime="2016-03-28T15:23:40.6403046+08:00" endTime="2016-03-28T15:23:40.6423083+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7319106-7bf0-4a0a-85f7-d046d21afbbd">
+      <Output>
+        <DebugTrace>1
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="63c2352a-fa85-4871-ba4b-a26c0e002f92" testId="27f64c6d-065a-5bd9-4af6-27cfcbf5e1ef" testName="UIACondition_CachedProperties" computerName="ZACK-PC" duration="00:00:00.0006036" startTime="2016-03-28T15:23:40.6453086+08:00" endTime="2016-03-28T15:23:40.6473110+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63c2352a-fa85-4871-ba4b-a26c0e002f92">
+    </UnitTestResult>
+    <UnitTestResult executionId="5c35e33d-0741-4c89-9daa-af909a198a52" testId="3e50168e-3f2d-ece2-137d-dd69787f3922" testName="UIACondition_NormalizeCachedProperties" computerName="ZACK-PC" duration="00:00:00.0006461" startTime="2016-03-28T15:23:40.6503122+08:00" endTime="2016-03-28T15:23:40.6513143+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c35e33d-0741-4c89-9daa-af909a198a52">
+    </UnitTestResult>
+    <UnitTestResult executionId="c0ce0399-bd97-469b-9d2a-55174993f8d7" testId="b8196642-95eb-6100-6d89-ea33e8152baa" testName="UIAEdit_Text" computerName="ZACK-PC" startTime="2016-03-28T15:23:40.6553153+08:00" endTime="2016-03-28T15:23:40.6583188+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0ce0399-bd97-469b-9d2a-55174993f8d7">
+      <Output>
+        <ErrorInfo>
+          <Message>类初始化方法 LPUIAObjects.UnitTest.UIAEditTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</Message>
+          <StackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPUIAObjects.UnitTest.UIAEditTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\UnitTest\UnitTest1.cs:行号 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5bcf89a3-7a40-4c38-8f71-1e2e9bd9a4e0" testId="95e7b9a9-2d5c-239d-2d4f-f0e1e7fbeeec" testName="TestDragAndDrop" computerName="ZACK-PC" duration="00:00:06.4078381" startTime="2016-03-28T15:23:40.6613205+08:00" endTime="2016-03-28T15:23:47.0775893+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bcf89a3-7a40-4c38-8f71-1e2e9bd9a4e0">
+    </UnitTestResult>
+    <UnitTestResult executionId="748b50b8-59a8-4f5b-aee8-4d155f1d8690" testId="cef86e1f-ac14-f1f1-3473-9f1c6fa2dea3" testName="TestDragAndDrop2" computerName="ZACK-PC" duration="00:00:08.3595342" startTime="2016-03-28T15:23:47.0825835+08:00" endTime="2016-03-28T15:23:55.4433112+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="748b50b8-59a8-4f5b-aee8-4d155f1d8690">
+    </UnitTestResult>
+    <UnitTestResult executionId="43397624-1ba4-4479-b455-ca363990af26" testId="fee81fe5-1f17-9495-cdfd-47a9b68650c0" testName="TestDragAndDrop3" computerName="ZACK-PC" duration="00:00:05.7929561" startTime="2016-03-28T15:23:55.4523176+08:00" endTime="2016-03-28T15:24:01.2454388+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43397624-1ba4-4479-b455-ca363990af26">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b806fc2-f2ca-4997-bb78-22b236cde58c" testId="a902c186-16b8-27c4-8912-224d9d164eb6" testName="TestDragAndDrop4" computerName="ZACK-PC" duration="00:00:07.9995148" startTime="2016-03-28T15:24:01.2514427+08:00" endTime="2016-03-28T15:24:09.2512150+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b806fc2-f2ca-4997-bb78-22b236cde58c">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop4 引发了异常: 
+System.InvalidOperationException: unknown error: Runtime.evaluate threw exception: SyntaxError: Unexpected identifier
+    at Object.InjectedScript._evaluateOn (&lt;anonymous&gt;:878:140)
+    at Object.InjectedScript._evaluateAndWrap (&lt;anonymous&gt;:811:34)
+    at Object.InjectedScript.evaluate (&lt;anonymous&gt;:667:21)
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64)</Message>
+          <StackTrace>    在 OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse) 位置 c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:行号 1179
+   在 OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) 位置 c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:行号 979
+   在 OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args) 位置 c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:行号 1063
+   在 OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args) 位置 c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:行号 444
+   在 LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop4() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\UnitTest\SeleniumTest.cs:行号 155
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="593dd111-87a3-4978-949a-20c9803a6cca" testId="745c7873-f671-a4be-e896-27310952f934" testName="TestDragAndDrop5" computerName="ZACK-PC" duration="00:00:06.5052314" startTime="2016-03-28T15:24:09.2552183+08:00" endTime="2016-03-28T15:24:15.7513696+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="593dd111-87a3-4978-949a-20c9803a6cca">
+    </UnitTestResult>
+    <UnitTestResult executionId="dfaad799-a587-4357-8516-4c07b0967453" testId="e3aec1bf-9e06-4914-8bbc-6e499581254b" testName="TestDragAndDrop6" computerName="ZACK-PC" duration="00:00:07.1220873" startTime="2016-03-28T15:24:15.7513696+08:00" endTime="2016-03-28T15:24:22.8870532+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfaad799-a587-4357-8516-4c07b0967453">
+    </UnitTestResult>
+    <UnitTestResult executionId="f601a2ef-5d05-4ad2-8d79-df0568b84730" testId="2d031042-14c7-6c2e-fca6-b2a4f8b1fea1" testName="TestMethod4" computerName="ZACK-PC" duration="00:00:03.7083457" startTime="2016-03-28T15:24:22.8910532+08:00" endTime="2016-03-28T15:24:26.6003227+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f601a2ef-5d05-4ad2-8d79-df0568b84730">
+      <Output>
+        <DebugTrace>6
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="943b4a2e-9380-4e88-a4e4-77f60773f989" testId="93ed0d6c-3993-57c6-f48d-6ab1ec65e749" testName="WebControl_DragDrop" computerName="ZACK-PC" duration="00:00:09.2683117" startTime="2016-03-28T15:24:26.6063284+08:00" endTime="2016-03-28T15:24:35.8751477+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="943b4a2e-9380-4e88-a4e4-77f60773f989">
+      <Output>
+        <DebugTrace>6
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fa596128-6a99-41ef-b67f-74165394ad31" testId="9293972c-2abb-43c7-4315-15c5f6165ee3" testName="WebControl_FlightTour_Book" computerName="ZACK-PC" duration="00:00:01.0482982" startTime="2016-03-28T15:24:35.8821527+08:00" endTime="2016-03-28T15:24:36.9312898+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa596128-6a99-41ef-b67f-74165394ad31">
+      <Output>
+        <DebugTrace>6
+</DebugTrace>
+        <ErrorInfo>
+          <Message>测试方法 LPWebObjects.UnitTest.WebControlTest.WebControl_FlightTour_Book 引发了异常: 
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index</Message>
+          <StackTrace>    在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 System.Collections.ObjectModel.ReadOnlyCollection`1.get_Item(Int32 index)
+   在 LPReplayCore.Web.SETestObject.get_SEWebElement() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\Selenium\SETestObject.cs:行号 308
+   在 LPWebObjects.Controls.WebEdit.TypeText(String Text) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\Controls\WebEdit.cs:行号 65
+   在 LPWebObjects.UnitTest.WebControlTest.WebControl_FlightTour_Book() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\UnitTest\WebControlTest.cs:行号 29
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f1691a33-2c16-41e3-ab3b-d01c056cd437" testId="96765513-b409-77a6-3bae-c21f04e40ac9" testName="WebControl_FlightTour_Login" computerName="ZACK-PC" duration="00:00:04.4732557" startTime="2016-03-28T15:24:36.9342891+08:00" endTime="2016-03-28T15:24:41.4085550+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1691a33-2c16-41e3-ab3b-d01c056cd437">
+      <Output>
+        <DebugTrace>6
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

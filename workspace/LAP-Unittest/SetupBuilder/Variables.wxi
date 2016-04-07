@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--?include $(var.SolutionDir)Resources\Wix_Common\Variables\Variables_Global.wxi ?-->
+<Include>
+  <?define ProductCAPath="$(var.SolutionDir)\bin\$(var.Configuration)\Install_CA.CA.dll"?>
+</Include>

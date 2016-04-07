@@ -1,0 +1,10 @@
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPControlPanel.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPControlPanel.pdb
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\zh-CN\LPControlPanel.resources.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.csprojResolveAssemblyReference.cache
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.Form1.resources
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.Form1.zh-CN.resources
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.csproj.GenerateResource.Cache
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\zh-CN\LPControlPanel.resources.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPControlPanel\obj\Debug\LPControlPanel.pdb

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension"
+     xmlns:VSExtension="http://schemas.microsoft.com/wix/VSExtension">
+	<Fragment>
+    <!-- ProgramMenuShortcuts-->
+
+    <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="ApplicationShortcut" Guid="{578D33A4-E4A0-46F5-AB29-99245CDCDC56}">
+        <!-- uninstallation-->
+        <Shortcut Id="UninstallApplication"
+                         Name="Uninstall"
+                         Description="!(loc.Uninstall_App_Description)"
+                         Target="[SystemFolder]msiexec.exe"
+                         Arguments="/x [ProductCode]" >
+        </Shortcut>
+        
+        <!--Icon=".exe"-->
+        <Shortcut Id="ApplicationStartMenuShortcut"
+                  Name="!(loc.AppName)"
+                  Description="!(loc.Shortcut_Description)"
+                  Target="[LAPINSTALLBINDIR]LPSPY.exe"
+                  
+                  WorkingDirectory="LAPINSTALLBINDIR">
+
+          
+        <Icon Id="IconApp" SourceFile="..\Resources\Images\M.ico"/>
+        </Shortcut>
+        <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\LAP Inc\Lean Automation Platform" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+    <DirectoryRef Id="DesktopFolder">
+      <Component Id="DesktopFolderShortcut" Guid="{023096F2-D9D9-4558-8B4A-60D3E660F2B8}">
+        <Shortcut Id="DesktopShortcut" Directory="DesktopFolder"    Name="!(loc.AppName)"
+                  Description="!(loc.Shortcut_Description)" Target="[LAPINSTALLBINDIR]LPSPY.exe"  WorkingDirectory="LAPINSTALLBINDIR">
+        </Shortcut>
+        <RegistryValue Root="HKCU" Key="Software\LAP Inc\Lean Automation Platform" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+    
+	</Fragment>
+</Wix>

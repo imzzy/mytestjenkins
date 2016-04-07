@@ -1,0 +1,192 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven
+[TestLeanpro-Maven] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson4546534523686729625.bat
+
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven>rd /q /s C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven 
+ÁíÒ»¸ö³ÌÐòÕýÔÚÊ¹ÓÃ´ËÎÄ¼þ£¬½ø³ÌÎÞ·¨·ÃÎÊ¡£
+
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven>exit 0 
+[TestLeanpro-Maven] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson822075232519012731.bat
+
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven>xcopy /E /Y  D:\mytestcode\testSelenium  C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven 
+D:\mytestcode\testSelenium\.classpath
+D:\mytestcode\testSelenium\.gitignore
+D:\mytestcode\testSelenium\.project
+D:\mytestcode\testSelenium\pom.xml
+D:\mytestcode\testSelenium\.settings\org.eclipse.core.resources.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.core.runtime.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.jdt.core.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.m2e.core.prefs
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\annotation\Column.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\annotation\ExcelSign.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\BooleanTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\DateTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\DoubleTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\IntegerTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\StringTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\TypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\TypeConverters.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\BBSPostModle.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\PostContent.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\Users.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AddNewPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AdminLoginPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AllPostsPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSAddNewPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSAllPagePost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSEditeAPost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSNewPost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSResponsePost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\DeletePostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\EditPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\SearchPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\UserLoginBBS.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\BaseTest.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\SuiteBases.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\CollectionUtils.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\EachFieldCallback.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ExOM.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ReflectionUtils.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ReportUtil.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ScreenShotUtils.java
+D:\mytestcode\testSelenium\src\main\resources\Param.properties
+D:\mytestcode\testSelenium\src\main\resources\testdata.xlsx
+D:\mytestcode\testSelenium\src\main\resources\testng.xml
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestABC.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestBBS.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestBBSPage.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestLeanproPage.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestLogin.java
+D:\mytestcode\testSelenium\target\classes\Param.properties
+D:\mytestcode\testSelenium\target\classes\testdata.xlsx
+D:\mytestcode\testSelenium\target\classes\testng.xml
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\annotation\Column.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\annotation\ExcelSign.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\BooleanTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\DateTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\DoubleTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\IntegerTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\StringTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\TypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\TypeConverters.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\BBSPostModle.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\PostContent.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\Users.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AddNewPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AdminLoginPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AllPostsPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSAddNewPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSAllPagePost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSEditeAPost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSNewPost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSResponsePost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\DeletePostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\EditPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\SearchPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\UserLoginBBS.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\BaseTest.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\SuiteBases.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\CollectionUtils.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\EachFieldCallback.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM$1.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM$2.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ReflectionUtils.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ReportUtil.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ScreenShotUtils.class
+D:\mytestcode\testSelenium\target\classes\META-INF\MANIFEST.MF
+D:\mytestcode\testSelenium\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.properties
+D:\mytestcode\testSelenium\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.xml
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestABC.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestBBS.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestBBSPage.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestLeanproPage.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestLogin.class
+¸´ÖÆÁË 93 ¸öÎÄ¼þ
+
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven>exit 0 
+[TestLeanpro-Maven] $ cmd.exe /C '"D:\dev\tools\apache-maven\bin\mvn.cmd test && exit %%ERRORLEVEL%%"'
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building testSelenium 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ testSelenium ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 32 source files to C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes
+[INFO] /C:/Users/zack/.jenkins/workspace/TestLeanpro-Maven/src/main/java/cn/leanpro/util/ReflectionUtils.java: Ä³Ð©ÊäÈëÎÄ¼þÊ¹ÓÃÁËÎ´¾­¼ì²é»ò²»°²È«µÄ²Ù×÷¡£
+[INFO] /C:/Users/zack/.jenkins/workspace/TestLeanpro-Maven/src/main/java/cn/leanpro/util/ReflectionUtils.java: ÓÐ¹ØÏêÏ¸ÐÅÏ¢, ÇëÊ¹ÓÃ -Xlint:unchecked ÖØÐÂ±àÒë¡£
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\test\resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ testSelenium ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\test-classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ testSelenium ---
+[INFO] Surefire report directory: C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+¿ªÊ¼²âÊÔ
+ hi  creating driver....
+this is getting driver....
+
+yes
+this is getting driver....
+screenshot/Success/TestBBSPage.testCreateANewPost.2015-12-25-03-49-15.png
+yes
+this is getting driver....
+screenshot/Success/TestBBSPage.testEditAPost.2015-12-25-03-49-29.png
+yes
+this is getting driver....
+screenshot/Success/TestBBSPage.testResponseAPost.2015-12-25-03-49-42.png
+½áÊø²âÊÔ
+Ê®¶þÔÂ 25, 2015 3:49:42 ÏÂÎç com.relevantcodes.extentreports.Configuration <init>
+ÐÅÏ¢: Configurating report from file:/C:/Users/zack/.m2/repository/com/relevantcodes/extentreports/2.40/extentreports-2.40.jar!/com/relevantcodes/extentreports/resources/extent-config.xml
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports\report.html
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.01 sec - in TestSuite
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:03 min
+[INFO] Finished at: 2015-12-25T15:49:45+08:00
+[INFO] Final Memory: 25M/226M
+[INFO] ------------------------------------------------------------------------
+Preparing TestLink client API.
+Using TestLink URL: http://www.leanpro.cn/testlink1/lib/api/xmlrpc/v1/xmlrpc.php
+
+Found 3 automated test cases in TestLink.
+
+Sorting automated test cases by TestLink test plan execution order.
+
+Executing single Build Steps.
+
+Executing iterative Build Steps.
+
+Looking for the test results of TestLink test cases.
+
+Looking for test results in TestNG methods by its name.
+
+Found 3 test result(s).
+
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+Saving reports...
+Processing 'C:\Users\zack\.jenkins\jobs\TestLeanpro-Maven\builds\20\testng\testng-results.xml'
+TestNG Reports Processing: FINISH
+Finished: SUCCESS

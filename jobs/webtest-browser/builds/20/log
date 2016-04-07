@@ -1,0 +1,41 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\webtest-browser
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe config remote.origin.url https://99robo.visualstudio.com/DefaultCollection/_git/R2D2 # timeout=10
+Fetching upstream changes from https://99robo.visualstudio.com/DefaultCollection/_git/R2D2
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe --version # timeout=10
+using .gitcredentials to set credentials
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe config --local credential.username zack # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe config --local credential.helper store --file=\"C:\Users\zack\AppData\Local\Temp\git3127759572250460009.credentials\" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe -c core.askpass=true fetch --tags --progress https://99robo.visualstudio.com/DefaultCollection/_git/R2D2 +refs/heads/*:refs/remotes/origin/*
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe config --local --remove-section credential # timeout=10
+ERROR: Error fetching remote repo 'origin'
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mhudson.plugins.git.GitException: Failed to fetch from https://99robo.visualstudio.com/DefaultCollection/_git/R2D2
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:766)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1022)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1053)
+	at hudson.scm.SCM.checkout(SCM.java:485)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1276)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:607)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:86)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:529)
+	at hudson.model.Run.execute(Run.java:1738)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:410)
+Caused by: hudson.plugins.git.GitException: Command "C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe -c core.askpass=true fetch --tags --progress https://99robo.visualstudio.com/DefaultCollection/_git/R2D2 +refs/heads/*:refs/remotes/origin/*" returned status code 128:
+stdout: 
+stderr: error: cannot spawn sh: No such file or directory
+error: cannot spawn echo : No such file or directory
+error: cannot spawn sh: No such file or directory
+fatal: Authentication failed for 'https://99robo.visualstudio.com/DefaultCollection/_git/R2D2/'
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:1693)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1441)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$300(CliGitAPIImpl.java:62)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:313)
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:764)
+	... 11 more
+ERROR: null
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFinished: FAILURE

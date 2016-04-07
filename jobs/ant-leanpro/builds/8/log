@@ -1,0 +1,318 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\ant-leanpro
+[ant-leanpro] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson7779996918255149522.bat
+
+C:\Users\zack\.jenkins\workspace\ant-leanpro>xcopy /E /Y  D:\mytestcode\TestLeanpro  C:\Users\zack\.jenkins\workspace\ant-leanpro 
+D:\mytestcode\TestLeanpro\.classpath
+D:\mytestcode\TestLeanpro\.DS_Store
+D:\mytestcode\TestLeanpro\.project
+D:\mytestcode\TestLeanpro\build.xml
+D:\mytestcode\TestLeanpro\testng.xml
+D:\mytestcode\TestLeanpro\.settings\org.eclipse.core.resources.prefs
+D:\mytestcode\TestLeanpro\.settings\org.eclipse.core.runtime.prefs
+D:\mytestcode\TestLeanpro\.settings\org.eclipse.jdt.core.prefs
+D:\mytestcode\TestLeanpro\bin\Param.properties
+D:\mytestcode\TestLeanpro\bin\testdata.xlsx
+D:\mytestcode\TestLeanpro\bin\testng.xml
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\annotation\Column.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\annotation\ExcelSign.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\converter\BooleanTypeConverter.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\converter\DateTypeConverter.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\converter\DoubleTypeConverter.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\converter\IntegerTypeConverter.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\converter\StringTypeConverter.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\converter\TypeConverter.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\converter\TypeConverters.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\model\BBSPostModle.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\model\PostContent.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\model\Users.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\AddNewPostPage.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\AdminLoginPage.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\AllPostsPage.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\BBSAddNewPostPage.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\BBSAllPagePost.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\BBSEditeAPost.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\BBSNewPost.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\BBSResponsePost.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\DeletePostPage.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\EditPostPage.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\SearchPostPage.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\UserLoginBBS.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\Test\TestABC.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\Test\TestBBS.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\Test\TestBBSPage.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\Test\TestLeanproPage.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\pageobjects\Test\TestLogin.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\TestSuiteBase\SuiteBases.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\util\CollectionUtils.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\util\EachFieldCallback.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\util\ExOM$1.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\util\ExOM$2.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\util\ExOM.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\util\ReflectionUtils.class
+D:\mytestcode\TestLeanpro\bin\cn\leanpro\util\ScreenShotUtils.class
+D:\mytestcode\TestLeanpro\bin\resources\Param.properties
+D:\mytestcode\TestLeanpro\lib\apache-mime4j-0.6.jar
+D:\mytestcode\TestLeanpro\lib\bsh-1.3.0.jar
+D:\mytestcode\TestLeanpro\lib\cglib-nodep-2.1_3.jar
+D:\mytestcode\TestLeanpro\lib\commons-codec-1.10.jar
+D:\mytestcode\TestLeanpro\lib\commons-collections-3.2.1.jar
+D:\mytestcode\TestLeanpro\lib\commons-exec-1.3.jar
+D:\mytestcode\TestLeanpro\lib\commons-io-2.4.jar
+D:\mytestcode\TestLeanpro\lib\commons-lang3-3.4.jar
+D:\mytestcode\TestLeanpro\lib\commons-logging-1.1.3.jar
+D:\mytestcode\TestLeanpro\lib\cssparser-0.9.16.jar
+D:\mytestcode\TestLeanpro\lib\gson-2.3.1.jar
+D:\mytestcode\TestLeanpro\lib\guava-18.0.jar
+D:\mytestcode\TestLeanpro\lib\hamcrest-core-1.3.jar
+D:\mytestcode\TestLeanpro\lib\hamcrest-library-1.3.jar
+D:\mytestcode\TestLeanpro\lib\htmlunit-2.17.jar
+D:\mytestcode\TestLeanpro\lib\htmlunit-core-js-2.17.jar
+D:\mytestcode\TestLeanpro\lib\httpclient-4.4.1.jar
+D:\mytestcode\TestLeanpro\lib\httpcore-4.4.1.jar
+D:\mytestcode\TestLeanpro\lib\httpmime-4.4.1.jar
+D:\mytestcode\TestLeanpro\lib\jcommander-1.29.jar
+D:\mytestcode\TestLeanpro\lib\jetty-io-9.2.11.v20150529.jar
+D:\mytestcode\TestLeanpro\lib\jetty-util-9.2.11.v20150529.jar
+D:\mytestcode\TestLeanpro\lib\jna-4.1.0.jar
+D:\mytestcode\TestLeanpro\lib\jna-platform-4.1.0.jar
+D:\mytestcode\TestLeanpro\lib\junit-4.12.jar
+D:\mytestcode\TestLeanpro\lib\nekohtml-1.9.22.jar
+D:\mytestcode\TestLeanpro\lib\netty-3.5.7.Final.jar
+D:\mytestcode\TestLeanpro\lib\phantomjsdriver-1.2.1.jar
+D:\mytestcode\TestLeanpro\lib\poi-3.13-20150929.jar
+D:\mytestcode\TestLeanpro\lib\poi-ooxml-3.13-20150929.jar
+D:\mytestcode\TestLeanpro\lib\poi-ooxml-schemas-3.13-20150929.jar
+D:\mytestcode\TestLeanpro\lib\sac-1.3.jar
+D:\mytestcode\TestLeanpro\lib\selenium-java-2.47.1.jar
+D:\mytestcode\TestLeanpro\lib\selenium-server-standalone-2.47.1.jar
+D:\mytestcode\TestLeanpro\lib\serializer-2.7.2.jar
+D:\mytestcode\TestLeanpro\lib\testng-6.9.10-20151130.171915-39.jar
+D:\mytestcode\TestLeanpro\lib\websocket-api-9.2.11.v20150529.jar
+D:\mytestcode\TestLeanpro\lib\websocket-client-9.2.11.v20150529.jar
+D:\mytestcode\TestLeanpro\lib\websocket-common-9.2.11.v20150529.jar
+D:\mytestcode\TestLeanpro\lib\xalan-2.7.2.jar
+D:\mytestcode\TestLeanpro\lib\xercesImpl-2.11.0.jar
+D:\mytestcode\TestLeanpro\lib\xml-apis-1.4.01.jar
+D:\mytestcode\TestLeanpro\lib\xmlbeans-2.6.0.jar
+D:\mytestcode\TestLeanpro\resources\Param.properties
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testAdminlogin.2015-12-14-12-57-07.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testAdminlogin.2015-12-14-12-57-08.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testAdminlogin.2015-12-14-12-59-58.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testAdminlogin.2015-12-14-12-59-59.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testbbsLogin.2015-12-14-01-23-21.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testbbsLogin.2015-12-14-01-23-32.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testCreateANewPost.2015-12-13-10-12-17.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testCreateANewPost.2015-12-14-04-01-59.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testEditAPost.2015-12-14-04-02-13.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testResponseAPost.2015-12-13-08-09-17.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testResponseAPost.2015-12-14-01-23-11.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testResponseAPost.2015-12-14-01-39-07.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testResponseAPost.2015-12-14-01-48-30.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testResponseAPost.2015-12-14-03-06-32.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testResponseAPost.2015-12-14-04-02-28.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testResponseAPost.2015-12-14-11-26-51.png
+D:\mytestcode\TestLeanpro\screenshot\Failures\class java.lang.String.testResponseAPost.2015-12-14-12-57-07.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-14-02-36-30.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-14-02-36-42.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-14-03-06-40.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-14-03-07-01.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-14-03-09-34.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-14-03-09-42.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-14-04-02-38.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-14-04-02-45.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-14-05-39-54.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testbbsLogin.2015-12-14-05-40-10.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testchooseSection.2015-12-14-01-23-33.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testchooseSection.2015-12-14-02-36-48.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testchooseSection.2015-12-14-03-07-09.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testchooseSection.2015-12-14-03-09-46.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testchooseSection.2015-12-14-04-02-50.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testchooseSection.2015-12-14-05-40-25.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-11-09-34-24.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-13-08-09-01.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-13-08-25-06.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-01-01-39.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-01-07-50.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-01-22-55.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-01-38-51.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-01-48-15.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-02-35-55.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-03-06-09.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-03-08-55.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-05-38-50.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-11-26-36.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-11-42-35.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-12-54-35.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-12-56-52.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testCreateANewPost.2015-12-14-12-59-39.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-11-09-34-33.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-13-08-09-10.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-13-08-25-15.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-13-10-12-28.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-01-01-49.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-01-09-19.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-01-23-04.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-01-38-59.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-01-48-23.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-02-36-06.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-03-06-21.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-03-09-07.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-05-39-14.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-11-26-44.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-11-42-43.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-12-54-43.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-12-57-00.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testEditAPost.2015-12-14-12-59-47.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-11-09-34-44.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-13-08-25-26.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-13-10-12-40.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-14-01-02-00.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-14-01-09-30.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-14-02-36-21.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-14-03-09-21.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-14-05-39-38.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-14-11-42-54.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-14-12-54-54.png
+D:\mytestcode\TestLeanpro\screenshot\Success\class java.lang.String.testResponseAPost.2015-12-14-12-59-58.png
+D:\mytestcode\TestLeanpro\src\testdata.xlsx
+D:\mytestcode\TestLeanpro\src\cn\leanpro\annotation\Column.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\annotation\ExcelSign.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\converter\BooleanTypeConverter.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\converter\DateTypeConverter.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\converter\DoubleTypeConverter.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\converter\IntegerTypeConverter.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\converter\StringTypeConverter.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\converter\TypeConverter.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\converter\TypeConverters.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\model\BBSPostModle.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\model\PostContent.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\model\Users.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\AddNewPostPage.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\AdminLoginPage.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\AllPostsPage.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\BBSAddNewPostPage.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\BBSAllPagePost.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\BBSEditeAPost.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\BBSNewPost.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\BBSResponsePost.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\DeletePostPage.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\EditPostPage.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\SearchPostPage.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\UserLoginBBS.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\Test\TestABC.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\Test\TestBBS.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\Test\TestBBSPage.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\Test\TestLeanproPage.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\pageobjects\Test\TestLogin.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\TestSuiteBase\SuiteBases.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\util\CollectionUtils.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\util\EachFieldCallback.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\util\ExOM.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\util\ReflectionUtils.java
+D:\mytestcode\TestLeanpro\src\cn\leanpro\util\ScreenShotUtils.java
+D:\mytestcode\TestLeanpro\src\resources\Param.properties
+D:\mytestcode\TestLeanpro\test\testdata.xlsx
+D:\mytestcode\TestLeanpro\test\testng.xml
+D:\mytestcode\TestLeanpro\test\cn\leanpro\pageobjects\Test\TestABC.java
+D:\mytestcode\TestLeanpro\test\cn\leanpro\pageobjects\Test\TestBBS.java
+D:\mytestcode\TestLeanpro\test\cn\leanpro\pageobjects\Test\TestBBSPage.java
+D:\mytestcode\TestLeanpro\test\cn\leanpro\pageobjects\Test\TestLeanproPage.java
+D:\mytestcode\TestLeanpro\test\cn\leanpro\pageobjects\Test\TestLogin.java
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\bullet_point.png
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\collapseall.gif
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\emailable-report.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\failed.png
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\index.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\jquery-1.7.1.min.js
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\navigator-bullet.png
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\passed.png
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\skipped.png
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\testng-reports.css
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\testng-reports.js
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\testng-results.xml
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\testng.css
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\junitreports\TEST-cn.leanpro.pageobjects.Test.TestBBS.xml
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\junitreports\TEST-cn.leanpro.pageobjects.Test.TestBBSPage.xml
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\index.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\Suite1\classes.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\Suite1\groups.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\Suite1\index.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\Suite1\main.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\Suite1\methods-alphabetical.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\Suite1\methods-not-run.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\Suite1\methods.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\Suite1\Nopackage.properties
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\Suite1\reporter-output.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\Suite1\testng.xml.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\old\Suite1\toc.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\Suite1\Nopackage.html
+D:\mytestcode\TestLeanpro\test-output\TestNGreport\Suite1\Nopackage.xml
+¸´ÖÆÁË 245 ¸öÎÄ¼þ
+
+C:\Users\zack\.jenkins\workspace\ant-leanpro>exit 0 
+Preparing TestLink client API.
+Using TestLink URL: http://lean.aliapp.com/lib/api/xmlrpc/v1/xmlrpc.php
+
+Found 2 automated test cases in TestLink.
+
+Sorting automated test cases by TestLink test plan execution order.
+
+Executing single Build Steps.
+
+Merging build environment variables with data retrieved from TestLink.
+
+[ant-leanpro] $ cmd.exe /C '"D:\dev\tools\apache-ant-1.9.6\bin\ant.bat testng-execution && exit %%ERRORLEVEL%%"'
+Buildfile: C:\Users\zack\.jenkins\workspace\ant-leanpro\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mdelete-dir:
+   [delete] Deleting directory C:\Users\zack\.jenkins\workspace\ant-leanpro\bin
+   [delete] Deleting directory C:\Users\zack\.jenkins\workspace\ant-leanpro\test-output
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcreate:
+    [mkdir] Created dir: C:\Users\zack\.jenkins\workspace\ant-leanpro\bin
+    [mkdir] Created dir: C:\Users\zack\.jenkins\workspace\ant-leanpro\test-output
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] Compiling 35 source files to C:\Users\zack\.jenkins\workspace\ant-leanpro\bin
+    [javac] ×¢: Ä³Ð©ÊäÈëÎÄ¼þÊ¹ÓÃÁËÎ´¾­¼ì²é»ò²»°²È«µÄ²Ù×÷¡£
+    [javac] ×¢: ÓÐ¹ØÏêÏ¸ÐÅÏ¢, ÇëÊ¹ÓÃ -Xlint:unchecked ÖØÐÂ±àÒë¡£
+     [echo]  /* Compiled Directory Classes */ 
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mtestng-execution:
+    [mkdir] Created dir: C:\Users\zack\.jenkins\workspace\ant-leanpro\test-output\TestNGreport
+   [testng] [TestNG] Running:
+   [testng]   C:\Users\zack\.jenkins\workspace\ant-leanpro\testng.xml
+   [testng] 
+   [testng] Mozilla
+   [testng] Mozilla
+   [testng] [cn.leanpro.model.BBSPostModle@f0f2e02]
+   [testng] [cn.leanpro.model.BBSPostModle@20ad3a7a]
+   [testng] [cn.leanpro.model.BBSPostModle@1457e272]
+   [testng] 
+   [testng] ===============================================
+   [testng] Suite1
+   [testng] Total tests run: 4, Failures: 0, Skips: 4
+   [testng] Configuration Failures: 1, Skips: 2
+   [testng] ===============================================
+   [testng] 
+   [testng] The tests failed.
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 33 seconds
+Executing iterative Build Steps.
+
+Looking for the test results of TestLink test cases.
+
+Looking for test results in TestNG methods by its name.
+
+Found 2 test result(s).
+
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+Saving reports...
+Processing 'C:\Users\zack\.jenkins\jobs\ant-leanpro\builds\8\testng\testng-results.xml'
+Failed Tests/Configs found. Marking build as UNSTABLE.
+TestNG Reports Processing: FINISH
+Build step 'Publish TestNG Results' changed build result to UNSTABLE
+Finished: UNSTABLE

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBSPage.testCreateANewPost.2015-12-23-10-50-40.png'>TestBBSPage.testCreateANewPost</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBSPage.testEditAPost.2015-12-23-10-50-55.png'>TestBBSPage.testEditAPost</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBSPage.testResponseAPost.2015-12-23-10-51-08.png'>TestBBSPage.testResponseAPost</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="56808" started-at="2015-12-23T02:50:11Z" finished-at="2015-12-23T02:51:08Z">
+    <groups>
+    </groups>
+    <test name="Nopackage" duration-ms="56808" started-at="2015-12-23T02:50:11Z" finished-at="2015-12-23T02:51:08Z">
+      <class name="cn.leanpro.pageobjects.Test.TestBBSPage">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@727dcc23]" name="createDriver" is-config="true" duration-ms="10062" started-at="2015-12-23T10:50:12Z" finished-at="2015-12-23T10:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="initBrower()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@727dcc23]" name="initBrower" is-config="true" duration-ms="5615" started-at="2015-12-23T10:50:22Z" finished-at="2015-12-23T10:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrower -->
+        <test-method status="PASS" signature="testCreateANewPost(cn.leanpro.model.BBSPostModle)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@727dcc23]" name="testCreateANewPost" duration-ms="11131" started-at="2015-12-23T10:50:28Z" data-provider="datawithbbspost" finished-at="2015-12-23T10:50:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.BBSPostModle@5fecff21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBSPage.testCreateANewPost.2015-12-23-10-50-40.png'>TestBBSPage.testCreateANewPost</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateANewPost -->
+        <test-method status="PASS" signature="testEditAPost(cn.leanpro.model.BBSPostModle)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@727dcc23]" name="testEditAPost" duration-ms="15356" started-at="2015-12-23T10:50:40Z" data-provider="datawithbbspost" finished-at="2015-12-23T10:50:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.BBSPostModle@406200ba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBSPage.testEditAPost.2015-12-23-10-50-55.png'>TestBBSPage.testEditAPost</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEditAPost -->
+        <test-method status="PASS" signature="testResponseAPost(cn.leanpro.model.BBSPostModle)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@727dcc23]" name="testResponseAPost" duration-ms="12742" started-at="2015-12-23T10:50:55Z" data-provider="datawithbbspost" finished-at="2015-12-23T10:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.BBSPostModle@621dd45b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBSPage.testResponseAPost.2015-12-23-10-51-08.png'>TestBBSPage.testResponseAPost</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testResponseAPost -->
+        <test-method status="PASS" signature="teardownDriver()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@727dcc23]" name="teardownDriver" is-config="true" duration-ms="14" started-at="2015-12-23T10:51:08Z" finished-at="2015-12-23T10:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+      </class> <!-- cn.leanpro.pageobjects.Test.TestBBSPage -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>

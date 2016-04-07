@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{948C4D4A-5E2B-4034-B81E-01EC31038A7A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LPSpy</RootNamespace>
+    <AssemblyName>LPSpy</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TEST</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>M.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>..\key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LAPResourceManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\LAPResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack">
+      <HintPath>..\bin\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell">
+      <HintPath>..\bin\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Selenium.WebDriverBackedSelenium, Version=2.48.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\net40\Selenium.WebDriverBackedSelenium.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.48.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\net40\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAComWrapper, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\UIAComWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=2.48.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\net40\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.48.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\net40\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="AppEnvironment.cs" />
+    <Compile Include="Controls\BreadcrumbControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ChkBoxHeaderListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ChkBoxHeaderListView.Designer.cs">
+      <DependentUpon>ChkBoxHeaderListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ColorSelector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LAPListViewControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LAPListViewControl.designer.cs">
+      <DependentUpon>LAPListViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ModelTreeViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ModelTreeViewControl.Designer.cs">
+      <DependentUpon>ModelTreeViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NodeViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NodeViewControl.Designer.cs">
+      <DependentUpon>NodeViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SnapshotPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\VirtualControlListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutWindow.Designer.cs">
+      <DependentUpon>AboutWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddObjectsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddObjectsWindow.Designer.cs">
+      <DependentUpon>AddObjectsWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddPropertiesWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddPropertiesWindow.Designer.cs">
+      <DependentUpon>AddPropertiesWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BreadcrumbWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BreadcrumbWindow.Designer.cs">
+      <DependentUpon>BreadcrumbWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConditionSelectorWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConditionSelectorWindow.Designer.cs">
+      <DependentUpon>ConditionSelectorWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OptionWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OptionWindow.Designer.cs">
+      <DependentUpon>OptionWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SpyMainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SpyMainWindow.Designer.cs">
+      <DependentUpon>SpyMainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ToMethodsViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ToMethodsViewer.Designer.cs">
+      <DependentUpon>ToMethodsViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UIASpyWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UIASpyWindow.Designer.cs">
+      <DependentUpon>UIASpyWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VirtualControlEditWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VirtualControlEditWindow.Designer.cs">
+      <DependentUpon>VirtualControlEditWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\ElementsBuilder.cs" />
+    <Compile Include="Helpers\ElementSpyer.cs" />
+    <Compile Include="Helpers\ModelFileHandler.cs" />
+    <Compile Include="Helpers\MruStripMenu.cs" />
+    <Compile Include="Helpers\MyJumpList.cs" />
+    <Compile Include="Helpers\PropertiesListview.cs" />
+    <Compile Include="Helpers\RecentFileHelper.cs" />
+    <Compile Include="Helpers\RecentFiles.cs" />
+    <Compile Include="Helpers\SnapshotHelper.cs" />
+    <Compile Include="Helpers\TreeMerger.cs" />
+    <Compile Include="Helpers\TreeNodeHelper.cs" />
+    <Compile Include="Helpers\VirtualControlHelper.cs" />
+    <Compile Include="Presenters\PresenterModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyEdit\TestObjectPropertyBag.cs" />
+    <Compile Include="PropertyEdit\PropertyBag.cs" />
+    <Compile Include="PropertyEdit\PropertySpec.cs" />
+    <Compile Include="PropertyEdit\PropertySpecCollection.cs" />
+    <Compile Include="PropertyEdit\PropertySpecDescriptor.cs" />
+    <Compile Include="PropertyEdit\PropertySpecEventArgs.cs" />
+    <Compile Include="PropertyEdit\TestObjectPropertyGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SpySettings.cs" />
+    <Compile Include="SpyWindowHelper.cs" />
+    <Compile Include="UIA\WindowsBase.cs" />
+    <Compile Include="UnitTest\OptionWindowTest.cs" />
+    <Compile Include="UnitTest\RecentFileTest.cs" />
+    <Compile Include="UnitTest\SpyMainWindowTest.cs" />
+    <Compile Include="UnitTest\HighlightTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTest\SpySettingsTest.cs" />
+    <Compile Include="UnitTest\SpyHelperTest.cs" />
+    <Compile Include="UnitTest\ConditionSelectorWindowTest.cs" />
+    <Compile Include="UnitTest\ModelFileHandlerTest.cs" />
+    <Compile Include="UnitTest\AddObjectsWindowTest.cs" />
+    <Compile Include="UnitTest\AppEnvironmentTest.cs" />
+    <Compile Include="UnitTest\UnitTest1.cs" />
+    <Compile Include="UnitTest\TreeNodeHelperTest.cs" />
+    <Compile Include="UnitTest\BreadcrumbControlTest.cs" />
+    <Compile Include="UnitTest\ColorSelectorTest.cs" />
+    <Compile Include="UnitTest\BatchAddWindowTest.cs" />
+    <Compile Include="UnitTest\SnapshotPictureBoxTest.cs" />
+    <Compile Include="UnitTest\SnapshotHelperTest.cs" />
+    <Compile Include="UnitTest\SearchTreeViewTest.cs" />
+    <Compile Include="UnitTest\VirtualControlEditWindowTest.cs" />
+    <Compile Include="UnitTest\VirtualControlHelperTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\BreadcrumbControl.resx">
+      <DependentUpon>BreadcrumbControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BreadcrumbControl.zh-CN.resx">
+      <DependentUpon>BreadcrumbControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ModelTreeViewControl.resx">
+      <DependentUpon>ModelTreeViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ModelTreeViewControl.zh-CN.resx">
+      <DependentUpon>ModelTreeViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NodeViewControl.resx">
+      <DependentUpon>NodeViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NodeViewControl.zh-CN.resx">
+      <DependentUpon>NodeViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AboutWindow.resx">
+      <DependentUpon>AboutWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AboutWindow.zh-CN.resx">
+      <DependentUpon>AboutWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddObjectsWindow.resx">
+      <DependentUpon>AddObjectsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddObjectsWindow.zh-CN.resx">
+      <DependentUpon>AddObjectsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddPropertiesWindow.resx">
+      <DependentUpon>AddPropertiesWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddPropertiesWindow.zh-CN.resx">
+      <DependentUpon>AddPropertiesWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BreadcrumbWindow.resx">
+      <DependentUpon>BreadcrumbWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BreadcrumbWindow.zh-CN.resx">
+      <DependentUpon>BreadcrumbWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConditionSelectorWindow.resx">
+      <DependentUpon>ConditionSelectorWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConditionSelectorWindow.zh-CN.resx">
+      <DependentUpon>ConditionSelectorWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OptionWindow.resx">
+      <DependentUpon>OptionWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OptionWindow.zh-CN.resx">
+      <DependentUpon>OptionWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SpyMainWindow.resx">
+      <DependentUpon>SpyMainWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SpyMainWindow.zh-CN.resx">
+      <DependentUpon>SpyMainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ToMethodsViewer.resx">
+      <DependentUpon>ToMethodsViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ToMethodsViewer.zh-CN.resx">
+      <DependentUpon>ToMethodsViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UIASpyWindow.resx">
+      <DependentUpon>UIASpyWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UIASpyWindow.zh-CN.resx">
+      <DependentUpon>UIASpyWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VirtualControlEditWindow.resx">
+      <DependentUpon>VirtualControlEditWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyEdit\TestObjectPropertyGrid.resx">
+      <DependentUpon>TestObjectPropertyGrid.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LAPResources\LAPResources\LAPResources.csproj">
+      <Project>{2cb9517b-228a-49c8-845b-0f389a5aaab5}</Project>
+      <Name>LAPResources %28LAPResources\LAPResources%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LPCommon\LPCommon.csproj">
+      <Project>{7ce460f9-8a3f-47ac-894b-822a1cf6cc15}</Project>
+      <Name>LPCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LPReplayCore\LPReplayCore.csproj">
+      <Project>{6eeb5bb0-91f8-4f77-b182-ff8da2408e8a}</Project>
+      <Name>LPReplayCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LPUIAObjects\LPUIAObjects.csproj">
+      <Project>{27fb0811-48b1-4a3c-9e4c-caf3c0f9b61c}</Project>
+      <Name>LPUIAObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="M.ico" />
+    <Content Include="ObjectModel2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UnitTestVirtualControl.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\plus.png" />
+    <Content Include="Resources\Test Object Icons\Window.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UnitTestObjectModel1.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

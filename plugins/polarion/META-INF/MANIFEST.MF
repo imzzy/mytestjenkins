@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jlf
+Build-Jdk: 1.6.0_29
+Extension-Name: polarion
+Implementation-Title: polarion
+Implementation-Version: 1.3
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: polarion
+Long-Name: Polarion Webclient for SVN Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Polarion+Plugin
+Plugin-Version: 1.3
+Hudson-Version: 1.392
+Plugin-Dependencies: subversion:2.0.1
+Plugin-Developers: Jonny Wray:jwray:,Jesse Farinacci:jieryn:jieryn@gma
+ il.com
+

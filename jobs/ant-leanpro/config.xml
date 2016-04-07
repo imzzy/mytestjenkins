@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>30</daysToKeep>
+        <numToKeep>20</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.BatchFile>
+      <command>xcopy /E /Y  D:\mytestcode\TestLeanpro  C:\Users\zack\.jenkins\workspace\ant-leanpro</command>
+    </hudson.tasks.BatchFile>
+    <hudson.plugins.testlink.TestLinkBuilder plugin="testlink@3.11">
+      <testLinkName>testlink</testLinkName>
+      <testProjectName>leanprotest</testProjectName>
+      <testPlanName>bbstest</testPlanName>
+      <buildName>build_$BUILD_ID</buildName>
+      <platformName></platformName>
+      <customFields>java_class</customFields>
+      <singleBuildSteps>
+        <hudson.tasks.Ant plugin="ant@1.2">
+          <targets>testng-execution</targets>
+          <antName>ant</antName>
+        </hudson.tasks.Ant>
+      </singleBuildSteps>
+      <transactional>false</transactional>
+      <failedTestsMarkBuildAsFailure>false</failedTestsMarkBuildAsFailure>
+      <failIfNoResults>false</failIfNoResults>
+      <failOnNotRun>false</failOnNotRun>
+      <executionOrderComparator/>
+      <failure>false</failure>
+      <resultSeekers>
+        <hudson.plugins.testlink.result.TestNGMethodNameResultSeeker>
+          <includePattern>test-output/TestNGreport/testng-results.xml</includePattern>
+          <keyCustomField>java_class</keyCustomField>
+          <includeNotes>false</includeNotes>
+          <parser/>
+          <attachTestNGXML>true</attachTestNGXML>
+          <markSkippedTestAsBlocked>false</markSkippedTestAsBlocked>
+          <parser defined-in="hudson.plugins.testlink.result.TestNGMethodNameResultSeeker"/>
+        </hudson.plugins.testlink.result.TestNGMethodNameResultSeeker>
+      </resultSeekers>
+    </hudson.plugins.testlink.TestLinkBuilder>
+  </builders>
+  <publishers>
+    <hudson.plugins.testng.Publisher plugin="testng-plugin@1.10">
+      <reportFilenamePattern>**/testng-results.xml</reportFilenamePattern>
+      <escapeTestDescp>true</escapeTestDescp>
+      <escapeExceptionMsg>true</escapeExceptionMsg>
+      <showFailedBuilds>false</showFailedBuilds>
+      <unstableOnSkippedTests>false</unstableOnSkippedTests>
+      <failureOnFailedTestConfig>false</failureOnFailedTestConfig>
+    </hudson.plugins.testng.Publisher>
+  </publishers>
+  <buildWrappers/>
+</project>

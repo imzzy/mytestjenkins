@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: yboev
+Build-Jdk: 1.6.0_23
+Extension-Name: violation-columns
+Implementation-Title: violation-columns
+Implementation-Version: 1.6
+Group-Id: org.jenkins-ci.plugins
+Short-Name: violation-columns
+Long-Name: Violation Columns(List View Columns)
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Violation+Columns+Plugin
+Plugin-Version: 1.6
+Hudson-Version: 1.420
+Jenkins-Version: 1.420
+Plugin-Dependencies: violations:0.7.11,maven-plugin:1.420
+Plugin-Developers: Stefan Brausch:stefanbrausch:stefan.brausch@1und1.d
+ e,Yordan Boev:boev:iordan.boev@gmail.com
+

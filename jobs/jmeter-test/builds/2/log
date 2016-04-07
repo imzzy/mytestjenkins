@@ -1,0 +1,19 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9qsTkbADWEvs8vwAAAA==[0mzack
+Building in workspace C:\Users\zack\.jenkins\workspace\jmeter-test
+[jmeter-test] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson6327695132781562053.bat
+
+C:\Users\zack\.jenkins\workspace\jmeter-test>d:
+
+D:\>cd D:\dev\apache-jmeter-2.13\bin 
+
+D:\dev\apache-jmeter-2.13\bin>jmeter -n -t C:\Users\zack\Desktop\lily\¶©µ¥.jmx -l test-reports\test_reports.jtl 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\zack\Desktop\lily\¶©µ¥.jmx
+Starting the test @ Sat Jan 16 19:39:14 GMT+08:00 2016 (1452944354048)
+Waiting for possible shutdown message on port 4445
+summary +   3502 in    16s =  220.9/s Avg:  1147 Min:   453 Max: 10309 Err:     0 (0.00%) Active: 197 Started: 300 Finished: 103
+summary +    698 in   9.4s =   74.1/s Avg:   755 Min:   424 Max:  9474 Err:     0 (0.00%) Active: 0 Started: 300 Finished: 300
+summary =   4200 in  25.3s =  166.2/s Avg:  1082 Min:   424 Max: 10309 Err:     0 (0.00%)
+Tidying up ...    @ Sat Jan 16 19:39:39 GMT+08:00 2016 (1452944379421)
+... end of run
+Finished: SUCCESS

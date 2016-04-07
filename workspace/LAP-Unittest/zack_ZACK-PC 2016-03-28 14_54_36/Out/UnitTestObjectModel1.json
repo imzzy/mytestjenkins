@@ -1,0 +1,108 @@
+﻿{
+  "ntype": "app",
+  "process": null,
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "LAP (Running) - Microsoft Visual Studio",
+      "description": null,
+      "identifyProperties": {
+        "type": "Window",
+        "title": "LAP (Running) - Microsoft Visual Studio"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "ToolBarDockTop",
+          "description": null,
+          "identifyProperties": {
+            "type": "Pane",
+            "name": "ToolBarDockTop"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Debug Location",
+              "description": null,
+              "identifyProperties": {
+                "type": "ToolBar",
+                "name": "Debug Location"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Process:",
+                  "description": null,
+                  "identifyProperties": {
+                    "type": "Button",
+                    "name": "Process:"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Process:",
+                      "description": null,
+                      "identifyProperties": {
+                        "type": "ComboBox",
+                        "name": "Process:",
+                        "helptext": "Process (Ctrl+5)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Test Explorer",
+          "description": null,
+          "identifyProperties": {
+            "type": "Pane",
+            "name": "Test Explorer"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Search Control",
+              "description": null,
+              "identifyProperties": {
+                "type": "Custom",
+                "name": "Search Control"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Search",
+                  "description": null,
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "Search",
+                    "text": "UIAFinder_Identify1",
+                    "helptext": "Type words to search for"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "CachedPropertyTestNode",
+          "description": null,
+          "identifyProperties": {
+            "type": "TabItem",
+            "name": "AddObjectsWindow.cs [Read Only]"
+          },
+		  "cachedProperties": {
+            "type": "TabItem",
+            "name": "AddObjectsWindow.cs [Read Only]",
+			"className": "abc",
+			"imageFile": "asdfasfdasdfasdf.png"
+          }
+        }
+      ]
+    }
+  ]
+}

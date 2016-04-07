@@ -1,0 +1,10 @@
+[DRY-RUN]
+Starting a dry-run.
+Dry-run is not available for SCMs.
+Executing Builder [Execute Windows batch command]
+Executing Builder [Invoke top-level Maven targets]
+Executing Builder [Invoke TestLink]
+Executing Publisher [Publish TestNG Results]
+Ending dry-run.
+Building in workspace C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven
+Finished: SUCCESS

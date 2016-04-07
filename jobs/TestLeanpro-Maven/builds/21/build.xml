@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.testlink.TestLinkBuildAction plugin="testlink@3.11">
+      <build class="build" reference="../../.."/>
+      <result>
+        <report>
+          <passed>3</passed>
+          <failed>0</failed>
+          <blocked>0</blocked>
+          <notRun>0</notRun>
+          <buildId>45</buildId>
+          <buildName>bbsbuild_21</buildName>
+          <testCases class="linked-list">
+            <hudson.plugins.testlink.result.TestCaseWrapper>
+              <customFieldAndStatus>
+                <entry>
+                  <string>cn.leanpro.pageobjects.Test.TestBBSPage#testCreateANewPost</string>
+                  <br.eti.kinoshita.testlinkjavaapi.constants.ExecutionStatus>PASSED</br.eti.kinoshita.testlinkjavaapi.constants.ExecutionStatus>
+                </entry>
+              </customFieldAndStatus>
+              <attachments class="linked-list"/>
+              <notes>name: testCreateANewPost
+  config?: null
+  signature: testCreateANewPost(cn.leanpro.model.BBSPostModle)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@2c80fb85]
+  status: PASS
+  duration in ms: 10804
+  started at: 2015-12-25T16:00:34Z  finished at: 2015-12-25T16:00:45Z
+</notes>
+              <testCase>
+                <id>20</id>
+                <name>01-发布</name>
+                <testProjectId>17</testProjectId>
+                <steps/>
+                <executionType>AUTOMATED</executionType>
+                <executionOrder>10000</executionOrder>
+                <fullExternalId>lt-1</fullExternalId>
+                <versionId>21</versionId>
+                <version>1</version>
+                <customFields>
+                  <br.eti.kinoshita.testlinkjavaapi.model.CustomField>
+                    <id>1</id>
+                    <name>java_class</name>
+                    <label>Java Class Name</label>
+                    <type>0</type>
+                    <possibleValues></possibleValues>
+                    <defaultValue></defaultValue>
+                    <validRegexp></validRegexp>
+                    <lengthMin>0</lengthMin>
+                    <lengthMax>0</lengthMax>
+                    <showOnDesign>true</showOnDesign>
+                    <enableOnDesign>true</enableOnDesign>
+                    <showOnExecution>false</showOnExecution>
+                    <enableOnExecution>false</enableOnExecution>
+                    <showOnTestPlanDesign>false</showOnTestPlanDesign>
+                    <enableOnTestPlanDesign>false</enableOnTestPlanDesign>
+                    <displayOrder>1</displayOrder>
+                    <location>1</location>
+                    <value>cn.leanpro.pageobjects.Test.TestBBSPage#testCreateANewPost</value>
+                  </br.eti.kinoshita.testlinkjavaapi.model.CustomField>
+                </customFields>
+                <executionStatus>PASSED</executionStatus>
+                <platform>
+                  <id>0</id>
+                  <name></name>
+                </platform>
+                <featureId>4</featureId>
+              </testCase>
+            </hudson.plugins.testlink.result.TestCaseWrapper>
+            <hudson.plugins.testlink.result.TestCaseWrapper>
+              <customFieldAndStatus>
+                <entry>
+                  <string>cn.leanpro.pageobjects.Test.TestBBSPage#testEditAPost</string>
+                  <br.eti.kinoshita.testlinkjavaapi.constants.ExecutionStatus>PASSED</br.eti.kinoshita.testlinkjavaapi.constants.ExecutionStatus>
+                </entry>
+              </customFieldAndStatus>
+              <attachments class="linked-list"/>
+              <notes>name: testEditAPost
+  config?: null
+  signature: testEditAPost(cn.leanpro.model.BBSPostModle)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@2c80fb85]
+  status: PASS
+  duration in ms: 12929
+  started at: 2015-12-25T16:00:45Z  finished at: 2015-12-25T16:00:58Z
+</notes>
+              <testCase>
+                <id>22</id>
+                <name>02-编辑</name>
+                <testProjectId>17</testProjectId>
+                <steps/>
+                <executionType>AUTOMATED</executionType>
+                <executionOrder>10010</executionOrder>
+                <fullExternalId>lt-2</fullExternalId>
+                <versionId>23</versionId>
+                <version>1</version>
+                <customFields>
+                  <br.eti.kinoshita.testlinkjavaapi.model.CustomField>
+                    <id>1</id>
+                    <name>java_class</name>
+                    <label>Java Class Name</label>
+                    <type>0</type>
+                    <possibleValues></possibleValues>
+                    <defaultValue></defaultValue>
+                    <validRegexp></validRegexp>
+                    <lengthMin>0</lengthMin>
+                    <lengthMax>0</lengthMax>
+                    <showOnDesign>true</showOnDesign>
+                    <enableOnDesign>true</enableOnDesign>
+                    <showOnExecution>false</showOnExecution>
+                    <enableOnExecution>false</enableOnExecution>
+                    <showOnTestPlanDesign>false</showOnTestPlanDesign>
+                    <enableOnTestPlanDesign>false</enableOnTestPlanDesign>
+                    <displayOrder>1</displayOrder>
+                    <location>1</location>
+                    <value>cn.leanpro.pageobjects.Test.TestBBSPage#testEditAPost</value>
+                  </br.eti.kinoshita.testlinkjavaapi.model.CustomField>
+                </customFields>
+                <executionStatus>PASSED</executionStatus>
+                <platform>
+                  <id>0</id>
+                  <name></name>
+                </platform>
+                <featureId>5</featureId>
+              </testCase>
+            </hudson.plugins.testlink.result.TestCaseWrapper>
+            <hudson.plugins.testlink.result.TestCaseWrapper>
+              <customFieldAndStatus>
+                <entry>
+                  <string>cn.leanpro.pageobjects.Test.TestBBSPage#testResponseAPost</string>
+                  <br.eti.kinoshita.testlinkjavaapi.constants.ExecutionStatus>PASSED</br.eti.kinoshita.testlinkjavaapi.constants.ExecutionStatus>
+                </entry>
+              </customFieldAndStatus>
+              <attachments class="linked-list"/>
+              <notes>name: testResponseAPost
+  config?: null
+  signature: testResponseAPost(cn.leanpro.model.BBSPostModle)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@2c80fb85]
+  status: PASS
+  duration in ms: 12935
+  started at: 2015-12-25T16:00:59Z  finished at: 2015-12-25T16:01:12Z
+</notes>
+              <testCase>
+                <id>24</id>
+                <name>03-回复</name>
+                <testProjectId>17</testProjectId>
+                <steps/>
+                <executionType>AUTOMATED</executionType>
+                <executionOrder>10020</executionOrder>
+                <fullExternalId>lt-3</fullExternalId>
+                <versionId>25</versionId>
+                <version>1</version>
+                <customFields>
+                  <br.eti.kinoshita.testlinkjavaapi.model.CustomField>
+                    <id>1</id>
+                    <name>java_class</name>
+                    <label>Java Class Name</label>
+                    <type>0</type>
+                    <possibleValues></possibleValues>
+                    <defaultValue></defaultValue>
+                    <validRegexp></validRegexp>
+                    <lengthMin>0</lengthMin>
+                    <lengthMax>0</lengthMax>
+                    <showOnDesign>true</showOnDesign>
+                    <enableOnDesign>true</enableOnDesign>
+                    <showOnExecution>false</showOnExecution>
+                    <enableOnExecution>false</enableOnExecution>
+                    <showOnTestPlanDesign>false</showOnTestPlanDesign>
+                    <enableOnTestPlanDesign>false</enableOnTestPlanDesign>
+                    <displayOrder>1</displayOrder>
+                    <location>1</location>
+                    <value>cn.leanpro.pageobjects.Test.TestBBSPage#testResponseAPost</value>
+                  </br.eti.kinoshita.testlinkjavaapi.model.CustomField>
+                </customFields>
+                <executionStatus>PASSED</executionStatus>
+                <platform>
+                  <id>0</id>
+                  <name></name>
+                </platform>
+                <featureId>6</featureId>
+              </testCase>
+            </hudson.plugins.testlink.result.TestCaseWrapper>
+          </testCases>
+        </report>
+        <build class="build" reference="../../../.."/>
+      </result>
+    </hudson.plugins.testlink.TestLinkBuildAction>
+    <testngBuildAction plugin="testng-plugin@1.10">
+      <descriptions class="concurrent-hash-map"/>
+      <passCount>3</passCount>
+      <failCount>0</failCount>
+      <skipCount>0</skipCount>
+    </testngBuildAction>
+  </actions>
+  <queueId>5</queueId>
+  <timestamp>1451030407067</timestamp>
+  <startTime>1451030407071</startTime>
+  <result>SUCCESS</result>
+  <duration>74987</duration>
+  <charset>GBK</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven</workspace>
+  <hudsonVersion>1.641</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

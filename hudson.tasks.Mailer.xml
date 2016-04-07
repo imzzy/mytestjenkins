@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.16">
+  <defaultSuffix>@leanpro.cn</defaultSuffix>
+  <hudsonUrl>http://localhost:8080/</hudsonUrl>
+  <smtpAuthUsername>zack@leanpro.cn</smtpAuthUsername>
+  <smtpAuthPassword>KlPdl6Y7krX5qwn29ZiCtM0jw5su4DT/tmpUMLnyWIU=</smtpAuthPassword>
+  <replyToAddress>390021310@qq.com</replyToAddress>
+  <smtpHost>smtp.mxhichina.com</smtpHost>
+  <useSsl>false</useSsl>
+  <smtpPort>25</smtpPort>
+  <charset>UTF-8</charset>
+</hudson.tasks.Mailer_-DescriptorImpl>

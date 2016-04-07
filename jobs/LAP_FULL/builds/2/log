@@ -1,0 +1,125 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\LAP_FULL
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config remote.origin.url https://99robo.visualstudio.com/DefaultCollection/_git/WallE # timeout=10
+Fetching upstream changes from https://99robo.visualstudio.com/DefaultCollection/_git/WallE
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe --version # timeout=10
+using .gitcredentials to set credentials
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local credential.username zack # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local credential.helper store --file=\"C:\Users\zack\AppData\Local\Temp\git2257077623616961777.credentials\" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe -c core.askpass=true fetch --tags --progress https://99robo.visualstudio.com/DefaultCollection/_git/WallE +refs/heads/*:refs/remotes/origin/*
+ERROR: Timeout after 10 minutes
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mERROR: Failed to join a process
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0morg.jvnet.winp.WinpException: Failed to read environment variable table error=299 at .\envvar-cmdline.cpp:201
+	at org.jvnet.winp.Native.getCmdLineAndEnvVars(Native Method)
+	at org.jvnet.winp.WinProcess.parseCmdLineAndEnvVars(WinProcess.java:126)
+	at org.jvnet.winp.WinProcess.getCommandLine(WinProcess.java:102)
+	at org.jvnet.winp.WinProcess.killRecursively(WinProcess.java:66)
+	at hudson.util.ProcessTree$Windows$1.killRecursively(ProcessTree.java:425)
+	at hudson.util.ProcessTree.killAll(ProcessTree.java:141)
+	at hudson.Proc$LocalProc.destroy(Proc.java:379)
+	at hudson.Proc$LocalProc.kill(Proc.java:371)
+	at hudson.Proc$1.run(Proc.java:157)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local --remove-section credential # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 6e5a04d23eb883674818ac25af40007fb09f5e61 (refs/remotes/origin/master)
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe checkout -f 6e5a04d23eb883674818ac25af40007fb09f5e61
+First time build. Skipping changelog.
+Path To MSBuild.exe: C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe
+Executing the command cmd.exe /C " "C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe" /t:clean /t:build /p:Configuration=Debug "/p:Platform=Any CPU" LAP/src/LAP_Full.sln " && exit %%ERRORLEVEL%% from C:\Users\zack\.jenkins\workspace\LAP_FULL
+[LAP_FULL] $ cmd.exe /C " "C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe" /t:clean /t:build /p:Configuration=Debug "/p:Platform=Any CPU" LAP/src/LAP_Full.sln " && exit %%ERRORLEVEL%%
+Microsoft(R) Éú³ÉÒıÇæ°æ±¾ 12.0.31101.0
+[Microsoft .NET Framework °æ±¾ 4.0.30319.34209]
+°æÈ¨ËùÓĞ (C) Microsoft Corporation¡£±£ÁôËùÓĞÈ¨Àû¡£
+
+ÔÚ´Ë½â¾ö·½°¸ÖĞÒ»´ÎÉú³ÉÒ»¸öÏîÄ¿¡£ÈôÒªÆôÓÃ²¢ĞĞÉú³É£¬ÇëÌí¼Ó¡°/m¡±¿ª¹Ø¡£
+Éú³ÉÆô¶¯Ê±¼äÎª 2016/3/24 19:24:57¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±ÔÚ½Úµã 1 ÉÏ(clean;build ¸öÄ¿±ê)¡£
+ValidateSolutionConfiguration:
+  ÕıÔÚÉú³É½â¾ö·½°¸ÅäÖÃ¡°Debug|Any CPU¡±¡£
+ValidateProjects:
+  ÔÚ½â¾ö·½°¸ÅäÖÃ¡°Debug|Any CPU¡±ÖĞÎ´Ñ¡¶¨Éú³ÉÏîÄ¿¡°SetupBuilder¡±¡£
+  ÔÚ½â¾ö·½°¸ÅäÖÃ¡°Debug|Any CPU¡±ÖĞÎ´Ñ¡¶¨Éú³ÉÏîÄ¿¡°Install_CA¡±¡£
+C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln.metaproj : error MSB3202: Î´ÕÒµ½ÏîÄ¿ÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\LAPVisualStudioPackage\LAPVisualStudioPackage\LAPVisualStudioPackage.csproj¡±¡£ [C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln]
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPWebObjects\LPWebObjects.csproj¡±(2) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚ´´½¨Ä¿Â¼¡°obj\Debug\¡±¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPWebObjects\LPWebObjects.csproj¡±(2)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPReplayCore\LPReplayCore.csproj¡±(3) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚ´´½¨Ä¿Â¼¡°obj\Debug\¡±¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPReplayCore\LPReplayCore.csproj¡±(3)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPCommon\LPCommon.csproj¡±(4) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚ´´½¨Ä¿Â¼¡°obj\Debug\¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPCommon\LPCommon.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPReplayCore\LPReplayCore.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPWebObjects\LPWebObjects.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPResources\LAPResources\LAPResources.csproj¡±(5) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚ´´½¨Ä¿Â¼¡°obj\Debug\¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPResources\LAPResources\LAPResources.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPResources\LAPResourceManager\LAPResourceManager.csproj¡±(6) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚ´´½¨Ä¿Â¼¡°obj\Debug\¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPResources\LAPResourceManager\LAPResourceManager.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\ProjectTemplates\LAP.MsTestTestProjectTemplate\LAP.MsTestTestProjectTemplate.csproj¡±(7) (Clean ¸öÄ¿±ê)¡£
+C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\ProjectTemplates\LAP.MsTestTestProjectTemplate\LAP.MsTestTestProjectTemplate.csproj(80,3): error MSB4019: Î´ÕÒµ½µ¼ÈëµÄÏîÄ¿¡°C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\VSSDK\Microsoft.VsSDK.targets¡±¡£ÇëÈ·ÈÏ <Import> ÉùÃ÷ÖĞµÄÂ·¾¶ÕıÈ·£¬ÇÒ´ÅÅÌÉÏ´æÔÚ¸ÃÎÄ¼ş¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\ProjectTemplates\LAP.MsTestTestProjectTemplate\LAP.MsTestTestProjectTemplate.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷ - Ê§°Ü¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\ItemTemplates\LAP.MsTestTestItemTemplate\LAP.MsTestTestItemTemplate.csproj¡±(8) (Clean ¸öÄ¿±ê)¡£
+C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\ItemTemplates\LAP.MsTestTestItemTemplate\LAP.MsTestTestItemTemplate.csproj(74,3): error MSB4019: Î´ÕÒµ½µ¼ÈëµÄÏîÄ¿¡°C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\VSSDK\Microsoft.VsSDK.targets¡±¡£ÇëÈ·ÈÏ <Import> ÉùÃ÷ÖĞµÄÂ·¾¶ÕıÈ·£¬ÇÒ´ÅÅÌÉÏ´æÔÚ¸ÃÎÄ¼ş¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\ItemTemplates\LAP.MsTestTestItemTemplate\LAP.MsTestTestItemTemplate.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷ - Ê§°Ü¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\LAP.PackageVsix\LAP.PackageVsix.csproj¡±(9) (Clean ¸öÄ¿±ê)¡£
+C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\LAP.PackageVsix\LAP.PackageVsix.csproj(90,3): error MSB4019: Î´ÕÒµ½µ¼ÈëµÄÏîÄ¿¡°C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\VSSDK\Microsoft.VsSDK.targets¡±¡£ÇëÈ·ÈÏ <Import> ÉùÃ÷ÖĞµÄÂ·¾¶ÕıÈ·£¬ÇÒ´ÅÅÌÉÏ´æÔÚ¸ÃÎÄ¼ş¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\LAP.PackageVsix\LAP.PackageVsix.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷ - Ê§°Ü¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPUnitTest\LAPUnitTest.csproj¡±(10) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚ´´½¨Ä¿Â¼¡°obj\Debug\¡±¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPUnitTest\LAPUnitTest.csproj¡±(10)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPReplayEngine\LPReplayEngine.csproj¡±(11) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚ´´½¨Ä¿Â¼¡°obj\Debug\¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPReplayEngine\LPReplayEngine.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPUnitTest\LAPUnitTest.csproj¡±(10)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPSpy\LPSpy.csproj¡±(12) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚ´´½¨Ä¿Â¼¡°obj\Debug\¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPSpy\LPSpy.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPUnitTest\LAPUnitTest.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(1)ÕıÔÚ½Úµã 1 ÉÏÉú³É¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPControlPanel\LPControlPanel.csproj¡±(14) (Clean ¸öÄ¿±ê)¡£
+CoreClean:
+  ÕıÔÚ´´½¨Ä¿Â¼¡°obj\Debug\¡±¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LPControlPanel\LPControlPanel.csproj¡±(Clean ¸öÄ¿±ê)µÄ²Ù×÷¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(clean;build ¸öÄ¿±ê)µÄ²Ù×÷ - Ê§°Ü¡£
+
+Éú³ÉÊ§°Ü¡£
+
+¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(clean;build Ä¿±ê) (1) ->
+(Clean Ä¿±ê) -> 
+  C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln.metaproj : error MSB3202: Î´ÕÒµ½ÏîÄ¿ÎÄ¼ş¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\LAPVisualStudioPackage\LAPVisualStudioPackage\LAPVisualStudioPackage.csproj¡±¡£ [C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln]
+
+
+¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(clean;build Ä¿±ê) (1) ->
+¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\ProjectTemplates\LAP.MsTestTestProjectTemplate\LAP.MsTestTestProjectTemplate.csproj¡±(Clean Ä¿±ê) (7) ->
+  C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\ProjectTemplates\LAP.MsTestTestProjectTemplate\LAP.MsTestTestProjectTemplate.csproj(80,3): error MSB4019: Î´ÕÒµ½µ¼ÈëµÄÏîÄ¿¡°C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\VSSDK\Microsoft.VsSDK.targets¡±¡£ÇëÈ·ÈÏ <Import> ÉùÃ÷ÖĞµÄÂ·¾¶ÕıÈ·£¬ÇÒ´ÅÅÌÉÏ´æÔÚ¸ÃÎÄ¼ş¡£
+
+
+¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(clean;build Ä¿±ê) (1) ->
+¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\ItemTemplates\LAP.MsTestTestItemTemplate\LAP.MsTestTestItemTemplate.csproj¡±(Clean Ä¿±ê) (8) ->
+  C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\ItemTemplates\LAP.MsTestTestItemTemplate\LAP.MsTestTestItemTemplate.csproj(74,3): error MSB4019: Î´ÕÒµ½µ¼ÈëµÄÏîÄ¿¡°C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\VSSDK\Microsoft.VsSDK.targets¡±¡£ÇëÈ·ÈÏ <Import> ÉùÃ÷ÖĞµÄÂ·¾¶ÕıÈ·£¬ÇÒ´ÅÅÌÉÏ´æÔÚ¸ÃÎÄ¼ş¡£
+
+
+¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAP_Full.sln¡±(clean;build Ä¿±ê) (1) ->
+¡°C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\LAP.PackageVsix\LAP.PackageVsix.csproj¡±(Clean Ä¿±ê) (9) ->
+  C:\Users\zack\.jenkins\workspace\LAP_FULL\LAP\src\LAPVisualStudioPackage\LAP.PackageVsix\LAP.PackageVsix.csproj(90,3): error MSB4019: Î´ÕÒµ½µ¼ÈëµÄÏîÄ¿¡°C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\VSSDK\Microsoft.VsSDK.targets¡±¡£ÇëÈ·ÈÏ <Import> ÉùÃ÷ÖĞµÄÂ·¾¶ÕıÈ·£¬ÇÒ´ÅÅÌÉÏ´æÔÚ¸ÃÎÄ¼ş¡£
+
+    0 ¸ö¾¯¸æ
+    4 ¸ö´íÎó
+
+ÒÑÓÃÊ±¼ä 00:00:07.38
+Build step 'Build a Visual Studio project or solution using MSBuild' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.tasks.junit.TestResultAction plugin="junit@1.10">
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>16</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>112</totalCount>
+      <testData/>
+    </hudson.tasks.junit.TestResultAction>
+    <hudson.tasks.MailMessageIdAction plugin="mailer@1.16">
+      <messageId>&lt;286854136.10.1459139695217.JavaMail.zack@zack-pc&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
+  </actions>
+  <queueId>4</queueId>
+  <timestamp>1459139593371</timestamp>
+  <startTime>1459139593375</startTime>
+  <result>FAILURE</result>
+  <duration>97435</duration>
+  <charset>GBK</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\zack\.jenkins\workspace\LAP-Unittest</workspace>
+  <hudsonVersion>1.641</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

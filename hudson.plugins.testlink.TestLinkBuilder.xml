@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.testlink.TestLinkBuilderDescriptor plugin="testlink@3.11">
+  <testLinkBuildType>hudson.plugins.testlink.TestLinkBuilder</testLinkBuildType>
+  <installations>
+    <hudson.plugins.testlink.TestLinkInstallation>
+      <name>testlink</name>
+      <url>http://www.leanpro.cn/testlink1/lib/api/xmlrpc/v1/xmlrpc.php</url>
+      <devKey>93d0664ef50932d385fd91651235978c</devKey>
+      <testLinkJavaAPIProperties></testLinkJavaAPIProperties>
+    </hudson.plugins.testlink.TestLinkInstallation>
+  </installations>
+</hudson.plugins.testlink.TestLinkBuilderDescriptor>

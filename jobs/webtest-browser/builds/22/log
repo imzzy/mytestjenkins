@@ -1,0 +1,11 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\webtest-browser
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe config remote.origin.url https://99robo.visualstudio.com/DefaultCollection/_git/R2D2 # timeout=10
+Fetching upstream changes from https://99robo.visualstudio.com/DefaultCollection/_git/R2D2
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe --version # timeout=10
+using .gitcredentials to set credentials
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe config --local credential.username zack # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe config --local credential.helper store --file=\"C:\Users\zack\AppData\Local\Temp\git2103844527077541362.credentials\" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\mingw64\bin\git.exe -c core.askpass=true fetch --tags --progress https://99robo.visualstudio.com/DefaultCollection/_git/R2D2 +refs/heads/*:refs/remotes/origin/*

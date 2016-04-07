@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBS.testbbsLogin.2015-12-23-09-36-33.png'>TestBBS.testbbsLogin</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBS.testbbsLogin.2015-12-23-09-36-41.png'>TestBBS.testbbsLogin</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBS.testchooseSection.2015-12-23-09-36-51.png'>TestBBS.testchooseSection</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="55137" started-at="2015-12-23T01:35:56Z" finished-at="2015-12-23T01:36:51Z">
+    <groups>
+    </groups>
+    <test name="Nopackage" duration-ms="55137" started-at="2015-12-23T01:35:56Z" finished-at="2015-12-23T01:36:51Z">
+      <class name="cn.leanpro.pageobjects.Test.TestBBS">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@57d13a79]" name="createDriver" is-config="true" duration-ms="19975" started-at="2015-12-23T09:35:56Z" finished-at="2015-12-23T09:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="initBrower()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@57d13a79]" name="initBrower" is-config="true" duration-ms="3" started-at="2015-12-23T09:36:16Z" finished-at="2015-12-23T09:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrower -->
+        <test-method status="PASS" signature="testbbsLogin(cn.leanpro.model.Users)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@57d13a79]" name="testbbsLogin" duration-ms="12018" started-at="2015-12-23T09:36:19Z" data-provider="datawithuser" finished-at="2015-12-23T09:36:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.Users@28b16b91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBS.testbbsLogin.2015-12-23-09-36-33.png'>TestBBS.testbbsLogin</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testbbsLogin -->
+        <test-method status="PASS" signature="testbbsLogin(cn.leanpro.model.Users)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@57d13a79]" name="testbbsLogin" duration-ms="4428" started-at="2015-12-23T09:36:33Z" data-provider="datawithuser" finished-at="2015-12-23T09:36:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.Users@180d1176]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBS.testbbsLogin.2015-12-23-09-36-41.png'>TestBBS.testbbsLogin</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testbbsLogin -->
+        <test-method status="PASS" signature="testchooseSection()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@57d13a79]" name="testchooseSection" duration-ms="10176" started-at="2015-12-23T09:36:41Z" finished-at="2015-12-23T09:36:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven/screenshot/Success/TestBBS.testchooseSection.2015-12-23-09-36-51.png'>TestBBS.testchooseSection</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testchooseSection -->
+        <test-method status="PASS" signature="teardownDriver()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@57d13a79]" name="teardownDriver" is-config="true" duration-ms="16" started-at="2015-12-23T09:36:51Z" finished-at="2015-12-23T09:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+      </class> <!-- cn.leanpro.pageobjects.Test.TestBBS -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>

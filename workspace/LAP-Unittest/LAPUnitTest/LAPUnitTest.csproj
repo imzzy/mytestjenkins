@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E42365CA-9337-4C7B-BF14-F5E54B408293}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LAPUnitTest</RootNamespace>
+    <AssemblyName>LAPUnitTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="UIAComWrapper, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\UIAComWrapper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="..\LPCommon\UnitTest\LPLoggerTest.cs">
+      <Link>LAPCommon\LPLoggerTest.cs</Link>
+    </Compile>
+    <Compile Include="..\LPReplayCore\UnitTest\AppModelTest.cs">
+      <Link>ReplayCore\AppModelTest.cs</Link>
+    </Compile>
+    <Compile Include="..\LPReplayCore\UnitTest\ControlTypeConverterTest.cs">
+      <Link>ReplayCore\ControlTypeConverterTest.cs</Link>
+    </Compile>
+    <Compile Include="..\LPReplayCore\UnitTest\JsonSerializerTest.cs">
+      <Link>ReplayCore\JsonSerializerTest.cs</Link>
+    </Compile>
+    <Compile Include="..\LPReplayCore\UnitTest\LPConfigTest.cs">
+      <Link>ReplayCore\LPConfigTest.cs</Link>
+    </Compile>
+    <Compile Include="..\LPReplayCore\UnitTest\ObjectDescriptorTest.cs">
+      <Link>ReplayCore\ObjectDescriptorTest.cs</Link>
+    </Compile>
+    <Compile Include="..\LPReplayCore\UnitTest\TempUnitTests.cs">
+      <Link>ReplayCore\TempUnitTests.cs</Link>
+    </Compile>
+    <Compile Include="..\LPReplayCore\UnitTest\TestUtility.cs">
+      <Link>ReplayCore\TestUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\LPReplayEngine\Test\VideoHelperTest.cs">
+      <Link>ReplayEngine\VideoHelperTest.cs</Link>
+    </Compile>
+    <Compile Include="..\LPSpy\UnitTest\HighlightTest.cs">
+      <Link>Spy\HighlightTest.cs</Link>
+    </Compile>
+    <Compile Include="..\LPSpy\UnitTest\SpyMainWindowTest.cs">
+      <Link>Spy\SpyMainWindowTest.cs</Link>
+    </Compile>
+    <Compile Include="..\LPSpy\UnitTest\SpySettingsTest.cs">
+      <Link>Spy\SpySettingsTest.cs</Link>
+    </Compile>
+    <Compile Include="..\LPUIAObjects\UnitTest\ControlSearcherTest.cs">
+      <Link>UIAObjects\ControlSearcherTest.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LPCommon\LPCommon.csproj">
+      <Project>{7ce460f9-8a3f-47ac-894b-822a1cf6cc15}</Project>
+      <Name>LPCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LPReplayCore\LPReplayCore.csproj">
+      <Project>{6eeb5bb0-91f8-4f77-b182-ff8da2408e8a}</Project>
+      <Name>LPReplayCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LPReplayEngine\LPReplayEngine.csproj">
+      <Project>{5bf0c625-378c-47ab-8c5f-c0a71edb8f38}</Project>
+      <Name>LPReplayEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LPSpy\LPSpy.csproj">
+      <Project>{948c4d4a-5e2b-4034-b81e-01ec31038a7a}</Project>
+      <Name>LPSpy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LPUIAObjects\LPUIAObjects.csproj">
+      <Project>{27fb0811-48b1-4a3c-9e4c-caf3c0f9b61c}</Project>
+      <Name>LPUIAObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\LPCommon\LPLogger.config.xml">
+      <Link>LAPCommon\LPLogger.config.xml</Link>
+    </Content>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

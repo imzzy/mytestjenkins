@@ -1,0 +1,174 @@
+commit f0f963216c336f4fbd30c906c5c5f10ff8685da6
+tree 44265af842c334f0453d6b6851de9be84a34ba06
+parent 775a4f31e8098262a37c0e662638f4bd03890197
+author kimguo <gyb_duckula@msn.com> 2016-03-27 21:58:28 +0800
+committer kimguo <gyb_duckula@msn.com> 2016-03-27 21:58:28 +0800
+
+    improve the web performance
+
+
+
+:100644 100644 6303e2320b7a34e34b9bf32c3b884439d5fc4fd6 d4bf01656e3d37c383b53b707535f4ed6ee2b8f9 M	LAP/src/LPReplayCore/Selenium/WebKit.cs
+:100644 100644 97aaacf27038f6a65b5785087f467a88e777117c 289bdfe1530930e4995c4d1619731e21d55c9db8 M	LAP/src/LPSpy/Forms/AddObjectsWindow.cs
+commit 775a4f31e8098262a37c0e662638f4bd03890197
+tree 6b90c6ec37811223aaa5026f8e144ed0d47d1a03
+parent 1c28e69d1475f308820329bcfbf080f5d424cf3e
+author Jason <zyjing10@hotmail.com> 2016-03-26 11:01:37 +0800
+committer Jason <zyjing10@hotmail.com> 2016-03-26 11:01:37 +0800
+
+    Fix build and unit test error Wont spy own elements
+
+
+
+:100644 100644 47c15ead6bd09bebbe5d0bffb13303730d4e5fb5 bfb23d1329e94797f89c5f6fcd16ea4030e57546 M	LAP/src/LPSpy/Forms/SpyMainWindow.cs
+:100644 100644 facfb30420a091071e61ba77df464d2f7a111f6a 56c28ce20cfba2829e1c5a422bd87cbb3dbc87a9 M	LAP/src/LPSpy/Forms/UIASpyWindow.cs
+:100644 100644 3658c9876968e2ca96ca3cf9793b92d6bce331b9 a081ead233180d344eee665bfc0dc0766ae25774 M	LAP/src/LPUIAObjects/LPUIAObjects.csproj
+:100644 100644 28ebad70a92e3f5c8441da392df9cef004882f5c c07bd6cf32cbc9ad2f7a5a943ea507813a8ebe35 M	LAP/src/LPWebObjects/UnitTest/SeleniumTest.cs
+commit 1c28e69d1475f308820329bcfbf080f5d424cf3e
+tree 604d4e96a14a7c38cec35624c6dff33f818d515e
+parent 9d8b6af69b15a022f66b18bf6ed4af332e79ae14
+author Jason <zyjing10@hotmail.com> 2016-03-26 00:17:59 +0800
+committer Jason <zyjing10@hotmail.com> 2016-03-26 00:17:59 +0800
+
+    Fix build error
+
+
+
+:100644 100644 17c38b966624b3638e0ebbc1f73681688c4198c6 5ee122e685a94b7ed58eb41342cf8ab9a9110016 M	LAP/src/LPUIAObjects/Controls/UIAButton.cs
+:100644 100644 eaf2cebd560be2d0bf7a5cbbf3df295bbc430831 284251a02c10a84507921e5412a1acacf1035448 M	LAP/src/LPUIAObjects/Controls/UIACheckbox.cs
+:100644 100644 87dfcc432eb56f219528c425b8b2052904fe79bb be28e14af6ca8a268d67e1543e7df115b7d4618f M	LAP/src/LPUIAObjects/Controls/UIAComboBox.cs
+:100644 100644 fb7bf79f6963989c3561a8bc93436a863d96059b 990e5454dbb26b13e0ebe8224585c442a186cc50 M	LAP/src/LPUIAObjects/Controls/UIACustom.cs
+:100644 100644 c5fe530ae25c43a7ae8ea59d5d022747f6277396 e8ac39a86d55588bc3ebff5d24eee1994c006178 M	LAP/src/LPUIAObjects/Controls/UIAEdit.cs
+:100644 100644 eda73f92bada29aa7aa2cbe6de8969612073c912 fc9ab5384c5d024340d0a562fabe174d8f65bb46 M	LAP/src/LPUIAObjects/Controls/UIAEditor.cs
+:100644 100644 dbb46076f6b2415c0a7b9be4a763ced4ef9dbd52 3ff7c9f8d78e339c94c82881d8566829a06cea0d M	LAP/src/LPUIAObjects/Controls/UIAImage.cs
+:100644 100644 c283698b57dfb3212886bb528f5df5d6f15a203f 323f38515c2a6e4536bc4b86f867e0ed90f28d6e M	LAP/src/LPUIAObjects/Controls/UIALink.cs
+:100644 100644 477ab352736eb46e9a0bc2a2da63a6d849492aa4 fc36a6ce1e1499be82feca784309ed5f4b8c9d57 M	LAP/src/LPUIAObjects/Controls/UIAList.cs
+:100644 100644 646b6622628ddf0ccab55a7c6fffef8eaa8768c4 c4af7e2a519a83679dd486e00ffc845f72bf7b11 M	LAP/src/LPUIAObjects/Controls/UIAMainGroupForUser.cs
+:100644 100644 71b0e7c91ed40d5563058d9ddf7aebf1f66c6c59 25e335b58bf663e89002c1bcf1223e70f12a280b M	LAP/src/LPUIAObjects/Controls/UIAMenu.cs
+:100644 100644 ec2e8637d41060abff5f936951337ae51bb615fb 260168f10d976cd8a59d93f41700d865f6e1e8da M	LAP/src/LPUIAObjects/Controls/UIAMenuBar.cs
+:100644 100644 d747990990911a8a8ba70db5be5ce45b8de2e3ec 4b01128d22b50c5058130895ac757271e53f84e4 M	LAP/src/LPUIAObjects/Controls/UIAPane.cs
+:100644 100644 f7560e2e5afb8d3c45d2ab209eeba52134025cdb 748a52bf202ed7c4c67b8fc8bf72c088fe08efe2 M	LAP/src/LPUIAObjects/Controls/UIARadiobutton.cs
+:100644 100644 b152a3e489e6fe84777130346dc4c9ca087c1f75 4b9eb7e3034e284ef5fb965b2ec92d86bfe6f994 M	LAP/src/LPUIAObjects/Controls/UIAScrollbar.cs
+:100644 100644 1a46318074dbea6dacb7018616fb9ba0e29ee102 66cfdc077ca9ec7265f9e3a3662c06b234e889f1 M	LAP/src/LPUIAObjects/Controls/UIASlider.cs
+:100644 100644 7bc539d2198354ff850f32b13a44809af775993a ad2dcdbdbbdd864477ced2b7382dcfb78de8d60d M	LAP/src/LPUIAObjects/Controls/UIATab.cs
+:100644 100644 07bd32c2c08bd5a935cf0aaa0f459e10e3f25503 b83aafa46b1cac91aee4db0ebf8d244d5ab697b2 M	LAP/src/LPUIAObjects/Controls/UIATable.cs
+:100644 100644 cdb096b4ac1f524d762f301a4bc3b3415894a984 399a5c0e865c8b0ad6d0d8402e43b55fdf6cee62 M	LAP/src/LPUIAObjects/Controls/UIAText.cs
+:100644 100644 b8dbc172cf9471b921e71f88b57e057c4b4b767b a7e7061b477e0680270aaa11c1971d8691965686 M	LAP/src/LPUIAObjects/Controls/UIAToolBar.cs
+:100644 100644 89d5f84929ad6342ea3ad94a2f9baebad3cffbed c27deebd0da30d156a11e1aac16e0b5ddb95d89e M	LAP/src/LPUIAObjects/Controls/UIATree.cs
+:100644 100644 48622074bebb1082fe0dc5639c655c18a8f53429 c57a508fc4cb8dd9255ca331f39239d16880fd77 M	LAP/src/LPUIAObjects/Controls/UIAWindow.cs
+:100644 100644 d1304aec433ddcde00733c54b7491a6a409bf8a8 3658c9876968e2ca96ca3cf9793b92d6bce331b9 M	LAP/src/LPUIAObjects/LPUIAObjects.csproj
+commit 3b7b9ee3517b3fa599c86da9dda53e86f9e1d234
+tree 6f9d9e7eefe0dace7c76c99a880f44165b3adc6e
+parent c6da124f44d395cd8a3bd7d2eae87cdb56bfeb51
+author Jason <zyjing10@hotmail.com> 2016-03-25 23:19:41 +0800
+committer Jason <zyjing10@hotmail.com> 2016-03-25 23:19:41 +0800
+
+    Fix build error
+
+
+
+:100644 100644 0a807bc2791581f20cb6564d407bdfabb897caff 4b3f00243a3aea85185389f15af7e7409bcf2cad M	LAP/src/LPReplayCore/UnitTest/AppModelFileTest.cs
+:100644 100644 65c65a14cc162ba67e2ca28d22db151e68c2ed26 376840c4e721578b8374e8268ec25bcc4b5588bf M	LAP/src/LPSpy/Controls/ModelTreeViewControl.cs
+:100644 100644 57f515b1ab2536f704da73854bd926ee5c11b874 47c15ead6bd09bebbe5d0bffb13303730d4e5fb5 M	LAP/src/LPSpy/Forms/SpyMainWindow.cs
+:100644 100644 a9a1b48455ff6d74b94f6b2880a2e00cebd8f239 f54fbeba887548e47d270c7a31438ed40c248075 M	LAP/src/LPSpy/UnitTest/ModelFileHandlerTest.cs
+:100644 100644 c26b7d22290b6b79e7d66960c30983498a6d4afb d7fb7ab25c5fa8edec6becd152053cb4dade2ba1 M	LAP/src/SetupBuilder/Components.wxs
+:100644 100644 496629dd80236fa5237cca60477ac3aa1b11db5a 866e330d270569b2229576ec1cf61415cee53036 M	LAP/src/Template/LAPTemplate/UnitTest1.cs
+commit f73fcea4b87a58dcfa6d4ea737b1c1576a6758fc
+tree 2c3ea3ea472a95af65f0ab1784657285eb7cd3af
+parent 6e5a04d23eb883674818ac25af40007fb09f5e61
+author kimguo <gyb_duckula@msn.com> 2016-03-25 23:10:45 +0800
+committer kimguo <gyb_duckula@msn.com> 2016-03-25 23:10:45 +0800
+
+    fix issue when element has class attribute, the app will crash 2
+    problems     1, when the element has class attribute and identify it
+    with css selector, we should replace the space with '.' and we used
+    string replace function, but sometimes there are sequential multiple
+    spaces, so after replacing the result becomes sequential multiple '.'
+    like '..'. selenium will crash for it.     2, when we spy the control,
+    there is a mouse hover event which is sent to the control, sometimes the
+    control changes its css class when receiving mouse hover event. So at
+    replaying time, the control can be found. Change the css class property
+    to be a other property, not a recommended property.
+
+
+
+:100644 100644 fc2b96a38946ef0666f56de0e175a634b5add701 2348e4a62ee3f3fb8d96e0271708e748662b0e3d M	LAP/src/LPReplayCore/Selenium/SETestObject.cs
+:100644 100644 1179c2db80a46f31d2e126e063419ec454d47325 932436b09850b7953b663fd3c6a6efac4daf51a7 M	LAP/src/LPReplayCore/Selenium/WebElementProperties.cs
+commit c6da124f44d395cd8a3bd7d2eae87cdb56bfeb51
+tree 0b42b91f88bad96a944f318eb251ce40330b2c8f
+parent 6e5a04d23eb883674818ac25af40007fb09f5e61
+author Jason <zyjing10@hotmail.com> 2016-03-25 23:05:50 +0800
+committer Jason <zyjing10@hotmail.com> 2016-03-25 23:05:50 +0800
+
+    Change control names to Winxxx Add Operations property Tab
+
+
+
+:100644 100644 c70d43436f97879dc39cf8e79467c9cf48b4d45b 9e36c52bc5fcd5a59a0ff47d8ee568da58bc2663 M	LAP/src/LAP.sln
+:100644 100644 47df00c5ee4500b03b8d1735fcd9e5ce215a9088 846eae6731f2fd0e4ccef430b3f08bbbc9f58a42 M	LAP/src/LAP.testsettings
+:100644 100644 3c487922fe2f6dec9df899a596391a5323806a1f 39e88ccc033dcb94d7b3e157a0acb33771cc410e M	LAP/src/LAPVisualStudioPackage/LAP.PackageVsix/LAP.PackageVsix.csproj
+:100644 100644 878605b810e9fcc5f68332aa8a22c0e825601be7 9065fdd209e853dbed9bc168f19bfbe9dd27a51c M	LAP/src/LAPVisualStudioPackage/LAP.PackageVsix/source.extension.vsixmanifest
+:100644 100644 c6c94a5cd3ab4de84c213ea408ca376967d63523 f59c20bc1f729dfeed837eb37873ce5a3c3bf8d4 M	LAP/src/LAP_Full.sln
+:100644 100644 583d8a55c83e2b562ddd9360f3ffef35220d6d47 46e06743acdfef8390f1470ae148d77a885db1eb M	LAP/src/LPReplayCore/Common/ControlTypeConverter.cs
+:100644 100644 fc2b96a38946ef0666f56de0e175a634b5add701 abb768ca663de9b1c6b28a1d02cc141bc5d7760f M	LAP/src/LPReplayCore/Selenium/SETestObject.cs
+:100644 100644 ea03362a17b440064f8c74f00c75b36fb710e5c8 6e6a888b1d5e7f296953bd45e0e5367d519fc663 M	LAP/src/LPReplayCore/TestObjects/UIATestObject.cs
+:100644 100644 af508de1992f7d038830f809feac971b646a9912 0a807bc2791581f20cb6564d407bdfabb897caff M	LAP/src/LPReplayCore/UnitTest/AppModelFileTest.cs
+:100644 100644 cb86d4f1f0815eeb47f5ab5907bd925fba71747a 10e58804d1505fc7c2c0d8c3fed8c2e60256efcb M	LAP/src/LPReplayCore/UnitTest/AppModelTest.cs
+:100644 100644 979b2c2399e945070700e586ba58aba637d38ea9 341b3d1ddeacff6ab28344bc71b4ed8e5018df35 M	LAP/src/LPReplayCore/UnitTest/ControlTypeConverterTest.cs
+:100644 100644 8ab87fedf04718873f9e5b6294be235ea22aa0df a4125502835ff9116f4328f574d116e192acec19 M	LAP/src/LPReplayCore/UnitTest/TestObjectNurseTest.cs
+:100644 100644 48dcebfdfa257a8a3cbe58d709a19ed7b478ee5c a5b83106d7e07d3d037e69a52cd5f1d57646ff8f M	LAP/src/LPReplayCore/UnitTest/TestUtility.cs
+:100644 100644 28d220bd43f54c6616df2c901275706e94bfa989 8271d4724a0ff61af265759f7b3e359bde6434cb M	LAP/src/LPReplayCore/UnitTest/UIATestObjectTest.cs
+:100644 100644 100e886cb0cfe4f89d2e77b955873b22653f3ad6 48b0c147ab7d72eeeb10553c21607af7c1dc1338 M	LAP/src/LPReplayCore/UnitTest/UIAUtilityTest.cs
+:100644 100644 ab56b7ad470bf9c831b7bd780fb93b5bcd72eb22 65c65a14cc162ba67e2ca28d22db151e68c2ed26 M	LAP/src/LPSpy/Controls/ModelTreeViewControl.cs
+:100644 100644 74678d816b32ba9385a3fae6fda98693f9cb1b81 b853282397ab094e2fea7e0f6a9bd769822c8523 M	LAP/src/LPSpy/Controls/NodeViewControl.Designer.cs
+:100644 100644 003db47f533c5011a340f611532a9e5d484ebc95 d44778cc12d3c4a1a5c6898c8cb4778d22e18332 M	LAP/src/LPSpy/Controls/NodeViewControl.cs
+:100644 100644 2ba3b9a35b06ae7543a39ee9fbb8996a6d7a40e9 89fdcfc696fad6e7a99df05052547c806b256115 M	LAP/src/LPSpy/Controls/NodeViewControl.resx
+:100644 100644 b283383da077446b4944b0367cec42eff3439a55 ff1dccb511682ca2856d8735b9e09b3c8dd87ce5 M	LAP/src/LPSpy/Helpers/ModelFileHandler.cs
+:100644 100644 4faaffe87c5bb9ca9f90ac9e207873fbc951ac3d f94ace7777c9273a21d0c1ff96cba70d10325f9e M	LAP/src/LPSpy/LPSpy.csproj
+:100644 100644 7ede161833a0b14ffb67f8b15367886eea9af055 45ee7b8e5c4cd62809f1de4ad85e3b338c20f62d M	LAP/src/LPSpy/ObjectModel2.json
+:100644 100644 0eb035a5de42d65e9ce19abe8b442abd8fdf745f 245cb6aa62ee84284870c6db375a67a3c1f61b51 M	LAP/src/LPSpy/Presenters/PresenterModel.cs
+:100644 100644 5cf412f1731c34aa914d0839119e9391dc62fbe4 4de2c64b35b896842d5150273d8d1c906a98b6c6 M	LAP/src/LPSpy/UnitTest/AddObjectsWindowTest.cs
+:100644 100644 c66c8767c12f3fa65faad5c3e7a04fce16de7a14 a9a1b48455ff6d74b94f6b2880a2e00cebd8f239 M	LAP/src/LPSpy/UnitTest/ModelFileHandlerTest.cs
+:000000 100644 0000000000000000000000000000000000000000 481c38fdd024a052d8c00efe20610c3378b9c77c A	LAP/src/LPSpy/UnitTest/NodeViewControlTest.cs
+:100644 100644 665cbfc77a191939e40315246bb6092cfa67b9f7 c23db5a0c4a653831af831989fbf51f57fe890c0 M	LAP/src/LPSpy/UnitTest/SearchTreeViewTest.cs
+:100644 100644 12e4a0d4977d9d5d9f1e51e6ce897c2595243685 5f5413753dbab121b7ee5a2e8b221a1ee68c230d M	LAP/src/LPSpy/UnitTest/SpyHelperTest.cs
+:000000 100644 0000000000000000000000000000000000000000 e9294272e94066fc8da5a19e2d6e01c2b7980ce5 A	LAP/src/LPSpy/UnitTest/TreeMergerTest.cs
+:100644 100644 842fd04561a0bb9d3496ac13c8f4dfdc09a09a78 c8e5f8ffcc97d07fc2786685b7e56f95a3932543 R088	LAP/src/LPSpy/UnitTestObjectModel1.json	LAP/src/LPSpy/UnitTest/UnitTestObjectModel1.json
+:100644 100644 08fcc883f38eb41f45d2a97bfbdd9af11b137c2f b3607d211230facee67e851510ef74430594133d R096	LAP/src/LPSpy/UnitTestVirtualControl.json	LAP/src/LPSpy/UnitTest/UnitTestVirtualControl.json
+:100644 100644 61ae9004fed9677c0968775b70daa5fb0b57da15 7746425a590ec0651b3d1b5d0c7b799bb80ae953 M	LAP/src/LPSpy/UnitTest/VirtualControlHelperTest.cs
+:100644 100644 d1c7fdc7de59aad138679b7fcadc14729fe7172d bc1171e98c5e3cbc04b0a45ed3ea84776d94f908 M	LAP/src/LPUIAObjects/Common/CodeGenerator.cs
+:100644 100644 bb17c8f6bbe171024a8b4a60a0a7bc646261e4eb 6a27f4b0a0e56c2ea357144649d0fae558eb1f39 M	LAP/src/LPUIAObjects/Common/UIAManager.cs
+:100644 100644 f4c233bf294c267dc98684edf0c31e7738e4e2e7 17c38b966624b3638e0ebbc1f73681688c4198c6 M	LAP/src/LPUIAObjects/Controls/UIAButton.cs
+:100644 100644 319ea2f6cc679267274ff183a1bae95f6eb4a389 eaf2cebd560be2d0bf7a5cbbf3df295bbc430831 M	LAP/src/LPUIAObjects/Controls/UIACheckbox.cs
+:100644 100644 81667b1e0ff2d597479f85a4514f4e8c92e8e8c2 87dfcc432eb56f219528c425b8b2052904fe79bb M	LAP/src/LPUIAObjects/Controls/UIAComboBox.cs
+:100644 100644 986a6d924b6f3887500a773a0dd9897138f0e817 59314eacfed8d7c4df87e4a086ecb5807ed25932 M	LAP/src/LPUIAObjects/Controls/UIACommonMethods.cs
+:100644 100644 d6c21d2ffb62d9cd4d16233f9c99f79db02febca fb7bf79f6963989c3561a8bc93436a863d96059b M	LAP/src/LPUIAObjects/Controls/UIACustom.cs
+:100644 100644 42c5e172037fb3b1ee471f82cc626749d2cff519 c5fe530ae25c43a7ae8ea59d5d022747f6277396 M	LAP/src/LPUIAObjects/Controls/UIAEdit.cs
+:100644 100644 10071a7ba2f55153505aed47751fa856169a6a9f eda73f92bada29aa7aa2cbe6de8969612073c912 M	LAP/src/LPUIAObjects/Controls/UIAEditor.cs
+:100644 100644 0c6cc3084777d8d17a576c7e3995e7d7e8f52c5f dbb46076f6b2415c0a7b9be4a763ced4ef9dbd52 M	LAP/src/LPUIAObjects/Controls/UIAImage.cs
+:100644 100644 22022ec901cd0b736aec91af7f4e0575ce0595f0 c283698b57dfb3212886bb528f5df5d6f15a203f M	LAP/src/LPUIAObjects/Controls/UIALink.cs
+:100644 100644 264ccc02bb9ed065b6a4993a828a269f34640e6d 477ab352736eb46e9a0bc2a2da63a6d849492aa4 M	LAP/src/LPUIAObjects/Controls/UIAList.cs
+:100644 100644 4e4daa238747cb0db792e15beec8ef018001069c 646b6622628ddf0ccab55a7c6fffef8eaa8768c4 M	LAP/src/LPUIAObjects/Controls/UIAMainGroupForUser.cs
+:100644 100644 7c5150eb4658f779ea2812a6087440f6b6f3f5d8 71b0e7c91ed40d5563058d9ddf7aebf1f66c6c59 M	LAP/src/LPUIAObjects/Controls/UIAMenu.cs
+:100644 100644 f4b5ce483d07d0ae0e1eccb2612ad6681cec8a50 ec2e8637d41060abff5f936951337ae51bb615fb M	LAP/src/LPUIAObjects/Controls/UIAMenuBar.cs
+:100644 100644 64151640c6e58589b7a10e9f90cded01a1e21576 d747990990911a8a8ba70db5be5ce45b8de2e3ec M	LAP/src/LPUIAObjects/Controls/UIAPane.cs
+:100644 100644 83ea4ea5b7d6913a65debf281b6470f72d1d494c f7560e2e5afb8d3c45d2ab209eeba52134025cdb M	LAP/src/LPUIAObjects/Controls/UIARadiobutton.cs
+:100644 100644 ad52e82a097734e915039ebf8cb5e12f7483f9a5 b152a3e489e6fe84777130346dc4c9ca087c1f75 M	LAP/src/LPUIAObjects/Controls/UIAScrollbar.cs
+:100644 100644 ad1e9d480a4183d79e315c1ca2b98432beefcfbd 1a46318074dbea6dacb7018616fb9ba0e29ee102 M	LAP/src/LPUIAObjects/Controls/UIASlider.cs
+:100644 100644 cde427e809f090a37569ad334e8fd823bdc41074 7bc539d2198354ff850f32b13a44809af775993a M	LAP/src/LPUIAObjects/Controls/UIATab.cs
+:100644 100644 70106ffaf3adf9d856a7acef2e08e7e90db863c5 07bd32c2c08bd5a935cf0aaa0f459e10e3f25503 M	LAP/src/LPUIAObjects/Controls/UIATable.cs
+:100644 100644 53042268b99708b4d6ec0b59e8397a618236e1fb cdb096b4ac1f524d762f301a4bc3b3415894a984 M	LAP/src/LPUIAObjects/Controls/UIAText.cs
+:100644 100644 f13591fb0aa393ba3f40e241444f45c4988cdeda b8dbc172cf9471b921e71f88b57e057c4b4b767b M	LAP/src/LPUIAObjects/Controls/UIAToolBar.cs
+:100644 100644 8d94841fe5e099f2ddd5eefa00279554ba22a48e 89d5f84929ad6342ea3ad94a2f9baebad3cffbed M	LAP/src/LPUIAObjects/Controls/UIATree.cs
+:100644 100644 6d8668fb6aa035d39465ced2090d395c3f2accc4 48622074bebb1082fe0dc5639c655c18a8f53429 M	LAP/src/LPUIAObjects/Controls/UIAWindow.cs
+:100644 100644 1c303722595171fbaa6c938ba486e52d2840acbc 01c075933b653447416ffd02fc321e335b5b911a M	LAP/src/LPUIAObjects/IUIAContainerBase.cs
+:100644 100644 660e0d1b3127b5744adab23f50e3ee3e286f8e4a 95daf12b921b5bb298dfde7c134ffccd9496abae M	LAP/src/LPUIAObjects/UIAContainerBase.cs
+:100644 100644 98e8bbfb223617c68ed4c53dff02951b8db81ac1 1bb46d754e32cb39f5e93f70e6e552e91c7ba4ca M	LAP/src/LPUIAObjects/UnitTest/CalcModel.json
+:100644 100644 f749b4dcdf3ddead1df9fd49c38c19f2c38ef5de 16f1bd2eaef4576f7a4576eaf2afb8d999bd2dbc M	LAP/src/LPUIAObjects/UnitTest/CodeGeneratorTest.cs
+:100644 100644 6b8525233f74aa35d20ee7c0a7b4cae3205ecba4 ee4995210416aa9d0f72e3991af550f3be4f8e90 M	LAP/src/LPUIAObjects/UnitTest/ControlSearcherTest.cs
+:100644 100644 f8a06a39e96945fe818931277aad549bca3a5650 067b1368adb00dd7374e10b94e71cd08b45bde83 M	LAP/src/LPUIAObjects/UnitTest/ElementPropertiesTest.cs
+:100644 100644 a609e04174b621bdcb27baaa18150da560fb1ea3 3c391733bff29afc162449e07eb494a494c6578c M	LAP/src/LPUIAObjects/UnitTest/UIAControlTest.js
+:100644 100644 41979c6373a05b6fbb05e7a2717433621ca81568 37041e879be72039419b29a89b2736a30e8d342e M	LAP/src/LPUIAObjects/UnitTest/UIAObjectsTest.cs
+:100644 100644 9e68f8596f8d425368a3eae9b97ac91cf94da943 a86b4e08d13597e6f0fc1d67393ec00699fd5a04 M	LAP/src/LPUIAObjects/UnitTest/UnitTest1.cs
+:100644 100644 b14ce9d8aa17240e03bb95d8be2403baa475ca07 496629dd80236fa5237cca60477ac3aa1b11db5a M	LAP/src/Template/LAPTemplate/UnitTest1.cs
+:100644 000000 7affc2698a264dc6d64018afc74e522e8995f185 0000000000000000000000000000000000000000 D	LAP/src/UIACalcTest/CalcAppModel.json

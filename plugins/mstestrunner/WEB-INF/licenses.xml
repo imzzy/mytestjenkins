@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Jenkins MSTestRunner plugin' groupId='org.jenkins-ci.plugins' artifactId='mstestrunner' version='1.2.0' url='https://wiki.jenkins-ci.org/display/JENKINS/MSTestRunner+Plugin'>
+    <l:description />
+    <l:license name='The MIT license' url='http://www.opensource.org/licenses/mit-license.php' />
+  </l:dependency>
+</l:dependencies>

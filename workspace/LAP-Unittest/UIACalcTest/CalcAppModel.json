@@ -1,0 +1,86 @@
+﻿{
+	ntype: "app",
+	process: "calculator.exe",
+	controls: [
+	{
+		ntype: "uia",
+		nname: "calculator",
+		identifyProperties: {
+					name: "Calculator"
+			},
+		description: "Top Calculator Window",
+		children: [
+			{
+				ntype: "uia",
+				nname: "button1",
+				identifyProperties: {
+					name: "1"
+				},
+				description: "button"
+			},
+			{
+				ntype: "uia",
+				nname: "button2",
+				identifyProperties: {
+					name: "2"
+				},
+				description: "button"
+			},
+			{
+				ntype: "uia",
+				nname: "button3",
+				identifyProperties: {
+					name: "3"
+				},
+				description: "button"
+			},
+			{
+				ntype: "uia",
+				nname: "plus",
+				identifyProperties: {
+					name: "+"
+				},
+				description: "Add"
+			},
+			{
+				ntype: "uia",
+				nname: "divide",
+				identifyProperties: {
+					name: "÷"
+				},
+				description: "Divide"
+			},
+			{
+				ntype: "uia",
+				nname: "multiply",
+				identifyProperties: {
+					name: "x"
+				},
+				description: "Multiply"
+			},
+			{
+				ntype: "uia",
+				nname: "minus",
+				identifyProperties: {
+					name: "-"
+				},
+				description: "Minus"
+			},
+			{
+				ntype: "uia",
+				nname: "clear",
+				identifyProperties: {
+					name: "Clear"
+				},
+				description: "Clear button"
+			},
+			{
+				ntype: "uia",
+				nname: "equal",
+				identifyProperties: {
+					name: "="
+				},
+			}
+		]
+	}]
+}

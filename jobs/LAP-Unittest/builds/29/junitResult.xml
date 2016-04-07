@@ -1,0 +1,894 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.10">
+  <suites>
+    <suite>
+      <file>C:\Users\zack\.jenkins\workspace\LAP-Unittest\temporary-junit-reports\TEST-0.xml</file>
+      <name>MSTestSuite</name>
+      <duration>71.34203</duration>
+      <cases>
+        <case>
+          <duration>0.0131935</duration>
+          <className>LPCommon.CachedFileHandlerTest</className>
+          <testName>CachedFile_Save</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001658</duration>
+          <className>LPCommon.DataRowExtensionTest</className>
+          <testName>DataRowExtension_ToEntity</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0250854</duration>
+          <className>LPCommon.LPLoggerTest</className>
+          <testName>LPLogger_Test</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>   在 LPCommon.LPLoggerTest.LPLogger_Test() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\UnitTest\LPLoggerTest.cs:行号 35
+</errorStackTrace>
+          <errorDetails>Assert.AreEqual 失败。应为: &lt;True&gt;，实际为: &lt;False&gt;。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>0.0013842</duration>
+          <className>LPCommon.LPLoggerTest</className>
+          <testName>LPLogger_WriteDebug</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0038815</duration>
+          <className>LPCommon.LPLoggerTest</className>
+          <testName>LPLogger_WriteError</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0010464</duration>
+          <className>LPCommon.LPLoggerTest</className>
+          <testName>LPLogger_WriteInfo</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0031313</duration>
+          <className>LPCommon.LPLoggerTest</className>
+          <testName>LPLogger_WriteMessage</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0013898</duration>
+          <className>LPCommon.LPLoggerTest</className>
+          <testName>LPLogger_WriteWarning</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0308727</duration>
+          <className>LPCommon.SnapshotTest</className>
+          <testName>Snapshot_CaptureInflatedRectangle</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.136E-4</duration>
+          <className>LPReplayCore.AppModelLoadTest</className>
+          <testName>AppModel_Add</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002034</duration>
+          <className>LPReplayCore.AppModelLoadTest</className>
+          <testName>AppModel_AllItems</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>5.248E-4</duration>
+          <className>LPReplayCore.AppModelLoadTest</className>
+          <testName>AppModel_AllNames</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0025482</duration>
+          <className>LPReplayCore.AppModelLoadTest</className>
+          <testName>AppModel_CheckHierarchy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001107</duration>
+          <className>LPReplayCore.AppModelLoadTest</className>
+          <testName>AppModel_FindAddTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>6.545E-4</duration>
+          <className>LPReplayCore.AppModelLoadTest</className>
+          <testName>AppModel_FindClearButtonTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0304981</duration>
+          <className>LPReplayCore.AppModelLoadTest</className>
+          <testName>AppModel_GetTestObject</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0014579</duration>
+          <className>LPReplayCore.AppModelLoadTest</className>
+          <testName>AppModel_Load</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.85E-4</duration>
+          <className>LPReplayCore.AppModelLoadTest</className>
+          <testName>AppModel_ObjectCountTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0032713</duration>
+          <className>LPReplayCore.UnitTest.AppDescriptorTest</className>
+          <testName>AppDescriptor_ctor_AppModel</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>5.523E-4</duration>
+          <className>LPReplayCore.UnitTest.AppDescriptorTest</className>
+          <testName>AppDescriptor_GetObject</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0014047</duration>
+          <className>LPReplayCore.UnitTest.AppModelFileTest</className>
+          <testName>AppModelFile_Test</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0026004</duration>
+          <className>LPReplayCore.UnitTest.ControlKeysManagerTest</className>
+          <testName>ControlKeysManager_GetDisplayString</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.544E-4</duration>
+          <className>LPReplayCore.UnitTest.ControlKeysManagerTest</className>
+          <testName>ControlKeysManager_GetKeyString</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>4.166E-4</duration>
+          <className>LPReplayCore.UnitTest.ControlTypeConverterTest</className>
+          <testName>ControlTypeConverter_CountTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>4.996E-4</duration>
+          <className>LPReplayCore.UnitTest.ControlTypeConverterTest</className>
+          <testName>ControlTypeConverter_EqualTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.1024976</duration>
+          <className>LPReplayCore.UnitTest.JsonSerializerTest</className>
+          <testName>AppModelManager_HierarchySave</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>4.562E-4</duration>
+          <className>LPReplayCore.UnitTest.JsonSerializerTest</className>
+          <testName>AppModelManager_LoadFileMissing</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001985</duration>
+          <className>LPReplayCore.UnitTest.JsonSerializerTest</className>
+          <testName>AppModelManager_LoadReplayOnly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0549981</duration>
+          <className>LPReplayCore.UnitTest.JsonSerializerTest</className>
+          <testName>AppModelManager_Save</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>7.819E-4</duration>
+          <className>LPReplayCore.UnitTest.JsonSerializerTest</className>
+          <testName>JsonDeserializeModelTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0135975</duration>
+          <className>LPReplayCore.UnitTest.JsonSerializerTest</className>
+          <testName>JsonSerializeModelTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>4.828E-4</duration>
+          <className>LPReplayCore.UnitTest.LPConfigLoadTest</className>
+          <testName>LPConfig_GetUserConfigPath</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0038334</duration>
+          <className>LPReplayCore.UnitTest.LPConfigLoadTest</className>
+          <testName>LPConfig_GetValueExists</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>    在 LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_GetValueExists() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\LPConfigTest.cs:行号 42
+</errorStackTrace>
+          <errorDetails>测试方法 LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_GetValueExists 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>3.195E-4</duration>
+          <className>LPReplayCore.UnitTest.LPConfigLoadTest</className>
+          <testName>LPConfig_GetValueNotExists</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>9.428E-4</duration>
+          <className>LPReplayCore.UnitTest.LPConfigLoadTest</className>
+          <testName>LPConfig_KeyExists</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>   在 LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_KeyExists() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\LPConfigTest.cs:行号 26
+</errorStackTrace>
+          <errorDetails>Assert.AreEqual 失败。应为: &lt;LAP&gt;，实际为: &lt;(null)&gt;。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>2.09E-4</duration>
+          <className>LPReplayCore.UnitTest.LPConfigLoadTest</className>
+          <testName>LPConfig_KeyNotExists</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0197576</duration>
+          <className>LPReplayCore.UnitTest.LPConfigLoadTest</className>
+          <testName>LPConfig_SaveSettings</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>5.019E-4</duration>
+          <className>LPReplayCore.UnitTest.ObjectDescriptorTest</className>
+          <testName>ObjectDescriptor_EqualsEmpty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0017163</duration>
+          <className>LPReplayCore.UnitTest.ObjectDescriptorTest</className>
+          <testName>ObjectDescriptor_EqualsNegative</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.719E-4</duration>
+          <className>LPReplayCore.UnitTest.ObjectDescriptorTest</className>
+          <testName>ObjectDescriptor_EqualsPositive</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0016715</duration>
+          <className>LPReplayCore.UnitTest.ObjectDescriptorTest</className>
+          <testName>ObjectDescriptor_GetObjectData</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>8.094E-4</duration>
+          <className>LPReplayCore.UnitTest.ObjectDescriptorTest</className>
+          <testName>ObjectDescriptor_GetTestObject</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>9.876E-4</duration>
+          <className>LPReplayCore.UnitTest.ObjectDescriptorTest</className>
+          <testName>ObjectDescriptor_GetVirtualTestObject</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>9.619E-4</duration>
+          <className>LPReplayCore.UnitTest.ObjectDescriptorTest</className>
+          <testName>ObjectDescriptor_PropertyGroup</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.892E-4</duration>
+          <className>LPReplayCore.UnitTest.ObjectDescriptorTest</className>
+          <testName>ObjectDescriptor_Serialization</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.841E-4</duration>
+          <className>LPReplayCore.UnitTest.ObjectDescriptorTest</className>
+          <testName>ObjectDescriptor_SerializeVirtualTestObject</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0017042</duration>
+          <className>LPReplayCore.UnitTest.ReplayCoreSettingsTest</className>
+          <testName>RCSettings_HighlightColor</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0045421</duration>
+          <className>LPReplayCore.UnitTest.ReplayCoreSettingsTest</className>
+          <testName>RCSettings_HighlightColor_Set</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0483817</duration>
+          <className>LPReplayCore.UnitTest.ScreenCaptureTest</className>
+          <testName>ScreenCapture_Capture</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.614E-4</duration>
+          <className>LPReplayCore.UnitTest.TempUnitTests</className>
+          <testName>ArrayHandlerTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>10.005195</duration>
+          <className>LPReplayCore.UnitTest.TempUnitTests</className>
+          <testName>FileChangeNotifier</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0039678</duration>
+          <className>LPReplayCore.UnitTest.TempUnitTests</className>
+          <testName>PropertyItemTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.872E-4</duration>
+          <className>LPReplayCore.UnitTest.TempUnitTests</className>
+          <testName>ReadOnlyCollectionTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>4.697E-4</duration>
+          <className>LPReplayCore.UnitTest.TempUnitTests</className>
+          <testName>ReadOnlyCollectionTest2</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.859E-4</duration>
+          <className>LPReplayCore.UnitTest.TestObjectFactoryTest</className>
+          <testName>TestObjectFactory_CreateObject</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0063285</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_AddChild_NurseObject</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0011406</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_AddChild_TestObject</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0014387</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_AddDecendants</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0011294</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_AddTree</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>9.927E-4</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_Children</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0018521</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_Clear</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001065</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_ContainsKeyword</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0012568</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_ConvertSubtree</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0017355</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_ctor</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0013781</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_FromTreeNode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>8.043E-4</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_NodeName</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001449</duration>
+          <className>LPReplayCore.UnitTest.TestObjectNurseTest</className>
+          <testName>TestObjectNurse_RemoveChild</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0348336</duration>
+          <className>LPReplayCore.UnitTest.UIAFinderTest</className>
+          <testName>JsonTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.093097</duration>
+          <className>LPReplayCore.UnitTest.UIAFinderTest</className>
+          <testName>UIAFinder_Identify1</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>   在 LPReplayCore.UnitTest.UIAFinderTest.UIAFinder_Identify1() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAFinderTest.cs:行号 73
+</errorStackTrace>
+          <errorDetails>Assert.AreEqual 失败。应为: &lt;1&gt;，实际为: &lt;0&gt;。only 1 parent element</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>LPReplayCore.UnitTest.UIAHighlightTest</className>
+          <testName>UIAHighlight_HighlightRectangle</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPReplayCore.UnitTest.UIAHighlightTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAHighlightTest.cs:行号 27
+</errorStackTrace>
+          <errorDetails>类初始化方法 LPReplayCore.UnitTest.UIAHighlightTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>LPReplayCore.UnitTest.UIAHighlightTest</className>
+          <testName>UIAHighlight_HighlightVirtualControl</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPReplayCore.UnitTest.UIAHighlightTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAHighlightTest.cs:行号 27
+</errorStackTrace>
+          <errorDetails>类初始化方法 LPReplayCore.UnitTest.UIAHighlightTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>LPReplayCore.UnitTest.UIAHighlightTest</className>
+          <testName>UIAHighlight_SearchandHighlight_ProgramRestarted</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPReplayCore.UnitTest.UIAHighlightTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAHighlightTest.cs:行号 27
+</errorStackTrace>
+          <errorDetails>类初始化方法 LPReplayCore.UnitTest.UIAHighlightTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>LPReplayCore.UnitTest.UIAHighlightTest</className>
+          <testName>UIAHighlight_SearchandHighlight_UIA</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPReplayCore.UnitTest.UIAHighlightTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAHighlightTest.cs:行号 27
+</errorStackTrace>
+          <errorDetails>类初始化方法 LPReplayCore.UnitTest.UIAHighlightTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>LPReplayCore.UnitTest.UIAHighlightTest</className>
+          <testName>UIAHighlight_SearchandHighlight_Virtual</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPReplayCore.UnitTest.UIAHighlightTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\UIAHighlightTest.cs:行号 27
+</errorStackTrace>
+          <errorDetails>类初始化方法 LPReplayCore.UnitTest.UIAHighlightTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>0.0016044</duration>
+          <className>LPReplayCore.UnitTest.UIATestObjectTest</className>
+          <testName>UIATestObject_CachedProperties</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.673E-4</duration>
+          <className>LPReplayCore.UnitTest.UIATestObjectTest</className>
+          <testName>UIATestObject_ControlTypeAssign</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.677E-4</duration>
+          <className>LPReplayCore.UnitTest.UIATestObjectTest</className>
+          <testName>UIATestObject_ControlTypeInit</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0014537</duration>
+          <className>LPReplayCore.UnitTest.UIATestObjectTest</className>
+          <testName>UIATestObject_FindRecursive</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.708E-4</duration>
+          <className>LPReplayCore.UnitTest.UIATestObjectTest</className>
+          <testName>UIATestObject_GetContext</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0011901</duration>
+          <className>LPReplayCore.UnitTest.UIATestObjectTest</className>
+          <testName>UIATestObject_NoCachedProperties</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>5.15E-4</duration>
+          <className>LPReplayCore.UnitTest.UIATestObjectTest</className>
+          <testName>UIATestObject_SetContext</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>LPReplayCore.UnitTest.UIAUtilityTest</className>
+          <testName>ButtonToAutomationElementTest</testName>
+          <skipped>false</skipped>
+          <errorStackTrace></errorStackTrace>
+          <errorDetails>方法 LPReplayCore.UnitTest.UIAUtilityTest.ClassInitialize 具有错误的签名。  该方法应标记为静态。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>LPReplayCore.UnitTest.UIAUtilityTest</className>
+          <testName>UIAUtility_GetElementLine</testName>
+          <skipped>false</skipped>
+          <errorStackTrace></errorStackTrace>
+          <errorDetails>方法 LPReplayCore.UnitTest.UIAUtilityTest.ClassInitialize 具有错误的签名。  该方法应标记为静态。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>3.531E-4</duration>
+          <className>LPReplayCore.UnitTest.UtilityTest</className>
+          <testName>Utility_GetBinDirectory</testName>
+          <skipped>false</skipped>
+          <stdout>C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0017588</duration>
+          <className>LPReplayCore.UnitTest.VirtualTestObjectTest</className>
+          <testName>VirtualTestObject_AreEqual</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0013916</duration>
+          <className>LPReplayCore.UnitTest.VirtualTestObjectTest</className>
+          <testName>VirtualTestObject_CreateTestObject</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>5.561E-4</duration>
+          <className>LPReplayCore.UnitTest.VirtualTestObjectTest</className>
+          <testName>VirtualTestObject_ctor</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>4.786E-4</duration>
+          <className>LPReplayCore.UnitTest.VirtualTestObjectTest</className>
+          <testName>VirtualTestObject_GetDescriptor</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.275E-4</duration>
+          <className>LPReplayCore.UnitTest.VirtualTestObjectTest</className>
+          <testName>VirtualTestObject_Properties</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0016146</duration>
+          <className>LPReplayCore.UnitTest.VirtualTestObjectTest</className>
+          <testName>VirtualTestObject_StringRectToRect</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0035526</duration>
+          <className>LPUIAObjects.ControlSearcherTest</className>
+          <testName>ControlSearcher_GetCondition</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>4.432E-4</duration>
+          <className>LPUIAObjects.ControlSearcherTest</className>
+          <testName>ControlSearcher_GetTOTest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.786E-4</duration>
+          <className>LPUIAObjects.UnitTest.CodeGeneratorTest</className>
+          <testName>CodeGenerator_GetFullPathName</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0013912</duration>
+          <className>LPUIAObjects.UnitTest.ElementPropertiesTest</className>
+          <testName>ElementProperties_DeriveName</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>4.805E-4</duration>
+          <className>LPUIAObjects.UnitTest.ElementPropertiesTest</className>
+          <testName>ElementProperties_DeriveName1</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0031761</duration>
+          <className>LPUIAObjects.UnitTest.ElementPropertiesTest</className>
+          <testName>ElementProperties_ToNurseObject</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>   在 LPUIAObjects.UnitTest.ElementPropertiesTest.ElementProperties_ToNurseObject() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\UnitTest\ElementPropertiesTest.cs:行号 31
+</errorStackTrace>
+          <errorDetails>Assert.AreEqual 失败。应为: &lt;3&gt;，实际为: &lt;4&gt;。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>3.844E-4</duration>
+          <className>LPUIAObjects.UnitTest.ElementPropertiesTest</className>
+          <testName>ElementProperties_ToNurseObject2</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0818228</duration>
+          <className>LPUIAObjects.UnitTest.UIAConditionMatcherTest</className>
+          <testName>UIAConditionMatcher_Match_Positive</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>   在 LPUIAObjects.UnitTest.UIAConditionMatcherTest.UIAConditionMatcher_Match_Positive() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\UnitTest\UIAConditionMatcherTest.cs:行号 36
+</errorStackTrace>
+          <errorDetails>Assert.IsNotNull 失败。Target element is not found, has Calculator.exe process launched?</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>0.0010081</duration>
+          <className>LPUIAObjects.UnitTest.UIAConditionTest</className>
+          <testName>AppModelManager_LoadFull</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>6.036E-4</duration>
+          <className>LPUIAObjects.UnitTest.UIAConditionTest</className>
+          <testName>UIACondition_CachedProperties</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>6.461E-4</duration>
+          <className>LPUIAObjects.UnitTest.UIAConditionTest</className>
+          <testName>UIACondition_NormalizeCachedProperties</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>LPUIAObjects.UnitTest.UIAEditTest</className>
+          <testName>UIAEdit_Text</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>    在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(String fileName)
+   在 LPReplayCore.UnitTest.TestUtility.LaunchQTCalculator() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:行号 51
+   在 LPUIAObjects.UnitTest.UIAEditTest.Init(TestContext context) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\UnitTest\UnitTest1.cs:行号 17
+</errorStackTrace>
+          <errorDetails>类初始化方法 LPUIAObjects.UnitTest.UIAEditTest.Init 引发异常。System.ComponentModel.Win32Exception:  System.ComponentModel.Win32Exception: 系统找不到指定的文件。。</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>6.407838</duration>
+          <className>LPWebObjects.UnitTest.SeleniumTest</className>
+          <testName>TestDragAndDrop</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>8.359534</duration>
+          <className>LPWebObjects.UnitTest.SeleniumTest</className>
+          <testName>TestDragAndDrop2</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>5.792956</duration>
+          <className>LPWebObjects.UnitTest.SeleniumTest</className>
+          <testName>TestDragAndDrop3</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>7.9995146</duration>
+          <className>LPWebObjects.UnitTest.SeleniumTest</className>
+          <testName>TestDragAndDrop4</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>    在 OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse) 位置 c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:行号 1179
+   在 OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) 位置 c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:行号 979
+   在 OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args) 位置 c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:行号 1063
+   在 OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args) 位置 c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:行号 444
+   在 LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop4() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\UnitTest\SeleniumTest.cs:行号 155
+</errorStackTrace>
+          <errorDetails>测试方法 LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop4 引发了异常: 
+System.InvalidOperationException: unknown error: Runtime.evaluate threw exception: SyntaxError: Unexpected identifier
+    at Object.InjectedScript._evaluateOn (&lt;anonymous&gt;:878:140)
+    at Object.InjectedScript._evaluateAndWrap (&lt;anonymous&gt;:811:34)
+    at Object.InjectedScript.evaluate (&lt;anonymous&gt;:667:21)
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64)</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>6.5052314</duration>
+          <className>LPWebObjects.UnitTest.SeleniumTest</className>
+          <testName>TestDragAndDrop5</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>7.1220875</duration>
+          <className>LPWebObjects.UnitTest.SeleniumTest</className>
+          <testName>TestDragAndDrop6</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.7083457</duration>
+          <className>LPWebObjects.UnitTest.WebControlTest</className>
+          <testName>TestMethod4</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>9.2683115</duration>
+          <className>LPWebObjects.UnitTest.WebControlTest</className>
+          <testName>WebControl_DragDrop</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.0482982</duration>
+          <className>LPWebObjects.UnitTest.WebControlTest</className>
+          <testName>WebControl_FlightTour_Book</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>    在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 System.Collections.ObjectModel.ReadOnlyCollection`1.get_Item(Int32 index)
+   在 LPReplayCore.Web.SETestObject.get_SEWebElement() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\Selenium\SETestObject.cs:行号 308
+   在 LPWebObjects.Controls.WebEdit.TypeText(String Text) 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\Controls\WebEdit.cs:行号 65
+   在 LPWebObjects.UnitTest.WebControlTest.WebControl_FlightTour_Book() 位置 c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPWebObjects\UnitTest\WebControlTest.cs:行号 29
+</errorStackTrace>
+          <errorDetails>测试方法 LPWebObjects.UnitTest.WebControlTest.WebControl_FlightTour_Book 引发了异常: 
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index</errorDetails>
+          <failedSince>17</failedSince>
+        </case>
+        <case>
+          <duration>4.4732556</duration>
+          <className>LPWebObjects.UnitTest.WebControlTest</className>
+          <testName>WebControl_FlightTour_Login</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>71.34203</duration>
+  <keepLongStdio>true</keepLongStdio>
+</result>

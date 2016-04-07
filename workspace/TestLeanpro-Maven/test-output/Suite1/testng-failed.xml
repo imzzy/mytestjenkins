@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="browser" value="ie"/>
+  <listeners>
+    <listener class-name="cn.leanpro.util.ScreenShotUtils"/>
+    <listener class-name="cn.leanpro.util.ReportUtil"/>
+  </listeners>
+  <test name="testbbs01(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="cn.leanpro.pageobjects.Test.TestBBS">
+        <methods>
+          <include name="createDriver"/>
+          <include name="testbbsLogin"/>
+          <include name="testchooseSection"/>
+        </methods>
+      </class> <!-- cn.leanpro.pageobjects.Test.TestBBS -->
+      <class name="cn.leanpro.pageobjects.Test.TestBBSPage">
+        <methods>
+          <include name="createDriver"/>
+        </methods>
+      </class> <!-- cn.leanpro.pageobjects.Test.TestBBSPage -->
+    </classes>
+  </test> <!-- testbbs01(failed) -->
+  <test name="testbbspage02(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="cn.leanpro.pageobjects.Test.TestBBS">
+        <methods>
+          <include name="createDriver"/>
+        </methods>
+      </class> <!-- cn.leanpro.pageobjects.Test.TestBBS -->
+      <class name="cn.leanpro.pageobjects.Test.TestBBSPage">
+        <methods>
+          <include name="createDriver"/>
+          <include name="testCreateANewPost"/>
+          <include name="testResponseAPost"/>
+          <include name="testEditAPost"/>
+        </methods>
+      </class> <!-- cn.leanpro.pageobjects.Test.TestBBSPage -->
+    </classes>
+  </test> <!-- testbbspage02(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

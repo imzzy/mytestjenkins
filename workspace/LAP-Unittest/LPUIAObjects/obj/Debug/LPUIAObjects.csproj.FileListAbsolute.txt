@@ -1,0 +1,7 @@
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPLogger.config.xml
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\CalcAppModel.json
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPUIAObjects.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPUIAObjects.pdb
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\obj\Debug\LPUIAObjects.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\obj\Debug\LPUIAObjects.pdb
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\chromedriver.exe

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.testlink.TestLinkBuilder_-1 plugin="testlink@3.11">
+      <val_-iterativeEnvVars serialization="custom">
+        <unserializable-parents/>
+        <tree-map>
+          <default>
+            <comparator class="hudson.util.CaseInsensitiveComparator"/>
+          </default>
+          <int>4</int>
+          <string>TESTLINK_BUILD_NAME</string>
+          <string>build_6</string>
+          <string>TESTLINK_TESTCASE_TOTAL</string>
+          <string>0</string>
+          <string>TESTLINK_TESTPLAN_NAME</string>
+          <string>bbstest</string>
+          <string>TESTLINK_TESTPROJECT_NAME</string>
+          <string>leanprotest</string>
+        </tree-map>
+      </val_-iterativeEnvVars>
+      <outer-class>
+        <testLinkName>testlink</testLinkName>
+        <testProjectName>leanprotest</testProjectName>
+        <testPlanName>bbstest</testPlanName>
+        <buildName>build_$BUILD_ID</buildName>
+        <platformName></platformName>
+        <customFields>java_class</customFields>
+        <singleBuildSteps>
+          <hudson.tasks.Ant plugin="ant@1.2">
+            <targets>testng-execution</targets>
+            <antName>ant</antName>
+          </hudson.tasks.Ant>
+        </singleBuildSteps>
+        <transactional>false</transactional>
+        <failedTestsMarkBuildAsFailure>false</failedTestsMarkBuildAsFailure>
+        <failIfNoResults>false</failIfNoResults>
+        <failOnNotRun>false</failOnNotRun>
+        <executionOrderComparator/>
+        <failure>false</failure>
+        <resultSeekers>
+          <hudson.plugins.testlink.result.TestNGMethodNameResultSeeker>
+            <includePattern>test-output/TestNGreport/testng-results.xml</includePattern>
+            <keyCustomField>java_class</keyCustomField>
+            <includeNotes>false</includeNotes>
+            <parser/>
+            <attachTestNGXML>true</attachTestNGXML>
+            <markSkippedTestAsBlocked>false</markSkippedTestAsBlocked>
+            <parser defined-in="hudson.plugins.testlink.result.TestNGMethodNameResultSeeker"/>
+          </hudson.plugins.testlink.result.TestNGMethodNameResultSeeker>
+        </resultSeekers>
+      </outer-class>
+    </hudson.plugins.testlink.TestLinkBuilder_-1>
+    <hudson.plugins.testlink.TestLinkBuildAction plugin="testlink@3.11">
+      <build class="build" reference="../../.."/>
+      <result>
+        <report>
+          <passed>0</passed>
+          <failed>0</failed>
+          <blocked>0</blocked>
+          <notRun>0</notRun>
+          <buildId>30</buildId>
+          <buildName>build_6</buildName>
+          <testCases class="linked-list"/>
+        </report>
+        <build class="build" reference="../../../.."/>
+      </result>
+    </hudson.plugins.testlink.TestLinkBuildAction>
+    <testngBuildAction plugin="testng-plugin@1.10">
+      <descriptions class="concurrent-hash-map"/>
+      <passCount>0</passCount>
+      <failCount>0</failCount>
+      <skipCount>4</skipCount>
+    </testngBuildAction>
+  </actions>
+  <queueId>6</queueId>
+  <timestamp>1450099414153</timestamp>
+  <startTime>1450099414157</startTime>
+  <result>UNSTABLE</result>
+  <duration>61247</duration>
+  <charset>GBK</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\zack\.jenkins\workspace\ant-leanpro</workspace>
+  <hudsonVersion>1.641</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

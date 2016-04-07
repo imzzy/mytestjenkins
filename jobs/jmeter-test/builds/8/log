@@ -1,0 +1,38 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9qsTkbADWEvs8vwAAAA==[0mzack
+Building in workspace C:\Users\zack\.jenkins\workspace\jmeter-test
+[jmeter-test] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson5563118716671376337.bat
+
+C:\Users\zack\.jenkins\workspace\jmeter-test>d:
+
+D:\>cd D:\dev\apache-jmeter-2.13\bin 
+
+D:\dev\apache-jmeter-2.13\bin>jmeter -n -t C:\Users\zack\Desktop\lily\¶©µ¥.jmx -l test-reports\test_reports.jtl 
+Creating summariser <summary>
+Created the tree successfully using C:\Users\zack\Desktop\lily\¶©µ¥.jmx
+Starting the test @ Sat Jan 16 19:50:18 GMT+08:00 2016 (1452945018125)
+Waiting for possible shutdown message on port 4445
+summary +   2961 in    12s =  251.4/s Avg:   929 Min:   313 Max: 10210 Err:     0 (0.00%) Active: 285 Started: 300 Finished: 15
+summary +   1239 in    24s =   52.0/s Avg:   950 Min:   267 Max: 24319 Err:     3 (0.24%) Active: 0 Started: 300 Finished: 300
+summary =   4200 in    36s =  118.0/s Avg:   935 Min:   267 Max: 24319 Err:     3 (0.07%)
+Tidying up ...    @ Sat Jan 16 19:50:53 GMT+08:00 2016 (1452945053815)
+... end of run
+[jmeter-test] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson5504869299714828303.bat
+
+C:\Users\zack\.jenkins\workspace\jmeter-test>d:
+
+D:\>cd D:\dev\apache-jmeter-2.13\bin 
+
+D:\dev\apache-jmeter-2.13\bin>xcopy /E /Y  test-reports\test_reports.jtl  C:\Users\zack\.jenkins\workspace\jmeter-test 
+test-reports\test_reports.jtl
+¸´ÖÆÁË 1 ¸öÎÄ¼þ
+
+D:\dev\apache-jmeter-2.13\bin>exit 0 
+Performance: Percentage of errors greater or equal than 0% sets the build as unstable
+Performance: Percentage of errors greater or equal than 0% sets the build as failure
+
+
+
+Performance: Recording JMeter reports 'test-reports\test_reports.jtl'
+Performance: no JMeter files matching 'test-reports\test_reports.jtl' have been found. Has the report generated?. Setting Build to FAILURE
+Build step 'Publish Performance test result report' changed build result to FAILURE
+Finished: FAILURE

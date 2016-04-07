@@ -1,0 +1,294 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\LAP-Unittest
+No emails were triggered.
+Path To MSTest.exe: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\MSTest.exe
+Delete old result file file:/C:/Users/zack/.jenkins/workspace/LAP-Unittest/result1.trx
+[LAP-Unittest] $ "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\MSTest.exe" /resultsfile:result1.trx /noisolation /testsettings:LAP.testsettings /testcontainer:C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\LPCommon.dll /testcontainer:C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\LPReplayCore.dll /testcontainer:C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\LPUIAObjects.dll /testcontainer:C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\LPWebObjects.dll
+Microsoft (R) Test Execution Command Line Tool Version 12.0.21005.1
+°æÈ¨ËùÓÐ(C) Microsoft Corporation¡£±£ÁôËùÓÐÈ¨Àû¡£
+    
+ÕýÔÚ¼ÓÔØ LAP.testsettings...
+ÕýÔÚ¼ÓÔØ C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\LPCommon.dll...
+ÕýÔÚ¼ÓÔØ C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\LPReplayCore.dll...
+ÕýÔÚ¼ÓÔØ C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\LPUIAObjects.dll...
+ÕýÔÚ¼ÓÔØ C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\LPWebObjects.dll...
+ÕýÔÚÆô¶¯Ö´ÐÐ...
+
+½á¹û         ¶¥¼¶²âÊÔ
+--         ----
+Í¨¹ý         LPCommon.CachedFileHandlerTest.CachedFile_Save
+Í¨¹ý         LPCommon.DataRowExtensionTest.DataRowExtension_ToEntity
+Î´Í¨¹ý        LPCommon.LPLoggerTest.LPLogger_Test
+Í¨¹ý         LPCommon.LPLoggerTest.LPLogger_WriteDebug
+Í¨¹ý         LPCommon.LPLoggerTest.LPLogger_WriteError
+Í¨¹ý         LPCommon.LPLoggerTest.LPLogger_WriteInfo
+Í¨¹ý         LPCommon.LPLoggerTest.LPLogger_WriteMessage
+Í¨¹ý         LPCommon.LPLoggerTest.LPLogger_WriteWarning
+Í¨¹ý         LPCommon.SnapshotTest.Snapshot_CaptureInflatedRectangle
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_Add
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_AllItems
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_AllNames
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_CheckHierarchy
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_FindAddTest
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_FindClearButtonTest
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_GetTestObject
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_Load
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_ObjectCountTest
+Í¨¹ý         LPReplayCore.UnitTest.AppDescriptorTest.AppDescriptor_ctor_AppModel
+Í¨¹ý         LPReplayCore.UnitTest.AppDescriptorTest.AppDescriptor_GetObject
+Í¨¹ý         LPReplayCore.UnitTest.AppModelFileTest.AppModelFile_Test
+Í¨¹ý         LPReplayCore.UnitTest.ControlKeysManagerTest.ControlKeysManager_GetDisplayString
+Í¨¹ý         LPReplayCore.UnitTest.ControlKeysManagerTest.ControlKeysManager_GetKeyString
+Í¨¹ý         LPReplayCore.UnitTest.ControlTypeConverterTest.ControlTypeConverter_CountTest
+Í¨¹ý         LPReplayCore.UnitTest.ControlTypeConverterTest.ControlTypeConverter_EqualTest
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.AppModelManager_HierarchySave
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.AppModelManager_LoadFileMissing
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.AppModelManager_LoadReplayOnly
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.AppModelManager_Save
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.JsonDeserializeModelTest
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.JsonSerializeModelTest
+Í¨¹ý         LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_GetUserConfigPath
+Î´Í¨¹ý        LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_GetValueExists
+Í¨¹ý         LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_GetValueNotExists
+Î´Í¨¹ý        LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_KeyExists
+Í¨¹ý         LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_KeyNotExists
+Í¨¹ý         LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_SaveSettings
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_EqualsEmpty
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_EqualsNegative
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_EqualsPositive
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_GetObjectData
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_GetTestObject
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_GetVirtualTestObject
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_PropertyGroup
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_Serialization
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_SerializeVirtualTestObject
+Í¨¹ý         LPReplayCore.UnitTest.ReplayCoreSettingsTest.RCSettings_HighlightColor
+Í¨¹ý         LPReplayCore.UnitTest.ReplayCoreSettingsTest.RCSettings_HighlightColor_Set
+Í¨¹ý         LPReplayCore.UnitTest.ScreenCaptureTest.ScreenCapture_Capture
+Í¨¹ý         LPReplayCore.UnitTest.TempUnitTests.ArrayHandlerTest
+Í¨¹ý         LPReplayCore.UnitTest.TempUnitTests.FileChangeNotifier
+Í¨¹ý         LPReplayCore.UnitTest.TempUnitTests.PropertyItemTest
+Í¨¹ý         LPReplayCore.UnitTest.TempUnitTests.ReadOnlyCollectionTest
+Í¨¹ý         LPReplayCore.UnitTest.TempUnitTests.ReadOnlyCollectionTest2
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectFactoryTest.TestObjectFactory_CreateObject
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_AddChild_NurseObject
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_AddChild_TestObject
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_AddDecendants
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_AddTree
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_Children
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_Clear
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_ContainsKeyword
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_ConvertSubtree
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_ctor
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_FromTreeNode
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_NodeName
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_RemoveChild
+Í¨¹ý         LPReplayCore.UnitTest.UIAFinderTest.JsonTest
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAFinderTest.UIAFinder_Identify1
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAHighlightTest.UIAHighlight_HighlightRectangle
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAHighlightTest.UIAHighlight_HighlightVirtualControl
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAHighlightTest.UIAHighlight_SearchandHighlight_ProgramRestarted
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAHighlightTest.UIAHighlight_SearchandHighlight_UIA
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAHighlightTest.UIAHighlight_SearchandHighlight_Virtual
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_CachedProperties
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_ControlTypeAssign
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_ControlTypeInit
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_FindRecursive
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_GetContext
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_NoCachedProperties
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_SetContext
+´íÎó         LPReplayCore.UnitTest.UIAUtilityTest.ButtonToAutomationElementTest
+´íÎó         LPReplayCore.UnitTest.UIAUtilityTest.UIAUtility_GetElementLine
+Í¨¹ý         LPReplayCore.UnitTest.UtilityTest.Utility_GetBinDirectory
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_AreEqual
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_CreateTestObject
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_ctor
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_GetDescriptor
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_Properties
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_StringRectToRect
+Í¨¹ý         LPUIAObjects.ControlSearcherTest.ControlSearcher_GetCondition
+Í¨¹ý         LPUIAObjects.ControlSearcherTest.ControlSearcher_GetTOTest
+Í¨¹ý         LPUIAObjects.UnitTest.CodeGeneratorTest.CodeGenerator_GetFullPathName
+Í¨¹ý         LPUIAObjects.UnitTest.ElementPropertiesTest.ElementProperties_DeriveName
+Í¨¹ý         LPUIAObjects.UnitTest.ElementPropertiesTest.ElementProperties_DeriveName1
+Î´Í¨¹ý        LPUIAObjects.UnitTest.ElementPropertiesTest.ElementProperties_ToNurseObject
+Í¨¹ý         LPUIAObjects.UnitTest.ElementPropertiesTest.ElementProperties_ToNurseObject2
+Î´Í¨¹ý        LPUIAObjects.UnitTest.UIAConditionMatcherTest.UIAConditionMatcher_Match_Positive
+Í¨¹ý         LPUIAObjects.UnitTest.UIAConditionTest.AppModelManager_LoadFull
+Í¨¹ý         LPUIAObjects.UnitTest.UIAConditionTest.UIACondition_CachedProperties
+Í¨¹ý         LPUIAObjects.UnitTest.UIAConditionTest.UIACondition_NormalizeCachedProperties
+Î´Í¨¹ý        LPUIAObjects.UnitTest.UIAEditTest.UIAEdit_Text
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 40823
+Only local connections are allowed.
+Í¨¹ý         LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 40847
+Only local connections are allowed.
+Í¨¹ý         LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop2
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 40870
+Only local connections are allowed.
+Í¨¹ý         LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop3
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 40893
+Only local connections are allowed.
+Î´Í¨¹ý        LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop4
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 40918
+Only local connections are allowed.
+Í¨¹ý         LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop5
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 40936
+Only local connections are allowed.
+Í¨¹ý         LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop6
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 40957
+Only local connections are allowed.
+Í¨¹ý         LPWebObjects.UnitTest.WebControlTest.TestMethod4
+Í¨¹ý         LPWebObjects.UnitTest.WebControlTest.WebControl_DragDrop
+Î´Í¨¹ý        LPWebObjects.UnitTest.WebControlTest.WebControl_FlightTour_Book
+Í¨¹ý         LPWebObjects.UnitTest.WebControlTest.WebControl_FlightTour_Login
+
+×îÖÕ²âÊÔ½á¹û: 
+½á¹û         ¶¥¼¶²âÊÔ
+--         ----
+Í¨¹ý         LPCommon.CachedFileHandlerTest.CachedFile_Save
+Í¨¹ý         LPCommon.DataRowExtensionTest.DataRowExtension_ToEntity
+Î´Í¨¹ý        LPCommon.LPLoggerTest.LPLogger_Test
+Í¨¹ý         LPCommon.LPLoggerTest.LPLogger_WriteDebug
+Í¨¹ý         LPCommon.LPLoggerTest.LPLogger_WriteError
+Í¨¹ý         LPCommon.LPLoggerTest.LPLogger_WriteInfo
+Í¨¹ý         LPCommon.LPLoggerTest.LPLogger_WriteMessage
+Í¨¹ý         LPCommon.LPLoggerTest.LPLogger_WriteWarning
+Í¨¹ý         LPCommon.SnapshotTest.Snapshot_CaptureInflatedRectangle
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_Add
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_AllItems
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_AllNames
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_CheckHierarchy
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_FindAddTest
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_FindClearButtonTest
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_GetTestObject
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_Load
+Í¨¹ý         LPReplayCore.AppModelLoadTest.AppModel_ObjectCountTest
+Í¨¹ý         LPReplayCore.UnitTest.AppDescriptorTest.AppDescriptor_ctor_AppModel
+Í¨¹ý         LPReplayCore.UnitTest.AppDescriptorTest.AppDescriptor_GetObject
+Í¨¹ý         LPReplayCore.UnitTest.AppModelFileTest.AppModelFile_Test
+Í¨¹ý         LPReplayCore.UnitTest.ControlKeysManagerTest.ControlKeysManager_GetDisplayString
+Í¨¹ý         LPReplayCore.UnitTest.ControlKeysManagerTest.ControlKeysManager_GetKeyString
+Í¨¹ý         LPReplayCore.UnitTest.ControlTypeConverterTest.ControlTypeConverter_CountTest
+Í¨¹ý         LPReplayCore.UnitTest.ControlTypeConverterTest.ControlTypeConverter_EqualTest
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.AppModelManager_HierarchySave
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.AppModelManager_LoadFileMissing
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.AppModelManager_LoadReplayOnly
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.AppModelManager_Save
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.JsonDeserializeModelTest
+Í¨¹ý         LPReplayCore.UnitTest.JsonSerializerTest.JsonSerializeModelTest
+Í¨¹ý         LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_GetUserConfigPath
+Î´Í¨¹ý        LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_GetValueExists
+Í¨¹ý         LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_GetValueNotExists
+Î´Í¨¹ý        LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_KeyExists
+Í¨¹ý         LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_KeyNotExists
+Í¨¹ý         LPReplayCore.UnitTest.LPConfigLoadTest.LPConfig_SaveSettings
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_EqualsEmpty
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_EqualsNegative
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_EqualsPositive
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_GetObjectData
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_GetTestObject
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_GetVirtualTestObject
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_PropertyGroup
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_Serialization
+Í¨¹ý         LPReplayCore.UnitTest.ObjectDescriptorTest.ObjectDescriptor_SerializeVirtualTestObject
+Í¨¹ý         LPReplayCore.UnitTest.ReplayCoreSettingsTest.RCSettings_HighlightColor
+Í¨¹ý         LPReplayCore.UnitTest.ReplayCoreSettingsTest.RCSettings_HighlightColor_Set
+Í¨¹ý         LPReplayCore.UnitTest.ScreenCaptureTest.ScreenCapture_Capture
+Í¨¹ý         LPReplayCore.UnitTest.TempUnitTests.ArrayHandlerTest
+Í¨¹ý         LPReplayCore.UnitTest.TempUnitTests.FileChangeNotifier
+Í¨¹ý         LPReplayCore.UnitTest.TempUnitTests.PropertyItemTest
+Í¨¹ý         LPReplayCore.UnitTest.TempUnitTests.ReadOnlyCollectionTest
+Í¨¹ý         LPReplayCore.UnitTest.TempUnitTests.ReadOnlyCollectionTest2
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectFactoryTest.TestObjectFactory_CreateObject
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_AddChild_NurseObject
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_AddChild_TestObject
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_AddDecendants
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_AddTree
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_Children
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_Clear
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_ContainsKeyword
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_ConvertSubtree
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_ctor
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_FromTreeNode
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_NodeName
+Í¨¹ý         LPReplayCore.UnitTest.TestObjectNurseTest.TestObjectNurse_RemoveChild
+Í¨¹ý         LPReplayCore.UnitTest.UIAFinderTest.JsonTest
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAFinderTest.UIAFinder_Identify1
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAHighlightTest.UIAHighlight_HighlightRectangle
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAHighlightTest.UIAHighlight_HighlightVirtualControl
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAHighlightTest.UIAHighlight_SearchandHighlight_ProgramRestarted
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAHighlightTest.UIAHighlight_SearchandHighlight_UIA
+Î´Í¨¹ý        LPReplayCore.UnitTest.UIAHighlightTest.UIAHighlight_SearchandHighlight_Virtual
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_CachedProperties
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_ControlTypeAssign
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_ControlTypeInit
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_FindRecursive
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_GetContext
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_NoCachedProperties
+Í¨¹ý         LPReplayCore.UnitTest.UIATestObjectTest.UIATestObject_SetContext
+´íÎó         LPReplayCore.UnitTest.UIAUtilityTest.ButtonToAutomationElementTest
+´íÎó         LPReplayCore.UnitTest.UIAUtilityTest.UIAUtility_GetElementLine
+Í¨¹ý         LPReplayCore.UnitTest.UtilityTest.Utility_GetBinDirectory
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_AreEqual
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_CreateTestObject
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_ctor
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_GetDescriptor
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_Properties
+Í¨¹ý         LPReplayCore.UnitTest.VirtualTestObjectTest.VirtualTestObject_StringRectToRect
+Í¨¹ý         LPUIAObjects.ControlSearcherTest.ControlSearcher_GetCondition
+Í¨¹ý         LPUIAObjects.ControlSearcherTest.ControlSearcher_GetTOTest
+Í¨¹ý         LPUIAObjects.UnitTest.CodeGeneratorTest.CodeGenerator_GetFullPathName
+Í¨¹ý         LPUIAObjects.UnitTest.ElementPropertiesTest.ElementProperties_DeriveName
+Í¨¹ý         LPUIAObjects.UnitTest.ElementPropertiesTest.ElementProperties_DeriveName1
+Î´Í¨¹ý        LPUIAObjects.UnitTest.ElementPropertiesTest.ElementProperties_ToNurseObject
+Í¨¹ý         LPUIAObjects.UnitTest.ElementPropertiesTest.ElementProperties_ToNurseObject2
+Î´Í¨¹ý        LPUIAObjects.UnitTest.UIAConditionMatcherTest.UIAConditionMatcher_Match_Positive
+Í¨¹ý         LPUIAObjects.UnitTest.UIAConditionTest.AppModelManager_LoadFull
+Í¨¹ý         LPUIAObjects.UnitTest.UIAConditionTest.UIACondition_CachedProperties
+Í¨¹ý         LPUIAObjects.UnitTest.UIAConditionTest.UIACondition_NormalizeCachedProperties
+Î´Í¨¹ý        LPUIAObjects.UnitTest.UIAEditTest.UIAEdit_Text
+Í¨¹ý         LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop
+Í¨¹ý         LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop2
+Í¨¹ý         LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop3
+Î´Í¨¹ý        LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop4
+Í¨¹ý         LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop5
+Í¨¹ý         LPWebObjects.UnitTest.SeleniumTest.TestDragAndDrop6
+Í¨¹ý         LPWebObjects.UnitTest.WebControlTest.TestMethod4
+Í¨¹ý         LPWebObjects.UnitTest.WebControlTest.WebControl_DragDrop
+Î´Í¨¹ý        LPWebObjects.UnitTest.WebControlTest.WebControl_FlightTour_Book
+Í¨¹ý         LPWebObjects.UnitTest.WebControlTest.WebControl_FlightTour_Login
+96/112 ²âÊÔ Í¨¹ý, 14 Î´Í¨¹ý, 2 ´íÎó
+
+ÕªÒª
+--
+²âÊÔÔËÐÐ ´íÎó¡£
+  Í¨¹ý   96
+  Î´Í¨¹ý  14
+  ´íÎó    2
+  --------
+  ×ÜÊý   112
+½á¹ûÎÄ¼þ: C:\Users\zack\.jenkins\workspace\LAP-Unittest\result1.trx
+²âÊÔÉèÖÃ: LAP
+
+ÔËÐÐ´æÔÚÒÔÏÂÎÊÌâ: 
+¾¯¸æ:  ²âÊÔÔËÐÐ²¿ÊðÎÊÌâ:  Î´ÄÜ»ñµÃ ²¿ÊðÏî¡°..\samples\bin\QtCore4.dll¡±ÓÉ²âÊÔÉèÖÃÖ¸¶¨ µÄÎÄ¼þ:  System.IO.DirectoryNotFoundException: Î´ÄÜÕÒµ½Â·¾¶¡°C:\Users\zack\.jenkins\workspace\samples\bin\QtCore4.dll¡±µÄÒ»²¿·Ö¡£
+¾¯¸æ:  ²âÊÔÔËÐÐ²¿ÊðÎÊÌâ:  Î´ÄÜ»ñµÃ ²¿ÊðÏî¡°..\samples\bin\calculator.exe¡±ÓÉ²âÊÔÉèÖÃÖ¸¶¨ µÄÎÄ¼þ:  System.IO.DirectoryNotFoundException: Î´ÄÜÕÒµ½Â·¾¶¡°C:\Users\zack\.jenkins\workspace\samples\bin\calculator.exe¡±µÄÒ»²¿·Ö¡£
+¾¯¸æ:  ²âÊÔÔËÐÐ²¿ÊðÎÊÌâ:  Î´ÄÜ»ñµÃ ²¿ÊðÏî¡°..\samples\bin\QtGui4.dll¡±ÓÉ²âÊÔÉèÖÃÖ¸¶¨ µÄÎÄ¼þ:  System.IO.DirectoryNotFoundException: Î´ÄÜÕÒµ½Â·¾¶¡°C:\Users\zack\.jenkins\workspace\samples\bin\QtGui4.dll¡±µÄÒ»²¿·Ö¡£
+¾¯¸æ:  ²âÊÔÔËÐÐ²¿ÊðÎÊÌâ:  Î´ÄÜ»ñµÃ ²¿ÊðÏî¡°bin\Debug\Interop.UIAutomationClient.dll¡±ÓÉ²âÊÔÉèÖÃÖ¸¶¨ µÄÎÄ¼þ:  System.IO.FileNotFoundException: Î´ÄÜÕÒµ½ÎÄ¼þ¡°C:\Users\zack\.jenkins\workspace\LAP-Unittest\bin\Debug\Interop.UIAutomationClient.dll¡±¡£
+ÀàÇåÀí·½·¨ UIAConditionMatcherTest.Cleanup Ê§°Ü¡£´íÎóÏûÏ¢:  System.InvalidOperationException: Ã»ÓÐÓë´Ë¶ÔÏó¹ØÁªµÄ½ø³Ì¡£¡£¶ÑÕ»¸ú×Ù:     ÔÚ System.Diagnostics.Process.EnsureState(State state)
+   ÔÚ System.Diagnostics.Process.get_HasExited()
+   ÔÚ LPReplayCore.UnitTest.TestUtility.ExitWindowCalculator() Î»ÖÃ c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPReplayCore\UnitTest\TestUtility.cs:ÐÐºÅ 79
+   ÔÚ LPUIAObjects.UnitTest.UIAConditionMatcherTest.Cleanup() Î»ÖÃ c:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPUIAObjects\UnitTest\UIAConditionMatcherTest.cs:ÐÐºÅ 56
+
+Process leaked file descriptors. See http://wiki.jenkins-ci.org/display/JENKINS/Spawning+processes+from+build for more information
+Build step 'Run unit tests with MSTest' marked build as failure
+[MSTEST-PLUGIN] Processing test results in file(s) **/*.trx
+MSTest: C:\Users\zack\.jenkins\workspace\LAP-Unittest\result1.trx
+Email was triggered for: Failure - Any
+Email was triggered for: Always
+Sending email for trigger: Failure - Any
+An attempt to send an e-mail to empty list of recipients, ignored.
+Sending email for trigger: Always
+Sending email to: 390021310@qq.com
+Finished: FAILURE

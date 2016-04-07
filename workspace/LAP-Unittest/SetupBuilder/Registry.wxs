@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension"
+     xmlns:VSExtension="http://schemas.microsoft.com/wix/VSExtension">
+	<Fragment>
+   
+		<!-- TODO: Put your code here. -->
+    <DirectoryRef Id="LAPINSTALLSDKDIR">
+      <Component Id="RegistryEntriesCore" Guid="{F7A701A5-55BE-41B0-9944-E92A85B8E5F2}">
+        <RegistryKey Root="HKLM" Key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\LPSpy.exe"
+               Action="createAndRemoveOnUninstall" ForceCreateOnInstall="yes" ForceDeleteOnUninstall="yes">
+          <RegistryValue Type="string"  Value="[LAPINSTALLBINDIR]LPSpy.exe"/>
+          <RegistryValue Type="string" Name ="Path" Value="[LAPINSTALLBINDIR]"/>
+        </RegistryKey>
+      </Component>
+    </DirectoryRef>
+	</Fragment>
+</Wix>

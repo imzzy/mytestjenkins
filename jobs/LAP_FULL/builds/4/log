@@ -1,0 +1,30 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\LAP_FULL
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config remote.origin.url https://99robo.visualstudio.com/DefaultCollection/_git/WallE # timeout=10
+Fetching upstream changes from https://99robo.visualstudio.com/DefaultCollection/_git/WallE
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe --version # timeout=10
+using .gitcredentials to set credentials
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local credential.username zack # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local credential.helper store --file=\"C:\Users\zack\AppData\Local\Temp\git1490200523590678646.credentials\" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe -c core.askpass=true fetch --tags --progress https://99robo.visualstudio.com/DefaultCollection/_git/WallE +refs/heads/*:refs/remotes/origin/*
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config --local --remove-section credential # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 6e5a04d23eb883674818ac25af40007fb09f5e61 (refs/remotes/origin/master)
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe read-tree -mu HEAD # timeout=10
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe checkout -f 6e5a04d23eb883674818ac25af40007fb09f5e61
+ > C:\Users\zack\AppData\Local\Programs\Git\bin\git.exe rev-list 6e5a04d23eb883674818ac25af40007fb09f5e61 # timeout=10
+Path To MSBuild.exe: C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe
+Executing the command cmd.exe /C " "C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe" /t:clean /t:build /p:Configuration=Debug "/p:Platform=Any CPU" LAP_FULL/src/LAP_Full.sln " && exit %%ERRORLEVEL%% from C:\Users\zack\.jenkins\workspace\LAP_FULL
+[LAP_FULL] $ cmd.exe /C " "C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe" /t:clean /t:build /p:Configuration=Debug "/p:Platform=Any CPU" LAP_FULL/src/LAP_Full.sln " && exit %%ERRORLEVEL%%
+Microsoft(R) Éú³ÉÒýÇæ°æ±¾ 12.0.31101.0
+[Microsoft .NET Framework °æ±¾ 4.0.30319.34209]
+°æÈ¨ËùÓÐ (C) Microsoft Corporation¡£±£ÁôËùÓÐÈ¨Àû¡£
+
+MSBUILD : error MSB1009:  ÏîÄ¿ÎÄ¼þ²»´æÔÚ¡£
+¿ª¹Ø: LAP_FULL/src/LAP_Full.sln
+Build step 'Build a Visual Studio project or solution using MSBuild' marked build as failure
+Finished: FAILURE

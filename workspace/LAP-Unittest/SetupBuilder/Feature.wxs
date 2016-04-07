@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension"
+     xmlns:VSExtension="http://schemas.microsoft.com/wix/VSExtension">
+	<Fragment>
+		<!-- TODO: Put your code here. -->
+	<WixVariable Id="WixUIBannerBmp" Value="bitmaps\banner.bmp" />
+	<WixVariable Id="WixUIDialogBmp" Value="bitmaps\left.bmp" />
+	<WixVariable Id="WixUIExclamationIco" Value="bitmaps\lapexlamation.bmp" />
+	<WixVariable Id="WixUIInfoIco" Value="bitmaps\lapinfo.bmp" />
+	<WixVariable Id="WixUINewIco" Value="bitmaps\lapnew.bmp" />
+	<WixVariable Id="WixUIUpIco" Value="bitmaps\lapup.bmp" />
+    <PropertyRef  Id ="VS2012DEVENV"/>
+    <PropertyRef  Id ="VS2013DEVENV"/>
+    <PropertyRef  Id ="VS2015DEVENV"/>
+      <Feature
+          Id="LAPCoreFeature"
+          AllowAdvertise="no"
+          ConfigurableDirectory="LAPINSTALLBINDIR"
+          Description="!(loc.FeatureDescription_LAPCore)"
+          Level="1"
+          Title="!(loc.FeatureDescription_LAPCore)">
+        <ComponentGroupRef Id="LAPCoreComponents" />
+        <ComponentGroupRef Id="LAPSDKComponents" />
+      </Feature>
+    <Feature
+         Id="LAPDocumentFeature"
+         AllowAdvertise="no"
+         ConfigurableDirectory="LAPINSTALLSDKDOC"
+         Description="!(loc.FeatureDescription_LAPDocuments)"
+         Level="1"
+         Title="!(loc.FeatureDescription_LAPDocuments)">
+      <ComponentGroupRef Id="LAPDocumentsComponents" />
+    </Feature>
+    <Feature
+     Id="LAPSampleFeature"
+     AllowAdvertise="no"
+     ConfigurableDirectory="LAPINSTALLSDKSAMPLE"
+     Description="!(loc.FeatureDescription_LAPSamples)"
+     Level="1"
+     Title="!(loc.FeatureDescription_LAPSamples)">
+      <ComponentGroupRef Id="LAPSampleComponents" />
+    </Feature>
+    <Feature
+         Id="LAPVSInteagtionFeature"
+         AllowAdvertise="no"
+         ConfigurableDirectory="LAPINSTALLDIR"
+         Description="!(loc.FeatureDescription_VSIntegation)"
+         Level="0"
+         Title="!(loc.FeatureDescription_VSIntegation)">
+        <Condition  Level="1"><![CDATA[Installed OR VS2012DEVENV OR VS2013DEVENV OR VS2015DEVENV]]></Condition>
+        <ComponentGroupRef Id="LAPVSExtensionComponents" />
+      <!--
+      <Feature
+        Id="LAPVS2012InteragtionFeature"
+        AllowAdvertise="no"
+        ConfigurableDirectory="LAPINSTALLDIR"
+        Description="!(loc.FeatureDescription_VSIntegation2012)"
+        Level="1"
+        Title="!(loc.FeatureDescription_VSIntegation2012)">
+        <Condition  Level="1"><![CDATA[Installed OR VS2012DEVENV]]></Condition>
+        <ComponentGroupRef Id="LAPVS2013Components" />
+      </Feature>
+      
+      <Feature
+        Id="LAPVS2013InteragtionFeature"
+        AllowAdvertise="no"
+        ConfigurableDirectory="LAPINSTALLDIR"
+        Description="!(loc.FeatureDescription_VSIntegation2013)"
+        Level="1"
+        Title="!(loc.FeatureDescription_VSIntegation2013)">
+        <Condition  Level="1"><![CDATA[Installed OR VS2013DEVENV]]></Condition>
+        <ComponentGroupRef Id="LAPVS2012Components" />
+      </Feature>
+      <Feature
+        Id="LAPVS2015InteragtionFeature"
+        AllowAdvertise="no"
+        ConfigurableDirectory="LAPINSTALLDIR"
+        Description="!(loc.FeatureDescription_VSIntegation2015)"
+        Level="1"
+        Title="!(loc.FeatureDescription_VSIntegation2015)">
+        <Condition  Level="1"><![CDATA[Installed OR VS2015DEVENV]]></Condition>
+        <ComponentGroupRef Id="LAPVS2015Components" />
+      </Feature>-->
+
+    </Feature>
+    
+	</Fragment>
+</Wix>
+

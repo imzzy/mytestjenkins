@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: gboissinot
+Build-Jdk: 1.8.0_60
+Extension-Name: msbuild
+Implementation-Title: msbuild
+Implementation-Version: 1.25
+Group-Id: org.jenkins-ci.plugins
+Short-Name: msbuild
+Long-Name: Jenkins MSBuild Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/MSBuild+Plugin
+Plugin-Version: 1.25
+Hudson-Version: 1.565.1
+Jenkins-Version: 1.565.1
+Plugin-Developers: Gregory Boissinot:gbois:gregory.boissinot@gmail.com
+ ,Kyle Sweeney:kdsweeney:kyle.sweeney@valtech.com
+

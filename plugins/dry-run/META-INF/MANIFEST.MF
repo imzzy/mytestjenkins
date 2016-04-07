@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: gregory
+Build-Jdk: 1.6.0_33
+Extension-Name: dry-run
+Implementation-Title: dry-run
+Implementation-Version: 0.9
+Group-Id: org.jenkins-ci.plugins
+Short-Name: dry-run
+Long-Name: Jenkins Dry Run Plug-in
+Url: https://wiki.jenkins-ci.org/display/JENKINS/DryRun+Plugin
+Plugin-Version: 0.9
+Hudson-Version: 1.410
+Jenkins-Version: 1.410
+Plugin-Dependencies: maven-plugin:1.410
+Plugin-Developers: Gregory Boissinot:gbois:gregory.boissinot@gmail.com
+

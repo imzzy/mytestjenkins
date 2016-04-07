@@ -1,0 +1,6 @@
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPLogger.config.xml
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPCommon.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPCommon.pdb
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\obj\Debug\LPCommon.csprojResolveAssemblyReference.cache
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\obj\Debug\LPCommon.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\LPCommon\obj\Debug\LPCommon.pdb

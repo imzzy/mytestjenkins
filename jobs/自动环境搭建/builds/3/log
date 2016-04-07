@@ -1,0 +1,17 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\×Ô¶¯»·¾³´î½¨
+[×Ô¶¯»·¾³´î½¨] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson3828364805638253725.bat
+
+C:\Users\zack\.jenkins\workspace\×Ô¶¯»·¾³´î½¨>C:\Users\zack\testechoshell.bat
+2016-01-11 10:40:46 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2016-01-11 10:40:46 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-01-11 10:40:46 0 [Note] mysql\bin\mysqld.exe (mysqld 5.6.24) starting as process 10120 ...
+
+XAMPP now starts as a console application.
+
+Instead of pressing Control-C in this console window, please use xampp_stop.exe
+to stop XAMPP, because it lets XAMPP end any current transactions and cleanup
+gracefully.
+
+Çë°´ÈÎÒâ¼ü¼ÌÐø. . . 
+Finished: SUCCESS

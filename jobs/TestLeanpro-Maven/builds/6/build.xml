@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.testlink.TestLinkBuildAction plugin="testlink@3.11">
+      <build class="build" reference="../../.."/>
+      <result>
+        <report>
+          <passed>0</passed>
+          <failed>0</failed>
+          <blocked>0</blocked>
+          <notRun>0</notRun>
+          <buildId>31</buildId>
+          <buildName>bbsbuild_6</buildName>
+          <testCases class="linked-list"/>
+        </report>
+        <build class="build" reference="../../../.."/>
+      </result>
+    </hudson.plugins.testlink.TestLinkBuildAction>
+    <testngBuildAction plugin="testng-plugin@1.10">
+      <descriptions class="concurrent-hash-map"/>
+      <passCount>3</passCount>
+      <failCount>0</failCount>
+      <skipCount>0</skipCount>
+    </testngBuildAction>
+  </actions>
+  <queueId>5</queueId>
+  <timestamp>1450836414195</timestamp>
+  <startTime>1450836414201</startTime>
+  <result>SUCCESS</result>
+  <duration>67076</duration>
+  <charset>GBK</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven</workspace>
+  <hudsonVersion>1.641</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

@@ -1,0 +1,232 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven
+[TestLeanpro-Maven] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson5178458094695283608.bat
+
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven>rd /q /s C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven 
+ÁíÒ»¸ö³ÌÐòÕýÔÚÊ¹ÓÃ´ËÎÄ¼þ£¬½ø³ÌÎÞ·¨·ÃÎÊ¡£
+
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven>exit 0 
+[TestLeanpro-Maven] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson9090437642309435473.bat
+
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven>xcopy /E /Y  D:\mytestcode\testSelenium  C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven 
+D:\mytestcode\testSelenium\.classpath
+D:\mytestcode\testSelenium\.gitignore
+D:\mytestcode\testSelenium\.project
+D:\mytestcode\testSelenium\pom.xml
+D:\mytestcode\testSelenium\.settings\org.eclipse.core.resources.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.core.runtime.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.jdt.core.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.m2e.core.prefs
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\annotation\Column.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\annotation\ExcelSign.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\BooleanTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\DateTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\DoubleTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\IntegerTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\StringTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\TypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\TypeConverters.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\BBSPostModle.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\PostContent.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\Users.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AddNewPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AdminLoginPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AllPostsPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSAddNewPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSAllPagePost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSEditeAPost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSNewPost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSResponsePost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\DeletePostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\EditPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\SearchPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\UserLoginBBS.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\BaseTest.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\SuiteBases.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\CollectionUtils.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\EachFieldCallback.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ExOM.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ReflectionUtils.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ReportUtil.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ScreenShotUtils.java
+D:\mytestcode\testSelenium\src\main\resources\Param.properties
+D:\mytestcode\testSelenium\src\main\resources\testdata.xlsx
+D:\mytestcode\testSelenium\src\main\resources\testng.xml
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestABC.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestBBS.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestBBSPage.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestLeanproPage.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestLogin.java
+D:\mytestcode\testSelenium\target\classes\Param.properties
+D:\mytestcode\testSelenium\target\classes\testdata.xlsx
+D:\mytestcode\testSelenium\target\classes\testng.xml
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\annotation\Column.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\annotation\ExcelSign.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\BooleanTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\DateTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\DoubleTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\IntegerTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\StringTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\TypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\TypeConverters.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\BBSPostModle.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\PostContent.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\Users.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AddNewPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AdminLoginPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AllPostsPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSAddNewPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSAllPagePost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSEditeAPost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSNewPost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSResponsePost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\DeletePostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\EditPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\SearchPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\UserLoginBBS.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\BaseTest.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\SuiteBases.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\CollectionUtils.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\EachFieldCallback.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM$1.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM$2.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ReflectionUtils.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ReportUtil.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ScreenShotUtils.class
+D:\mytestcode\testSelenium\target\classes\META-INF\MANIFEST.MF
+D:\mytestcode\testSelenium\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.properties
+D:\mytestcode\testSelenium\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.xml
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestABC.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestBBS.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestBBSPage.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestLeanproPage.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestLogin.class
+¸´ÖÆÁË 93 ¸öÎÄ¼þ
+
+C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven>exit 0 
+[TestLeanpro-Maven] $ cmd.exe /C '"D:\dev\tools\apache-maven\bin\mvn.cmd test && exit %%ERRORLEVEL%%"'
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building testSelenium 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ testSelenium ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 32 source files to C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\classes
+[INFO] /C:/Users/zack/.jenkins/workspace/TestLeanpro-Maven/src/main/java/cn/leanpro/util/ReflectionUtils.java: Ä³Ð©ÊäÈëÎÄ¼þÊ¹ÓÃÁËÎ´¾­¼ì²é»ò²»°²È«µÄ²Ù×÷¡£
+[INFO] /C:/Users/zack/.jenkins/workspace/TestLeanpro-Maven/src/main/java/cn/leanpro/util/ReflectionUtils.java: ÓÐ¹ØÏêÏ¸ÐÅÏ¢, ÇëÊ¹ÓÃ -Xlint:unchecked ÖØÐÂ±àÒë¡£
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\src\test\resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ testSelenium ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\test-classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ testSelenium ---
+[INFO] Surefire report directory: C:\Users\zack\.jenkins\workspace\TestLeanpro-Maven\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+¿ªÊ¼²âÊÔ
+ hi  creating driver....
+this is getting driver....
+
+this is getting driver....
+this is getting driver....
+½áÊø²âÊÔ
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 54.805 s
+[INFO] Finished at: 2016-01-10T19:15:09+08:00
+[INFO] Final Memory: 21M/160M
+[INFO] ------------------------------------------------------------------------
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test) on project testSelenium: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test failed: There was an error in the forked process
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] System info: host: 'zack-pc', ip: '192.168.204.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Driver info: driver.version: FirefoxDriver
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.openqa.selenium.firefox.FirefoxDriver.getScreenshotAs(FirefoxDriver.java:341)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at cn.leanpro.util.ScreenShotUtils.capturescreenShot(ScreenShotUtils.java:100)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at cn.leanpro.util.ScreenShotUtils.onTestFailure(ScreenShotUtils.java:60)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1179)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.TestRunner.privateRun(TestRunner.java:774)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.TestRunner.run(TestRunner.java:624)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.testng.TestNG.run(TestNG.java:1024)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] ... 26 more
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Caused by: java.net.ConnectException: Connection refused: connect
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at java.net.Socket.connect(Socket.java:579)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] ... 41 more
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+Did not find any matching files.
+Finished: FAILURE

@@ -1,0 +1,105 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\testng-plugin-Test
+[testng-plugin-Test] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson3497490223428240612.bat
+
+C:\Users\zack\.jenkins\workspace\testng-plugin-Test>xcopy /E /Y  D:\mytestcode\testSelenium  C:\Users\zack\.jenkins\workspace\testng-plugin-Test 
+D:\mytestcode\testSelenium\.classpath
+D:\mytestcode\testSelenium\.gitignore
+D:\mytestcode\testSelenium\.project
+D:\mytestcode\testSelenium\pom.xml
+D:\mytestcode\testSelenium\.settings\org.eclipse.core.resources.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.core.runtime.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.jdt.core.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.m2e.core.prefs
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\annotation\Column.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\annotation\ExcelSign.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\BooleanTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\DateTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\DoubleTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\IntegerTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\StringTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\TypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\TypeConverters.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\BBSPostModle.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\PostContent.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\Users.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AddNewPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AdminLoginPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AllPostsPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSAddNewPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSAllPagePost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSEditeAPost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSNewPost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSResponsePost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\DeletePostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\EditPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\SearchPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\UserLoginBBS.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\BaseTest.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\SuiteBases.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\CollectionUtils.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\EachFieldCallback.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ExOM.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ReflectionUtils.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ReportUtil.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ScreenShotUtils.java
+D:\mytestcode\testSelenium\src\main\resources\Param.properties
+D:\mytestcode\testSelenium\src\main\resources\testdata.xlsx
+D:\mytestcode\testSelenium\src\main\resources\testng.xml
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestABC.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestBBS.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestBBSPage.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestLeanproPage.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestLogin.java
+D:\mytestcode\testSelenium\target\classes\Param.properties
+D:\mytestcode\testSelenium\target\classes\testdata.xlsx
+D:\mytestcode\testSelenium\target\classes\testng.xml
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\annotation\Column.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\annotation\ExcelSign.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\BooleanTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\DateTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\DoubleTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\IntegerTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\StringTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\TypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\TypeConverters.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\BBSPostModle.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\PostContent.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\Users.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AddNewPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AdminLoginPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AllPostsPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSAddNewPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSAllPagePost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSEditeAPost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSNewPost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSResponsePost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\DeletePostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\EditPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\SearchPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\UserLoginBBS.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\BaseTest.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\SuiteBases.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\CollectionUtils.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\EachFieldCallback.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM$1.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM$2.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ReflectionUtils.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ReportUtil.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ScreenShotUtils.class
+D:\mytestcode\testSelenium\target\classes\META-INF\MANIFEST.MF
+D:\mytestcode\testSelenium\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.properties
+D:\mytestcode\testSelenium\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.xml
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestABC.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestBBS.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestBBSPage.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestLeanproPage.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestLogin.class
+¸´ÖÆÁË 93 ¸öÎÄ¼þ
+
+C:\Users\zack\.jenkins\workspace\testng-plugin-Test>exit 0 
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+Did not find any matching files.
+Finished: SUCCESS

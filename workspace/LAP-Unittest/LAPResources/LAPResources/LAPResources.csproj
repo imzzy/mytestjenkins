@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2CB9517B-228A-49C8-845B-0F389A5AAAB5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LAPResources</RootNamespace>
+    <AssemblyName>LAPResources</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>..\..\key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ImageResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImageResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StringResources.zh-CN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResources.zh-CN.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\LPControlPanel\Form1.resx">
+      <Link>LPControlPanel\Form1.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPControlPanel\Form1.zh-CN.resx">
+      <Link>LPControlPanel\Form1.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Controls\BreadcrumbControl.resx">
+      <Link>LPSpy\BreadcrumbControl.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Controls\BreadcrumbControl.zh-CN.resx">
+      <Link>LPSpy\BreadcrumbControl.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Controls\ModelTreeViewControl.resx">
+      <Link>LPSpy\ModelTreeViewControl.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Controls\ModelTreeViewControl.zh-CN.resx">
+      <Link>LPSpy\ModelTreeViewControl.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Controls\NodeViewControl.resx">
+      <Link>LPSpy\NodeViewControl.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Controls\NodeViewControl.zh-CN.resx">
+      <Link>LPSpy\NodeViewControl.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\AboutWindow.resx">
+      <Link>LPSpy\AboutWindow.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\AboutWindow.zh-CN.resx">
+      <Link>LPSpy\AboutWindow.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\AddObjectsWindow.resx">
+      <Link>LPSpy\AddObjectsWindow.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\AddObjectsWindow.zh-CN.resx">
+      <Link>LPSpy\AddObjectsWindow.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\AddPropertiesWindow.resx">
+      <Link>LPSpy\AddPropertiesWindow.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\AddPropertiesWindow.zh-CN.resx">
+      <Link>LPSpy\AddPropertiesWindow.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\BreadCrumbWindow.resx">
+      <Link>LPSpy\BreadCrumbWindow.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\BreadCrumbWindow.zh-CN.resx">
+      <Link>LPSpy\BreadCrumbWindow.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\ConditionSelectorWindow.resx">
+      <Link>LPSpy\ConditionSelectorWindow.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\ConditionSelectorWindow.zh-CN.resx">
+      <Link>LPSpy\ConditionSelectorWindow.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\OptionWindow.resx">
+      <Link>LPSpy\OptionWindow.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\OptionWindow.zh-CN.resx">
+      <Link>LPSpy\OptionWindow.zh-CN.resx</Link>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\SpyMainWindow.resx">
+      <Link>LPSpy\SpyMainWindow.resx</Link>
+      <LastGenOutput>SpyMainWindow.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\SpyMainWindow.zh-CN.resx">
+      <Link>LPSpy\SpyMainWindow.zh-CN.resx</Link>
+      <LastGenOutput>SpyMainWindow.zh-CN.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\ToMethodsViewer.resx">
+      <Link>LPSpy\ToMethodsViewer.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\ToMethodsViewer.zh-CN.resx">
+      <Link>LPSpy\ToMethodsViewer.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\UIASpyWindow.resx">
+      <Link>LPSpy\UIASpyWindow.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\LPSpy\Forms\UIASpyWindow.zh-CN.resx">
+      <Link>LPSpy\UIASpyWindow.zh-CN.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ImageResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringResources.zh-CN.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResources.zh-CN.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ComboBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dialog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Editor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Label.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RadioButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScrollBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UiObject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Window.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

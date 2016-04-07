@@ -1,0 +1,369 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\zack\.jenkins\workspace\webtest-browser
+[webtest-browser] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson720720638455781105.bat
+
+C:\Users\zack\.jenkins\workspace\webtest-browser>xcopy /E /Y  D:\mytestcode\testSelenium  C:\Users\zack\.jenkins\workspace\webtest-browser 
+D:\mytestcode\testSelenium\.classpath
+D:\mytestcode\testSelenium\.gitignore
+D:\mytestcode\testSelenium\.project
+D:\mytestcode\testSelenium\mvnDebug.bat
+D:\mytestcode\testSelenium\pom.xml
+D:\mytestcode\testSelenium\.settings\org.eclipse.core.resources.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.core.runtime.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.jdt.core.prefs
+D:\mytestcode\testSelenium\.settings\org.eclipse.m2e.core.prefs
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\annotation\Column.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\annotation\ExcelSign.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\BooleanTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\DateTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\DoubleTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\IntegerTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\StringTypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\TypeConverter.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\converter\TypeConverters.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\BBSPostModle.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\Browers.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\PostContent.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\model\Users.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AddNewPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AdminLoginPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\AllPostsPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSAddNewPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSAllPagePost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSEditeAPost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSNewPost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\BBSResponsePost.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\DeletePostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\EditPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\SearchPostPage.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\pageobjects\UserLoginBBS.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\BaseTest.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\DriverSetup.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\DriverType.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\GiveDriver.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\SuiteBases.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\TestSuiteBase\WebdriverThread.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\CollectionUtils.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\EachFieldCallback.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ExOM.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ReflectionUtils.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ReportUtil.java
+D:\mytestcode\testSelenium\src\main\java\cn\leanpro\util\ScreenShotUtils.java
+D:\mytestcode\testSelenium\src\main\resources\Param.properties
+D:\mytestcode\testSelenium\src\main\resources\RepositoryMap.xml
+D:\mytestcode\testSelenium\src\main\resources\testdata.xlsx
+D:\mytestcode\testSelenium\src\main\resources\testng.xml
+D:\mytestcode\testSelenium\src\main\resources\testng2.xml
+D:\mytestcode\testSelenium\src\main\resources\selenium_standalone_binaries\windows\googlechrome\64bit\chromedriver.exe
+D:\mytestcode\testSelenium\src\main\resources\selenium_standalone_binaries\windows\internetexplorer\64bit\IEDriverServer.exe
+D:\mytestcode\testSelenium\src\main\resources\selenium_standalone_binaries\windows\operachromium\64bit\operadriver.exe
+D:\mytestcode\testSelenium\src\main\resources\selenium_standalone_binaries\windows\phantomjs\64bit\phantomjs.exe
+D:\mytestcode\testSelenium\src\main\resources\selenium_standalone_zips\chromedriver_win32.zip
+D:\mytestcode\testSelenium\src\main\resources\selenium_standalone_zips\IEDriverServer_x64_2.45.0.zip
+D:\mytestcode\testSelenium\src\main\resources\selenium_standalone_zips\operadriver_win32.zip
+D:\mytestcode\testSelenium\src\main\resources\selenium_standalone_zips\phantomjs-1.9.8-windows.zip
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestABC.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestBBS.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestBBSPage.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestLeanproPage.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\pageobjects\Test\TestLogin.java
+D:\mytestcode\testSelenium\src\test\java\cn\leanpro\testSelenium\testleanpro.java
+D:\mytestcode\testSelenium\src\test\resources\RepositoryMap.xml
+D:\mytestcode\testSelenium\src\test\resources\selenium_standalone_binaries\windows\googlechrome\64bit\chromedriver.exe
+D:\mytestcode\testSelenium\src\test\resources\selenium_standalone_binaries\windows\internetexplorer\64bit\IEDriverServer.exe
+D:\mytestcode\testSelenium\src\test\resources\selenium_standalone_zips\chromedriver_win32.zip
+D:\mytestcode\testSelenium\src\test\resources\selenium_standalone_zips\IEDriverServer_x64_2.52.0.zip
+D:\mytestcode\testSelenium\target\testSelenium-0.0.1-SNAPSHOT.jar
+D:\mytestcode\testSelenium\target\classes\Param.properties
+D:\mytestcode\testSelenium\target\classes\RepositoryMap.xml
+D:\mytestcode\testSelenium\target\classes\testdata.xlsx
+D:\mytestcode\testSelenium\target\classes\testng.xml
+D:\mytestcode\testSelenium\target\classes\testng2.xml
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\annotation\Column.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\annotation\ExcelSign.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\BooleanTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\DateTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\DoubleTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\IntegerTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\StringTypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\TypeConverter.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\converter\TypeConverters.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\BBSPostModle.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\Browers.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\PostContent.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\model\Users.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AddNewPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AdminLoginPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\AllPostsPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSAddNewPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSAllPagePost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSEditeAPost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSNewPost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\BBSResponsePost.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\DeletePostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\EditPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\SearchPostPage.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\pageobjects\UserLoginBBS.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\BaseTest$1.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\BaseTest.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\DriverSetup.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\DriverType$1.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\DriverType$2.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\DriverType$3.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\DriverType.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\GiveDriver.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\SuiteBases.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\TestSuiteBase\WebdriverThread.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\CollectionUtils.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\EachFieldCallback.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM$1.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM$2.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ExOM.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ReflectionUtils.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ReportUtil.class
+D:\mytestcode\testSelenium\target\classes\cn\leanpro\util\ScreenShotUtils.class
+D:\mytestcode\testSelenium\target\classes\META-INF\MANIFEST.MF
+D:\mytestcode\testSelenium\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.properties
+D:\mytestcode\testSelenium\target\classes\META-INF\maven\cn.leanpro.testSelenium\testSelenium\pom.xml
+D:\mytestcode\testSelenium\target\classes\selenium_standalone_binaries\windows\googlechrome\64bit\chromedriver.exe
+D:\mytestcode\testSelenium\target\classes\selenium_standalone_binaries\windows\internetexplorer\64bit\IEDriverServer.exe
+D:\mytestcode\testSelenium\target\classes\selenium_standalone_binaries\windows\operachromium\64bit\operadriver.exe
+D:\mytestcode\testSelenium\target\classes\selenium_standalone_binaries\windows\phantomjs\64bit\phantomjs.exe
+D:\mytestcode\testSelenium\target\classes\selenium_standalone_zips\chromedriver_win32.zip
+D:\mytestcode\testSelenium\target\classes\selenium_standalone_zips\IEDriverServer_x64_2.45.0.zip
+D:\mytestcode\testSelenium\target\classes\selenium_standalone_zips\operadriver_win32.zip
+D:\mytestcode\testSelenium\target\classes\selenium_standalone_zips\phantomjs-1.9.8-windows.zip
+D:\mytestcode\testSelenium\target\failsafe-reports\bullet_point.png
+D:\mytestcode\testSelenium\target\failsafe-reports\collapseall.gif
+D:\mytestcode\testSelenium\target\failsafe-reports\emailable-report.html
+D:\mytestcode\testSelenium\target\failsafe-reports\failed.png
+D:\mytestcode\testSelenium\target\failsafe-reports\failsafe-summary.xml
+D:\mytestcode\testSelenium\target\failsafe-reports\index.html
+D:\mytestcode\testSelenium\target\failsafe-reports\jquery-1.7.1.min.js
+D:\mytestcode\testSelenium\target\failsafe-reports\navigator-bullet.png
+D:\mytestcode\testSelenium\target\failsafe-reports\passed.png
+D:\mytestcode\testSelenium\target\failsafe-reports\report.html
+D:\mytestcode\testSelenium\target\failsafe-reports\skipped.png
+D:\mytestcode\testSelenium\target\failsafe-reports\TEST-TestSuite.xml
+D:\mytestcode\testSelenium\target\failsafe-reports\testng-failed.xml
+D:\mytestcode\testSelenium\target\failsafe-reports\testng-reports.css
+D:\mytestcode\testSelenium\target\failsafe-reports\testng-reports.js
+D:\mytestcode\testSelenium\target\failsafe-reports\testng-results.xml
+D:\mytestcode\testSelenium\target\failsafe-reports\testng.css
+D:\mytestcode\testSelenium\target\failsafe-reports\TestSuite.txt
+D:\mytestcode\testSelenium\target\failsafe-reports\junitreports\TEST-cn.leanpro.pageobjects.Test.TestBBS.xml
+D:\mytestcode\testSelenium\target\failsafe-reports\old\index.html
+D:\mytestcode\testSelenium\target\failsafe-reports\old\Suite1\classes.html
+D:\mytestcode\testSelenium\target\failsafe-reports\old\Suite1\groups.html
+D:\mytestcode\testSelenium\target\failsafe-reports\old\Suite1\index.html
+D:\mytestcode\testSelenium\target\failsafe-reports\old\Suite1\main.html
+D:\mytestcode\testSelenium\target\failsafe-reports\old\Suite1\methods-alphabetical.html
+D:\mytestcode\testSelenium\target\failsafe-reports\old\Suite1\methods-not-run.html
+D:\mytestcode\testSelenium\target\failsafe-reports\old\Suite1\methods.html
+D:\mytestcode\testSelenium\target\failsafe-reports\old\Suite1\reporter-output.html
+D:\mytestcode\testSelenium\target\failsafe-reports\old\Suite1\testbbs01.properties
+D:\mytestcode\testSelenium\target\failsafe-reports\old\Suite1\testng.xml.html
+D:\mytestcode\testSelenium\target\failsafe-reports\old\Suite1\toc.html
+D:\mytestcode\testSelenium\target\failsafe-reports\Suite1\testbbs01.html
+D:\mytestcode\testSelenium\target\failsafe-reports\Suite1\testbbs01.xml
+D:\mytestcode\testSelenium\target\failsafe-reports\Suite1\testng-failed.xml
+D:\mytestcode\testSelenium\target\maven-archiver\pom.properties
+D:\mytestcode\testSelenium\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+D:\mytestcode\testSelenium\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+D:\mytestcode\testSelenium\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst
+D:\mytestcode\testSelenium\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst
+D:\mytestcode\testSelenium\target\surefire-reports\screenshot\Failures\TestBBS.testchooseSection.2016-02-14-10-28-46.png
+D:\mytestcode\testSelenium\target\surefire-reports\screenshot\Failures\TestBBS.testchooseSection.2016-02-15-11-06-51.png
+D:\mytestcode\testSelenium\target\test-classes\RepositoryMap.xml
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestABC.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestBBS.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestBBSPage.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestLeanproPage.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\pageobjects\Test\TestLogin.class
+D:\mytestcode\testSelenium\target\test-classes\cn\leanpro\testSelenium\testleanpro.class
+D:\mytestcode\testSelenium\target\test-classes\selenium_standalone_binaries\windows\googlechrome\64bit\chromedriver.exe
+D:\mytestcode\testSelenium\target\test-classes\selenium_standalone_binaries\windows\internetexplorer\64bit\IEDriverServer.exe
+D:\mytestcode\testSelenium\test-output\bullet_point.png
+D:\mytestcode\testSelenium\test-output\collapseall.gif
+D:\mytestcode\testSelenium\test-output\emailable-report.html
+D:\mytestcode\testSelenium\test-output\failed.png
+D:\mytestcode\testSelenium\test-output\index.html
+D:\mytestcode\testSelenium\test-output\jquery-1.7.1.min.js
+D:\mytestcode\testSelenium\test-output\navigator-bullet.png
+D:\mytestcode\testSelenium\test-output\passed.png
+D:\mytestcode\testSelenium\test-output\report.html
+D:\mytestcode\testSelenium\test-output\skipped.png
+D:\mytestcode\testSelenium\test-output\testng-failed.xml
+D:\mytestcode\testSelenium\test-output\testng-reports.css
+D:\mytestcode\testSelenium\test-output\testng-reports.js
+D:\mytestcode\testSelenium\test-output\testng-results.xml
+D:\mytestcode\testSelenium\test-output\testng.css
+D:\mytestcode\testSelenium\test-output\Default suite\Default test.html
+D:\mytestcode\testSelenium\test-output\Default suite\Default test.xml
+D:\mytestcode\testSelenium\test-output\Default suite\testng-failed.xml
+D:\mytestcode\testSelenium\test-output\junitreports\TEST-cn.leanpro.pageobjects.Test.TestABC.xml
+D:\mytestcode\testSelenium\test-output\junitreports\TEST-cn.leanpro.pageobjects.Test.TestBBS.xml
+D:\mytestcode\testSelenium\test-output\junitreports\TEST-cn.leanpro.pageobjects.Test.TestBBSPage.xml
+D:\mytestcode\testSelenium\test-output\junitreports\TEST-cn.leanpro.pageobjects.Test.TestLeanproPage.xml
+D:\mytestcode\testSelenium\test-output\junitreports\TEST-cn.leanpro.pageobjects.Test.TestLogin.xml
+D:\mytestcode\testSelenium\test-output\old\index.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\classes.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\Default test.properties
+D:\mytestcode\testSelenium\test-output\old\Default suite\groups.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\index.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\main.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\methods-alphabetical.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\methods-not-run.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\methods.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\reporter-output.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\testng.xml.html
+D:\mytestcode\testSelenium\test-output\old\Default suite\toc.html
+D:\mytestcode\testSelenium\test-output\old\Suite1\classes.html
+D:\mytestcode\testSelenium\test-output\old\Suite1\groups.html
+D:\mytestcode\testSelenium\test-output\old\Suite1\index.html
+D:\mytestcode\testSelenium\test-output\old\Suite1\main.html
+D:\mytestcode\testSelenium\test-output\old\Suite1\methods-alphabetical.html
+D:\mytestcode\testSelenium\test-output\old\Suite1\methods-not-run.html
+D:\mytestcode\testSelenium\test-output\old\Suite1\methods.html
+D:\mytestcode\testSelenium\test-output\old\Suite1\reporter-output.html
+D:\mytestcode\testSelenium\test-output\old\Suite1\testbbs01.properties
+D:\mytestcode\testSelenium\test-output\old\Suite1\testng.xml.html
+D:\mytestcode\testSelenium\test-output\old\Suite1\toc.html
+D:\mytestcode\testSelenium\test-output\Suite1\testbbs01.html
+D:\mytestcode\testSelenium\test-output\Suite1\testbbs01.xml
+D:\mytestcode\testSelenium\test-output\Suite1\testng-failed.xml
+∏¥÷∆¡À 229 ∏ˆŒƒº˛
+
+C:\Users\zack\.jenkins\workspace\webtest-browser>exit 0 
+[webtest-browser] $ cmd.exe /C '"D:\dev\tools\apache-maven\bin\mvn.cmd verify -Dbrowser=ie && exit %%ERRORLEVEL%%"'
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building testSelenium 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 13 resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ testSelenium ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 37 source files to C:\Users\zack\.jenkins\workspace\webtest-browser\target\classes
+[INFO] /C:/Users/zack/.jenkins/workspace/webtest-browser/src/main/java/cn/leanpro/util/ReflectionUtils.java: ƒ≥–© ‰»ÎŒƒº˛ π”√¡ÀŒ¥æ≠ºÏ≤ÈªÚ≤ª∞≤»´µƒ≤Ÿ◊˜°£
+[INFO] /C:/Users/zack/.jenkins/workspace/webtest-browser/src/main/java/cn/leanpro/util/ReflectionUtils.java: ”–πÿœÍœ∏–≈œ¢, «Î π”√ -Xlint:unchecked ÷ÿ–¬±‡“Î°£
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ testSelenium ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to C:\Users\zack\.jenkins\workspace\webtest-browser\target\test-classes
+[INFO] 
+[INFO] >>> driver-binary-downloader-maven-plugin:1.0.7:selenium (default) > test-compile @ testSelenium >>>
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 13 resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ testSelenium ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testSelenium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ testSelenium ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< driver-binary-downloader-maven-plugin:1.0.7:selenium (default) < test-compile @ testSelenium <<<
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- driver-binary-downloader-maven-plugin:1.0.7:selenium (default) @ testSelenium ---
+[INFO]  
+[INFO] --------------------------------------------------------
+[INFO]  DOWNLOADING SELENIUM STAND-ALONE EXECUTABLE BINARIES...
+[INFO] --------------------------------------------------------
+[INFO]  
+[INFO]  file:/C:/Users/zack/.jenkins/workspace/webtest-browser/src/test/resources/RepositoryMap.xml is valid
+[INFO]  
+[INFO] Only get drivers for current Operating System: true
+[INFO] Getting drivers for current operating system only.
+[INFO] Archives will be downloaded to 'C:\Users\zack\.jenkins\workspace\webtest-browser\src\test\resources\selenium_standalone_zips'
+[INFO] Standalone executable files will be extracted to 'C:\Users\zack\.jenkins\workspace\webtest-browser\src\test\resources\selenium_standalone_binaries'
+[INFO]  
+[INFO] Preparing to download Selenium Standalone Executable Binaries...
+[INFO] Binary 'IEDriverServer.exe' Exists: true
+[INFO] Binary 'chromedriver.exe' Exists: true
+[INFO] Setting maven property - ${webdriver.ie.driver} = C:\Users\zack\.jenkins\workspace\webtest-browser\src\test\resources\selenium_standalone_binaries\windows\internetexplorer\64bit\IEDriverServer.exe
+[INFO] Setting maven property - ${webdriver.chrome.driver} = C:\Users\zack\.jenkins\workspace\webtest-browser\src\test\resources\selenium_standalone_binaries\windows\googlechrome\64bit\chromedriver.exe
+[INFO]  
+[INFO] --------------------------------------------------------
+[INFO] SELENIUM STAND-ALONE EXECUTABLE DOWNLOADS COMPLETE
+[INFO] --------------------------------------------------------
+[INFO]  
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ testSelenium ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ testSelenium ---
+[INFO] Building jar: C:\Users\zack\.jenkins\workspace\webtest-browser\target\testSelenium-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-failsafe-plugin:2.19:integration-test (default) @ testSelenium ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+ø™ º≤‚ ‘
+creating driver....
+getting driver....
+Started InternetExplorerDriver server (64-bit)
+2.52.0.0
+Listening on port 46155
+Only local connections are allowed
+getting driver....
+target/surefire-reports/screenshot/Failures/TestBBS.testchooseSection.2016-02-15-11-25-51.png
+Ω· ¯≤‚ ‘
+∂˛‘¬ 15, 2016 11:25:52 …œŒÁ com.relevantcodes.extentreports.Configuration <init>
+–≈œ¢: Configurating report from file:/C:/Users/zack/.m2/repository/com/relevantcodes/extentreports/2.40/extentreports-2.40.jar!/com/relevantcodes/extentreports/resources/extent-config.xml
+C:\Users\zack\.jenkins\workspace\webtest-browser\target\failsafe-reports\report.html
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 6.661 sec <<< FAILURE! - in TestSuite
+testchooseSection(cn.leanpro.pageobjects.Test.TestBBS)  Time elapsed: 0.179 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at cn.leanpro.pageobjects.Test.TestBBS.testchooseSection(TestBBS.java:37)
+
+
+Results :
+
+Failed tests: 
+  TestBBS.testchooseSection:37 expected [true] but found [false]
+
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-failsafe-plugin:2.19:verify (default) @ testSelenium ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 26.200 s
+[INFO] Finished at: 2016-02-15T11:25:53+08:00
+[INFO] Final Memory: 28M/229M
+[INFO] ------------------------------------------------------------------------
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-failsafe-plugin:2.19:verify (default) on project testSelenium: There are test failures.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Please refer to C:\Users\zack\.jenkins\workspace\webtest-browser\target\failsafe-reports for the individual test results.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+testng-results.xml was last modified before this build started. Ignoring it.
+Saving reports...
+Processing 'C:\Users\zack\.jenkins\jobs\webtest-browser\builds\1\testng\testng-results.xml'
+Failed Tests/Configs found. Marking build as UNSTABLE.
+TestNG Reports Processing: FINISH
+Finished: FAILURE

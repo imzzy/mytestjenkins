@@ -1,0 +1,7 @@
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\LPLogger.config.xml
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\CalcAppModel.json
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\UIACalcTest.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\UIACalcTest.pdb
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\UIACalcTest\obj\Debug\UIACalcTest.dll
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\UIACalcTest\obj\Debug\UIACalcTest.pdb
+C:\Users\zack\.jenkins\workspace\LAP\LAP\src\bin\Debug\chromedriver.exe

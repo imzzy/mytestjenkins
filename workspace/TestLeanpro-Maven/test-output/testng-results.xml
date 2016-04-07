@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="0" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="1365" started-at="2016-01-26T02:49:00Z" finished-at="2016-01-26T02:49:01Z">
+    <groups>
+    </groups>
+    <test name="testbbs01" duration-ms="1037" started-at="2016-01-26T02:49:00Z" finished-at="2016-01-26T02:49:01Z">
+      <class name="cn.leanpro.pageobjects.Test.TestBBS">
+        <test-method status="FAIL" signature="createDriver(java.lang.String)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@17edba4a]" name="createDriver" is-config="true" duration-ms="0" started-at="2016-01-26T10:49:00Z" finished-at="2016-01-26T10:49:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\mytestcode\testSelenium\src\main\resourece\drivers\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\mytestcode\testSelenium\src\main\resourece\drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:197)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at cn.leanpro.TestSuiteBase.BaseTest.createDriver(BaseTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="SKIP" signature="initBrower()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@17edba4a]" name="initBrower" is-config="true" duration-ms="0" started-at="2016-01-26T10:49:00Z" finished-at="2016-01-26T10:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrower -->
+        <test-method status="SKIP" signature="testbbsLogin(cn.leanpro.model.Users)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@17edba4a]" name="testbbsLogin" duration-ms="1" started-at="2016-01-26T10:49:01Z" data-provider="datawithuser" finished-at="2016-01-26T10:49:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.Users@3103dc71]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbbsLogin -->
+        <test-method status="SKIP" signature="testbbsLogin(cn.leanpro.model.Users)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@17edba4a]" name="testbbsLogin" duration-ms="0" started-at="2016-01-26T10:49:01Z" data-provider="datawithuser" finished-at="2016-01-26T10:49:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.Users@1b645642]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbbsLogin -->
+        <test-method status="SKIP" signature="testchooseSection()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@17edba4a]" name="testchooseSection" duration-ms="0" started-at="2016-01-26T10:49:01Z" finished-at="2016-01-26T10:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testchooseSection -->
+        <test-method status="SKIP" signature="teardownDriver()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBS@17edba4a]" name="teardownDriver" is-config="true" duration-ms="0" started-at="2016-01-26T10:49:01Z" finished-at="2016-01-26T10:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+      </class> <!-- cn.leanpro.pageobjects.Test.TestBBS -->
+    </test> <!-- testbbs01 -->
+    <test name="testbbspage02" duration-ms="293" started-at="2016-01-26T02:49:01Z" finished-at="2016-01-26T02:49:01Z">
+      <class name="cn.leanpro.pageobjects.Test.TestBBSPage">
+        <test-method status="FAIL" signature="createDriver(java.lang.String)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@281b4cff]" name="createDriver" is-config="true" duration-ms="0" started-at="2016-01-26T10:49:01Z" finished-at="2016-01-26T10:49:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\mytestcode\testSelenium\src\main\resourece\drivers\IEDriverServer.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\mytestcode\testSelenium\src\main\resourece\drivers\IEDriverServer.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:197)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.ie.InternetExplorerDriverService.access$000(InternetExplorerDriverService.java:32)
+	at org.openqa.selenium.ie.InternetExplorerDriverService$Builder.findDefaultExecutable(InternetExplorerDriverService.java:167)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.ie.InternetExplorerDriver.setupService(InternetExplorerDriver.java:251)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:172)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:146)
+	at cn.leanpro.TestSuiteBase.BaseTest.createDriver(BaseTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="SKIP" signature="initBrower()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@281b4cff]" name="initBrower" is-config="true" duration-ms="0" started-at="2016-01-26T10:49:01Z" finished-at="2016-01-26T10:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrower -->
+        <test-method status="SKIP" signature="testCreateANewPost(cn.leanpro.model.BBSPostModle)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@281b4cff]" name="testCreateANewPost" duration-ms="0" started-at="2016-01-26T10:49:01Z" data-provider="datawithbbspost" finished-at="2016-01-26T10:49:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.BBSPostModle@5697cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateANewPost -->
+        <test-method status="SKIP" signature="testEditAPost(cn.leanpro.model.BBSPostModle)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@281b4cff]" name="testEditAPost" duration-ms="0" started-at="2016-01-26T10:49:01Z" data-provider="datawithbbspost" finished-at="2016-01-26T10:49:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.BBSPostModle@7d1e24ec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditAPost -->
+        <test-method status="SKIP" signature="testResponseAPost(cn.leanpro.model.BBSPostModle)[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@281b4cff]" name="testResponseAPost" duration-ms="0" started-at="2016-01-26T10:49:01Z" data-provider="datawithbbspost" finished-at="2016-01-26T10:49:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cn.leanpro.model.BBSPostModle@777cf4f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseAPost -->
+        <test-method status="SKIP" signature="teardownDriver()[pri:0, instance:cn.leanpro.pageobjects.Test.TestBBSPage@281b4cff]" name="teardownDriver" is-config="true" duration-ms="0" started-at="2016-01-26T10:49:01Z" finished-at="2016-01-26T10:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+      </class> <!-- cn.leanpro.pageobjects.Test.TestBBSPage -->
+    </test> <!-- testbbspage02 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
