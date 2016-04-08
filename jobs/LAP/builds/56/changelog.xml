@@ -1,0 +1,127 @@
+commit 932bbb7ba6799169149d1edca057ea1c86884559
+tree 208e16656d2f9f735dd8fbc47c00a41efa8ea6ad
+parent 738c4aaccb88fc8085c20663a0ec1c359a2b77b5
+author Jason <zyjing10@hotmail.com> 2016-04-04 21:58:00 +0800
+committer Jason <zyjing10@hotmail.com> 2016-04-04 21:58:00 +0800
+
+    Make the dragged objects persistable.
+
+
+
+:100644 100644 f4d436136ec082f32489b27c98dfa7d55037af40 d2325617296799a5f1820a077258b0c96e8077ef M	LAP/src/LPReplayCore/Interfaces/ITestObject.cs
+:100644 100644 eebab7ee9f488fe786edc325dec24369bc213417 24f79b7554a551041057ade457e1be1984d1d6b7 M	LAP/src/LPReplayCore/TestObjects/TestObjectBase.cs
+:100644 100644 0faff5972abed50f45eda05de3dc2051997c102a e64c1cac28aef5c10bcfe42ba7f7ac5e351703bc M	LAP/src/LPReplayCore/TestObjects/TestObjectNurse.cs
+:100644 100644 a4125502835ff9116f4328f574d116e192acec19 7bf185271b9d35e19ef22eba4400ce58c1c631be M	LAP/src/LPReplayCore/UnitTest/TestObjectNurseTest.cs
+:100644 100644 f5bb8f2c777ec90e82cc3d3c712d310eb440764a 20b1021ffa0a0fe906c4d0a8b422d197f972b1ee M	LAP/src/LPSpy/Controls/ModelTreeViewControl.cs
+:100644 100644 e08d930f7d695d018f9c3de1e3e5e4725f7c54d2 1c5e6a9b36a31dba82e630f644a30bc0131a27b9 M	LAP/src/LPSpy/Forms/SpyMainWindow.cs
+:100644 100644 26e0a347f6cce6ce197f78f97205a33b1c1ee663 c900cf654fdddce18371af678fb649b1a41ccd15 M	LAP/src/LPSpy/Helpers/ModelFileHandler.cs
+:100644 100644 bc1171e98c5e3cbc04b0a45ed3ea84776d94f908 d42d17d231d7435d6c1e8b2792bf8d3da67457c1 M	LAP/src/LPUIAObjects/Common/CodeGenerator.cs
+:100644 100644 16f1bd2eaef4576f7a4576eaf2afb8d999bd2dbc a4d18f0e23657a2daf8313f2fc18487aa0b0ed73 M	LAP/src/LPUIAObjects/UnitTest/CodeGeneratorTest.cs
+commit 738c4aaccb88fc8085c20663a0ec1c359a2b77b5
+tree 9c60ded814f31c7b5d7152c5e8d1d67f272fa4c2
+parent 5927a08a3f1ed07ae08bd0e5944763e3299e054b
+author Jason <zyjing10@hotmail.com> 2016-04-03 21:24:26 +0800
+committer Jason <zyjing10@hotmail.com> 2016-04-03 21:24:26 +0800
+
+    1.Add group support. 2.Add drag drop in treeview to support adjusting
+    the order
+
+
+
+:100644 100644 0c829ba2a97707e59551f46eb17c72be19f6fd3b b4f7c4deb45ae690ad91436148bda11b511dd005 M	LAP/src/LPReplayCore/LPReplayCore.csproj
+:100644 100644 ee2a6a95fc1e7d4f7757440464e0b7ea7d974ac7 3ee6642834d1f74811c7a21497d479474ded3801 M	LAP/src/LPReplayCore/Model/ObjectDescriptor.cs
+:100644 100644 5e5501ec1a61a93beae65ccb85441fc58ca9f9c8 477d7793ab475fd53a977e1df81415f39d52fcf6 M	LAP/src/LPReplayCore/Model/TestObjectFactory.cs
+:000000 100644 0000000000000000000000000000000000000000 88d8acb9d83cfc00ea4fa21fa36dfb7234297756 A	LAP/src/LPReplayCore/TestObjects/GroupObject.cs
+:100644 100644 552b182e6c7dec9efa89374a963ddf550307f788 0faff5972abed50f45eda05de3dc2051997c102a M	LAP/src/LPReplayCore/TestObjects/TestObjectNurse.cs
+:100644 100644 679a5392585097ba90666eda7d473336491b51e0 2ea2ce4051a99ca212a83e594a159e77df2d7d70 M	LAP/src/LPReplayCore/UnitTest/ObjectDescriptorTest.cs
+:100644 100644 d35b9b5cc9aabce883fb5e5ac59a7c7a56b938b8 d1757b1e957ef17105a76d1bda8e0b67a8bef86f M	LAP/src/LPSpy/Controls/ModelTreeViewControl.Designer.cs
+:100644 100644 4ba0b5fee9bf9b26d0e4499d0edf5831f04864af f5bb8f2c777ec90e82cc3d3c712d310eb440764a M	LAP/src/LPSpy/Controls/ModelTreeViewControl.cs
+:100644 100644 5b4ca541af324bca56b80172ba353fda48a3b209 27fc84d65d00fc945b1b5f0495cf8a1ac910da29 M	LAP/src/LPSpy/Controls/ModelTreeViewControl.resx
+:100644 100644 d44778cc12d3c4a1a5c6898c8cb4778d22e18332 c586310a4a801327824557a071ced9dd13204494 M	LAP/src/LPSpy/Controls/NodeViewControl.cs
+:100644 100644 00316b0164cedd1ad691e328bcf87f400e0a8513 fbf867bdbe16ba4f141108b67d1c5b2b23b89688 M	LAP/src/LPSpy/Controls/SnapshotPicturebox.cs
+:100644 100644 829c415aadd2f4acdd1d99c6d33cabdf636df73d f4f4c51e61ad8f80cef555b642113b955ec90ca9 M	LAP/src/LPSpy/LPSpy.csproj
+:100644 100644 245cb6aa62ee84284870c6db375a67a3c1f61b51 93ec6458791082a82e62528926c19a80e893c945 M	LAP/src/LPSpy/Presenters/PresenterModel.cs
+:100644 100644 2d4f70969634220927d4b53d9ca2a2cefdf66814 9ef07bf62e68742b062fe4d97032ba8b4e01a3a6 M	LAP/src/LPSpy/SpyWindowHelper.cs
+:000000 100644 0000000000000000000000000000000000000000 2451870bae73b56247db48a6ba067679ad807df5 A	LAP/src/LPSpy/UnitTest/ModelTreeViewControlTest.cs
+:100644 100644 481c38fdd024a052d8c00efe20610c3378b9c77c 955d15e8df964542a79f8afcef0ffa16705fc154 M	LAP/src/LPSpy/UnitTest/NodeViewControlTest.cs
+:000000 100644 0000000000000000000000000000000000000000 b2e576746347d0e67566b3f887bb0962f2c0cbcd A	LAP/src/LPSpy/UnitTest/SpyWindowHelperTest.cs
+commit 5927a08a3f1ed07ae08bd0e5944763e3299e054b
+tree 27dcbb1af6cf4d1f5631885ee2e6e2804419ca41
+parent 6462da49a94501e3e09e9ddf46eac19fb86be285
+author Jason <zyjing10@hotmail.com> 2016-03-30 16:56:12 +0800
+committer Jason <zyjing10@hotmail.com> 2016-03-30 16:56:12 +0800
+
+    Fix the installation
+
+
+
+:100644 100644 39e88ccc033dcb94d7b3e157a0acb33771cc410e 5d726d7927f0956aca004ac0301456672558ec1e M	LAP/src/LAPVisualStudioPackage/LAP.PackageVsix/LAP.PackageVsix.csproj
+:100644 100644 9065fdd209e853dbed9bc168f19bfbe9dd27a51c eade5059d6ed6d00e591bb704574fd58d6828a82 M	LAP/src/LAPVisualStudioPackage/LAP.PackageVsix/source.extension.vsixmanifest
+:100644 100644 d7fb7ab25c5fa8edec6becd152053cb4dade2ba1 1c5e14e76f30f67495732b3959e1f33d56fd0c04 M	LAP/src/SetupBuilder/Components.wxs
+:100644 100644 f81844d5a4665084bab5ffe8da4d846158bfa3aa e060df03f6e8f53ca2803a883d4bb9ebfe0af139 M	LAP/src/SetupBuilder/Feature.wxs
+:100644 100644 a63194e8993f4285e2eb02491c67d62f99c22ddc 2be6f5e169e86c744da327c1a8752b55d33ab446 M	LAP/src/SetupBuilder/Lang/Localization.wxl
+:100644 100644 98e456abf76bd0f59f453d08bf0441721e5e60ca afbbe84fd236eaad4d1ffedd1269646ac6eb6d44 M	LAP/src/SetupBuilder/Lang/Localization.zh-CN.wxl
+:100644 100644 ab4572d7477a661555cf218473fb02772dc23c99 5644c4a2c021b2c8587f14152752c5a211aa4ba0 M	LAP/src/SetupBuilder/Product.wxs
+:100644 100644 8d2afcbd0a940b436247b76870b917a7a4c7267d 66e29c9a37e81c347bed7a7a22174cc389621551 M	LAP/src/SetupBuilder/Registry.wxs
+:100644 100644 79c16e0d586aa1602ed949488bf122ffc93a83f5 5ff295edbdad45927d74491cef976ee86225b9a5 M	LAP/src/SetupBuilder/SetupBuilder.wixproj
+:100644 100644 5abbb2e0dd1452fa798351f4446bb424b03994de 223b264dd8e6aadd84faccac6812d6949ac1e564 M	LAP/src/SetupBuilder/Shortcuts.wxs
+:100644 100644 cf94e2cbe17b02703c0e1b0cd36e7e669945fa8e 5776fc0c1bec4704ba88eda71429bed95f1017d9 M	LAP/src/SetupBuilder/UI/LAP_ExitDialog.wxs
+:100644 100644 0a52fd55f53ccc7c1505586980ce201c63ae324b 90d10d991f7ad3676489aad88cf2f3d21ced8078 M	LAP/src/SetupBuilder/UI/LAP_WixUI_Mondo.wxs
+:100644 100644 9297a682fc54913a0753ca1ccdc470700f9b7dfd 593925f93d0d1eb38cdd7351b90e36085cfd8765 M	LAP/src/SetupBuilder/VisualStdioIntegation/VisualStdioIntegation.wxs
+:000000 100644 0000000000000000000000000000000000000000 23614c9024350678ae3d874170466b26f56684c5 A	LAP/src/SetupBuilder/bitmaps/lapexlamation.ico
+:000000 100644 0000000000000000000000000000000000000000 23614c9024350678ae3d874170466b26f56684c5 A	LAP/src/SetupBuilder/bitmaps/lapinfo.ico
+:000000 100644 0000000000000000000000000000000000000000 23614c9024350678ae3d874170466b26f56684c5 A	LAP/src/SetupBuilder/bitmaps/lapnew.ico
+:000000 100644 0000000000000000000000000000000000000000 23614c9024350678ae3d874170466b26f56684c5 A	LAP/src/SetupBuilder/bitmaps/lapup.ico
+commit 6462da49a94501e3e09e9ddf46eac19fb86be285
+tree 2d1ace61aece9ef87a1197f53022cd19920f41e3
+parent d5ff3e5ae4abd3a0f2d248f1bd5b02ca4e2ad9b6
+author Jason <zyjing10@hotmail.com> 2016-03-30 11:44:30 +0800
+committer Jason <zyjing10@hotmail.com> 2016-03-30 11:44:30 +0800
+
+    Add 2 methods to ITestObject, Refresh and GetRuntimeProperty() Fix the
+    problem that cannot identify object after changing the property name
+
+
+
+:100644 100644 1c730c5c460c622abe9c8726b227e241aa14646f f4d436136ec082f32489b27c98dfa7d55037af40 M	LAP/src/LPReplayCore/Interfaces/ITestObject.cs
+:100644 100644 ce71e3baad067b1239e04b7de770d77ce04fc390 63790ac1466d9e6d165b156d59932b2a343847c1 M	LAP/src/LPReplayCore/Selenium/SETestObject.cs
+:100644 100644 417477115076357850c24da1a9d107ef83898de5 eebab7ee9f488fe786edc325dec24369bc213417 M	LAP/src/LPReplayCore/TestObjects/TestObjectBase.cs
+:100644 100644 6e6a888b1d5e7f296953bd45e0e5367d519fc663 2ec253933a9ea00f230d7233ed4f249d87058220 M	LAP/src/LPReplayCore/TestObjects/UIATestObject.cs
+:100644 100644 bae6173c83773097a62beea3e8d5085875fde598 032cf466c3a4965fac553aa7d04dca3fa7c5b762 M	LAP/src/LPReplayCore/UIA/UIAUtility.cs
+:100644 100644 a5b83106d7e07d3d037e69a52cd5f1d57646ff8f 1b6f368f980ea360316bbde97d0a3c5a67df2269 M	LAP/src/LPReplayCore/UnitTest/TestUtility.cs
+:100644 100644 8271d4724a0ff61af265759f7b3e359bde6434cb 52730ab74e50df8d90e1470ad1929e6a30989814 M	LAP/src/LPReplayCore/UnitTest/UIATestObjectTest.cs
+:100644 100644 b6529baf5ed7a920de5e8d0ad199befab4f01d0b 936679a339f5ddea1b74289d6383b420df5a3a1f M	LAP/src/LPSpy/PropertyEdit/TestObjectPropertyGrid.cs
+commit 6c2bac2728469a96df97b41ba01964388a6c94cb
+tree bbb7e6ab7af88bf51fa23ca46bd532f6dd6146f4
+parent f0f963216c336f4fbd30c906c5c5f10ff8685da6
+author Jason <zyjing10@hotmail.com> 2016-03-28 23:02:40 +0800
+committer Jason <zyjing10@hotmail.com> 2016-03-28 23:02:40 +0800
+
+    Add Script Window
+
+
+
+:100644 100644 376840c4e721578b8374e8268ec25bcc4b5588bf 4ba0b5fee9bf9b26d0e4499d0edf5831f04864af M	LAP/src/LPSpy/Controls/ModelTreeViewControl.cs
+:000000 100644 0000000000000000000000000000000000000000 27eb1ea4a93784b49d3f8338e797ea5dbe31ef68 A	LAP/src/LPSpy/Forms/ScriptWindow.Designer.cs
+:000000 100644 0000000000000000000000000000000000000000 cad06f3ab24fca4cb9df955457a186ec1b3307ec A	LAP/src/LPSpy/Forms/ScriptWindow.cs
+:000000 100644 0000000000000000000000000000000000000000 1af7de150c99c12dd67a509fe57c10d63e4eeb04 A	LAP/src/LPSpy/Forms/ScriptWindow.resx
+:100644 100644 e8f60a11a127503e4cf28e3b9496f39eff87cf27 5049065df3ea8034acff3e1a9c9a86e6089185bd M	LAP/src/LPSpy/Forms/SpyMainWindow.Designer.cs
+:100644 100644 bfb23d1329e94797f89c5f6fcd16ea4030e57546 e08d930f7d695d018f9c3de1e3e5e4725f7c54d2 M	LAP/src/LPSpy/Forms/SpyMainWindow.cs
+:100644 100644 f2c279dc2ca8d20554f24ac27794e3e5c5afd40d 9b4b5b3a0ffc8a6afbe216141b7e7d3e9d90fb77 M	LAP/src/LPSpy/Forms/SpyMainWindow.resx
+:000000 100644 0000000000000000000000000000000000000000 872caa373cae3ee861c31ee8fe644694d1410763 A	LAP/src/LPSpy/Forms/WScriptHelper.cs
+:100644 100644 ff1dccb511682ca2856d8735b9e09b3c8dd87ce5 26e0a347f6cce6ce197f78f97205a33b1c1ee663 M	LAP/src/LPSpy/Helpers/ModelFileHandler.cs
+:100644 100644 f94ace7777c9273a21d0c1ff96cba70d10325f9e 829c415aadd2f4acdd1d99c6d33cabdf636df73d M	LAP/src/LPSpy/LPSpy.csproj
+:000000 100644 0000000000000000000000000000000000000000 3e4421a3d2e05aa62dc990aac92642c23c5230e4 A	LAP/src/bin/Interop.MSScriptControl.dll
+commit 7b067bbbc91feeaefa556bb248693a9a53346502
+tree e723814185aaf075bd4d59a42b4fe0a9e0a1be77
+parent f0f963216c336f4fbd30c906c5c5f10ff8685da6
+author kimguo <gyb_duckula@msn.com> 2016-03-28 21:11:30 +0800
+committer kimguo <gyb_duckula@msn.com> 2016-03-28 21:11:30 +0800
+
+    fix issue that after changing Cssselector property, the element doesn't
+    refresh
+
+
+
+:100644 100644 772b8a08644423ef5f0c56fd119e91436d56c950 ce71e3baad067b1239e04b7de770d77ce04fc390 M	LAP/src/LPReplayCore/Selenium/SETestObject.cs
+:100644 100644 605dcc2d395327a33bb8c3f4775dc22a3a4994f1 b6529baf5ed7a920de5e8d0ad199befab4f01d0b M	LAP/src/LPSpy/PropertyEdit/TestObjectPropertyGrid.cs

@@ -1,0 +1,655 @@
+﻿{
+  "ntype": "app",
+  "process": null,
+  "controls": [
+    {
+      "ntype": "se",
+      "nname": "file:///D:/Git/AUT/AUT.html",
+      "description": "",
+      "identifyProperties": {
+        "type": "WebPage",
+        "id": "",
+        "tagname": "HTML",
+        "class": "",
+        "name": "",
+        "boundingRectangle": "{X=2286,Y=218,Width=1034,Height=221}",
+        "URL": "file:///D:/Git/AUT/AUT.html",
+        "title": "file:///D:/Git/AUT/AUT.html",
+        "cssSelector": "HTML"
+      },
+      "cachedProperties": {
+        "type": "WebPage",
+        "tagname": "HTML",
+        "boundingRectangle": "{X=2286,Y=218,Width=1034,Height=221}",
+        "URL": "file:///D:/Git/AUT/AUT.html",
+        "title": "file:///D:/Git/AUT/AUT.html"
+      },
+      "children": [
+        {
+          "ntype": "se",
+          "nname": "img_logo.gif",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebImage",
+            "id": "draggable",
+            "tagname": "IMG",
+            "class": "",
+            "name": "",
+            "boundingRectangle": "{X=2294,Y=358,Width=336,Height=69}",
+            "alt": "",
+            "src": "img_logo.gif",
+            "cssSelector": "#draggable"
+          },
+          "cachedProperties": {
+            "type": "WebImage",
+            "id": "draggable",
+            "tagname": "IMG",
+            "boundingRectangle": "{X=2294,Y=358,Width=336,Height=69}",
+            "src": "img_logo.gif",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "droppable2",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebObject",
+            "id": "droppable",
+            "tagname": "DIV",
+            "class": "",
+            "name": "",
+            "boundingRectangle": "{X=2294,Y=248,Width=372,Height=92}",
+            "cssSelector": "#droppable"
+          },
+          "cachedProperties": {
+            "type": "WebObject",
+            "id": "droppable",
+            "tagname": "DIV",
+            "boundingRectangle": "{X=2294,Y=248,Width=372,Height=92}",
+            "imgPath": ""
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "se",
+      "nname": "Find a Flight: Mercury Tours:",
+      "description": "",
+      "identifyProperties": {
+        "type": "WebPage",
+        "id": "",
+        "tagname": "HTML",
+        "class": "",
+        "name": "",
+        "boundingRectangle": "{X=521,Y=81,Width=1034,Height=709}",
+        "URL": "http://newtours.demoaut.com/mercuryreservation.php?osCsid=b8699de8477433c1229563e10c5d110a",
+        "title": "Find a Flight: Mercury Tours:",
+        "cssSelector": "HTML"
+      },
+      "cachedProperties": {
+        "type": "WebPage",
+        "tagname": "HTML",
+        "boundingRectangle": "{X=521,Y=81,Width=1034,Height=709}",
+        "URL": "http://newtours.demoaut.com/mercuryreservation.php?osCsid=b8699de8477433c1229563e10c5d110a",
+        "title": "Find a Flight: Mercury Tours:"
+      },
+      "children": [
+        {
+          "ntype": "se",
+          "nname": "tripType",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebRadioGroup",
+            "id": "",
+            "tagname": "INPUT",
+            "class": "",
+            "name": "tripType",
+            "boundingRectangle": "{X=831,Y=332,Width=13,Height=13}",
+            "attrtype": "radio",
+            "cssSelector": "INPUT[name='tripType'][type='radio']",
+            "indexoftags": "0"
+          },
+          "cachedProperties": {
+            "type": "WebRadioGroup",
+            "tagname": "INPUT",
+            "name": "tripType",
+            "boundingRectangle": "{X=831,Y=332,Width=13,Height=13}",
+            "attrtype": "radio",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "passCount",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebList",
+            "id": "",
+            "tagname": "SELECT",
+            "class": "",
+            "name": "passCount",
+            "boundingRectangle": "{X=826,Y=354,Width=34,Height=19}",
+            "cssSelector": "SELECT[name='passCount']"
+          },
+          "cachedProperties": {
+            "type": "WebList",
+            "tagname": "SELECT",
+            "name": "passCount",
+            "boundingRectangle": "{X=826,Y=354,Width=34,Height=19}",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "fromPort",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebList",
+            "id": "",
+            "tagname": "SELECT",
+            "class": "",
+            "name": "fromPort",
+            "boundingRectangle": "{X=826,Y=379,Width=111,Height=19}",
+            "cssSelector": "SELECT[name='fromPort']"
+          },
+          "cachedProperties": {
+            "type": "WebList",
+            "tagname": "SELECT",
+            "name": "fromPort",
+            "boundingRectangle": "{X=826,Y=379,Width=111,Height=19}",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "fromMonth",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebList",
+            "id": "",
+            "tagname": "SELECT",
+            "class": "",
+            "name": "fromMonth",
+            "boundingRectangle": "{X=826,Y=404,Width=90,Height=19}",
+            "cssSelector": "SELECT[name='fromMonth']"
+          },
+          "cachedProperties": {
+            "type": "WebList",
+            "tagname": "SELECT",
+            "name": "fromMonth",
+            "boundingRectangle": "{X=826,Y=404,Width=90,Height=19}",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "toPort",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebList",
+            "id": "",
+            "tagname": "SELECT",
+            "class": "",
+            "name": "toPort",
+            "boundingRectangle": "{X=826,Y=429,Width=111,Height=19}",
+            "cssSelector": "SELECT[name='toPort']"
+          },
+          "cachedProperties": {
+            "type": "WebList",
+            "tagname": "SELECT",
+            "name": "toPort",
+            "boundingRectangle": "{X=826,Y=429,Width=111,Height=19}",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "toDay",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebList",
+            "id": "",
+            "tagname": "SELECT",
+            "class": "",
+            "name": "toDay",
+            "boundingRectangle": "{X=920,Y=454,Width=41,Height=19}",
+            "cssSelector": "SELECT[name='toDay']"
+          },
+          "cachedProperties": {
+            "type": "WebList",
+            "tagname": "SELECT",
+            "name": "toDay",
+            "boundingRectangle": "{X=920,Y=454,Width=41,Height=19}",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "toMonth",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebList",
+            "id": "",
+            "tagname": "SELECT",
+            "class": "",
+            "name": "toMonth",
+            "boundingRectangle": "{X=826,Y=454,Width=90,Height=19}",
+            "cssSelector": "SELECT[name='toMonth']"
+          },
+          "cachedProperties": {
+            "type": "WebList",
+            "tagname": "SELECT",
+            "name": "toMonth",
+            "boundingRectangle": "{X=826,Y=454,Width=90,Height=19}",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "servClass",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebRadioGroup",
+            "id": "",
+            "tagname": "INPUT",
+            "class": "",
+            "name": "servClass",
+            "boundingRectangle": "{X=831,Y=503,Width=13,Height=13}",
+            "attrtype": "radio",
+            "cssSelector": "INPUT[name='servClass'][type='radio']",
+            "indexoftags": "0"
+          },
+          "cachedProperties": {
+            "type": "WebRadioGroup",
+            "tagname": "INPUT",
+            "name": "servClass",
+            "boundingRectangle": "{X=831,Y=503,Width=13,Height=13}",
+            "attrtype": "radio",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "airline",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebList",
+            "id": "",
+            "tagname": "SELECT",
+            "class": "",
+            "name": "airline",
+            "boundingRectangle": "{X=826,Y=564,Width=137,Height=19}",
+            "cssSelector": "SELECT[name='airline']"
+          },
+          "cachedProperties": {
+            "type": "WebList",
+            "tagname": "SELECT",
+            "name": "airline",
+            "boundingRectangle": "{X=826,Y=564,Width=137,Height=19}",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "/images/forms/continue.gif",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebImage",
+            "id": "",
+            "tagname": "INPUT",
+            "class": "",
+            "name": "findFlights",
+            "boundingRectangle": "{X=857,Y=612,Width=104,Height=23}",
+            "attrtype": "image",
+            "alt": "",
+            "src": "/images/forms/continue.gif",
+            "cssSelector": "INPUT[name='findFlights'][type='image']"
+          },
+          "cachedProperties": {
+            "type": "WebImage",
+            "tagname": "INPUT",
+            "name": "findFlights",
+            "boundingRectangle": "{X=857,Y=612,Width=104,Height=23}",
+            "attrtype": "image",
+            "src": "/images/forms/continue.gif",
+            "imgPath": ""
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "se",
+      "nname": "http://www.tutorialspoint.com/html5/src/dropping-object.htm",
+      "description": null,
+      "identifyProperties": {
+        "type": "WebPage",
+        "id": "",
+        "tagname": "HTML",
+        "class": "",
+        "name": null,
+        "boundingRectangle": "{X=1781,Y=361,Width=1034,Height=275}",
+        "URL": "http://www.tutorialspoint.com/html5/src/dropping-object.htm",
+        "title": "http://www.tutorialspoint.com/html5/src/dropping-object.htm",
+        "cssSelector": "HTML"
+      },
+      "cachedProperties": {
+        "type": "WebPage",
+        "tagname": "HTML",
+        "boundingRectangle": "{X=1781,Y=361,Width=1034,Height=275}",
+        "URL": "http://www.tutorialspoint.com/html5/src/dropping-object.htm",
+        "title": "http://www.tutorialspoint.com/html5/src/dropping-object.htm"
+      },
+      "children": [
+        {
+          "ntype": "se",
+          "nname": "dragDIV",
+          "description": null,
+          "identifyProperties": {
+            "type": "WebObject",
+            "id": "boxA",
+            "tagname": "DIV",
+            "class": "",
+            "name": null,
+            "boundingRectangle": "{X=1799,Y=456,Width=95,Height=95}",
+            "cssSelector": "#boxA"
+          },
+          "cachedProperties": {
+            "type": "WebObject",
+            "id": "boxA",
+            "tagname": "DIV",
+            "boundingRectangle": "{X=1799,Y=456,Width=95,Height=95}",
+            "imgPath": null
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "dropDIV",
+          "description": null,
+          "identifyProperties": {
+            "type": "WebObject",
+            "id": "boxB",
+            "tagname": "DIV",
+            "class": "",
+            "name": null,
+            "boundingRectangle": "{X=1914,Y=456,Width=170,Height=170}",
+            "cssSelector": "#boxB"
+          },
+          "cachedProperties": {
+            "type": "WebObject",
+            "id": "boxB",
+            "tagname": "DIV",
+            "boundingRectangle": "{X=1914,Y=456,Width=170,Height=170}",
+            "imgPath": null
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "se",
+      "nname": "jQuery UI Droppable - Default functionality",
+      "description": "",
+      "identifyProperties": {
+        "type": "WebPage",
+        "id": "",
+        "tagname": "HTML",
+        "class": "",
+        "name": "",
+        "boundingRectangle": "{X=2286,Y=218,Width=1034,Height=190}",
+        "URL": "https://jqueryui.com/resources/demos/droppable/default.html",
+        "title": "jQuery UI Droppable - Default functionality",
+        "cssSelector": "HTML"
+      },
+      "cachedProperties": {
+        "type": "WebPage",
+        "tagname": "HTML",
+        "boundingRectangle": "{X=2286,Y=218,Width=1034,Height=190}",
+        "URL": "https://jqueryui.com/resources/demos/droppable/default.html",
+        "title": "jQuery UI Droppable - Default functionality"
+      },
+      "children": [
+        {
+          "ntype": "se",
+          "nname": "draggable",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebObject",
+            "id": "draggable",
+            "tagname": "DIV",
+            "class": "ui-widget-content ui-draggable ui-draggable-handle",
+            "name": "",
+            "boundingRectangle": "{X=2294,Y=236,Width=112,Height=112}",
+            "cssSelector": "#draggable"
+          },
+          "cachedProperties": {
+            "type": "WebObject",
+            "id": "draggable",
+            "tagname": "DIV",
+            "class": "ui-widget-content ui-draggable ui-draggable-handle",
+            "boundingRectangle": "{X=2294,Y=236,Width=112,Height=112}",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "droppable",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebObject",
+            "id": "droppable",
+            "tagname": "DIV",
+            "class": "ui-widget-header ui-droppable",
+            "name": "",
+            "boundingRectangle": "{X=2426,Y=236,Width=162,Height=162}",
+            "cssSelector": "#droppable"
+          },
+          "cachedProperties": {
+            "type": "WebObject",
+            "id": "droppable",
+            "tagname": "DIV",
+            "class": "ui-widget-header ui-droppable",
+            "boundingRectangle": "{X=2426,Y=236,Width=162,Height=162}",
+            "imgPath": ""
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "se",
+      "nname": "Select a Flight: Mercury Tours",
+      "description": "",
+      "identifyProperties": {
+        "type": "WebPage",
+        "id": "",
+        "tagname": "HTML",
+        "class": "",
+        "name": "",
+        "boundingRectangle": "{X=521,Y=81,Width=1017,Height=745}",
+        "URL": "http://newtours.demoaut.com/mercuryreservation2.php",
+        "title": "Select a Flight: Mercury Tours",
+        "cssSelector": "HTML"
+      },
+      "cachedProperties": {
+        "type": "WebPage",
+        "tagname": "HTML",
+        "boundingRectangle": "{X=521,Y=81,Width=1017,Height=745}",
+        "URL": "http://newtours.demoaut.com/mercuryreservation2.php",
+        "title": "Select a Flight: Mercury Tours"
+      },
+      "children": [
+        {
+          "ntype": "se",
+          "nname": "outFlight",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebRadioGroup",
+            "id": "",
+            "tagname": "INPUT",
+            "class": "",
+            "name": "outFlight",
+            "boundingRectangle": "{X=691,Y=374,Width=13,Height=13}",
+            "attrtype": "radio",
+            "cssSelector": "INPUT[name='outFlight'][type='radio']",
+            "indexoftags": "0"
+          },
+          "cachedProperties": {
+            "type": "WebRadioGroup",
+            "tagname": "INPUT",
+            "name": "outFlight",
+            "boundingRectangle": "{X=691,Y=374,Width=13,Height=13}",
+            "attrtype": "radio",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "inFlight",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebRadioGroup",
+            "id": "",
+            "tagname": "INPUT",
+            "class": "",
+            "name": "inFlight",
+            "boundingRectangle": "{X=691,Y=595,Width=13,Height=13}",
+            "attrtype": "radio",
+            "cssSelector": "INPUT[name='inFlight'][type='radio']",
+            "indexoftags": "0"
+          },
+          "cachedProperties": {
+            "type": "WebRadioGroup",
+            "tagname": "INPUT",
+            "name": "inFlight",
+            "boundingRectangle": "{X=691,Y=595,Width=13,Height=13}",
+            "attrtype": "radio",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "/images/forms/continue.gif_2",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebImage",
+            "id": "",
+            "tagname": "INPUT",
+            "class": "",
+            "name": "reserveFlights",
+            "boundingRectangle": "{X=859,Y=757,Width=104,Height=23}",
+            "attrtype": "image",
+            "alt": "",
+            "src": "/images/forms/continue.gif",
+            "cssSelector": "INPUT[name='reserveFlights'][type='image']"
+          },
+          "cachedProperties": {
+            "type": "WebImage",
+            "tagname": "INPUT",
+            "name": "reserveFlights",
+            "boundingRectangle": "{X=859,Y=757,Width=104,Height=23}",
+            "attrtype": "image",
+            "src": "/images/forms/continue.gif",
+            "imgPath": ""
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "se",
+      "nname": "Welcome: Mercury Tours",
+      "description": "",
+      "identifyProperties": {
+        "type": "WebPage",
+        "id": "",
+        "tagname": "HTML",
+        "class": "",
+        "name": "",
+        "boundingRectangle": "{X=559,Y=110,Width=1017,Height=775}",
+        "URL": "http://newtours.demoaut.com/",
+        "title": "Welcome: Mercury Tours",
+        "cssSelector": "HTML"
+      },
+      "cachedProperties": {
+        "type": "WebPage",
+        "tagname": "HTML",
+        "boundingRectangle": "{X=559,Y=110,Width=1017,Height=775}",
+        "URL": "http://newtours.demoaut.com/",
+        "title": "Welcome: Mercury Tours"
+      },
+      "children": [
+        {
+          "ntype": "se",
+          "nname": "userName",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebEdit",
+            "id": "",
+            "tagname": "INPUT",
+            "class": "",
+            "name": "userName",
+            "boundingRectangle": "{X=1074,Y=341,Width=103,Height=21}",
+            "attrtype": "text",
+            "cssSelector": "INPUT[name='userName'][type='text']"
+          },
+          "cachedProperties": {
+            "type": "WebEdit",
+            "tagname": "INPUT",
+            "name": "userName",
+            "boundingRectangle": "{X=1074,Y=341,Width=103,Height=21}",
+            "attrtype": "text",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "password",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebEdit",
+            "id": "",
+            "tagname": "INPUT",
+            "class": "",
+            "name": "password",
+            "boundingRectangle": "{X=1074,Y=373,Width=103,Height=21}",
+            "attrtype": "password",
+            "cssSelector": "INPUT[name='password'][type='password']"
+          },
+          "cachedProperties": {
+            "type": "WebEdit",
+            "tagname": "INPUT",
+            "name": "password",
+            "boundingRectangle": "{X=1074,Y=373,Width=103,Height=21}",
+            "attrtype": "password",
+            "imgPath": ""
+          }
+        },
+        {
+          "ntype": "se",
+          "nname": "Sign-In",
+          "description": "",
+          "identifyProperties": {
+            "type": "WebImage",
+            "id": "",
+            "tagname": "INPUT",
+            "class": "",
+            "name": "login",
+            "boundingRectangle": "{X=1101,Y=400,Width=58,Height=17}",
+            "attrtype": "image",
+            "alt": "Sign-In",
+            "src": "/images/btn_signin.gif?osCsid=a0df9fc85121b5eca35746b9fa1e2378",
+            "cssSelector": "INPUT[name='login'][type='image'][alt='Sign-In']"
+          },
+          "cachedProperties": {
+            "type": "WebImage",
+            "tagname": "INPUT",
+            "name": "login",
+            "boundingRectangle": "{X=1101,Y=400,Width=58,Height=17}",
+            "attrtype": "image",
+            "alt": "Sign-In",
+            "src": "/images/btn_signin.gif?osCsid=a0df9fc85121b5eca35746b9fa1e2378",
+            "imgPath": ""
+          }
+        }
+      ]
+    }
+  ]
+}

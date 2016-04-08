@@ -31,6 +31,17 @@
       "script": "changeCredentialPassword.groovy"
     },
         {
+      "authors": [{"name": "Arun Sangal"}],
+      "comment": "For a given job and a given build numnber, delete all build except the user provided one.",
+      "core": "1.410",
+      "name": "Bulk Delete Builds except the given build number",
+      "parameters":       [
+        "jobName",
+        "buildNumber"
+      ],
+      "script": "bulkDeleteJenkinsBuildsExceptOne.groovy"
+    },
+        {
       "authors": [{"name": "EJ Ciramella"}],
       "comment": "This script will go through all workspaces for any/all jobs and remove them.",
       "core": "1.300",
@@ -187,6 +198,17 @@
     },
         {
       "authors":       [
+        {"name": "GigaAKS"},
+        {"name": "Arun Sangal"}
+      ],
+      "comment": "Disables Jenkins Hudson slave nodes gracefully - waits until running jobs are complete.",
+      "core": "1.350",
+      "name": "Disable Jenkins Hudson slaves nodes gracefully for all slaves starting with a given value",
+      "parameters": ["slaveStartsWith"],
+      "script": "disableSlaveNodeStartsWith.groovy"
+    },
+        {
+      "authors":       [
         {"name": "Mestachs"},
         {"name": "Dominik Bartholdi"}
       ],
@@ -212,6 +234,14 @@
         "threshold"
       ],
       "script": "checkDiskUsage.groovy"
+    },
+        {
+      "authors": [{"name": "Amit Modak"}],
+      "comment": "Delete all global credentials in Jenkins",
+      "core": "1.625",
+      "name": "Delete all global credentials",
+      "parameters": [],
+      "script": "deleteAllGlobalCredentials.groovy"
     },
         {
       "authors": [{"name": "Eric Dalquist"}],
@@ -447,9 +477,9 @@
   ],
   "signature":   {
     "certificates": ["MIIC3TCCAcUCBQDerb73MA0GCSqGSIb3DQEBDQUAMIGKMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTERMA8GA1UEBxMIU2FuIEpvc2UxGDAWBgNVBAoTD0plbmtpbnMgUHJvamVjdDEaMBgGA1UEAxMRS29oc3VrZSBLYXdhZ3VjaGkxHTAbBgkqhkiG9w0BCQEWDmtrQGtvaHN1a2Uub3JnMB4XDTE2MDEyOTEwNDYwMloXDTE3MDEyODEwNDYwMlowXjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExGDAWBgNVBAoTD0plbmtpbnMgUHJvamVjdDEgMB4GA1UEAxMXQ29tbXVuaXR5IFVwZGF0ZSBDZW50ZXIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKTDDxjInVBgniu4TpRQoI29ci8lwzXsPX4anFI+1LiPsPk2RmIg05WEohD6RCzldgiNtaPGujyeR/+xXYd8Gev3Abm1OjlN6bZbzZHAX8FoDr4PJJWftq0LDg+YVki1p8eF65ByoHIVHmNeE7NH09kAnbT4w2DNGstwHcFO90RbAgMBAAEwDQYJKoZIhvcNAQENBQADggEBAH96iGUruYwF4Pv/DffI3AmCOlE4/hG/2uqacBrRN52LjIbVWEOOUesEIFMmyjbFcGKMzMwndOF+f8N6MAA4/EONvbLgJyC0VrL66VX0OrTfk1NZcfZkIMh5rrPoCpuIi8TF5GGM9ulwa82o50POjbdjInFvbW7L927Zil2dP/UvugeRnGYKCi9o62h96foJu/N1e3aSzEKA8KUwoW4peCPiv6LJ2xrnQXbYG1UN0hO4n4Cdw3Vebgewl31qRUJGFLKF6tslt/LAGk66y5XcKhel2guCfUa1Dhz4/6UlEK1NrnldiAsYBa4pnp4BcZ0RJcEdCiYe0b9D6BplUx1DDTo="],
-    "correct_digest": "uHEjQnuAL2jaBdyQgECy9XzpZRQ=",
-    "correct_signature": "mi6UzEBmJvJtGiBQ7h8rgJDbQeqrj/Uz0puDLC2JogIN1jn4q+cooEjtRzHPzJhtCKFaKTRodtSi7LKqTZ6Wy+uNpj/QCH/bz2koJVTEUtBhyr9HMeXwrzMwlywGBcbDOxuSEmthBumIADgdLntvSVvT032tTti9GWeo0l3sqCQ=",
-    "digest": "SNM6SAkcn/FemMjvRKbvmL2426A=",
-    "signature": "iCdi2LTcOou12H2befStoUQ8t7d4GisaaybSOt12reYzfbeiooyFmq5RTc4Zd6VlVyYdF1r258OvQCelgqTNwLDxo+DW8sPdnTMl2VDNDRt4XN6iXxPIZTMEKzgSnNBofe7fqPs+6KuDqWZYF+A02XnlHii68j0/KJTcTQ8bftQ="
+    "correct_digest": "LZiu2cZ2DiCavVE4XBpGkjphHhI=",
+    "correct_signature": "NH7EZXmkruBqaL2KzsLe354Yq+fdPa7HTtdnWifP7Z9SGWqxhXPjrkh6wrWdV+y5EJWwbtReVCdR+nAkH4C0A4bJou8uJl0ZrkMtmxjwuBwkVCt6RNzZv4abMtg5eCOfiEi1JRHToKrPfsG6UjRcHSm5Lv2Euwo5WNPqNw5f980=",
+    "digest": "hl3O/HAatagBgO3HBeoizynt8FI=",
+    "signature": "llkJaIGkUfDdr2DtIBlgcGq7D3jdIZWE+ou4xwoulnQdiaJXkNSrHPtLWav2te8Ew7CMgINrWaFj7uk5jCc/8fIFqVHrc9of2gqIilWXU6djQLmdnU1cGo7kPms6HGVbBzLImZXKLmXZxGSwgrZdnfMDm8RB5VesHhTMenblB18="
   }
 }

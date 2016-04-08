@@ -1,0 +1,46 @@
+﻿{
+  "ntype": "app",
+  "process": "calc.exe",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "rootWindow1",
+      "description": "this is root window",
+      "identifyProperties": {
+        "name": "rootWindow1_controlName",
+        "type": "Window"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": null,
+          "description": null,
+          "identifyProperties": {
+            "name": "Panel1",
+            "type": "TitleBar"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": null,
+              "description": null,
+              "identifyProperties": {
+                "type": "Text",
+                "id": "Text1"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": null,
+              "description": null,
+              "identifyProperties": {
+                "name": "Button",
+                "type": "Tree"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+﻿{
+  "ntype": "app",
+  "process": null,
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": null,
+      "description": null,
+      "identifyProperties": {
+        "type": "Window"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": null,
+          "description": null,
+          "identifyProperties": {
+            "type": "Document"
+          }
+        }
+      ]
+    }
+  ]
+}
