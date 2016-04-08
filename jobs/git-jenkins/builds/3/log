@@ -1,22 +1,9 @@
 Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
 Building in workspace C:\Users\zack\.jenkins\workspace\git-jenkins
-[git-jenkins] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson3288780314603345851.bat
+[git-jenkins] $ cmd /c call C:\Users\zack\AppData\Local\Temp\hudson1961280714125474928.bat
 
 C:\Users\zack\.jenkins\workspace\git-jenkins>d:
 
 D:\dev>cd D:\mytestcode\rubyOntest 
 
 D:\mytestcode\rubyOntest>ruby test.rb 
-1
-3
-4
-5
-6
-7
-8
-9
-https://github.com/imzzy/mytestjenkins.git
-Done
-
-D:\mytestcode\rubyOntest>exit 0 
-Finished: SUCCESS
